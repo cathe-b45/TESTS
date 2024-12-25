@@ -6,3 +6,42 @@
 .icono-info:hover {
     text-decoration: underline;
 }
+
+/* Botones de Navegación al Final */
+.botones-navegacion {
+    display: flex;
+    justify-content: center; /* Alinea los botones al centro */
+    align-items: center;
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 30px; /* Separación respecto al contenido superior */
+    text-align: center; /* Asegura que el contenedor está centrado */
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    .botones-navegacion {
+        flex-direction: column; /* Botones apilados verticalmente */
+        gap: 10px;
+    }
+}
+
+/* Personalización para el modo oscuro */
+:root[data-bs-theme="dark"] {
+    --bs-body-bg: #121212;
+    --bs-body-color: #ffffff;
+    --bs-primary: #bb86fc;
+    --bs-secondary: #03dac6;
+}
+
+
+/* Botón de Modo Oscuro fijo en la esquina superior derecha */
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 1.5rem; /* Ajusta el tamaño del ícono (1.5rem es un buen tamaño visual) */
+    vertical-align: middle; /* Asegura que el ícono esté bien alineado verticalmente */
+}
