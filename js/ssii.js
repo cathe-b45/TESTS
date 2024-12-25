@@ -282,9 +282,11 @@ function cargarPreguntas(preguntas) {
     const contenedor = document.getElementById('preguntas');
     contenedor.innerHTML = "";
 
-    preguntas.sort(() => Math.random() - 0.5);
+    // Mezclar las preguntas aleatoriamente
+    preguntas = preguntas.sort(() => Math.random() - 0.5);
 
     preguntas.forEach((p, index) => {
+        // Mezclar las respuestas aleatoriamente
         p.respuestas.sort(() => Math.random() - 0.5);
 
         contenedor.innerHTML += `
@@ -304,7 +306,7 @@ function cargarPreguntas(preguntas) {
     });
 }
 
-// Finalizar Test
+
 // Finalizar Test
 function finalizarTest() {
     let respuestasCorrectas = 0;
