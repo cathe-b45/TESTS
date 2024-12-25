@@ -1,0 +1,8 @@
+.icono-info {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #0d6efd;
+}
+.icono-info:hover {
+    text-decoration: underline;
+}
