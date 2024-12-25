@@ -45,3 +45,34 @@
     font-size: 1.5rem; /* Ajusta el tamaño del ícono (1.5rem es un buen tamaño visual) */
     vertical-align: middle; /* Asegura que el ícono esté bien alineado verticalmente */
 }
+
+/* Colores Personalizados para los Botones */
+.btn-ssii {
+    background-color: #65d0ebbd; /* Color púrpura */
+    border-color: #438c9ebd;
+}
+
+.btn-ssii:hover {
+    background-color: #4c9bafe0;
+    border-color: #367180e0;
+}
+
+.btn-ssdd {
+    background-color: #f3f052ee; /* Color coral */
+    border-color: #b8b658d5;
+}
+
+.btn-ssdd:hover {
+    background-color: #f5f371f1;
+    border-color: #c5c35bd5;
+}
+
+.btn-iso {
+    background-color: #28c76f; /* Color verde lima */
+    border-color: #20a856;
+}
+
+.btn-iso:hover {
+    background-color: #20a856;
+    border-color: #188e4e;
+}
