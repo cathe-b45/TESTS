@@ -1,0 +1,37 @@
+<app-headbar></app-headbar>
+
+<div class="home-container">
+  <h1 class="title">🌟 Bienvenido a la Aplicación de Tests</h1>
+  
+  <div class="card-container">
+    <!-- 🟦 Card SSII -->
+    <p-card class="home-card" header="SSII" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Sistemas Inteligentes</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a SSII" class="p-button-outlined" (click)="navigateTo('ssii')"></button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟧 Card SSDD -->
+    <p-card class="home-card" header="SSDD" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Sistemas Distribuidos</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a SSDD" class="p-button-outlined" (click)="navigateTo('ssdd')"></button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟩 Card ISO -->
+    <p-card class="home-card" header="ISO" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Ingeniería del software II</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a ISO" class="p-button-outlined" (click)="navigateTo('iso')"></button>
+      </ng-template>
+    </p-card>
+  </div>
+</div>

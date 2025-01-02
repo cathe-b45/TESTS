@@ -1,0 +1,33 @@
+<div class="card">
+  <p-menubar [model]="items" styleClass="p-3 surface-0 shadow-2">
+
+    <!-- 🟦 Logo (Inicio del Menú) -->
+    <!-- <ng-template pTemplate="start">
+      <div class="flex align-items-center gap-2">
+        <svg width="33" height="35" viewBox="0 0 33 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16.5" cy="17.5" r="16" fill="var(--primary-color)" />
+          <text x="50%" y="55%" text-anchor="middle" fill="white" font-size="14" font-family="Arial" dy=".3em">LOGO</text>
+        </svg>
+        <span class="font-bold text-lg"></span>
+      </div>
+    </ng-template> -->
+
+    <!-- 🟧 Elementos del Menú -->
+    <ng-template pTemplate="item" let-item let-root="root">
+      <a pRipple class="flex align-items-center p-menuitem-link">
+        <i [class]="item.icon"></i>
+        <span class="ml-2">{{ item.label }}</span>
+        <p-badge *ngIf="item.badge" [ngClass]="{ 'ml-auto': !root, 'ml-2': root }" [value]="item.badge"></p-badge>
+        <i *ngIf="item.items" [ngClass]="['pi', root ? 'pi-angle-down ml-2' : 'pi-angle-right ml-auto']"></i>
+      </a>
+    </ng-template>
+
+    <!-- 🟩 Elementos a la Derecha -->
+    <!-- <ng-template pTemplate="end">
+      <div class="flex align-items-center gap-2">
+        <button pButton icon="pi pi-moon" (click)="toggleTheme()" class="p-button-rounded p-button-sm"></button>
+        <p-avatar image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png" shape="circle"></p-avatar>
+      </div>
+    </ng-template> -->
+  </p-menubar>
+</div>
