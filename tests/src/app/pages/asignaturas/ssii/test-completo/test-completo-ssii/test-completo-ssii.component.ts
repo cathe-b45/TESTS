@@ -313,6 +313,7 @@ cargarPreguntasCompletas() {
 shuffleArray(array: any[]): any[] {
   return array.sort(() => Math.random() - 0.5);
 }
+
 finalizarTest() {
   let respuestasCorrectas = 0;
 
