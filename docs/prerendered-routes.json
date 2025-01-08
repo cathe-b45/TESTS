@@ -2,6 +2,7 @@
   "routes": [
     "/",
     "/iso",
+    "/iso/completo",
     "/ssdd",
     "/ssii",
     "/ssii/completo",
