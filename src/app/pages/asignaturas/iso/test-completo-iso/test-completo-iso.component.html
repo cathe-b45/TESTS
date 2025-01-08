@@ -1,0 +1,46 @@
+<app-headbar></app-headbar>
+
+<div class="test-container">
+    <h1>📝 Test Completo - ISO II</h1>
+    <p>Responde a todas las preguntas.</p>
+
+    <div *ngFor="let pregunta of preguntasPaginadas; let i = index" class="p-card mt-3">
+        <div class="p-card-header">
+            <h3>{{ i + 1 + (paginaActual * preguntasPorPagina) }}. {{ pregunta.pregunta }}</h3>
+        </div>
+
+        <p-divider></p-divider>
+
+        <div class="p-card-body">
+            <div *ngFor="let respuesta of pregunta.respuestas" class="respuesta-item">
+                <p-radioButton 
+                    name="pregunta{{ i + (paginaActual * preguntasPorPagina) }}" 
+                    [value]="respuesta" 
+                    [(ngModel)]="pregunta.seleccionada"
+                    [disabled]="testFinalizado">
+                </p-radioButton>
+                <label>{{ respuesta }}</label>
+                <i *ngIf="pregunta.seleccionada === respuesta && respuesta === pregunta.correcta"
+                    class="pi pi-check text-success ml-2"></i>
+                <i *ngIf="pregunta.seleccionada === respuesta && respuesta !== pregunta.correcta"
+                    class="pi pi-times text-danger ml-2"></i>
+            </div>
+
+            <p-messages *ngIf="paginaComprobada" [(value)]="pregunta.mensajeRespuesta" [closable]="false" class="mt-3"></p-messages>
+        </div>
+    </div>
+
+    <p-paginator 
+        [rows]="preguntasPorPagina" 
+        [totalRecords]="preguntasActuales.length" 
+        (onPageChange)="cambiarPagina($event)">
+    </p-paginator>
+
+    <div class="button-container mt-4">
+        <button pButton label="Comprobar Página" icon="pi pi-search" (click)="comprobarPagina()" 
+            [disabled]="paginaComprobada" class="p-button-outlined"></button>
+        <button pButton label="Finalizar Test" icon="pi pi-check" (click)="finalizarTest()" 
+            [disabled]="testFinalizado" class="p-button-outlined"></button>
+        <button pButton label="Volver a SSII" (click)="goBack()" class="p-button-outlined"></button>
+    </div>
+</div>

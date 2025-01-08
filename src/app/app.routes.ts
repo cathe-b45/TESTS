@@ -7,6 +7,7 @@ import { TestCompletoComponent } from './pages/asignaturas/ssii/test-completo/te
 import { TestTemasComponent } from './pages/asignaturas/ssii/test-temas/test-temas.component';
 import { TestCompletoSsiiComponent } from './pages/asignaturas/ssii/test-completo/test-completo-ssii/test-completo-ssii.component';
 import { TestTemasSsiiComponent } from './pages/asignaturas/ssii/test-temas/test-temas-ssii/test-temas-ssii.component';
+import { TestCompletoIsoComponent } from './pages/asignaturas/iso/test-completo-iso/test-completo-iso.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Página de inicio
@@ -17,5 +18,7 @@ export const routes: Routes = [
   { path: 'ssii/temas/test', component: TestTemasSsiiComponent },
   { path: 'ssdd', component: SsddComponent },
   { path: 'iso', component: IsoComponent },
+  { path: 'iso/completo', component: TestCompletoIsoComponent },
+
   { path: '**', redirectTo: '', pathMatch: 'full' } // Rutas no definidas redirigen al Home
 ];
