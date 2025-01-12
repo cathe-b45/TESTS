@@ -10,17 +10,222 @@ import { RadioButtonModule } from 'primeng/radiobutton';
 import { HeadbarComponent } from '../../../../headbar/headbar.component';
 import { Router } from '@angular/router';
 import { MessagesModule } from 'primeng/messages';
+import { PaginatorModule } from 'primeng/paginator';
 
 @Component({
   selector: 'app-test-completo-ssii',
   standalone: true,
-  imports: [CommonModule, FormsModule, ButtonModule, DividerModule, CardModule, RadioButtonModule, HeadbarComponent, MessagesModule, ConfirmDialogModule],
+  imports: [CommonModule, FormsModule, ButtonModule, DividerModule, CardModule, RadioButtonModule, HeadbarComponent, MessagesModule, ConfirmDialogModule, PaginatorModule],
   providers: [ConfirmationService],
   templateUrl: './test-completo-ssii.component.html',
   styleUrl: './test-completo-ssii.component.scss'
 })
 export class TestCompletoSsiiComponent {
   temas: { [key: string]: any[] } = {
+    "Tema 0": [
+        {
+            pregunta: "¿Se puede obtener la solución de un PSR mediante el algoritmo AC3?",
+            respuestas: [
+              "Sí, pero sólo cuando todos los dominios tienen un único valor se puede extraer una solución.",
+              "No, es un algoritmo para la reducción de los dominios de las variables y no para la búsqueda de soluciones.",
+              "No, sólo se puede determinar si no hay solución.",
+              "Todas las respuestas anteriores son erróneas."
+            ],
+            correcta: "Sí, pero sólo cuando todos los dominios tienen un único valor se puede extraer una solución."
+          },
+          {
+            pregunta: "Dado un arco X → Y que refleja la relación X < Y, marque los dominios que lo hacen inconsistente.",
+            respuestas: [
+              "X=[0, 1, 4], Y=[8, 2, 6, 0]",
+              "X=[0, 9], Y=[1, 10]",
+              "X=[5, 7], Y=[8, 7]",
+              "X=[3, 9, 4], Y=[8, 3, 6]"
+            ],
+            correcta: "X=[5, 7], Y=[8, 7]"
+          },
+          {
+            pregunta: "En PSR con 5 variables con dominios de tres valores:",
+            respuestas: [
+              "La complejidad temporal es 5³ = 125.",
+              "La complejidad temporal es 3⁵ = 243.",
+              "La profundidad es 3 y el factor de ramificación es 5.",
+              "Todas las respuestas anteriores son erróneas."
+            ],
+            correcta: "La complejidad temporal es 3⁵ = 243."
+          },
+          {
+            pregunta: "Sea un mundo grid de 3x4 (filas x columnas) con un muro en la casilla (1,1), donde se recibe un refuerzo R de -0.03 en todas las casillas excepto en la casilla (0,3) que es igual a 1 y en las demás es 0. Se usa un modelo de transición con una probabilidad de 0.8 de realizar un movimiento (arriba, abajo, izquierda y derecha) y 0.1 si sus movimientos perpendiculares son posibles. Si el agente intenta cruzar el muro o sale del área se mantiene en la misma casilla. Mediante la técnica de iteración de valores calcular U₀(1,0) sabiendo que γ = 0.8.",
+            respuestas: [
+              "0.2619",
+              "0.1619",
+              "0.3619",
+              "0.0619"
+            ],
+            correcta: "0.2619"
+          },
+          {
+            pregunta: "Dado un arco X → Y que refleja la relación X < Y, marque los dominios que lo hacen consistente.",
+            respuestas: [
+              "X=[5, 11, 7], Y=[8, 9, 10]",
+              "X=[3, 4, 10], Y=[9, 7]",
+              "X=[8, 1, 6], Y=[10, 5]",
+              "X=[6, 11, 5], Y=[9, 2, 10]"
+            ],
+            correcta: "X=[8, 1, 6], Y=[10, 5]"
+          },
+          {
+            pregunta: "En enfriamiento simulado, la probabilidad de intercambiar la solución actual por una mejor...",
+            respuestas: [
+              "Se incrementa en proporción a como es mejor la solución.",
+              "Decrece en el tiempo y de como de mala es la solución.",
+              "Depende de la función de decrecimiento de T.",
+              "Es siempre 1."
+            ],
+            correcta: "Depende de la función de decrecimiento de T."
+          },
+          {
+            pregunta: "Dado un árbol de juego, con un nodo MAX con unos valores V=5, α = 7, β = 9. Según el algoritmo de poda α − β ¿Qué valor de sus hijos produciría una poda?",
+            respuestas: [
+              "4",
+              "8",
+              "7",
+              "12"
+            ],
+            correcta: "7"
+          },
+          {
+            pregunta: "Indica cuál de las siguientes frases es falsa:",
+            respuestas: [
+              "En los Procesos de Decisión de Markov, la probabilidad de encontrar el sistema en un estado depende de los estados previos.",
+              "El algoritmo de iteración de valores se basa en la Ecuación de Bellman’s.",
+              "La política óptima es la política que maximiza la utilidad esperada.",
+              "Una política determina la acción apropiada dado el estado actual."
+            ],
+            correcta: "En los Procesos de Decisión de Markov, la probabilidad de encontrar el sistema en un estado depende de los estados previos."
+          },
+          {
+            pregunta: "El algoritmo de ascensión de colinas:",
+            respuestas: [
+              "Pertenece al subgrupo de técnicas de búsqueda localizada.",
+              "En cada iteración siempre escoge el vecino menor.",
+              "Es un método de maximización.",
+              "Es un método de maximización local o minimización local."
+            ],
+            correcta: "Es un método de maximización local o minimización local."
+          },
+          {
+            pregunta: "En Minimax:",
+            respuestas: [
+              "La función de utilidad obtiene la valoración del estado del Max.",
+              "La función de utilidad se aplica a un estado en la profundidad máxima.",
+              "La función de evaluación se aplica al estado final.",
+              "Ninguna respuesta es correcta."
+            ],
+            correcta: "Ninguna respuesta es correcta."
+          },
+          {
+            pregunta: "En el algoritmo mini-max la complejidad temporal es equivalente al de una búsqueda...",
+            respuestas: [
+              "Intermedia entre la profundidad de la cota y la de anchura acotada.",
+              "Anchura de profundidad acotada.",
+              "Al valor de profundidad de la cota.",
+              "La cota factorial."
+            ],
+            correcta: "Anchura de profundidad acotada."
+          },
+          {
+            pregunta: "¿En qué partes se divide un esquema de acción en STRIPS?",
+            respuestas: [
+              "Precondición, efecto y parámetros.",
+              "Precondición, parámetros y acción.",
+              "Acción, efecto y nombre.",
+              "Nombre, precondición, efecto."
+            ],
+            correcta: "Precondición, efecto y parámetros."
+          },
+          {
+            pregunta: "En el algoritmo AC3 se define un arco consistente A → B como...",
+            respuestas: [
+              "Para todos los valores de la variable A existe algún valor compatible en B.",
+              "Todos los valores de la variable B tienen valores compatibles en la variable A.",
+              "Algunos valores de la variable B son compatibles con algunos de la variable A.",
+              "Para todos los valores de B hay al menos un valor de la variable A que es compatible."
+            ],
+            correcta: "Para todos los valores de la variable A existe algún valor compatible en B."
+          },
+          {
+            pregunta: "En un problema de satisfacción de restricciones (PSR) con 5 variables con dominios de 3 valores, señalar qué afirmación sobre la complejidad es cierta.",
+            respuestas: [
+              "Tiene una complejidad temporal de 5³=15.",
+              "Tiene una complejidad temporal de 3⁵=243.",
+              "Es de profundidad 3 y nivel de ramificación 5.",
+              "La complejidad temporal de 5³=125."
+            ],
+            correcta: "Tiene una complejidad temporal de 3⁵=243."
+          },
+          {
+            pregunta: "En un algoritmo de enfriamiento simulado (Annealing), si la función de energía de los máximos locales tiende a ser menor que la solución candidata, se:",
+            respuestas: [
+              "Actualizar la SA por una SC mejor con una probabilidad menor a e^(ΔE/KT).",
+              "Actualizar la SA por una SC peor con una probabilidad menor a e^(ΔE/KT).",
+              "Actualizar la SA por una SC mejor.",
+              "Actualizar la solución actual (SA) por cualquier candidata (SC)."
+            ],
+            correcta: "Actualizar la SA por una SC peor con una probabilidad menor a e^(ΔE/KT)."
+          },
+          {
+            pregunta: "Dado un individuo con valor 7, generado tras una selección y un cruce entre individuos con valores entre [0,15], con una representación genética binaria de 4 bits, y una tasa de probabilidad de mutación de 0.001, ¿qué generación tendrá la mutación si tiene un valor de 6?",
+            respuestas: [
+              "5",
+              "3",
+              "6",
+              "1"
+            ],
+            correcta: "6"
+          },
+          {
+            pregunta: "Una de las siguientes palabras claves no pertenece al lenguaje PDDL:",
+            respuestas: [
+              "action",
+              "goal",
+              "objects",
+              "initial"
+            ],
+            correcta: "initial"
+          },
+          {
+            pregunta: "En el algoritmo STRIP cuando se encuentra un objetivo como resultado en la pila, para resolverlo se busca una acción que...",
+            respuestas: [
+              "Contenga el objetivo en sus variables en su lista de efectos.",
+              "Contenga en su lista de adición una unificación válida del objetivo y estado actual.",
+              "Contenga una unificación válida del objetivo y estado actual en su lista de precondiciones.",
+              "Contenga el objetivo en su lista de precondiciones."
+            ],
+            correcta: "Contenga el objetivo en sus variables en su lista de efectos."
+          },
+          {
+            pregunta: "En un algoritmo mini-max con poda alfa-beta, si estamos en el nodo raíz (MAX):",
+            respuestas: [
+              "Se podará solo si su valor es menor que el de beta.",
+              "Se podará solo si su valor es mayor que el de beta.",
+              "Se podará solo si su valor es mayor que el de alfa.",
+              "Una poda no depende de alfa o beta."
+            ],
+            correcta: "Se podará solo si su valor es mayor que el de beta."
+          },
+          {
+            pregunta: "Un problema de satisfacción de restricciones viene definido por:",
+            respuestas: [
+              "Un conjunto de dominios de variables y restricciones entre ellas.",
+              "Un conjunto de restricciones de variables y un conjunto de valores válidos para dichas variables.",
+              "Un conjunto de restricciones de posibles variables para la solución del problema.",
+              "Un conjunto de valores válidos y relaciones unarias y binarias."
+            ],
+            correcta: "Un conjunto de dominios de variables y restricciones entre ellas."
+          }
+          
+          
+    ],
     "Tema 3": [
         {
             pregunta: "En el enfriamiento simulado la selección de una peor solución que la actual depende de:",
@@ -279,12 +484,18 @@ export class TestCompletoSsiiComponent {
 preguntasActuales: any[] = [];
 testFinalizado: boolean = false;
 respuestasUsuario: string[] = []; // Respuestas seleccionadas por el usuario.
-
+  // Paginación
+  paginaActual: number = 0;
+  preguntasPorPagina: number = 10;
+  paginaComprobada: boolean = false; // Para controlar si ya se comprobó la página
+  preguntasPaginadas: any[] = []; // Preguntas en la página actual
+  
 constructor(
   private router: Router,
   private confirmationService: ConfirmationService
 ) {
   this.cargarPreguntasCompletas();
+  this.actualizarPreguntasPaginadas(); 
 }
 
 /**
@@ -292,6 +503,7 @@ constructor(
  */
 cargarPreguntasCompletas() {
   const preguntas = [
+    ...this.temas["Tema 0"],
     ...this.temas["Tema 3"],
     ...this.temas["Tema 4"],
     ...this.temas["Tema 5"],
@@ -312,6 +524,26 @@ cargarPreguntasCompletas() {
  */
 shuffleArray(array: any[]): any[] {
   return array.sort(() => Math.random() - 0.5);
+}
+
+
+  /**
+   * Actualizar las preguntas para mostrar en la página actual.
+   */
+  actualizarPreguntasPaginadas() {
+    const inicio = this.paginaActual * this.preguntasPorPagina;
+    const fin = inicio + this.preguntasPorPagina;
+    this.preguntasPaginadas = this.preguntasActuales.slice(inicio, fin);
+    this.paginaComprobada = false; // Reiniciar comprobación en cada cambio de página
+
+  }
+
+/**
+   * Cambiar de página en el paginador.
+   */
+cambiarPagina(event: any) {
+  this.paginaActual = event.page;
+  this.actualizarPreguntasPaginadas();
 }
 
 finalizarTest() {
@@ -344,6 +576,60 @@ finalizarTest() {
   });
 }
 
+
+  /**
+   * Corrige únicamente la página actual.
+   */
+  corregirPagina() {
+    let respuestasCorrectas = 0;
+
+    // Calculamos índices de las preguntas en el array global
+    const inicio = this.paginaActual * this.preguntasPorPagina;
+    const fin = inicio + this.preguntasPorPagina;
+
+    // Recorremos las preguntas de la página
+    for (let i = inicio; i < fin; i++) {
+      const pregunta = this.preguntasActuales[i];
+      if (!pregunta) {
+        continue; // Por si no hay tantas preguntas en la última página
+      }
+
+      if (pregunta.seleccionada === pregunta.correcta) {
+        respuestasCorrectas++;
+        pregunta.mensajeRespuesta = [
+          { 
+            severity: 'success', 
+            summary: 'Correcto', 
+            detail: `La respuesta seleccionada es correcta.`
+          }
+        ];
+      } else {
+        pregunta.mensajeRespuesta = [
+          { 
+            severity: 'error', 
+            summary: 'Respuesta correcta:', 
+            detail: `${pregunta.correcta}`
+          }
+        ];
+      }
+    }
+
+    this.paginaComprobada = true;
+
+    // Mensaje opcional con cuántas acertó en la página
+    const numeroPreguntasPagina = fin - inicio;
+    this.confirmationService.confirm({
+      header: 'Página Corregida',
+      message: `¡Has acertado ${respuestasCorrectas} de ${numeroPreguntasPagina} preguntas en esta página!`,
+      icon: 'pi pi-check-circle',
+      acceptLabel: 'Aceptar',
+      rejectVisible: false,
+      accept: () => {
+        console.log('Página corregida confirmada');
+      }
+    });
+  }
+  
 /**
  * Volver a la página anterior.
  */
@@ -351,3 +637,4 @@ goBack() {
   this.router.navigate(['/ssii']);
 }
 }
+

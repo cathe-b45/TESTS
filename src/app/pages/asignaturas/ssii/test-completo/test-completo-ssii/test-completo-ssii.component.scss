@@ -130,3 +130,10 @@
 .ml-2 {
     margin-left: 0.5rem;
 }
+
+.pink-button {
+    background-color: var(--pink-100) !important; 
+    border-color: var(--pink-100) !important;
+    color: #333 !important; // o el color de texto que desees
+  }
+  
