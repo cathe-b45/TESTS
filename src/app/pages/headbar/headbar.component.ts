@@ -56,12 +56,12 @@ export class HeadbarComponent implements OnInit {
           {
             label: 'Test por Temas',
             icon: 'pi pi-list',
-            command: () => this.navigateTo('ssdd/temas')
+            command: () => this.navigateTo('ssdd/examenes')
           },
           {
-            label: 'Test Completo',
+            label: 'Test Ejercicios',
             icon: 'pi pi-check-circle',
-            command: () => this.navigateTo('ssdd/completo')
+            command: () => this.navigateTo('ssdd/ejercicios')
           }
         ]
       },
@@ -69,11 +69,6 @@ export class HeadbarComponent implements OnInit {
         label: 'ISO',
         icon: 'pi pi-cog',
         items: [
-          {
-            label: 'Test por Temas',
-            icon: 'pi pi-list',
-            command: () => this.navigateTo('iso/temas')
-          },
           {
             label: 'Test Completo',
             icon: 'pi pi-check-circle',

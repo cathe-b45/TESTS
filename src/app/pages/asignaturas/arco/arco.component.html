@@ -1,0 +1,79 @@
+<app-headbar></app-headbar>
+
+<div class="ssii-container">
+  <h1 class="title">📝 Arquitectura de Computadores (ARCO)</h1>
+
+  <div class="card-container">
+    <!-- 🟦 Card Test por Temas -->
+    <p-card class="ssii-card" header="Tema 1" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Teoria sobre el Tema 1</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button 
+          pButton 
+          type="button" 
+          label="Ir a Tema 1" 
+          class="p-button-outlined"
+          (click)="navigateTo('t1')">
+        </button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟧 Card Test Completo -->
+    <p-card class="ssii-card" header="Tema 2" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button 
+          pButton 
+          type="button" 
+          label="Ir a Tema 2" 
+          class="p-button-outlined"
+          (click)="navigateTo('t2')">
+        </button>
+      </ng-template>
+    </p-card>
+
+    <p-card class="ssii-card" header="Superescalares" [style]="{width: '300px'}">
+        <ng-template pTemplate="content">
+          <p>Teoria sobre Superescalares</p>
+        </ng-template>
+        <ng-template pTemplate="footer">
+          <button 
+            pButton 
+            type="button" 
+            label="Ir a Superescalares" 
+            class="p-button-outlined"
+            (click)="navigateTo('superscalars')">
+          </button>
+        </ng-template>
+      </p-card>
+
+      <p-card class="ssii-card" header="Thread Level" [style]="{width: '300px'}">
+        <ng-template pTemplate="content">
+          <p>Teoria sobre Thread Level</p>
+        </ng-template>
+        <ng-template pTemplate="footer">
+          <button 
+            pButton 
+            type="button" 
+            label="Ir a Thread Level" 
+            class="p-button-outlined"
+            (click)="navigateTo('threadLevel')">
+          </button>
+        </ng-template>
+      </p-card>
+  </div>
+  
+  <div style="text-align: center; margin-top: 2rem;">
+    <!-- Ajusta la ruta según corresponda a tu proyecto;
+         si la imagen está en src/assets/venti-test.png 
+         bastará con "assets/venti-test.png" en tiempo de ejecución. -->
+    <img 
+      src="assets/venti-astronauta.png" 
+      alt="Imagen de Venti Test" 
+      style="max-width: 300px;"
+    >
+  </div>
+</div>

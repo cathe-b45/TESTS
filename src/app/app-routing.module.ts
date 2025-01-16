@@ -4,12 +4,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { SsiiComponent } from './pages/asignaturas/ssii/ssii.component';
 import { SsddComponent } from './pages/asignaturas/ssdd/ssdd.component';
 import { IsoComponent } from './pages/asignaturas/iso/iso.component';
+import { ArcoComponent } from './pages/asignaturas/arco/arco.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Ruta raíz
   { path: 'ssii', component: SsiiComponent },
   { path: 'ssdd', component: SsddComponent },
   { path: 'iso', component: IsoComponent },
+  { path: 'arco', component: ArcoComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' } // Redirección a Home para rutas no definidas
 ];
 

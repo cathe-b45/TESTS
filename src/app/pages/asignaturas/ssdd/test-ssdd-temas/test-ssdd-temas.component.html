@@ -1,0 +1,80 @@
+<app-headbar></app-headbar>
+
+<div class="test-container">
+    <h1>📝 Test por Examenes - SSDD</h1>
+    <!-- Título del Tema Actual -->
+    <h2>{{ temasKeys[temaActual] }}</h2>
+
+    <!-- Botones de PDF para el Tema Actual -->
+    <div class="temas-pdf-buttons">
+        <button pButton label="Examen" icon="pi pi-file-pdf"
+            (click)="abrirPdf(temasKeys[temaActual], 'examen')"></button>
+        <button pButton label="Corrección" icon="pi pi-file-pdf" class="p-button-outlined ml-2"
+            (click)="abrirPdf(temasKeys[temaActual], 'correccion')"></button>
+    </div>
+
+    <!-- Preguntas del Tema Actual -->
+    <div *ngFor="let pregunta of preguntasActuales; let i = index" class="p-card mt-3">
+        <div class="p-card-header">
+            <h3>{{ i + 1 }}. {{ pregunta.pregunta }}</h3>
+        </div>
+
+        <p-divider></p-divider>
+
+        <div class="p-card-body">
+            <div *ngFor="let respuesta of pregunta.respuestas" class="respuesta-item d-flex align-items-center">
+                <p-radioButton name="pregunta{{ i }}" [value]="respuesta" [(ngModel)]="pregunta.seleccionada"
+                    [disabled]="testFinalizado">
+                </p-radioButton>
+                <label>{{ respuesta }}</label>
+
+                <!-- Icono para Respuesta Correcta -->
+                <i *ngIf="testFinalizado && respuesta === pregunta.correcta" class="pi pi-check text-success ml-2">
+                </i>
+
+                <!-- Icono para Respuesta Incorrecta -->
+                <i *ngIf="testFinalizado && pregunta.seleccionada === respuesta && respuesta !== pregunta.correcta"
+                    class="pi pi-times text-danger ml-2">
+                </i>
+
+                <!-- Botón para Ver Explicación -->
+                <button *ngIf="testFinalizado && respuesta === pregunta.correcta"
+                    pButton icon="pi pi-info-circle" class="p-button-text p-button-info ml-2"
+                    (click)="mostrarExplicacion(pregunta.explicacion)">
+                </button>
+            </div>
+
+            <!-- Mostrar respuesta correcta -->
+            <p-messages *ngIf="testFinalizado" [(value)]="pregunta.mensajeRespuesta" [closable]="false"
+                class="mt-3"></p-messages>
+        </div>
+    </div>
+
+    <!-- Botones para Navegar entre Temas -->
+    <div class="button-container mt-4">
+        <button pButton label="Tema Anterior" icon="pi pi-arrow-left" class="p-button-secondary"
+            (click)="temaAnterior()" [disabled]="temaActual === 0">
+        </button>
+
+        <button pButton label="Finalizar Test" icon="pi pi-check" (click)="finalizarTest()" [disabled]="testFinalizado">
+        </button>
+
+        <button pButton label="Siguiente Tema" icon="pi pi-arrow-right" class="p-button-secondary"
+            (click)="siguienteTema()" [disabled]="temaActual === temasKeys.length - 1">
+        </button>
+    </div>
+
+    <button pButton label="Volver a SSDD" class="p-button-outlined mt-4" (click)="goBack()">
+    </button>
+
+    <!-- ConfirmDialog de PrimeNG -->
+    <p-confirmDialog></p-confirmDialog>
+
+    <!-- Dialog para Mostrar la Explicación -->
+    <p-dialog [(visible)]="mostrarDialogo" header="Explicación de la Respuesta" [modal]="true" [closable]="true" [style]="{ width: '50vw' }">
+        <div class="dialog-content" [innerHTML]="explicacionActual"></div>
+    </p-dialog>
+    
+    
+    
+</div>

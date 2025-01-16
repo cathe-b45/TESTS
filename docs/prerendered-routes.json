@@ -1,9 +1,17 @@
 {
   "routes": [
     "/",
+    "/arco",
+    "/arco/superscalars",
+    "/arco/t1",
+    "/arco/t2",
+    "/arco/threadLevel",
     "/iso",
     "/iso/completo",
     "/ssdd",
+    "/ssdd/completo",
+    "/ssdd/ejercicios",
+    "/ssdd/examenes",
     "/ssii",
     "/ssii/completo",
     "/ssii/completo/test",

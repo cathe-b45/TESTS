@@ -1,2 +1,66 @@
 <app-headbar></app-headbar>
-<p>ssdd works!</p>
+
+<div class="ssii-container">
+  <h1 class="title">📝 Test de Sistemas Distribuidos (SSDD)</h1>
+
+  <div class="card-container">
+    <!-- 🟦 Card Test por Temas -->
+    <p-card class="ssii-card" header="Test por Examenes" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Realiza el test por Examen.</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button 
+          pButton 
+          type="button" 
+          label="Ir a Test por Examenes" 
+          class="p-button-outlined"
+          (click)="navigateTo('examenes')">
+        </button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟧 Card Test Completo -->
+    <!-- <p-card class="ssii-card" header="Test Completo" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Realiza el test completo</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button 
+          pButton 
+          type="button" 
+          label="Ir a Test Completo" 
+          class="p-button-outlined"
+          (click)="navigateTo('completo')">
+        </button>
+      </ng-template>
+    </p-card> -->
+
+    <p-card class="ssii-card" header="Test de ejercicios" [style]="{width: '300px'}">
+        <ng-template pTemplate="content">
+          <p>Realiza el test de ejercicios</p>
+        </ng-template>
+        <ng-template pTemplate="footer">
+          <button 
+            pButton 
+            type="button" 
+            label="Ir a Test por Examenes" 
+            class="p-button-outlined"
+            (click)="navigateTo('ejercicios')">
+          </button>
+        </ng-template>
+      </p-card>
+  
+  </div>
+  
+  <div style="text-align: center; margin-top: 2rem;">
+    <!-- Ajusta la ruta según corresponda a tu proyecto;
+         si la imagen está en src/assets/venti-test.png 
+         bastará con "assets/venti-test.png" en tiempo de ejecución. -->
+    <img 
+      src="assets/venti-astronauta.png" 
+      alt="Imagen de Venti Test" 
+      style="max-width: 300px;"
+    >
+  </div>
+</div>
