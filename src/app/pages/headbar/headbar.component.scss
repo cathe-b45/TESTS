@@ -44,3 +44,14 @@ svg {
 .p-avatar {
   margin-left: 0.5rem;
 }
+
+.custom-carousel .p-carousel-content {
+  text-align: center;
+}
+
+.custom-carousel img {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

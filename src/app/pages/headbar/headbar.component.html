@@ -11,5 +11,27 @@
       </a>
     </ng-template>
 
+    <ng-template pTemplate="end">
+      <img 
+        src="assets/venti-test.png" 
+        alt="Foto" 
+        style="height: 2rem; cursor: pointer; border-radius: 50%;" 
+        pRipple
+        pTooltip="VENTI" 
+        tooltipPosition="top"
+        (click)="onImageClick()"
+      />
+    </ng-template>
+
+
   </p-menubar>
+
+  <p-dialog [(visible)]="mostrarDialogo" header="Galería de Fotos de Doña Venti" [modal]="true" [closable]="true" [style]="{ width: '60vw' }">
+    <p-carousel [value]="imagenes" [numVisible]="3" [numScroll]="1" [circular]="true" styleClass="custom-carousel">
+      <ng-template let-image pTemplate="item">
+        <img [src]="image.src" [alt]="image.alt" style="width: 100%; border-radius: 8px;">
+      </ng-template>
+    </p-carousel>
+    
+  </p-dialog>
 </div>

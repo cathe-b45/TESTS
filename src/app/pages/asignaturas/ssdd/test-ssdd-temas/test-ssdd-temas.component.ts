@@ -1489,7 +1489,7 @@ export class TestSsddTemasComponent {
     });
   }
 
-  basePath = '/assets/pdfs'; // Ruta base para los PDFs
+  basePath = '/TESTS/assets/pdfs'; // Ruta base para los PDFs
 
   abrirPdf(tema: string, tipo: 'examen' | 'correccion'): void {
     // Generar nombres de archivo según la convención observada
