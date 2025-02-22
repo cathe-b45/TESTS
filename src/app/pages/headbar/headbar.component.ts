@@ -65,7 +65,7 @@ export class HeadbarComponent implements OnInit {
       },
       {
         label: 'SSDD',
-        icon: 'pi pi-database',
+        icon: 'pi pi-share-alt',
         items: [
           {
             label: 'Test por Temas',
@@ -87,6 +87,17 @@ export class HeadbarComponent implements OnInit {
             label: 'Test Completo',
             icon: 'pi pi-check-circle',
             command: () => this.navigateTo('iso/completo')
+          }
+        ]
+      },
+      {
+        label: 'BBDD',
+        icon: 'pi pi-database',
+        items: [
+          {
+            label: 'Test Completo',
+            icon: 'pi pi-check-circle',
+            command: () => this.navigateTo('bbdd')
           }
         ]
       }
