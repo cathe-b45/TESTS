@@ -61,6 +61,18 @@
     
   </div>
 
+  <div class="card-container">
+    <p-card class="home-card" header="BBDD" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Bases De Datos Avanzadas</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a BBDD Preguntas clase" class="p-button-outlined" (click)="navigateTo('bbdd2')"></button>
+      </ng-template>
+    </p-card>
+    
+  </div>
+
   <div style="text-align: center;">
     <!-- Ajusta la ruta según corresponda a tu proyecto;
          si la imagen está en src/assets/venti-test.png 
