@@ -16,6 +16,7 @@ import { SuperscalarsComponent } from './pages/asignaturas/arco/superscalars/sup
 import { TestSsddCompletoComponent } from './pages/asignaturas/ssdd/test-ssdd-completo/test-ssdd-completo.component';
 import { SsddEjerciciosComponent } from './pages/asignaturas/ssdd/ssdd-ejercicios/ssdd-ejercicios.component';
 import { TestSsddTemasComponent } from './pages/asignaturas/ssdd/test-ssdd-temas/test-ssdd-temas.component';
+import { Bbdd2Component } from './pages/asignaturas/bbdd2/bbdd2.component';
 import { BbddComponent } from './pages/asignaturas/bbdd/bbdd.component';
 
 export const routes: Routes = [
@@ -30,7 +31,7 @@ export const routes: Routes = [
   { path: 'ssdd/examenes', component: TestSsddTemasComponent },
   { path: 'ssdd/ejercicios', component: SsddEjerciciosComponent },
   { path: 'bbdd', component: BbddComponent },
-
+  { path: 'bbdd2', component: Bbdd2Component },
   { path: 'iso', component: IsoComponent },
   { path: 'iso/completo', component: TestCompletoIsoComponent },
   { path: 'arco', component: ArcoComponent },

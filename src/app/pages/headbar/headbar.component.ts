@@ -100,6 +100,17 @@ export class HeadbarComponent implements OnInit {
             command: () => this.navigateTo('bbdd')
           }
         ]
+      },
+      {
+        label: 'BBDD Preguntas clase',
+        icon: 'pi pi-database',
+        items: [
+          {
+            label: 'Test Completo',
+            icon: 'pi pi-check-circle',
+            command: () => this.navigateTo('bbdd2')
+          }
+        ]
       }
     ];
   }
