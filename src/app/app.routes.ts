@@ -18,6 +18,7 @@ import { SsddEjerciciosComponent } from './pages/asignaturas/ssdd/ssdd-ejercicio
 import { TestSsddTemasComponent } from './pages/asignaturas/ssdd/test-ssdd-temas/test-ssdd-temas.component';
 import { Bbdd2Component } from './pages/asignaturas/bbdd2/bbdd2.component';
 import { BbddComponent } from './pages/asignaturas/bbdd/bbdd.component';
+import { RysComponent } from './pages/asignaturas/rys/rys.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Página de inicio
@@ -39,7 +40,7 @@ export const routes: Routes = [
   { path: 'arco/t1', component: Tema1Component },
   { path: 'arco/t2', component: Tema2Component },
   { path: 'arco/threadLevel', component: ThreadlevelComponent },
-
+  { path: 'rys', component: RysComponent },
 
   { path: '**', redirectTo: '', pathMatch: 'full' } // Rutas no definidas redirigen al Home
 ];
