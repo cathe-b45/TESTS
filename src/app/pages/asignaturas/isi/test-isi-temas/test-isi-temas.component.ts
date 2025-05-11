@@ -1575,6 +1575,250 @@ export class TestISITemasComponent {
         "correcta": "Jira",
         "explicacion": "La respuesta correcta es: <b>Jira</b>. Es una de las plataformas populares para seguimiento de tareas, colaboración e integración con CI/CD."
       }
+    ],
+    "Examen": [
+      {
+        pregunta: '¿Cuál es la definición que mejor refleja el término DevOps?',
+        respuestas: [
+          'Es una cultura de desarrollo y operación de software por equipos multidisciplinares.',
+          'Es una cultura de desarrollo de software por equipos multidisciplinares.',
+          'Es una metodología de integración de sistemas IT definida en BNMP',
+          'Es una implementación concreta del modelo en cascada.'
+        ],
+        correcta: 'Es una cultura de desarrollo y operación de software por equipos multidisciplinares.',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Cuáles son las fases de DevOps?',
+        respuestas: [
+          'Code, building, test, release',
+          'Code, building, test, release, deploy, operate, monitor, feedback&plan',
+          'Requirements, code, test, building, release',
+          'Code, test, building, release, deploy, operate, monitor, feedback&plan'
+        ],
+        correcta: 'Code, building, test, release, deploy, operate, monitor, feedback&plan',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿El concepto de artefacto software, a qué fase de DevOps pertenece?',
+        respuestas: [
+          'Code.',
+          'Test.',
+          'Building.',
+          'Release.'
+        ],
+        correcta: 'Release.',
+        explicacion: ''
+      },
+      {
+        pregunta: 'En el proceso de un proyecto de integración, cuando definimos el objetivo y contexto de la integración, ¿qué paso se incluye?',
+        respuestas: [
+          'Determina la plataforma de mensajería a integrar',
+          'Evalúa y cuantifica los riesgos de cambios en las condiciones de servicio con terceros.',
+          'Identificar los KPIs del proyecto',
+          'Todos los anteriores'
+        ],
+        correcta: 'Identificar los KPIs del proyecto',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué define la arquitectura de referencia de una empresa?',
+        respuestas: [
+          'Los detalles de implementación de los sistemas que la componen',
+          'Los detalles de las capacidades de cada componente',
+          'Los principales componentes del sistema en términos genéricos y las conexiones previstas entre esos componentes',
+          'Se define todo lo anterior.'
+        ],
+        correcta: 'Los principales componentes del sistema en términos genéricos y las conexiones previstas entre esos componentes',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué define la arquitectura de solución de una empresa?',
+        respuestas: [
+          'Especifica cómo debe construirse y funcionar un sistema específico',
+          'Es la lista de sistemas y servicios IT (tanto hardware como software)',
+          'Los principales componentes del sistema en términos genéricos y las conexiones previstas entre esos componentes',
+          'Se define todo lo anterior.'
+        ],
+        correcta: 'Especifica cómo debe construirse y funcionar un sistema específico',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Marca la sentencia correcta:',
+        respuestas: [
+          'Una arquitectura “as-is” describe el estado futuro del SE',
+          'Una arquitectura “to-be” tiene una vida útil más larga que una arquitectura “as-is”',
+          'Una arquitectura “as-is” es permanente y refleja la parte del diagrama general de la empresa que no cambia.',
+          'Cualquier arquitectura empresarial es un artefacto duradero.'
+        ],
+        correcta: 'Una arquitectura “as-is” es permanente y refleja la parte del diagrama general de la empresa que no cambia.',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué lenguaje de modelado se diseñó específicamente para modelar flujos de trabajo empresariales?',
+        respuestas: [
+          'ITIL',
+          'UMLv2.0',
+          'SysML',
+          'BPMN'
+        ],
+        correcta: 'BPMN',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué lenguaje utiliza para diseñar una estructura de datos, vocabulario y semántica del mundo del vino?',
+        respuestas: [
+          'OWL',
+          'UML',
+          'SysML',
+          'BPMN'
+        ],
+        correcta: 'OWL',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Al corazón de las plataformas de mensajes, que se encarga de recibir los mensajes y distribuirlos se denomina:',
+        respuestas: [
+          'Los topics o canales que se definen',
+          'Broker de mensajes',
+          'Consumidores/Subscriptores',
+          'Paquete de mensaje'
+        ],
+        correcta: 'Broker de mensajes',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Un Key Performance Indicator o KPI, al cual le añadimos un objetivo específico debe ser:',
+        respuestas: [
+          'Específico y medible',
+          'Específico, medible y alcanzable',
+          'Específico, medible, alcanzable y relevante',
+          'Específico, medible, alcanzable, relevante y limitado en el tiempo.'
+        ],
+        correcta: 'Específico, medible, alcanzable, relevante y limitado en el tiempo.',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué se define como un conjunto de buenas prácticas que ayudan a las organizaciones a mejorar sus procesos en organizaciones proveedoras de servicios?',
+        respuestas: [
+          'ITIL (Information Technology Infrastructure Library)',
+          'CMMI (Capability Maturity Model Integration)',
+          'SCM (Supply Chain Management)',
+          'CRM (Customer Relationship Management)'
+        ],
+        correcta: 'CMMI (Capability Maturity Model Integration)',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Los microservicios son:',
+        respuestas: [
+          'Servicios autónomos y poco acoplados',
+          'Servicios autónomos y muy acoplados',
+          'Servicios orientados a eventos poco acoplados',
+          'Servicios orientados a eventos y muy acoplados'
+        ],
+        correcta: 'Servicios autónomos y poco acoplados',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Un patrón de integración que pasa de un formato a otro, encapsula las complejidades de la interacción entre dos sistemas, formatos y/o protocolos. ¿Cómo se denomina?',
+        respuestas: [
+          'Broker de eventos',
+          'Pasarela o Gateway',
+          'Serialización',
+          'Base de datos compartidas'
+        ],
+        correcta: 'Pasarela o Gateway',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Cómo se caracteriza el nivel 1 en la gestión y planificación de la capacidad de los Sistemas de Información?',
+        respuestas: [
+          'Se realizan medidas de tendencia y predicción de la utilización en periodos pico. Se planifica la capacidad de los recursos con revisiones periódicas',
+          'No existe un programa de gestión de la capacidad, y la gestión de la capacidad se realiza ocasionalmente.',
+          'Se conocen exactamente las utilizaciones de cada uno de los recursos debidas a las cargas de trabajo significativas.',
+          'Existe un sistema automático de análisis y predicción de la carga de trabajo'
+        ],
+        correcta: 'No existe un programa de gestión de la capacidad, y la gestión de la capacidad se realiza ocasionalmente.',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Señala la afirmación falsa. En una plataforma de mensajes, el broker:',
+        respuestas: [
+          'Gestiona los mensajes y canales',
+          'Se encarga de la autenticación de los publicadores/subscriptores',
+          'Se implementa en todos los lenguajes soportados por la plataforma de mensajes (java, c, c++, etc.)',
+          'Se debe replicar para aumentar la fiabilidad.'
+        ],
+        correcta: 'Se implementa en todos los lenguajes soportados por la plataforma de mensajes (java, c, c++, etc.)',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Cuál de los siguientes casos es peor para aplicar una plataforma de mensajes para un proyecto de integración?',
+        respuestas: [
+          'Integración de servicios donde un servicio produce información que muchos servicios distribuidos consumen.',
+          'Integración de servicios basada en estado y comunicación asíncrona',
+          'Integración de servicios basada en estado y comunicación síncrona',
+          'Integración de servicios mediante la definición de un pipeline.'
+        ],
+        correcta: 'Integración de servicios basada en estado y comunicación síncrona',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Las técnicas de regresión son apropiadas para trabajar con datos:',
+        respuestas: [
+          'Casi estacionarios y no lineales.',
+          'No estacionales y donde tenemos muy pocos históricos',
+          'Estacionales sin ningún tipo de tendencia definida.',
+          'No estacionales que muestran una tendencia'
+        ],
+        correcta: 'No estacionales que muestran una tendencia',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Cómo se define al documento donde se especifican los umbrales de productividad, rendimiento y disponibilidad exigidos y pactados?',
+        respuestas: [
+          'BNMP (Business Net Management Protocol)',
+          'SLA (Service Level Agreement)',
+          'QoS (Quality of Service)',
+          'OKR Objective Key Result'
+        ],
+        correcta: 'SLA (Service Level Agreement)',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Qué solución estandarizada tiene como objetivos estratégicos la creación de una arquitectura común de procesos empresariales, la normalización de los datos maestros internos y externos y la estandarización de la arquitectura del sistema informático?',
+        respuestas: [
+          'Supply Chain Management (SCM)',
+          'Customer Relationship Management (CRM)',
+          'Big Data Analytics (BDA)',
+          'Enterprise Resource Planning (ERP)'
+        ],
+        correcta: 'Enterprise Resource Planning (ERP)',
+        explicacion: ''
+      },
+      {
+        pregunta: 'Los siguientes pasos… ¿En qué orden aconseja realizarlos?',
+        respuestas: [
+          '1 → 2 → 3 → 4',
+          '3 → 2 → 4 → 1',
+          '3 → 2 → 1 → 4',
+          '4 → 2 → 1 → 3'
+        ],
+        correcta: '3 → 2 → 4 → 1',
+        explicacion: ''
+      },
+      {
+        pregunta: '¿Cuál es el principal reto de un proyecto de integración?',
+        respuestas: [
+          'Integrar la última tecnología del mercado.',
+          'Optimizar el uso del entorno cloud',
+          'Capturar toda la semántica, sintaxis y temporización de los servicios y datos a integrar y que sigan dando soporte a los procesos de negocio.',
+          'Todos los retos enumerados son retos de todos los proyectos de integración.'
+        ],
+        correcta: 'Capturar toda la semántica, sintaxis y temporización de los servicios y datos a integrar y que sigan dando soporte a los procesos de negocio.',
+        explicacion: ''
+      }
     ]
   };
  temaActual: number = 0;
