@@ -141,7 +141,7 @@ export class HeadbarComponent implements OnInit {
       },
       {
         label: 'ISI',
-        icon: 'pi pi-share-alt',
+        icon: 'pi pi-sitemap',
         items: [
           {
             label: 'Test por Temas',
