@@ -122,7 +122,39 @@ export class HeadbarComponent implements OnInit {
             command: () => this.navigateTo('rys')
           }
         ]
-      }
+      },
+      {
+        label: 'DyG',
+        icon: 'pi pi-share-alt',
+        items: [
+          {
+            label: 'Test por Temas',
+            icon: 'pi pi-list',
+            command: () => this.navigateTo('dyg/temas')
+          },
+          {
+            label: 'Test Completo',
+            icon: 'pi pi-check-circle',
+            command: () => this.navigateTo('dyg/completo')
+          }
+        ]
+      },
+      {
+        label: 'ISI',
+        icon: 'pi pi-share-alt',
+        items: [
+          {
+            label: 'Test por Temas',
+            icon: 'pi pi-list',
+            command: () => this.navigateTo('isi/temas')
+          },
+          {
+            label: 'Test Completo',
+            icon: 'pi pi-check-circle',
+            command: () => this.navigateTo('isi/completo')
+          }
+        ]
+      },
     ];
   }
 

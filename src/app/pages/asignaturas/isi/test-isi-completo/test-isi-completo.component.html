@@ -1,0 +1,83 @@
+<app-headbar></app-headbar>
+
+<div class="test-container">
+  <h1>📝 Test Completo - ISI</h1>
+  <p>Responde a todas las preguntas sin división por temas.</p>
+
+  <!-- Recorremos las preguntas que están en la página actual -->
+  <div *ngFor="let pregunta of preguntasPaginadas; let i = index" class="p-card mt-3">
+
+    <div class="p-card-header">
+      <h3>{{ (paginaActual * preguntasPorPagina) + (i + 1) }}. {{ pregunta.pregunta }}</h3>
+    </div>
+
+    <p-divider></p-divider>
+
+    <div class="p-card-body">
+      <div *ngFor="let respuesta of pregunta.respuestas" class="respuesta-item d-flex align-items-center">
+
+        <p-radioButton name="pregunta{{ i }}" [value]="respuesta" [(ngModel)]="pregunta.seleccionada"
+          [disabled]="paginaComprobada || testFinalizado">
+        </p-radioButton>
+        <label class="ml-2">{{ respuesta }}</label>
+
+        <ng-container *ngIf="paginaComprobada || testFinalizado">
+          <!-- Check verde si el usuario seleccionó la respuesta correcta -->
+          <i *ngIf="pregunta.seleccionada === respuesta && respuesta === pregunta.correcta"
+            class="pi pi-check text-success ml-2">
+          </i>
+
+          <!-- Aspa roja si el usuario seleccionó una respuesta incorrecta -->
+          <i *ngIf="pregunta.seleccionada === respuesta && respuesta !== pregunta.correcta"
+            class="pi pi-times text-danger ml-2">
+          </i>
+
+          <!-- Check azul en la respuesta correcta cuando no la seleccionó -->
+          <i *ngIf="pregunta.seleccionada !== respuesta && respuesta === pregunta.correcta"
+            class="pi pi-check text-primary ml-2">
+          </i>
+
+          <!-- Botón para ver explicación en la respuesta correcta -->
+          <button *ngIf="respuesta === pregunta.correcta" pButton type="button" icon="pi pi-info-circle"
+            class="p-button-text p-button-info ml-2" (click)="mostrarExplicacion(pregunta.explicacion)">
+          </button>
+        </ng-container>
+      </div>
+
+      <!-- Mostrar mensaje global (correcto / incorrecto) -->
+      <p-messages *ngIf="paginaComprobada || testFinalizado" [(value)]="pregunta.mensajeRespuesta" [closable]="false"
+        class="mt-3">
+      </p-messages>
+    </div>
+  </div>
+
+  <!-- Paginador de PrimeNG -->
+  <p-paginator [rows]="preguntasPorPagina" [totalRecords]="preguntasActuales.length"
+    (onPageChange)="cambiarPagina($event)" class="mt-4">
+  </p-paginator>
+
+  <div class="button-container mt-4">
+    <button pButton label="Corregir Página" icon="pi pi-check" (click)="corregirPagina()"
+      [disabled]="paginaComprobada || testFinalizado">
+    </button>
+
+    <button pButton label="Finalizar Test" icon="pi pi-check" class="pink-button ml-2" (click)="finalizarTest()"
+      [disabled]="testFinalizado">
+    </button>
+  </div>
+
+  <button pButton label="Volver a ISI" class="p-button-outlined mt-4" (click)="goBack()">
+  </button>
+
+  <p-confirmDialog></p-confirmDialog>
+
+  <!-- Dialog para Mostrar la Explicación -->
+  <p-dialog
+    [(visible)]="mostrarDialogo"
+    header="Explicación de la Respuesta"
+    [modal]="true"
+    [closable]="true"
+    [style]="{ width: '50vw' }">
+    <div class="dialog-content" [innerHTML]="explicacionActual"></div>
+  </p-dialog>
+</div>

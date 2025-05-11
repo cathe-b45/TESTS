@@ -1,0 +1,40 @@
+.ssii-container {
+    text-align: center;
+    margin-top: 2rem;
+  
+    .title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      color: var(--text-color);
+    }
+  
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+  
+    .ssii-card {
+      text-align: center;
+      box-shadow: var(--shadow-2);
+      border-radius: 0.5rem;
+      overflow: hidden;
+      transition: transform 0.3s;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      p {
+        margin: 0.5rem 0;
+      }
+  
+      button {
+        margin-top: 1rem;
+      }
+    }
+  }
+  

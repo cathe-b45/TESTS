@@ -19,6 +19,12 @@ import { TestSsddTemasComponent } from './pages/asignaturas/ssdd/test-ssdd-temas
 import { Bbdd2Component } from './pages/asignaturas/bbdd2/bbdd2.component';
 import { BbddComponent } from './pages/asignaturas/bbdd/bbdd.component';
 import { RysComponent } from './pages/asignaturas/rys/rys.component';
+import { DyGComponent } from './pages/asignaturas/dyg/dyg.component';
+import { TestCompletoDyGComponent } from './pages/asignaturas/dyg/test-dyg-completo/test-dyg-completo.component';
+import { TestDyGTemasComponent } from './pages/asignaturas/dyg/test-dyg-temas/test-dyg-temas.component';
+import { ISIComponent } from './pages/asignaturas/isi/isi.component';
+import { TestISITemasComponent } from './pages/asignaturas/isi/test-isi-temas/test-isi-temas.component';
+import { TestISICompletoComponent } from './pages/asignaturas/isi/test-isi-completo/test-isi-completo.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Página de inicio
@@ -41,6 +47,11 @@ export const routes: Routes = [
   { path: 'arco/t2', component: Tema2Component },
   { path: 'arco/threadLevel', component: ThreadlevelComponent },
   { path: 'rys', component: RysComponent },
-
+  { path: 'dyg', component: DyGComponent},
+  { path: 'dyg/temas', component: TestDyGTemasComponent},
+  { path: 'dyg/completo', component: TestCompletoDyGComponent},
+  { path: 'isi', component: ISIComponent},
+  { path: 'isi/temas', component: TestISITemasComponent},
+  { path: 'isi/completo', component: TestISICompletoComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' } // Rutas no definidas redirigen al Home
 ];

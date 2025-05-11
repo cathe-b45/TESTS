@@ -75,6 +75,43 @@
     </p-card>
   </div>
 
+
+  
+  <div class="card-container">
+    <!-- 🟦 Card SSII -->
+    <p-card class="home-card" header="DYG" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Diseño y Gestión de Redes</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a DyG" class="p-button-outlined" (click)="navigateTo('dyg')"></button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟧 Card SSDD -->
+    <p-card class="home-card" header="ISI" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Integración</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a ISI" class="p-button-outlined" (click)="navigateTo('isi')"></button>
+      </ng-template>
+    </p-card>
+
+    <!-- 🟩 Card ISO -->
+    <!-- <p-card class="home-card" header="ISO" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Ingeniería del software II</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a ISO" class="p-button-outlined" (click)="navigateTo('iso')"></button>
+      </ng-template>
+    </p-card> -->
+
+    
+  </div>
+  
+
   <div style="text-align: center;">
     <!-- Ajusta la ruta según corresponda a tu proyecto;
          si la imagen está en src/assets/venti-test.png 
