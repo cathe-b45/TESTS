@@ -43,6 +43,12 @@ export class HeadbarComponent implements OnInit {
     { src: 'assets/venti-manzana.png', alt: 'Imagen 3' },
     { src: 'assets/venti-chuche.png', alt: 'Imagen 3' },
     { src: 'assets/venti-silla.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-teclado.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-zapatilla.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-pose.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-monster.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-enfadada.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-cinnamozapatilla.png', alt: 'Imagen 3' },
   ];
 
   ngOnInit() {

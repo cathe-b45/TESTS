@@ -1,9 +1,15 @@
 <app-headbar></app-headbar>
 
 <div class="test-container">
-  <h1>📝 Test Completo - DyG</h1>
-  <p>Responde a todas las preguntas sin división por temas.</p>
+  <div *ngIf="selectedPartial === null" class="mb-4 text-center">
+    <button pButton label="Parcial 1" class=" mr-2" (click)="elegirParcial(1)"></button>
+    <button pButton label="Parcial 2" class="pink-button ml-2" (click)="elegirParcial(2)"></button>
+  </div>
 
+  <!-- Contenido del test, sólo si ya elegimos parcial -->
+  <ng-container *ngIf="selectedPartial !== null">
+    <h1>📝 Test Completo - DyG (Parcial {{ selectedPartial }})</h1>
+    <p>Responde a todas las preguntas sin división por temas.</p>
   <!-- Recorremos las preguntas que están en la página actual -->
   <div *ngFor="let pregunta of preguntasPaginadas; let i = index" class="p-card mt-3">
 
@@ -80,4 +86,5 @@
     [style]="{ width: '50vw' }">
     <div class="dialog-content" [innerHTML]="explicacionActual"></div>
   </p-dialog>
+</ng-container>
 </div>
