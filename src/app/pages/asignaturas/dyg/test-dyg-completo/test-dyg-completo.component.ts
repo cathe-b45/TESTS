@@ -33,7 +33,7 @@ export class TestCompletoDyGComponent {
           "Implementar y probar la red"
         ],
         "correcta": "Analizar requisitos",
-        "explicacion": "La primera fase según el método Top-Down es Analizar Requisitos, que incluye entrevistas, análisis de metas de negocio y técnicas, y caracterización de la red existente :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "La primera fase según el método Top-Down es Analizar Requisitos, que incluye entrevistas, análisis de metas de negocio y técnicas, y caracterización de la red existente "
       },
       {
         "pregunta": "¿En qué capa se debe comenzar a diseñar según el enfoque Top-Down?",
@@ -44,7 +44,7 @@ export class TestCompletoDyGComponent {
           "Capa de enlace de datos"
         ],
         "correcta": "Capa 7 o más arriba",
-        "explicacion": "El diseño Top-Down recomienda empezar primero en la capa 7 o superior para alinear tecnología con requerimientos de negocio :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "El diseño Top-Down recomienda empezar primero en la capa 7 o superior para alinear tecnología con requerimientos de negocio"
       },
       {
         "pregunta": "¿Qué representan los modelos lógico y físico en el diseño de redes?",
@@ -55,7 +55,7 @@ export class TestCompletoDyGComponent {
           "Lógico: disponibilidad; Físico: escalabilidad"
         ],
         "correcta": "Lógico: procesos y funciones; Físico: tecnologías y dispositivos",
-        "explicacion": "El modelo lógico describe elementos básicos y funciones; el físico los dispositivos y tecnologías específicas :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "El modelo lógico describe elementos básicos y funciones; el físico los dispositivos y tecnologías específicas"
       },
       {
         "pregunta": "¿Qué significa SDLC en el contexto de diseño de redes según el tema 1?",
@@ -66,7 +66,7 @@ export class TestCompletoDyGComponent {
           "Standard Data Link Control"
         ],
         "correcta": "System Development Life Cycle",
-        "explicacion": "SDLC en este curso se refiere a Systems Development Life Cycles, no al protocolo Synchronous Data Link Control :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "SDLC en este curso se refiere a Systems Development Life Cycles, no al protocolo Synchronous Data Link Control"
       },
       {
         "pregunta": "¿Cuál es el principal determinante en un nuevo diseño de red?",
@@ -77,7 +77,7 @@ export class TestCompletoDyGComponent {
           "Las herramientas de monitorización"
         ],
         "correcta": "El presupuesto",
-        "explicacion": "En un nuevo diseño desde cero, el ejecutivo clave es el presupuesto disponible :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "En un nuevo diseño desde cero, el ejecutivo clave es el presupuesto disponible"
       },
       {
         "pregunta": "¿Qué fase sigue al desarrollo del diseño lógico?",
@@ -88,7 +88,7 @@ export class TestCompletoDyGComponent {
           "Monitorizar y optimizar el rendimiento"
         ],
         "correcta": "Desarrollar un diseño físico",
-        "explicacion": "Tras el diseño lógico (fase 2) viene el diseño físico de la red (fase 3) :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "Tras el diseño lógico (fase 2) viene el diseño físico de la red (fase 3)"
       },
       {
         "pregunta": "¿Qué factor NO se considera en las metas técnicas del Capítulo 2?",
@@ -99,7 +99,7 @@ export class TestCompletoDyGComponent {
           "Facilidad de gestión"
         ],
         "correcta": "Ergonomía de los dispositivos",
-        "explicacion": "Las metas técnicas incluyen escalabilidad, disponibilidad, seguridad, facilidad de gestión, uso, adaptabilidad y presupuesto, pero no ergonomía :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "Las metas técnicas incluyen escalabilidad, disponibilidad, seguridad, facilidad de gestión, uso, adaptabilidad y presupuesto, pero no ergonomía."
       },
       {
         "pregunta": "¿Cómo se expresa la disponibilidad de un sistema?",
@@ -110,7 +110,7 @@ export class TestCompletoDyGComponent {
           "Como frecuencia de actualización del firmware"
         ],
         "correcta": "Como porcentaje de tiempo operativo",
-        "explicacion": "La disponibilidad se expresa como el porcentaje de tiempo que los sistemas están operativos (por año, mes, etc.) :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "La disponibilidad se expresa como el porcentaje de tiempo que los sistemas están operativos (por año, mes, etc.)."
       },
       {
         "pregunta": "¿Qué representa MTBF en términos de disponibilidad?",
@@ -121,7 +121,7 @@ export class TestCompletoDyGComponent {
           "Margen técnico de balance de fallos"
         ],
         "correcta": "Tiempo medio entre fallos",
-        "explicacion": "MTBF es el Mean Time Between Failures y se usa junto a MTTR para calcular disponibilidad :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+        "explicacion": "MTBF es el Mean Time Between Failures y se usa junto a MTTR para calcular disponibilidad."
       },
       {
         "pregunta": "¿Qué métrica compara la cantidad de datos transmitidos sin errores por unidad de tiempo?",
@@ -132,7 +132,7 @@ export class TestCompletoDyGComponent {
           "Carga"
         ],
         "correcta": "Caudal (throughput)",
-        "explicacion": "El caudal es la cantidad de datos libres de errores transmitidos por unidad de tiempo, diferenciándolo del ancho de banda :contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}."
+        "explicacion": "El caudal es la cantidad de datos libres de errores transmitidos por unidad de tiempo, diferenciándolo del ancho de banda."
       },
       {
         "pregunta": "¿Cuál es la diferencia principal entre caudal y caudal real (goodput)?",
@@ -143,7 +143,7 @@ export class TestCompletoDyGComponent {
           "Caudal real es un concepto obsoleto"
         ],
         "correcta": "Goodput excluye datos de cabecera y retransmisiones",
-        "explicacion": "El caudal real o goodput considera solo datos de aplicación, descontando cabeceras y retransmisiones :contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}."
+        "explicacion": "El caudal real o goodput considera solo datos de aplicación, descontando cabeceras y retransmisiones."
       },
       {
         "pregunta": "¿Cuál de los siguientes NO es un factor que afecta al caudal?",
@@ -154,7 +154,7 @@ export class TestCompletoDyGComponent {
           "Longitud de onda del enlace"
         ],
         "correcta": "Longitud de onda del enlace",
-        "explicacion": "La longitud de onda aplica a fibra óptica, no afecta directamente al caudal de bits; los demás sí :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "explicacion": "La longitud de onda aplica a fibra óptica, no afecta directamente al caudal de bits; los demás sí."
       },
       {
         "pregunta": "¿Qué representa la utilización del ancho de banda?",
@@ -165,7 +165,7 @@ export class TestCompletoDyGComponent {
           "Número de errores de CRC"
         ],
         "correcta": "Porcentaje del ancho de banda máximo usado",
-        "explicacion": "La utilización indica el porcentaje de uso del total de ancho de banda disponible :contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}."
+        "explicacion": "La utilización indica el porcentaje de uso del total de ancho de banda disponible."
       },
       {
         "pregunta": "Según el ejemplo del conmutador y cinco usuarios, ¿qué % de utilización resulta con 51 200 bps en un enlace de 56 000 bps?",
@@ -176,7 +176,7 @@ export class TestCompletoDyGComponent {
           "100%"
         ],
         "correcta": "91.4%",
-        "explicacion": "Utilización = carga/ancho = 51 200/56 000 ≈ 0.914, es decir, 91.4% :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}."
+        "explicacion": "Utilización = carga/ancho = 51 200/56 000 ≈ 0.914, es decir, 91.4%"
       },
       {
         "pregunta": "¿Qué ocurre cuando La/R → 1 en una cola de router?",
@@ -187,7 +187,7 @@ export class TestCompletoDyGComponent {
           "No hay paquetes en cola"
         ],
         "correcta": "Retardo de cola se hace infinito",
-        "explicacion": "Cuando la intensidad de tráfico La/R supera 1, la media de retardo de cola tiende a infinito :contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+        "explicacion": "Cuando la intensidad de tráfico La/R supera 1, la media de retardo de cola tiende a infinito ."
       },
       {
         "pregunta": "¿Cuál es la variación en el retardo promedio conocida como…?",
@@ -198,7 +198,7 @@ export class TestCompletoDyGComponent {
           "MTTR"
         ],
         "correcta": "Jitter",
-        "explicacion": "La variación en el retardo promedio se denomina jitter :contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}."
+        "explicacion": "La variación en el retardo promedio se denomina jitter."
       },
       {
         "pregunta": "¿Qué herramienta se usa para medir el retardo de cada salto en Internet?",
@@ -209,7 +209,7 @@ export class TestCompletoDyGComponent {
           "MRTG"
         ],
         "correcta": "Traceroute",
-        "explicacion": "Traceroute envía sondas TTL crecientes y mide el retardo de cada router intermedio :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}."
+        "explicacion": "Traceroute envía sondas TTL crecientes y mide el retardo de cada router intermedio ."
       },
       {
         "pregunta": "¿Qué comando de Cisco mostrará el estado del buffer en un router?",
@@ -220,7 +220,7 @@ export class TestCompletoDyGComponent {
           "show environment"
         ],
         "correcta": "show buffers",
-        "explicacion": "El comando show buffers lista el uso y estado de los buffers en IOS :contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}."
+        "explicacion": "El comando show buffers lista el uso y estado de los buffers en IOS :contentReference."
       },
       {
         "pregunta": "¿Qué porcentaje de CRC errors es aceptable según valores deseables?",
@@ -231,7 +231,7 @@ export class TestCompletoDyGComponent {
           "Cualquier cantidad es tolerable"
         ],
         "correcta": "No más de 1 por Mbyte",
-        "explicacion": "Los errores de CRC no deben exceder 1 por Mbyte para garantizar calidad de enlace :contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}."
+        "explicacion": "Los errores de CRC no deben exceder 1 por Mbyte para garantizar calidad de enlace."
       },
       {
         "pregunta": "¿Cuál de las siguientes topologías NO se menciona como opción en SDH?",
@@ -242,7 +242,7 @@ export class TestCompletoDyGComponent {
           "Árbol"
         ],
         "correcta": "Malla",
-        "explicacion": "SDH usa preferentemente topología en anillo para alta fiabilidad; estrella y árbol no se usan y malla tampoco se menciona :contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}."
+        "explicacion": "SDH usa preferentemente topología en anillo para alta fiabilidad; estrella y árbol no se usan y malla tampoco se menciona"
       },
       {
         "pregunta": "¿Qué tecnología agrupa enlaces Ethernet para aumentar ancho de banda?",
@@ -253,7 +253,7 @@ export class TestCompletoDyGComponent {
           "HSRP"
         ],
         "correcta": "EtherChannel",
-        "explicacion": "EtherChannel permite el agrupamiento de varios enlaces físicos en uno lógico :contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}."
+        "explicacion": "EtherChannel permite el agrupamiento de varios enlaces físicos en uno lógico"
       },
       {
         "pregunta": "¿Cuál es la función principal de un switch en el contexto de tráfico broadcast?",
@@ -264,7 +264,7 @@ export class TestCompletoDyGComponent {
           "Convertir broadcasts en unicast"
         ],
         "correcta": "Aislar el tráfico broadcast en dominios VLAN",
-        "explicacion": "Los switches segmentan dominios de broadcast por VLAN, limitando su alcance :contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "explicacion": "Los switches segmentan dominios de broadcast por VLAN, limitando su alcance"
       },
       {
         "pregunta": "¿Qué tipo de flujo de tráfico corresponde a VoIP?",
@@ -275,7 +275,7 @@ export class TestCompletoDyGComponent {
           "Server/Server"
         ],
         "correcta": "Peer-to-Peer",
-        "explicacion": "La transmisión de voz digital en VoIP es esencialmente un flujo Peer-to-Peer :contentReference[oaicite:44]{index=44}:contentReference[oaicite:45]{index=45}."
+        "explicacion": "La transmisión de voz digital en VoIP es esencialmente un flujo Peer-to-Peer"
       },
       {
         "pregunta": "¿Cuál de estas NO es una fase del ciclo de vida del diseño de redes?",
@@ -286,7 +286,7 @@ export class TestCompletoDyGComponent {
           "Desplegar firmware"
         ],
         "correcta": "Desplegar firmware",
-        "explicacion": "Las fases son análisis de requisitos, diseño lógico, físico, prueba/documentación e implementación; desplegar firmware no es fase :contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}."
+        "explicacion": "Las fases son análisis de requisitos, diseño lógico, físico, prueba/documentación e implementación; desplegar firmware no es fase "
       },
       {
         "pregunta": "¿Qué es la adaptabilidad en metas técnicas?",
@@ -297,7 +297,7 @@ export class TestCompletoDyGComponent {
           "Nivel de seguridad integrado"
         ],
         "correcta": "Flexibilidad para cambios futuros",
-        "explicacion": "Adaptabilidad es la habilidad de un diseño para ajustarse a nuevos protocolos y requerimientos :contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}."
+        "explicacion": "Adaptabilidad es la habilidad de un diseño para ajustarse a nuevos protocolos y requerimientos "
       },
       {
         "pregunta": "¿Cuál es el efecto de aumentar demasiado el tamaño de los paquetes?",
@@ -308,7 +308,7 @@ export class TestCompletoDyGComponent {
           "Disminuye el retardo de propagación"
         ],
         "correcta": "Aumenta la pérdida de datos si se corrompen",
-        "explicacion": "Paquetes muy grandes desperdician más datos si se dañan, aunque mejoran eficiencia :contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "explicacion": "Paquetes muy grandes desperdician más datos si se dañan, aunque mejoran eficiencia "
       },
       {
         "pregunta": "¿Qué herramienta se menciona para monitorización de servicios?",
@@ -319,7 +319,7 @@ export class TestCompletoDyGComponent {
           "NetFlow"
         ],
         "correcta": "Nagios",
-        "explicacion": "Nagios se usa para monitorizar servicios; Wireshark es analizador de protocolos :contentReference[oaicite:52]{index=52}:contentReference[oaicite:53]{index=53}."
+        "explicacion": "Nagios se usa para monitorizar servicios; Wireshark es analizador de protocolos"
       },
       {
         "pregunta": "¿Qué indica la fórmula Disponibilidad = MTBF / (MTBF + MTTR)?",
@@ -330,7 +330,7 @@ export class TestCompletoDyGComponent {
           "Tiempo de propagación de señal"
         ],
         "correcta": "Porcentaje de tiempo operativo",
-        "explicacion": "Esa fórmula calcula disponibilidad como proporción de tiempo operativo sobre total :contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}."
+        "explicacion": "Esa fórmula calcula disponibilidad como proporción de tiempo operativo sobre total"
       },
       {
         "pregunta": "¿Qué protocolo usa etiquetas para conmutación rápida?",
@@ -341,7 +341,7 @@ export class TestCompletoDyGComponent {
           "UDP"
         ],
         "correcta": "MPLS",
-        "explicacion": "MPLS asigna etiquetas únicas a flujos para switching rápido :contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}."
+        "explicacion": "MPLS asigna etiquetas únicas a flujos para switching rápido "
       },
       {
         "pregunta": "¿Qué aplicación requiere retardos bajos y poco jitter?",
@@ -352,7 +352,7 @@ export class TestCompletoDyGComponent {
           "Descarga de software"
         ],
         "correcta": "Voz y vídeo",
-        "explicacion": "Voz y vídeo no toleran variación de retardo y usan buffering para compensar jitter :contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}."
+        "explicacion": "Voz y vídeo no toleran variación de retardo y usan buffering para compensar jitter"
       },
       {
         "pregunta": "¿Qué aspecto del entorno físico NO es parte de restricciones de arquitectura?",
@@ -363,7 +363,7 @@ export class TestCompletoDyGComponent {
           "Protección EMI"
         ],
         "correcta": "Color de la pintura",
-        "explicacion": "Restricciones incluyen energía, aire acondicionado, ventilación, espacios y protección contra EMI, no color de paredes :contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}."
+        "explicacion": "Restricciones incluyen energía, aire acondicionado, ventilación, espacios y protección contra EMI, no color de paredes"
       },
       {
         "pregunta": "¿Qué identifica un router al caracterizar la red existente?",
@@ -374,7 +374,7 @@ export class TestCompletoDyGComponent {
           "Velocidad de ventiladores"
         ],
         "correcta": "Salud de interfaces y buffers",
-        "explicacion": "Para caracterizar la salud de la red se revisan show interfaces, show buffers y otros estados :contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}."
+        "explicacion": "Para caracterizar la salud de la red se revisan show interfaces, show buffers y otros estados"
       },
       {
         "pregunta": "¿Qué factor NO influye en la eficiencia de uso de la red?",
@@ -385,7 +385,7 @@ export class TestCompletoDyGComponent {
           "Tipo de fibronácea"
         ],
         "correcta": "Tipo de fibronácea",
-        "explicacion": "La fibra (fibronácea) no existe; MTU, ventanas y control de flujo sí afectan eficiencia :contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}."
+        "explicacion": "La fibra (fibronácea) no existe; MTU, ventanas y control de flujo sí afectan eficiencia"
       },
       {
         "pregunta": "¿Qué métrica describe la suma de datos listos para enviar en un instante?",
@@ -396,7 +396,7 @@ export class TestCompletoDyGComponent {
           "MTBF"
         ],
         "correcta": "Carga",
-        "explicacion": "La carga es la suma de todos los datos que los dispositivos tienen listos para enviar en un instante dado :contentReference[oaicite:66]{index=66}:contentReference[oaicite:67]{index=67}."
+        "explicacion": "La carga es la suma de todos los datos que los dispositivos tienen listos para enviar en un instante dado"
       },
       {
         "pregunta": "¿Cuál es la recomendación máxima de utilización media de un enlace durante ráfagas?",
@@ -407,7 +407,7 @@ export class TestCompletoDyGComponent {
           "90%"
         ],
         "correcta": "70%",
-        "explicacion": "Se recomienda que el uso medio no supere el 70% para permitir ráfagas :contentReference[oaicite:68]{index=68}:contentReference[oaicite:69]{index=69}."
+        "explicacion": "Se recomienda que el uso medio no supere el 70% para permitir ráfagas"
       },
       {
         "pregunta": "¿Qué proceso describe la fase 4 del diseño Top-Down?",
@@ -418,7 +418,7 @@ export class TestCompletoDyGComponent {
           "Caracterizar tráfico"
         ],
         "correcta": "Probar, optimizar y documentar",
-        "explicacion": "La fase 4 consiste en escribir y probar el diseño, construir piloto, optimizar y documentar :contentReference[oaicite:70]{index=70}:contentReference[oaicite:71]{index=71}."
+        "explicacion": "La fase 4 consiste en escribir y probar el diseño, construir piloto, optimizar y documentar"
       },
       {
         "pregunta": "¿Qué herramienta Cisco permite descubrir automáticamente dispositivos vecinos?",
@@ -429,7 +429,7 @@ export class TestCompletoDyGComponent {
           "RMON"
         ],
         "correcta": "CDP",
-        "explicacion": "Cisco Discovery Protocol (CDP) identifica dispositivos Cisco conectados :contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}."
+        "explicacion": "Cisco Discovery Protocol (CDP) identifica dispositivos Cisco conectados"
       },
       {
         "pregunta": "¿Qué unidad se usa normalmente para medir el caudal?",
@@ -440,7 +440,7 @@ export class TestCompletoDyGComponent {
           "Milisegundos"
         ],
         "correcta": "Bits por segundo",
-        "explicacion": "El caudal se mide comúnmente en bps, Bps o paquetes por segundo :contentReference[oaicite:74]{index=74}:contentReference[oaicite:75]{index=75}."
+        "explicacion": "El caudal se mide comúnmente en bps, Bps o paquetes por segundo "
       },
       {
         "pregunta": "¿Qué tipo de diseño se aplica para actualizar y añadir usuarios a una red existente?",
@@ -451,7 +451,7 @@ export class TestCompletoDyGComponent {
           "Diseño lógico"
         ],
         "correcta": "Diseño de expansión",
-        "explicacion": "El diseño de expansión aumenta capacidad o añade usuarios a una red existente :contentReference[oaicite:76]{index=76}:contentReference[oaicite:77]{index=77}."
+        "explicacion": "El diseño de expansión aumenta capacidad o añade usuarios a una red existente"
       },
       {
         "pregunta": "¿Cuál es la métrica que relaciona MTBF y MTTR?",
@@ -462,7 +462,7 @@ export class TestCompletoDyGComponent {
           "Carga"
         ],
         "correcta": "Disponibilidad",
-        "explicacion": "Disponibilidad = MTBF / (MTBF + MTTR) muestra proporción de tiempo operativo :contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}."
+        "explicacion": "Disponibilidad = MTBF / (MTBF + MTTR) muestra proporción de tiempo operativo "
       },
       {
         "pregunta": "¿Qué topología física se debe mapear al caracterizar la red existente?",
@@ -473,7 +473,7 @@ export class TestCompletoDyGComponent {
           "Sólo VLANs"
         ],
         "correcta": "Lógica y física",
-        "explicacion": "Se caracteriza tanto la estructura lógica como la física de la red existente :contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}."
+        "explicacion": "Se caracteriza tanto la estructura lógica como la física de la red existente "
       },
       {
         "pregunta": "¿Qué instrumento mide y grafica tráfico SNMP?",
@@ -484,7 +484,7 @@ export class TestCompletoDyGComponent {
           "Traceroute"
         ],
         "correcta": "MRTG",
-        "explicacion": "Multi Router Traffic Grapher (MRTG) usa SNMP para graficar tráfico de red :contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}."
+        "explicacion": "Multi Router Traffic Grapher (MRTG) usa SNMP para graficar tráfico de red"
       },
       {
         "pregunta": "¿Cuál es el propósito de caracterizar el tráfico broadcast/multicast?",
@@ -495,7 +495,7 @@ export class TestCompletoDyGComponent {
           "Reducir longitud de onda"
         ],
         "correcta": "Evaluar impacto en CPU y ancho de banda",
-        "explicacion": "Broadcasts ocupan tiempo de CPU en hosts no destino y multicasts requieren protocolos especiales :contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}."
+        "explicacion": "Broadcasts ocupan tiempo de CPU en hosts no destino y multicasts requieren protocolos especiales "
       },
       {
         "pregunta": "¿Qué factor de diseño TOP-DOWN ayuda a balancear costo y rendimiento?",
@@ -506,7 +506,7 @@ export class TestCompletoDyGComponent {
           "Facilidad de uso"
         ],
         "correcta": "Ajuste al presupuesto",
-        "explicacion": "El ajuste al presupuesto busca transportar más tráfico al menor coste financiero :contentReference[oaicite:86]{index=86}:contentReference[oaicite:87]{index=87}."
+        "explicacion": "El ajuste al presupuesto busca transportar más tráfico al menor coste financiero "
       },
       {
         "pregunta": "¿En qué consiste el diseño estructurado en redes?",
@@ -517,7 +517,7 @@ export class TestCompletoDyGComponent {
           "Foco en topología física"
         ],
         "correcta": "Foco en flujos, tipos de datos y procesos",
-        "explicacion": "El diseño estructurado entiende flujos de datos, procesos y ubicación de usuarios antes del diseño físico :contentReference[oaicite:88]{index=88}:contentReference[oaicite:89]{index=89}."
+        "explicacion": "El diseño estructurado entiende flujos de datos, procesos y ubicación de usuarios antes del diseño físico "
       },
       {
         "pregunta": "¿Qué elemento NO forma parte del análisis de la red existente?",
@@ -528,7 +528,7 @@ export class TestCompletoDyGComponent {
           "Estado de equipos"
         ],
         "correcta": "Tipo de aplicación usada",
-        "explicacion": "El análisis de infraestructura incluye topología, direcciones, cableado, ambiente y salud; aplicaciones se usan en tráfico :contentReference[oaicite:90]{index=90}:contentReference[oaicite:91]{index=91}."
+        "explicacion": "El análisis de infraestructura incluye topología, direcciones, cableado, ambiente y salud; aplicaciones se usan en tráfico"
       },
       {
         "pregunta": "¿Qué tipo de flujo es típico de LDAP entre servidores?",
@@ -539,7 +539,7 @@ export class TestCompletoDyGComponent {
           "Thin Client"
         ],
         "correcta": "Server/Server",
-        "explicacion": "LDAP entre servidores es un flujo Server/Server simétrico y bidireccional :contentReference[oaicite:92]{index=92}:contentReference[oaicite:93]{index=93}."
+        "explicacion": "LDAP entre servidores es un flujo Server/Server simétrico y bidireccional"
       },
       {
         "pregunta": "¿Cuál es la característica de los flujos Thin Client?",
@@ -550,7 +550,7 @@ export class TestCompletoDyGComponent {
           "Requiere computación distribuida"
         ],
         "correcta": "Cliente muy simple y servidor hace la mayor carga",
-        "explicacion": "Thin Client se basa en que el cliente realiza pocas tareas y el servidor ejecuta las aplicaciones :contentReference[oaicite:94]{index=94}:contentReference[oaicite:95]{index=95}."
+        "explicacion": "Thin Client se basa en que el cliente realiza pocas tareas y el servidor ejecuta las aplicaciones"
       },
       {
         "pregunta": "¿Cuál de estos no es un tipo de flujo de tráfico descrito en el Tema 1?",
@@ -561,7 +561,7 @@ export class TestCompletoDyGComponent {
           "Token Ring"
         ],
         "correcta": "Token Ring",
-        "explicacion": "Token Ring es una tecnología de LAN, no un tipo de flujo de tráfico :contentReference[oaicite:96]{index=96}:contentReference[oaicite:97]{index=97}."
+        "explicacion": "Token Ring es una tecnología de LAN, no un tipo de flujo de tráfico"
       },
       {
         "pregunta": "¿Qué protocolo marca paquetes IP para servicios diferenciados?",
@@ -572,7 +572,7 @@ export class TestCompletoDyGComponent {
           "RMON"
         ],
         "correcta": "DSCP",
-        "explicacion": "El campo DSCP se usa para servicios diferenciados en routers según RFC 2475 :contentReference[oaicite:98]{index=98}:contentReference[oaicite:99]{index=99}."
+        "explicacion": "El campo DSCP se usa para servicios diferenciados en routers según RFC 2475"
       },
       {
         "pregunta": "¿Qué servicio IETF garantiza límites firmes de retardo por encolamiento?",
@@ -583,7 +583,7 @@ export class TestCompletoDyGComponent {
           "Delay Tolerant"
         ],
         "correcta": "Servicio garantizado",
-        "explicacion": "El servicio garantizado provee límites matemáticamente probables a retardos extremo a extremo :contentReference[oaicite:100]{index=100}:contentReference[oaicite:101]{index=101}."
+        "explicacion": "El servicio garantizado provee límites matemáticamente probables a retardos extremo a extremo"
       },
       {
         "pregunta": "¿Para qué sirve un Data Store en el análisis de tráfico?",
@@ -594,7 +594,7 @@ export class TestCompletoDyGComponent {
           "Configurar VLANs"
         ],
         "correcta": "Localizar servidores y NAS",
-        "explicacion": "Los almacenes de datos identifican dónde residen los datos accesados por comunidades de usuarios :contentReference[oaicite:102]{index=102}:contentReference[oaicite:103]{index=103}."
+        "explicacion": "Los almacenes de datos identifican dónde residen los datos accesados por comunidades de usuarios"
       },
       {
         "pregunta": "¿Qué tabla se crea para describir comunidades de usuarios?",
@@ -605,7 +605,7 @@ export class TestCompletoDyGComponent {
           "MTBF, MTTR, disponibilidad, costo"
         ],
         "correcta": "Nombre, tamaño, ubicación, aplicaciones",
-        "explicacion": "La tabla de comunidades incluye nombre, número de usuarios, ubicación y aplicaciones usadas :contentReference[oaicite:104]{index=104}:contentReference[oaicite:105]{index=105}."
+        "explicacion": "La tabla de comunidades incluye nombre, número de usuarios, ubicación y aplicaciones usadas"
       },
       {
         "pregunta": "¿Qué debe estimarse para cada flujo de tráfico fuente–destino?",
@@ -616,7 +616,7 @@ export class TestCompletoDyGComponent {
           "Topología física"
         ],
         "correcta": "Cantidad de datos por segundo",
-        "explicacion": "Para los flujos se mide o estima el tráfico necesario en MB/sec o Kbps por enlace :contentReference[oaicite:106]{index=106}:contentReference[oaicite:107]{index=107}."
+        "explicacion": "Para los flujos se mide o estima el tráfico necesario en MB/sec o Kbps por enlace"
       },
       {
         "pregunta": "¿Qué identifica una dirección MAC en el análisis de tráfico?",
@@ -627,7 +627,7 @@ export class TestCompletoDyGComponent {
           "Velocidad de enlace"
         ],
         "correcta": "Fuente y destino de nivel de enlace",
-        "explicacion": "Las MAC señalan origen y destino al nivel de enlace para caracterizar flujos locales :contentReference[oaicite:108]{index=108}:contentReference[oaicite:109]{index=109}."
+        "explicacion": "Las MAC señalan origen y destino al nivel de enlace para caracterizar flujos locales"
       },
       {
         "pregunta": "¿Qué métrica no es parte de ‘salud de la red’?",
@@ -638,7 +638,7 @@ export class TestCompletoDyGComponent {
           "Número de switches físicos"
         ],
         "correcta": "Número de switches físicos",
-        "explicacion": "La salud se mide por rendimiento, disponibilidad, utilización, eficiencia y estado de equipo, no cantidad de switches :contentReference[oaicite:110]{index=110}:contentReference[oaicite:111]{index=111}."
+        "explicacion": "La salud se mide por rendimiento, disponibilidad, utilización, eficiencia y estado de equipo, no cantidad de switches."
       },
       {
         "pregunta": "¿Qué significa un bit LSB en la primera byte de la MAC destino igual a 1?",
@@ -649,7 +649,7 @@ export class TestCompletoDyGComponent {
           "Trama de control"
         ],
         "correcta": "Trama multicast",
-        "explicacion": "Si el LSB del primer byte de MAC destino es 1, indica dirección multicast :contentReference[oaicite:112]{index=112}:contentReference[oaicite:113]{index=113}."
+        "explicacion": "Si el LSB del primer byte de MAC destino es 1, indica dirección multicast"
       },
       {
         "pregunta": "¿Qué tabla describe almacenes de datos?",
@@ -660,7 +660,7 @@ export class TestCompletoDyGComponent {
           "Latencia, jitter, carga, eficiencia"
         ],
         "correcta": "Nombre, ubicación, aplicaciones, comunidades",
-        "explicacion": "La tabla de Data Stores incluye almacén de datos, ubicación, aplicaciones y comunidades que lo usan :contentReference[oaicite:114]{index=114}:contentReference[oaicite:115]{index=115}."
+        "explicacion": "La tabla de Data Stores incluye almacén de datos, ubicación, aplicaciones y comunidades que lo usan"
       },
       {
         "pregunta": "¿Qué factor determina la separación mínima de canales en una red DWDM?",
@@ -671,7 +671,7 @@ export class TestCompletoDyGComponent {
           "Grosor del cable",
         ],
         "correcta": "Longitud de onda central y espaciado espectral",
-        "explicacion": "En DWDM la separación entre canales viene determinada por la longitud de onda central y el espaciado espectral para evitar interferencias entre señales :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "En DWDM la separación entre canales viene determinada por la longitud de onda central y el espaciado espectral para evitar interferencias entre señales"
       },
       {
         "pregunta": "En CWDM, ¿qué longitud de onda NO se utiliza típicamente según el estándar ITU-G.694.2?",
@@ -682,7 +682,7 @@ export class TestCompletoDyGComponent {
           "1550 nm"
         ],
         "correcta": "1490 nm",
-        "explicacion": "El estándar CWDM define canales cada 20 nm empezando en 1270 nm; 1490 nm no figura como canal asignado :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "El estándar CWDM define canales cada 20 nm empezando en 1270 nm; 1490 nm no figura como canal asignado"
       },
       {
         "pregunta": "¿Cuál es la función principal de un DAS (Distributed Antenna System) en un centro de datos?",
@@ -693,7 +693,7 @@ export class TestCompletoDyGComponent {
           "Monitorizar el consumo energético"
         ],
         "correcta": "Mejorar la cobertura y señal inalámbrica en interiores",
-        "explicacion": "Un DAS distribuye señales de radio para garantizar cobertura móvil o Wi-Fi en zonas con barreras físicas :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "Un DAS distribuye señales de radio para garantizar cobertura móvil o Wi-Fi en zonas con barreras físicas ."
       },
       {
         "pregunta": "El porcentaje de paquetes descartados (PDR) en un router se calcula como:",
@@ -704,7 +704,7 @@ export class TestCompletoDyGComponent {
           "Paquetes recibidos ÷ Paquetes descartados × 100%"
         ],
         "correcta": "Paquetes descartados ÷ Paquetes recibidos × 100%",
-        "explicacion": "El PDR mide la proporción de paquetes que el router descarta en relación con los que recibe :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "El PDR mide la proporción de paquetes que el router descarta en relación con los que recibe."
       },
       {
         "pregunta": "¿Qué significa que un dispositivo soporte Hot Swap?",
@@ -715,7 +715,7 @@ export class TestCompletoDyGComponent {
           "Incluye fuentes de alimentación redundantes"
         ],
         "correcta": "Soporta inserción y extracción en caliente sin apagar",
-        "explicacion": "Hot Swap permite sustituir componentes (discos, fuentes) sin interrumpir la operación del sistema :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "Hot Swap permite sustituir componentes (discos, fuentes) sin interrumpir la operación del sistema."
       },
       {
         "pregunta": "En HSRP, ¿qué mensaje se envía periódicamente para informar del estado del router activo?",
@@ -726,7 +726,7 @@ export class TestCompletoDyGComponent {
           "State"
         ],
         "correcta": "Hello",
-        "explicacion": "Los routers HSRP intercambian mensajes Hello para anunciarse como activos o en espera :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "Los routers HSRP intercambian mensajes Hello para anunciarse como activos o en espera."
       },
       {
         "pregunta": "¿Qué parámetro de HSRP define el router preferido como maestro?",
@@ -737,7 +737,7 @@ export class TestCompletoDyGComponent {
           "IP virtual"
         ],
         "correcta": "Prioridad",
-        "explicacion": "El router con mayor prioridad es elegido activo; la prioridad por defecto es 100 :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "El router con mayor prioridad es elegido activo; la prioridad por defecto es 100."
       },
       {
         "pregunta": "Al fallar el router activo en HSRP, ¿qué métrica determina la rapidez de la conmutación al standby?",
@@ -748,7 +748,7 @@ export class TestCompletoDyGComponent {
           "Goodput"
         ],
         "correcta": "Hold time",
-        "explicacion": "El Hold time (3×Hello by defecto) define el tiempo que espera un standby antes de asumir el rol activo tras no recibir Hellos :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "El Hold time (3×Hello by defecto) define el tiempo que espera un standby antes de asumir el rol activo tras no recibir Hellos."
       }
     ],
     "Tema 2": [
@@ -761,7 +761,7 @@ export class TestCompletoDyGComponent {
           "Evita la segmentación de VLANs"
         ],
         "correcta": "Limita los dominios de broadcast y mejora la escalabilidad",
-        "explicacion": "El modelo jerárquico reduce la carga en dispositivos al limitar dominios de broadcast y facilita el escalado de la red mediante capas claramente definidas :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "El modelo jerárquico reduce la carga en dispositivos al limitar dominios de broadcast y facilita el escalado de la red mediante capas claramente definidas."
       },
       {
         "pregunta": "¿En qué orden se diseñan las capas en un enfoque jerárquico de campus?",
@@ -772,7 +772,7 @@ export class TestCompletoDyGComponent {
           "Acceso, núcleo, distribución"
         ],
         "correcta": "Acceso, distribución, núcleo",
-        "explicacion": "Se recomienda primero diseñar la capa de acceso, luego la distribución y, por último, el núcleo para mantener modularidad y simplicidad :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "Se recomienda primero diseñar la capa de acceso, luego la distribución y, por último, el núcleo para mantener modularidad y simplicidad."
       },
       {
         "pregunta": "¿Qué topología de red es adecuada para una pequeña oficina sin necesidad de jerarquía?",
@@ -783,7 +783,7 @@ export class TestCompletoDyGComponent {
           "Anillo redundante"
         ],
         "correcta": "Red plana (flat)",
-        "explicacion": "Una red plana es fácil de diseñar e implementar para redes pequeñas que no requieren jerarquía :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "Una red plana es fácil de diseñar e implementar para redes pequeñas que no requieren jerarquía."
       },
       {
         "pregunta": "¿Cómo se calcula el número de enlaces en una malla completa de N nodos?",
@@ -794,7 +794,7 @@ export class TestCompletoDyGComponent {
           "2 × N"
         ],
         "correcta": "N × (N – 1) / 2",
-        "explicacion": "La fórmula para enlaces en malla completa es N × (N – 1) / 2, pues cada par de nodos se conecta directamente :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "La fórmula para enlaces en malla completa es N × (N – 1) / 2, pues cada par de nodos se conecta directamente."
       },
       {
         "pregunta": "¿Qué es una “chain” en diseño de red jerárquico?",
@@ -805,7 +805,7 @@ export class TestCompletoDyGComponent {
           "Un túnel VPN para multihoming"
         ],
         "correcta": "Una conexión que agrega una capa adicional no deseada",
-        "explicacion": "Una “chain” ocurre cuando se conecta una sucursal a otra, creando una cuarta capa y rompiendo la jerarquía :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "Una “chain” ocurre cuando se conecta una sucursal a otra, creando una cuarta capa y rompiendo la jerarquía."
       },
       {
         "pregunta": "¿Qué protocolo se usa para evitar bucles en topologías de LAN redundantes?",
@@ -816,7 +816,7 @@ export class TestCompletoDyGComponent {
           "VRRP"
         ],
         "correcta": "STP",
-        "explicacion": "El Spanning Tree Protocol (IEEE 802.1d) bloquea enlaces redundantes para eliminar bucles en redes conmutadas :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "El Spanning Tree Protocol (IEEE 802.1d) bloquea enlaces redundantes para eliminar bucles en redes conmutadas."
       },
       {
         "pregunta": "¿Cuál es el propósito de STP Loop Guard?",
@@ -827,7 +827,7 @@ export class TestCompletoDyGComponent {
           "Encapsular VLANs en tramas IEEE 802.1Q"
         ],
         "correcta": "Detectar enlaces unidireccionales y prevenir bucles",
-        "explicacion": "Loop Guard detecta inconsistencias en BPDU para evitar que un puerto bloqueado pase a forwarding y cause bucles :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "Loop Guard detecta inconsistencias en BPDU para evitar que un puerto bloqueado pase a forwarding y cause bucles."
       },
       {
         "pregunta": "¿Qué característica ofrece Rapid Spanning Tree (IEEE 802.1w)?",
@@ -838,7 +838,7 @@ export class TestCompletoDyGComponent {
           "Encaminamiento IP multicast"
         ],
         "correcta": "Reconfiguración más rápida del árbol de spanning",
-        "explicacion": "Rapid STP reduce los tiempos de convergencia al usar mensajes BPDUs acelerados para cambios en la topología :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "Rapid STP reduce los tiempos de convergencia al usar mensajes BPDUs acelerados para cambios en la topología."
       },
       {
         "pregunta": "¿Cuál es la función principal de la capa de distribución en un campus?",
@@ -849,7 +849,7 @@ export class TestCompletoDyGComponent {
           "Configurar VLANs en usuarios inalámbricos"
         ],
         "correcta": "Interconectar edificios y aplicar políticas",
-        "explicacion": "La capa de distribución agrupa cableado, enruta entre VLANs y aplica QoS y seguridad entre acceso y núcleo :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+        "explicacion": "La capa de distribución agrupa cableado, enruta entre VLANs y aplica QoS y seguridad entre acceso y núcleo."
       },
       {
         "pregunta": "¿Qué módulo de campus contiene los armarios de cableado y enrutadores de borde?",
@@ -860,7 +860,7 @@ export class TestCompletoDyGComponent {
           "Módulo de servidor"
         ],
         "correcta": "Distribución del campus",
-        "explicacion": "El módulo de distribución agrupa armarios de cableado y enrutadores que conectan acceso con el núcleo del campus :contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}."
+        "explicacion": "El módulo de distribución agrupa armarios de cableado y enrutadores que conectan acceso con el núcleo del campus."
       },
       {
         "pregunta": "¿Qué topología WAN de campus emplea un hub central y ramas spoke?",
@@ -871,7 +871,7 @@ export class TestCompletoDyGComponent {
           "Flat loop"
         ],
         "correcta": "Hub-and-Spoke",
-        "explicacion": "El modelo Hub-and-Spoke conecta sucursales spoke a un hub central para simplicidad y control de tráfico :contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}."
+        "explicacion": "El modelo Hub-and-Spoke conecta sucursales spoke a un hub central para simplicidad y control de tráfico."
       },
       {
         "pregunta": "¿Cuál es la diferencia entre “backdoor” y “chain”?",
@@ -882,7 +882,7 @@ export class TestCompletoDyGComponent {
           "No hay diferencia significativa"
         ],
         "correcta": "Backdoor une dispositivos en la misma capa; chain añade capa extra",
-        "explicacion": "Una backdoor conecta dos dispositivos en la misma capa; una chain conecta sucursales para crear una capa adicional :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "explicacion": "Una backdoor conecta dos dispositivos en la misma capa; una chain conecta sucursales para crear una capa adicional."
       },
       {
         "pregunta": "¿Qué módulo de campus incluye el clúster de servidores de aplicaciones?",
@@ -893,7 +893,7 @@ export class TestCompletoDyGComponent {
           "Módulo inalámbrico"
         ],
         "correcta": "Núcleo del campus",
-        "explicacion": "El núcleo del campus interconecta acceso, distribución y servicios como clústeres de servidores y gestión de red :contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}."
+        "explicacion": "El núcleo del campus interconecta acceso, distribución y servicios como clústeres de servidores y gestión de red."
       },
       {
         "pregunta": "¿Cuál es la máxima recomendación de switches en un dominio STP antes de usar Rapid STP?",
@@ -904,7 +904,7 @@ export class TestCompletoDyGComponent {
           "9 switches"
         ],
         "correcta": "7 switches",
-        "explicacion": "Se recomienda no expandir más de siete switches en un dominio STP para evitar problemas de convergencia :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}."
+        "explicacion": "Se recomienda no expandir más de siete switches en un dominio STP para evitar problemas de convergencia."
       },
       {
         "pregunta": "¿Qué protocolo propietary de Cisco marca tramas VLAN en troncal?",
@@ -915,7 +915,7 @@ export class TestCompletoDyGComponent {
           "LACP"
         ],
         "correcta": "ISL",
-        "explicacion": "Inter-Switch Link (ISL) es el protocolo propietario de Cisco para etiquetar tramas VLAN en enlaces troncales :contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+        "explicacion": "Inter-Switch Link (ISL) es el protocolo propietario de Cisco para etiquetar tramas VLAN en enlaces troncales ."
       },
       {
         "pregunta": "¿Para qué se usa VTP en redes conmutadas?",
@@ -926,7 +926,7 @@ export class TestCompletoDyGComponent {
           "Conmutación multicapas"
         ],
         "correcta": "Sincronizar información de VLANs entre switches",
-        "explicacion": "VLAN Trunk Protocol distribuye y sincroniza configuraciones de VLANs automáticamente entre switches :contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}."
+        "explicacion": "VLAN Trunk Protocol distribuye y sincroniza configuraciones de VLANs automáticamente entre switches."
       },
       {
         "pregunta": "¿Qué se logra al segmentar la red con VLANs?",
@@ -937,7 +937,7 @@ export class TestCompletoDyGComponent {
           "Reducir velocidad de CPU en switches"
         ],
         "correcta": "Reducir dominios de broadcast y aumentar seguridad",
-        "explicacion": "Las VLANs permiten agrupar usuarios lógicamente, limitando broadcasts y mejorando la seguridad interna :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}."
+        "explicacion": "Las VLANs permiten agrupar usuarios lógicamente, limitando broadcasts y mejorando la seguridad interna."
       },
       {
         "pregunta": "¿Qué ventaja aporta una WLAN implementada como VLAN?",
@@ -948,7 +948,7 @@ export class TestCompletoDyGComponent {
           "Elimina necesidad de autenticación"
         ],
         "correcta": "Facilita roaming sin cambiar subred IP",
-        "explicacion": "Al mapear la WLAN a una VLAN, los usuarios pueden moverse entre APs sin cambiar su dirección IP ni provocar reautenticación :contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}."
+        "explicacion": "Al mapear la WLAN a una VLAN, los usuarios pueden moverse entre APs sin cambiar su dirección IP ni provocar reautenticación."
       },
       {
         "pregunta": "¿Cuál es el objetivo de un diseño modular y jerárquico de campus?",
@@ -959,7 +959,7 @@ export class TestCompletoDyGComponent {
           "Aumentar la latencia intencionadamente"
         ],
         "correcta": "Simplificar la administración y escalar localmente",
-        "explicacion": "La modularidad permite aislar cambios, facilitar la administración y escalar el campus de forma incremental :contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}."
+        "explicacion": "La modularidad permite aislar cambios, facilitar la administración y escalar el campus de forma incremental."
       },
       {
         "pregunta": "¿Qué protocolo de redundancia de routers usa prioridad y mensajes Hello?",
@@ -970,7 +970,7 @@ export class TestCompletoDyGComponent {
           "LACP"
         ],
         "correcta": "HSRP",
-        "explicacion": "HSRP utiliza mensajes Hello y un valor de prioridad para elegir el router activo y garantizar failover :contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}."
+        "explicacion": "HSRP utiliza mensajes Hello y un valor de prioridad para elegir el router activo y garantizar failover."
       },
       {
         "pregunta": "¿Qué protocolo IETF estándar ofrece redundancia sin balanceo de carga?",
@@ -981,7 +981,7 @@ export class TestCompletoDyGComponent {
           "LACP"
         ],
         "correcta": "VRRP",
-        "explicacion": "VRRP es el estándar IETF que proporciona redundancia de gateway comparado con HSRP propietario de Cisco :contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}."
+        "explicacion": "VRRP es el estándar IETF que proporciona redundancia de gateway comparado con HSRP propietario de Cisco."
       },
       {
         "pregunta": "¿Qué protocolo Cisco combina redundancia con balanceo de carga?",
@@ -992,7 +992,7 @@ export class TestCompletoDyGComponent {
           "STP"
         ],
         "correcta": "GLBP",
-        "explicacion": "Gateway Load Balancing Protocol ofrece tanto redundancia como balanceo de tráfico entre múltiples gateways :contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "explicacion": "Gateway Load Balancing Protocol ofrece tanto redundancia como balanceo de tráfico entre múltiples gateways."
       },
       {
         "pregunta": "¿Qué aspecto NO forma parte de un buen diseño jerárquico?",
@@ -1003,7 +1003,7 @@ export class TestCompletoDyGComponent {
           "Resolución de problemas sencilla"
         ],
         "correcta": "Interacciones de protocolos complejas",
-        "explicacion": "Un buen diseño evita interacciones de protocolos complejas para facilitar troubleshooting y cambios locales :contentReference[oaicite:44]{index=44}:contentReference[oaicite:45]{index=45}."
+        "explicacion": "Un buen diseño evita interacciones de protocolos complejas para facilitar troubleshooting y cambios locales "
       },
       {
         "pregunta": "¿Cuál es la principal consideración al añadir redundancia en LANs?",
@@ -1014,7 +1014,7 @@ export class TestCompletoDyGComponent {
           "Longitud de onda de fibra"
         ],
         "correcta": "Costo y requisitos de disponibilidad",
-        "explicacion": "La redundancia mejora disponibilidad pero incrementa costos; se debe ajustar al presupuesto y SLA del cliente :contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}."
+        "explicacion": "La redundancia mejora disponibilidad pero incrementa costos; se debe ajustar al presupuesto y SLA del cliente"
       },
       {
         "pregunta": "¿Qué rol tiene la DMZ en la seguridad de topologías?",
@@ -1025,7 +1025,7 @@ export class TestCompletoDyGComponent {
           "Balancear carga WAN"
         ],
         "correcta": "Aislar servidores públicos de la red interna",
-        "explicacion": "La DMZ sitúa servicios públicos (web, correo) entre firewalls para proteger la red de la organización :contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}."
+        "explicacion": "La DMZ sitúa servicios públicos (web, correo) entre firewalls para proteger la red de la organización"
       },
       {
         "pregunta": "¿Qué estrategia de multihoming en WAN conecta dos ISP simultáneamente?",
@@ -1036,7 +1036,7 @@ export class TestCompletoDyGComponent {
           "VLAN trunking"
         ],
         "correcta": "Multihoming activo-activo",
-        "explicacion": "El multihoming activo-activo usa dos conexiones ISP para redundancia y balanceo de tráfico de Internet :contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "explicacion": "El multihoming activo-activo usa dos conexiones ISP para redundancia y balanceo de tráfico de Internet."
       },
       {
         "pregunta": "¿Cuál es la diferencia principal entre VPN L2 y L3?",
@@ -1047,7 +1047,7 @@ export class TestCompletoDyGComponent {
           "No existe diferencia"
         ],
         "correcta": "L2 encapsula a nivel de enlace; L3 a nivel de red",
-        "explicacion": "VPN de capa 2 encapsula tramas (e.g. L2TP), mientras que capa 3 encapsula paquetes IP (e.g. IPsec) :contentReference[oaicite:52]{index=52}:contentReference[oaicite:53]{index=53}."
+        "explicacion": "VPN de capa 2 encapsula tramas (e.g. L2TP), mientras que capa 3 encapsula paquetes IP (e.g. IPsec)."
       },
       {
         "pregunta": "¿Qué topología VPN site-to-site es común en empresas globales?",
@@ -1058,7 +1058,7 @@ export class TestCompletoDyGComponent {
           "Backdoor"
         ],
         "correcta": "Malla",
-        "explicacion": "La VPN malla conecta oficinas globales directamente para optimizar rutas y redundancia :contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}."
+        "explicacion": "La VPN malla conecta oficinas globales directamente para optimizar rutas y redundancia."
       },
       {
         "pregunta": "¿Qué dispositivo implementa las políticas de firewall en la frontera WAN?",
@@ -1069,7 +1069,7 @@ export class TestCompletoDyGComponent {
           "Switch core"
         ],
         "correcta": "Firewall perimetral",
-        "explicacion": "El firewall perimetral entre Internet y DMZ aplica reglas de acceso y protege la red interna :contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}."
+        "explicacion": "El firewall perimetral entre Internet y DMZ aplica reglas de acceso y protege la red interna."
       },
       {
         "pregunta": "¿Qué módulo de campus aloja la gestión de red y servidores de monitoreo?",
@@ -1080,7 +1080,7 @@ export class TestCompletoDyGComponent {
           "Perímetro WAN"
         ],
         "correcta": "Núcleo",
-        "explicacion": "El núcleo del campus incluye módulos de gestión de red y acceso a centro de datos para monitoreo y control :contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}."
+        "explicacion": "El núcleo del campus incluye módulos de gestión de red y acceso a centro de datos para monitoreo y control."
       },
       {
         "pregunta": "¿Qué característica define una red bien modular?",
@@ -1091,7 +1091,7 @@ export class TestCompletoDyGComponent {
           "Una sola VLAN para todo"
         ],
         "correcta": "Impacto local al agregar nuevos elementos",
-        "explicacion": "Un diseño modular permite agregar enlaces, edificios o servicios con cambios limitados al módulo afectado :contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}."
+        "explicacion": "Un diseño modular permite agregar enlaces, edificios o servicios con cambios limitados al módulo afectado."
       },
       {
         "pregunta": "¿Cuál es el propósito de un backbone en campus?",
@@ -1102,7 +1102,7 @@ export class TestCompletoDyGComponent {
           "Almacenar configuraciones de switch"
         ],
         "correcta": "Interconectar módulos de distribución con baja latencia",
-        "explicacion": "El backbone del campus transporta tráfico entre módulos de distribución y centro de datos con alta velocidad y redundancia :contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}."
+        "explicacion": "El backbone del campus transporta tráfico entre módulos de distribución y centro de datos con alta velocidad y redundancia."
       },
       {
         "pregunta": "¿Qué función cumple LACP en agregación de enlaces?",
@@ -1113,7 +1113,7 @@ export class TestCompletoDyGComponent {
           "Proveer tunneling de VLANs"
         ],
         "correcta": "Negociar automáticamente un EtherChannel",
-        "explicacion": "LACP permite formar de forma dinámica un canal lógico a partir de múltiples enlaces físicos para mayor ancho de banda y redundancia :contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}."
+        "explicacion": "LACP permite formar de forma dinámica un canal lógico a partir de múltiples enlaces físicos para mayor ancho de banda y redundancia ."
       },
       {
         "pregunta": "¿Qué rol tienen los armarios de cableado en campus?",
@@ -1124,7 +1124,7 @@ export class TestCompletoDyGComponent {
           "Proveer VPN site-to-site"
         ],
         "correcta": "Organizar cables y equipos del módulo de acceso",
-        "explicacion": "Los armarios de cableado agrupan y facilitan el mantenimiento de cables y switches del módulo de acceso en cada edificio :contentReference[oaicite:66]{index=66}:contentReference[oaicite:67]{index=67}."
+        "explicacion": "Los armarios de cableado agrupan y facilitan el mantenimiento de cables y switches del módulo de acceso en cada edificio."
       },
       {
         "pregunta": "¿Qué protocolo transporta tramas VLAN entre switches de terceros?",
@@ -1135,7 +1135,7 @@ export class TestCompletoDyGComponent {
           "RIP"
         ],
         "correcta": "IEEE 802.1Q",
-        "explicacion": "802.1Q es el estándar abierto de marcado VLAN en troncal que funciona entre equipos de distintos fabricantes :contentReference[oaicite:68]{index=68}:contentReference[oaicite:69]{index=69}."
+        "explicacion": "802.1Q es el estándar abierto de marcado VLAN en troncal que funciona entre equipos de distintos fabricantes."
       },
       {
         "pregunta": "¿Qué práctica mejora resiliencia al diseñar acceso inalámbrico?",
@@ -1146,7 +1146,7 @@ export class TestCompletoDyGComponent {
           "Desactivar STP en ambientes inalámbricos"
         ],
         "correcta": "Mapear WLANs a VLANs y desplegar múltiples APs con solapamiento",
-        "explicacion": "Agrupar WLANs en VLANs y tener APs redundantes asegura roaming y disponibilidad inalámbrica :contentReference[oaicite:70]{index=70}:contentReference[oaicite:71]{index=71}."
+        "explicacion": "Agrupar WLANs en VLANs y tener APs redundantes asegura roaming y disponibilidad inalámbrica."
       },
       {
         "pregunta": "¿Qué indicador mide la rapidez de convergencia de STP?",
@@ -1157,7 +1157,7 @@ export class TestCompletoDyGComponent {
           "Anchura de banda del troncal"
         ],
         "correcta": "Tiempo hasta reenvío de puerto tras falla",
-        "explicacion": "La convergencia STP se mide por el tiempo que tarda un puerto bloqueado en pasar a forwarding luego de una falla :contentReference[oaicite:72]{index=72}:contentReference[oaicite:73]{index=73}."
+        "explicacion": "La convergencia STP se mide por el tiempo que tarda un puerto bloqueado en pasar a forwarding luego de una falla."
       },
       {
         "pregunta": "¿Qué estrategia de redundancia se usa para servidores DNS en redes grandes?",
@@ -1168,7 +1168,7 @@ export class TestCompletoDyGComponent {
           "Usar single point of failure"
         ],
         "correcta": "Implementarlos en alta disponibilidad en distribución o núcleo",
-        "explicacion": "En redes grandes, los servidores DNS se sitúan en distribución o núcleo con redundancia para asegurar resolución de nombres :contentReference[oaicite:74]{index=74}:contentReference[oaicite:75]{index=75}."
+        "explicacion": "En redes grandes, los servidores DNS se sitúan en distribución o núcleo con redundancia para asegurar resolución de nombres."
       },
       {
         "pregunta": "¿Cuál es la métrica OSPF predeterminada en un enlace Ethernet de 100 Mbps en Cisco?",
@@ -1179,7 +1179,7 @@ export class TestCompletoDyGComponent {
           "1000"
         ],
         "correcta": "1",
-        "explicacion": "En Cisco, el costo OSPF se calcula como 100 000 000 / ancho de banda; para 100 Mbps resulta en 1 :contentReference[oaicite:76]{index=76}:contentReference[oaicite:77]{index=77}."
+        "explicacion": "En Cisco, el costo OSPF se calcula como 100 000 000 / ancho de banda; para 100 Mbps resulta en 1"
       },
       {
         "pregunta": "¿Qué protocolo IGP usa inundación de LSAs para propagar cambios?",
@@ -1190,7 +1190,7 @@ export class TestCompletoDyGComponent {
           "BGP"
         ],
         "correcta": "OSPF",
-        "explicacion": "OSPF utiliza LSAs y flooding para actualizar la base de datos de estado de enlaces entre routers vecinos :contentReference[oaicite:78]{index=78}:contentReference[oaicite:79]{index=79}."
+        "explicacion": "OSPF utiliza LSAs y flooding para actualizar la base de datos de estado de enlaces entre routers vecinos."
       },
       {
         "pregunta": "¿Qué capa jerárquica debe evitar el filtrado de paquetes para no aumentar latencia?",
@@ -1201,7 +1201,7 @@ export class TestCompletoDyGComponent {
           "Capa de aplicación"
         ],
         "correcta": "Capa de núcleo",
-        "explicacion": "El núcleo debe transportar tráfico rápidamente sin aplicar filtros que incrementen la latencia :contentReference[oaicite:80]{index=80}:contentReference[oaicite:81]{index=81}."
+        "explicacion": "El núcleo debe transportar tráfico rápidamente sin aplicar filtros que incrementen la latencia ."
       },
       {
         "pregunta": "¿Cuál es la función de un ABR en OSPF?",
@@ -1212,7 +1212,7 @@ export class TestCompletoDyGComponent {
           "Aplicar políticas VRRP"
         ],
         "correcta": "Conectar un área OSPF con el backbone (área 0)",
-        "explicacion": "Los Routers de Borde de Área (ABR) interconectan áreas OSPF distintas con el área 0 para enrutar LSAs :contentReference[oaicite:82]{index=82}:contentReference[oaicite:83]{index=83}."
+        "explicacion": "Los Routers de Borde de Área (ABR) interconectan áreas OSPF distintas con el área 0 para enrutar LSAs."
       },
       {
         "pregunta": "¿Qué tipo de topología WAN ofrece rutas alternativas por fibra y satélite?",
@@ -1223,7 +1223,7 @@ export class TestCompletoDyGComponent {
           "Chain"
         ],
         "correcta": "Redundante multihoming",
-        "explicacion": "El multihoming con múltiples ISP y enlaces distintos (fibra y satélite) proporciona redundancia WAN :contentReference[oaicite:84]{index=84}:contentReference[oaicite:85]{index=85}."
+        "explicacion": "El multihoming con múltiples ISP y enlaces distintos (fibra y satélite) proporciona redundancia WAN ."
       },
       {
         "pregunta": "¿Qué concepto asegura que solo el tráfico deseado pase entre módulos en un campus?",
@@ -1234,7 +1234,7 @@ export class TestCompletoDyGComponent {
           "Flat topology"
         ],
         "correcta": "ACL en distribución",
-        "explicacion": "Las listas de control de acceso en la capa de distribución restringen el tráfico entre VLANs y comunidades de usuarios :contentReference[oaicite:86]{index=86}:contentReference[oaicite:87]{index=87}."
+        "explicacion": "Las listas de control de acceso en la capa de distribución restringen el tráfico entre VLANs y comunidades de usuarios."
       },
       {
         "pregunta": "¿Qué criterio no es esencial al diseñar la frontera WAN?",
@@ -1245,7 +1245,7 @@ export class TestCompletoDyGComponent {
           "Políticas de enrutamiento exterior"
         ],
         "correcta": "Selección de protocolos de switching",
-        "explicacion": "En la frontera WAN se priorizan multihoming, VPNs y políticas de enrutamiento BGP, no protocolos de switching de capa 2 :contentReference[oaicite:88]{index=88}:contentReference[oaicite:89]{index=89}."
+        "explicacion": "En la frontera WAN se priorizan multihoming, VPNs y políticas de enrutamiento BGP, no protocolos de switching de capa 2."
       }
     ],
     "Tema 3": [
@@ -1258,7 +1258,7 @@ export class TestCompletoDyGComponent {
           "Centralizado es inalámbrico; distribuido es cableado"
         ],
         "correcta": "Centralizado termina en un solo punto; distribuido en varios armarios",
-        "explicacion": "En campus centralizado todo el cable termina en un único área (p.ej. estrella), mientras que en distribuido hay múltiples puntos de terminación :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "En campus centralizado todo el cable termina en un único área (p.ej. estrella), mientras que en distribuido hay múltiples puntos de terminación."
       },
       {
         "pregunta": "¿Qué medio ofrece mayor inmunidad a interferencias electromagnéticas?",
@@ -1269,7 +1269,7 @@ export class TestCompletoDyGComponent {
           "Par trenzado STP"
         ],
         "correcta": "Fibra óptica",
-        "explicacion": "La fibra transmite luz en vidrio y no sufre EMI/RFI, a diferencia de los cables de cobre :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "La fibra transmite luz en vidrio y no sufre EMI/RFI, a diferencia de los cables de cobre."
       },
       {
         "pregunta": "¿Qué categoría UTP es recomendable usar en el nivel de acceso pensando en futuro?",
@@ -1280,7 +1280,7 @@ export class TestCompletoDyGComponent {
           "Categoría 2"
         ],
         "correcta": "Categoría 5e",
-        "explicacion": "Se sugiere Cat 5e en acceso para soportar Gigabit Ethernet sin cambiar cableado :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "Se sugiere Cat 5e en acceso para soportar Gigabit Ethernet sin cambiar cableado."
       },
       {
         "pregunta": "¿Qué distancia máxima se alcanza típicamente con fibra multimodo a 10 Gbps?",
@@ -1291,7 +1291,7 @@ export class TestCompletoDyGComponent {
           "100 km"
         ],
         "correcta": "300 m",
-        "explicacion": "La fibra multimodo tiene alcance de unos 300 m a 10 Gbps debido a dispersión modal :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "La fibra multimodo tiene alcance de unos 300 m a 10 Gbps debido a dispersión modal."
       },
       {
         "pregunta": "¿Cuál es la función de un ADM en una red SONET/SDH?",
@@ -1302,7 +1302,7 @@ export class TestCompletoDyGComponent {
           "Analizar tráfico Ethernet"
         ],
         "correcta": "Multiplexar y añadir/quitar tramas en anillos",
-        "explicacion": "Los Add-Drop Multiplexors insertan o extraen tramas de niveles inferiores en un anillo SDH/SONET :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "Los Add-Drop Multiplexors insertan o extraen tramas de niveles inferiores en un anillo SDH/SONET ."
       },
       {
         "pregunta": "¿Qué caudal base define SDH en STM-1?",
@@ -1313,7 +1313,7 @@ export class TestCompletoDyGComponent {
           "2,048 Mb/s"
         ],
         "correcta": "155,52 Mb/s",
-        "explicacion": "STM-1 de SDH tiene un caudal de 155,52 Mb/s, triple del STS-1 de SONET :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "STM-1 de SDH tiene un caudal de 155,52 Mb/s, triple del STS-1 de SONET."
       },
       {
         "pregunta": "¿Por qué SONET utiliza múltiplos de 51,84 Mb/s?",
@@ -1324,7 +1324,7 @@ export class TestCompletoDyGComponent {
           "Para segmentación ATM"
         ],
         "correcta": "Para compatibilidad con SDH",
-        "explicacion": "Los niveles STS-n de SONET son n×51,84 Mb/s para alinearse con los STM-m de SDH :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "Los niveles STS-n de SONET son n×51,84 Mb/s para alinearse con los STM-m de SDH."
       },
       {
         "pregunta": "¿Qué ventaja aporta POS sobre ATM en redes SONET/SDH?",
@@ -1335,7 +1335,7 @@ export class TestCompletoDyGComponent {
           "Conmutación basada en VPI/VCI"
         ],
         "correcta": "Menor overhead y uso de PPP",
-        "explicacion": "Packet Over SONET reduce equipamiento y overhead al usar PPP punto a punto :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "Packet Over SONET reduce equipamiento y overhead al usar PPP punto a punto ."
       },
       {
         "pregunta": "¿Cuál es un inconveniente de usar Ethernet nativa en MAN/WAN?",
@@ -1346,7 +1346,7 @@ export class TestCompletoDyGComponent {
           "No soporta VLANs"
         ],
         "correcta": "Falta de mecanismos de QoS y recuperación rápida",
-        "explicacion": "Ethernet en la MAN carece de garantía de caudal, QoS y recuperación de fallos al nivel de anillo SDH :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+        "explicacion": "Ethernet en la MAN carece de garantía de caudal, QoS y recuperación de fallos al nivel de anillo SDH ."
       },
       {
         "pregunta": "¿Qué estándar añade un segundo identificador VLAN (Q-in-Q)?",
@@ -1357,7 +1357,7 @@ export class TestCompletoDyGComponent {
           "802.3ad"
         ],
         "correcta": "802.1ad",
-        "explicacion": "802.1ad (Provider Bridges) introduce el S-VID para túneles Q-in-Q :contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}."
+        "explicacion": "802.1ad (Provider Bridges) introduce el S-VID para túneles Q-in-Q."
       },
       {
         "pregunta": "¿Qué tecnología WDM ofrece separación de 20 nm y bajo coste?",
@@ -1368,7 +1368,7 @@ export class TestCompletoDyGComponent {
           "PDH"
         ],
         "correcta": "CWDM",
-        "explicacion": "CWDM usa espaciado de 20 nm y es más económico para distancias cortas (< 60 km) :contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}."
+        "explicacion": "CWDM usa espaciado de 20 nm y es más económico para distancias cortas (< 60 km)."
       },
       {
         "pregunta": "¿Cuál es la ventana de longitudes de onda típica de DWDM?",
@@ -1379,7 +1379,7 @@ export class TestCompletoDyGComponent {
           "1310 nm"
         ],
         "correcta": "1530–1625 nm",
-        "explicacion": "DWDM opera en la tercera banda óptica, entre 1530 y 1625 nm :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "explicacion": "DWDM opera en la tercera banda óptica, entre 1530 y 1625 nm."
       },
       {
         "pregunta": "¿Qué componente permite crear lightpaths en GMPLS?",
@@ -1390,7 +1390,7 @@ export class TestCompletoDyGComponent {
           "Switch MPLS"
         ],
         "correcta": "Multiplexor óptico",
-        "explicacion": "GMPLS usa señalización para establecer rutas (lambdas) a través de multiplexores ópticos :contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}."
+        "explicacion": "GMPLS usa señalización para establecer rutas (lambdas) a través de multiplexores ópticos."
       },
       {
         "pregunta": "¿Qué overhead añade OTN para corrección de errores?",
@@ -1401,7 +1401,7 @@ export class TestCompletoDyGComponent {
           "20 %"
         ],
         "correcta": "6,5 %",
-        "explicacion": "OTN introduce FEC Reed-Solomon con 6,5 % de overhead para mejorar alcance y fiabilidad :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}."
+        "explicacion": "OTN introduce FEC Reed-Solomon con 6,5 % de overhead para mejorar alcance y fiabilidad."
       },
       {
         "pregunta": "¿Qué significa EDFA en WDM?",
@@ -1412,7 +1412,7 @@ export class TestCompletoDyGComponent {
           "Ethernet DWDM Frame Adapter"
         ],
         "correcta": "Erbium-Doped Fiber Amplifier",
-        "explicacion": "Los amplificadores EDFA dopados con erbio permiten reforzar señales ópticas en DWDM :contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+        "explicacion": "Los amplificadores EDFA dopados con erbio permiten reforzar señales ópticas en DWDM."
       },
       {
         "pregunta": "¿Qué estándar define hasta 4096 VLANs?",
@@ -1423,7 +1423,7 @@ export class TestCompletoDyGComponent {
           "802.3-2012"
         ],
         "correcta": "802.1Q-1998",
-        "explicacion": "802.1Q reserva 12 bits para VLAN ID, permitiendo hasta 4096 VLANs :contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}."
+        "explicacion": "802.1Q reserva 12 bits para VLAN ID, permitiendo hasta 4096 VLANs."
       },
       {
         "pregunta": "¿Qué ventaja tienen los jumbo frames en Ethernet?",
@@ -1434,7 +1434,7 @@ export class TestCompletoDyGComponent {
           "Uso obligatorio en MAN"
         ],
         "correcta": "Menor overhead CPU por trama",
-        "explicacion": "Tramas de hasta 9000 bytes reducen número de interrupciones y carga CPU :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}."
+        "explicacion": "Tramas de hasta 9000 bytes reducen número de interrupciones y carga CPU."
       },
       {
         "pregunta": "¿Qué tecnología WAN usa VPI/VCI para conmutación rápida?",
@@ -1445,7 +1445,7 @@ export class TestCompletoDyGComponent {
           "POS"
         ],
         "correcta": "ATM",
-        "explicacion": "ATM conmutación celular usa identificadores VPI/VCI para switching rápido :contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}."
+        "explicacion": "ATM conmutación celular usa identificadores VPI/VCI para switching rápido."
       },
       {
         "pregunta": "¿Qué FEC se utiliza en OTN para corregir errores?",
@@ -1456,7 +1456,7 @@ export class TestCompletoDyGComponent {
           "CRC32"
         ],
         "correcta": "Reed-Solomon",
-        "explicacion": "OTN incorpora códigos Reed-Solomon en su overhead para corrección de errores :contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}."
+        "explicacion": "OTN incorpora códigos Reed-Solomon en su overhead para corrección de errores."
       },
       {
         "pregunta": "¿Cuál de estos NO es un criterio para selección de switches campus?",
@@ -1467,7 +1467,7 @@ export class TestCompletoDyGComponent {
           "Longitud de onda de fibra"
         ],
         "correcta": "Longitud de onda de fibra",
-        "explicacion": "La longitud de onda aplica al medio; los switches se evalúan por puertos, caudal, reliabilidad y gestión :contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}."
+        "explicacion": "La longitud de onda aplica al medio; los switches se evalúan por puertos, caudal, reliabilidad y gestión."
       },
       {
         "pregunta": "¿Qué acceso remoto móvil pertenece a 4G?",
@@ -1478,7 +1478,7 @@ export class TestCompletoDyGComponent {
           "HSCSD"
         ],
         "correcta": "LTE",
-        "explicacion": "LTE corresponde a 4G, mientras UMTS es 3G y 5G la siguiente generación :contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}."
+        "explicacion": "LTE corresponde a 4G, mientras UMTS es 3G y 5G la siguiente generación."
       },
       {
         "pregunta": "¿Qué multiplexación agrupa señales por longitudes de onda?",
@@ -1489,7 +1489,7 @@ export class TestCompletoDyGComponent {
           "CDM"
         ],
         "correcta": "WDM",
-        "explicacion": "Wavelength Division Multiplexing envía múltiples lambdas por la misma fibra :contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "explicacion": "Wavelength Division Multiplexing envía múltiples lambdas por la misma fibra"
       },
       {
         "pregunta": "¿Qué capa del modelo campus implementa políticas de seguridad y QoS?",
@@ -1500,7 +1500,7 @@ export class TestCompletoDyGComponent {
           "Enlace de datos"
         ],
         "correcta": "Distribución",
-        "explicacion": "La capa de distribución aplica ACLs, QoS y enruta entre VLANs antes del núcleo :contentReference[oaicite:44]{index=44}:contentReference[oaicite:45]{index=45}."
+        "explicacion": "La capa de distribución aplica ACLs, QoS y enruta entre VLANs antes del núcleo."
       },
       {
         "pregunta": "¿Cuál es el rango de separación de canales en DWDM de 100 GHz?",
@@ -1511,7 +1511,7 @@ export class TestCompletoDyGComponent {
           "1,6 nm"
         ],
         "correcta": "0,8 nm",
-        "explicacion": "DWDM a 100 GHz equivale a unos 0,8 nm de separación espectral :contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}."
+        "explicacion": "DWDM a 100 GHz equivale a unos 0,8 nm de separación espectral"
       },
       {
         "pregunta": "¿Qué tecnología WAN permite agregar ancho de banda bajo demanda?",
@@ -1522,7 +1522,7 @@ export class TestCompletoDyGComponent {
           "ISDN"
         ],
         "correcta": "Metro Ethernet",
-        "explicacion": "El cliente puede solicitar incrementos de banda en Metro Ethernet con configuración simple :contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}."
+        "explicacion": "El cliente puede solicitar incrementos de banda en Metro Ethernet con configuración simple."
       },
       {
         "pregunta": "¿Qué ventaja tiene la fibra monomodo sobre multimodo?",
@@ -1533,7 +1533,7 @@ export class TestCompletoDyGComponent {
           "Uso de LED en lugar de láser"
         ],
         "correcta": "Menor dispersión y mayor alcance",
-        "explicacion": "La SMF usa láser y core estrecho para largos enlaces sin rebotes múltiples :contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "explicacion": "La SMF usa láser y core estrecho para largos enlaces sin rebotes múltiples."
       },
       {
         "pregunta": "¿Qué algoritmo evita bucles en topologías redundantes de capa 2?",
@@ -1544,7 +1544,7 @@ export class TestCompletoDyGComponent {
           "BGP"
         ],
         "correcta": "STP",
-        "explicacion": "Spanning Tree Protocol bloquea enlaces redundantes para eliminar bucles en LAN :contentReference[oaicite:52]{index=52}:contentReference[oaicite:53]{index=53}."
+        "explicacion": "Spanning Tree Protocol bloquea enlaces redundantes para eliminar bucles en LAN"
       },
       {
         "pregunta": "¿Qué servicio permite alquilar lambdas específicas en WDM?",
@@ -1555,7 +1555,7 @@ export class TestCompletoDyGComponent {
           "VLAN trunking"
         ],
         "correcta": "Lambda oscura",
-        "explicacion": "El servicio de λ oscura alquila longitudes de onda nombradas al usuario para su propia señalización :contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}."
+        "explicacion": "El servicio de λ oscura alquila longitudes de onda nombradas al usuario para su propia señalización"
       },
       {
         "pregunta": "¿Qué criterio NO es esencial para elegir un proveedor WAN?",
@@ -1566,7 +1566,7 @@ export class TestCompletoDyGComponent {
           "Soporte QoS"
         ],
         "correcta": "Velocidad de los LEDs",
-        "explicacion": "La velocidad de emisión óptica no define la red del proveedor; sí cobertura, redundancia y SLA :contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}."
+        "explicacion": "La velocidad de emisión óptica no define la red del proveedor; sí cobertura, redundancia y SLA "
       },
       {
         "pregunta": "¿En qué situación es preferible usar par trenzado STP en campus?",
@@ -1577,7 +1577,7 @@ export class TestCompletoDyGComponent {
           "Para câbles de más de 100 m"
         ],
         "correcta": "Entornos con mucha EMI",
-        "explicacion": "STP tiene blindaje para reducir interferencias en zonas con altas EMI :contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}."
+        "explicacion": "STP tiene blindaje para reducir interferencias en zonas con altas EMI"
       },
       {
         "pregunta": "¿Qué topología de cableado centralizado se asocia a esquema estrella?",
@@ -1588,7 +1588,7 @@ export class TestCompletoDyGComponent {
           "Estrella"
         ],
         "correcta": "Estrella",
-        "explicacion": "La topología estrella con conmutadores centrales es ejemplo típico de cableado centralizado :contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}."
+        "explicacion": "La topología estrella con conmutadores centrales es ejemplo típico de cableado centralizado"
       },
       {
         "pregunta": "¿Qué estándar de Ethernet full-duplex dejó obsoleto CSMA/CD?",
@@ -1599,7 +1599,7 @@ export class TestCompletoDyGComponent {
           "10 Mbps conmutado"
         ],
         "correcta": "10 Mbps conmutado",
-        "explicacion": "Ethernet full-duplex (1992) eliminó CSMA/CD al permitir enlaces punto-a-punto :contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}."
+        "explicacion": "Ethernet full-duplex (1992) eliminó CSMA/CD al permitir enlaces punto-a-punto"
       },
       {
         "pregunta": "¿Cuál es la distancia máxima en 1000BaseLX en multimodo?",
@@ -1610,7 +1610,7 @@ export class TestCompletoDyGComponent {
           "2 km"
         ],
         "correcta": "550 m",
-        "explicacion": "1000BaseLX alcanza 550 m en MMF y 5 km en SMF con láser de onda larga :contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}."
+        "explicacion": "1000BaseLX alcanza 550 m en MMF y 5 km en SMF con láser de onda larga"
       }
     ],
     "Tema 4": [
@@ -1623,7 +1623,7 @@ export class TestCompletoDyGComponent {
           "Eliminar la fase de implementación"
         ],
         "correcta": "Verificar que el diseño cumple metas técnicas y de negocio",
-        "explicacion": "Las pruebas deben confirmar que la solución diseñada satisface los requisitos de rendimiento, disponibilidad y objetivos del cliente :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "Las pruebas deben confirmar que la solución diseñada satisface los requisitos de rendimiento, disponibilidad y objetivos del cliente."
       },
       {
         "pregunta": "¿Qué servicio industrial NO se menciona como laboratorio de pruebas?",
@@ -1634,7 +1634,7 @@ export class TestCompletoDyGComponent {
           "Cisco Live"
         ],
         "correcta": "Cisco Live",
-        "explicacion": "Se citan UNH-IOL, Miercom y The Tolly Group como proveedores de pruebas, pero no Cisco Live :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "Se citan UNH-IOL, Miercom y The Tolly Group como proveedores de pruebas, pero no Cisco Live ."
       },
       {
         "pregunta": "¿Cuál es un método práctico para validar un diseño sin desplegarlo a gran escala?",
@@ -1645,7 +1645,7 @@ export class TestCompletoDyGComponent {
           "Solo simulación teórica"
         ],
         "correcta": "Sistema prototipo",
-        "explicacion": "Un prototipo acota alcance para validar funciones críticas sin necesidad de desplegar toda la red :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "Un prototipo acota alcance para validar funciones críticas sin necesidad de desplegar toda la red."
       },
       {
         "pregunta": "¿Qué herramienta de simulación se menciona explícitamente?",
@@ -1656,7 +1656,7 @@ export class TestCompletoDyGComponent {
           "NS-3"
         ],
         "correcta": "Packet Tracer",
-        "explicacion": "Cisco Packet Tracer se señala como opción para modelado y simulación de redes :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "Cisco Packet Tracer se señala como opción para modelado y simulación de redes ."
       },
       {
         "pregunta": "En un plan de pruebas, ¿qué elemento define cuándo una prueba pasa o falla?",
@@ -1667,7 +1667,7 @@ export class TestCompletoDyGComponent {
           "La topología"
         ],
         "correcta": "Los criterios de aceptación",
-        "explicacion": "Los criterios de aceptación deben ser claros y específicos para declarar éxito o fallo de cada prueba :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "Los criterios de aceptación deben ser claros y específicos para declarar éxito o fallo de cada prueba."
       },
       {
         "pregunta": "¿Cuál de estos NO forma parte de los componentes de un plan de pruebas?",
@@ -1678,7 +1678,7 @@ export class TestCompletoDyGComponent {
           "Recursos requeridos"
         ],
         "correcta": "Plan de licencias de software",
-        "explicacion": "Aunque importantes, las licencias no se incluyen en el plan de pruebas; sí objetivos, tipos de pruebas, scripts y recursos :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "Aunque importantes, las licencias no se incluyen en el plan de pruebas; sí objetivos, tipos de pruebas, scripts y recursos."
       },
       {
         "pregunta": "¿Qué tipo de prueba asegura que el nuevo sistema no rompa funcionalidades existentes?",
@@ -1689,7 +1689,7 @@ export class TestCompletoDyGComponent {
           "Pruebas de latencia"
         ],
         "correcta": "Pruebas de regresión",
-        "explicacion": "Las pruebas de regresión verifican que las actualizaciones no degraden componentes que antes funcionaban correctamente :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "Las pruebas de regresión verifican que las actualizaciones no degraden componentes que antes funcionaban correctamente."
       },
       {
         "pregunta": "¿Cuál es un ejemplo de recurso físico necesario para pruebas?",
@@ -1700,7 +1700,7 @@ export class TestCompletoDyGComponent {
           "Documento de RFP"
         ],
         "correcta": "Racks y aire acondicionado",
-        "explicacion": "Se requiere equipamiento del laboratorio: corriente, climatización y espacio para montar dispositivos :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "Se requiere equipamiento del laboratorio: corriente, climatización y espacio para montar dispositivos"
       },
       {
         "pregunta": "En los scripts de prueba, ¿qué se registra tras cada iteración de carga?",
@@ -1711,7 +1711,7 @@ export class TestCompletoDyGComponent {
           "Las versiones de software"
         ],
         "correcta": "El log de resultados",
-        "explicacion": "Se documentan los resultados de cada ejecución en la bitácora para análisis posterior :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+        "explicacion": "Se documentan los resultados de cada ejecución en la bitácora para análisis posterior."
       },
       {
         "pregunta": "¿Qué paquete TCP debería bloquear el firewall según el ejemplo de script?",
@@ -1722,7 +1722,7 @@ export class TestCompletoDyGComponent {
           "RST"
         ],
         "correcta": "SYN",
-        "explicacion": "El objetivo era bloquear solicitudes TCP SYN de la aplicación cliente-servidor :contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}."
+        "explicacion": "El objetivo era bloquear solicitudes TCP SYN de la aplicación cliente-servidor."
       },
       {
         "pregunta": "Tras bloquear la petición, ¿qué respuesta TCP envía el firewall?",
@@ -1733,7 +1733,7 @@ export class TestCompletoDyGComponent {
           "RST"
         ],
         "correcta": "RST",
-        "explicacion": "El firewall responde con un paquete TCP RST para indicar la conexión rechazada :contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}."
+        "explicacion": "El firewall responde con un paquete TCP RST para indicar la conexión rechazada."
       },
       {
         "pregunta": "¿Qué paso NO forma parte del ejemplo de script de pruebas?",
@@ -1744,7 +1744,7 @@ export class TestCompletoDyGComponent {
           "Guardar trazas en directorio"
         ],
         "correcta": "Modificar la topología física",
-        "explicacion": "El script descrito no altera la red, solo captura, prueba y documenta resultados :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "explicacion": "El script descrito no altera la red, solo captura, prueba y documenta resultados."
       },
       {
         "pregunta": "¿Qué herramienta se usa para generar tráfico de prueba multiservicio?",
@@ -1755,7 +1755,7 @@ export class TestCompletoDyGComponent {
           "OPNET"
         ],
         "correcta": "Ixia IxN2X",
-        "explicacion": "Ixia IxN2X es una solución de prueba multiservicio para generar flujos y medir rendimiento :contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}."
+        "explicacion": "Ixia IxN2X es una solución de prueba multiservicio para generar flujos y medir rendimiento"
       },
       {
         "pregunta": "¿Cuál de estas herramientas es de código abierto para graficar tráfico SNMP?",
@@ -1766,7 +1766,7 @@ export class TestCompletoDyGComponent {
           "NetFlow NTA"
         ],
         "correcta": "MRTG",
-        "explicacion": "Multi Router Traffic Grapher (MRTG) es open-source y usa SNMP para monitorizar enlaces :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}."
+        "explicacion": "Multi Router Traffic Grapher (MRTG) es open-source y usa SNMP para monitorizar enlaces."
       },
       {
         "pregunta": "¿Qué herramienta se recomienda para monitorización genérica de servicios?",
@@ -1777,7 +1777,7 @@ export class TestCompletoDyGComponent {
           "Traceroute"
         ],
         "correcta": "Nagios",
-        "explicacion": "Nagios supervisa disponibilidad de servicios mediante plugins y notificaciones :contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+        "explicacion": "Nagios supervisa disponibilidad de servicios mediante plugins y notificaciones."
       },
       {
         "pregunta": "¿Cuál es la última fase de documentación de red según el tema?",
@@ -1788,7 +1788,7 @@ export class TestCompletoDyGComponent {
           "Apéndices"
         ],
         "correcta": "Apéndices",
-        "explicacion": "Se incluyen mapas, config de dispositivos, tablas de direccionamiento y resultados completos como apéndices :contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}."
+        "explicacion": "Se incluyen mapas, config de dispositivos, tablas de direccionamiento y resultados completos como apéndices"
       },
       {
         "pregunta": "En un documento de diseño, ¿dónde se describe cómo el diseño cumple los requisitos?",
@@ -1799,7 +1799,7 @@ export class TestCompletoDyGComponent {
           "Plan de implantación"
         ],
         "correcta": "Requerimientos del diseño",
-        "explicacion": "Esta sección liga directamente metas del cliente con las soluciones propuestas :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}."
+        "explicacion": "Esta sección liga directamente metas del cliente con las soluciones propuestas."
       },
       {
         "pregunta": "¿Qué sección incluye la estimación de presupuesto del proyecto?",
@@ -1810,7 +1810,7 @@ export class TestCompletoDyGComponent {
           "Requerimientos de diseño"
         ],
         "correcta": "Presupuesto del proyecto",
-        "explicacion": "El documento dedica un apartado específico al desglose de costes y licencias :contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}."
+        "explicacion": "El documento dedica un apartado específico al desglose de costes y licencias."
       },
       {
         "pregunta": "¿Qué plantilla se usa en España para solicitar documentación de diseño?",
@@ -1821,7 +1821,7 @@ export class TestCompletoDyGComponent {
           "RFQ"
         ],
         "correcta": "Pliego de Licitación",
-        "explicacion": "En España se utiliza el Pliego de Licitación que define condiciones y requisitos del proyecto :contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}."
+        "explicacion": "En España se utiliza el Pliego de Licitación que define condiciones y requisitos del proyecto"
       },
       {
         "pregunta": "¿Qué documento describe el alcance y objetivos del proyecto?",
@@ -1832,7 +1832,7 @@ export class TestCompletoDyGComponent {
           "Apéndices"
         ],
         "correcta": "Alcance del proyecto",
-        "explicacion": "Esta sección detalla los límites, entregables y metas específicas del diseño :contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}."
+        "explicacion": "Esta sección detalla los límites, entregables y metas específicas del diseño."
       },
       {
         "pregunta": "¿Cuál de estos NO es un apéndice recomendado?",
@@ -1843,7 +1843,7 @@ export class TestCompletoDyGComponent {
           "Plan de negocio de la empresa"
         ],
         "correcta": "Plan de negocio de la empresa",
-        "explicacion": "No es relevante para el diseño de red; se incluyen apéndices técnicos y de pruebas :contentReference[oaicite:40]{index=40}:contentReference[oaicite:41]{index=41}."
+        "explicacion": "No es relevante para el diseño de red; se incluyen apéndices técnicos y de pruebas."
       },
       {
         "pregunta": "¿Qué sección contiene la descripción de protocolos y tecnologías utilizadas?",
@@ -1854,7 +1854,7 @@ export class TestCompletoDyGComponent {
           "Presupuesto del proyecto"
         ],
         "correcta": "Nuevos diseños lógico y físico",
-        "explicacion": "En el diseño lógico se detallan protocolos; en el físico, dispositivos y cableado :contentReference[oaicite:42]{index=42}:contentReference[oaicite:43]{index=43}."
+        "explicacion": "En el diseño lógico se detallan protocolos; en el físico, dispositivos y cableado"
       },
       {
         "pregunta": "¿Qué parte del documento de diseño aborda el entrenamiento?",
@@ -1865,7 +1865,7 @@ export class TestCompletoDyGComponent {
           "Resumen ejecutivo"
         ],
         "correcta": "Plan de implantación",
-        "explicacion": "El plan de implantación incluye actividades de formación y transferencia de conocimiento :contentReference[oaicite:44]{index=44}:contentReference[oaicite:45]{index=45}."
+        "explicacion": "El plan de implantación incluye actividades de formación y transferencia de conocimiento."
       },
       {
         "pregunta": "¿En qué sección se incluyen las ventanas de mantenimiento?",
@@ -1876,7 +1876,7 @@ export class TestCompletoDyGComponent {
           "Resumen ejecutivo"
         ],
         "correcta": "Plan de implantación",
-        "explicacion": "Se planifican fechas y horas basadas en ventanas de mantenimiento para minimizar impacto :contentReference[oaicite:46]{index=46}:contentReference[oaicite:47]{index=47}."
+        "explicacion": "Se planifican fechas y horas basadas en ventanas de mantenimiento para minimizar impacto."
       },
       {
         "pregunta": "¿Qué lista identifica piezas y componentes necesarios?",
@@ -1887,7 +1887,7 @@ export class TestCompletoDyGComponent {
           "RFP"
         ],
         "correcta": "BOM",
-        "explicacion": "La Bill Of Materials (BOM) detalla partes, dispositivos y licencias requeridas :contentReference[oaicite:48]{index=48}:contentReference[oaicite:49]{index=49}."
+        "explicacion": "La Bill Of Materials (BOM) detalla partes, dispositivos y licencias requeridas."
       },
       {
         "pregunta": "¿Qué sección del RFP solicita referencias de otros clientes?",
@@ -1898,7 +1898,7 @@ export class TestCompletoDyGComponent {
           "BOM"
         ],
         "correcta": "Cuestiones típicas de RFP",
-        "explicacion": "Entre las preguntas de RFP se incluyen recomendaciones de clientes previos :contentReference[oaicite:50]{index=50}:contentReference[oaicite:51]{index=51}."
+        "explicacion": "Entre las preguntas de RFP se incluyen recomendaciones de clientes previos"
       },
       {
         "pregunta": "¿Qué parte del plan describe un plan alternativo en caso de fallo?",
@@ -1909,7 +1909,7 @@ export class TestCompletoDyGComponent {
           "Apéndices"
         ],
         "correcta": "Plan alternativo",
-        "explicacion": "El documento de implantación debe incluir una estrategia de contingencia si la implementación falla :contentReference[oaicite:52]{index=52}:contentReference[oaicite:53]{index=53}."
+        "explicacion": "El documento de implantación debe incluir una estrategia de contingencia si la implementación falla"
       },
       {
         "pregunta": "¿Qué sección explica cómo escalar el diseño con nuevos requisitos?",
@@ -1920,7 +1920,7 @@ export class TestCompletoDyGComponent {
           "Cuestiones de RFP"
         ],
         "correcta": "Plan de evolución del diseño",
-        "explicacion": "Describe cómo adaptar la red a futuras necesidades sin rehacerla completamente :contentReference[oaicite:54]{index=54}:contentReference[oaicite:55]{index=55}."
+        "explicacion": "Describe cómo adaptar la red a futuras necesidades sin rehacerla completamente"
       },
       {
         "pregunta": "¿Qué criterio NO corresponde a metas técnicas?",
@@ -1931,7 +1931,7 @@ export class TestCompletoDyGComponent {
           "Adaptabilidad"
         ],
         "correcta": "Color del cableado",
-        "explicacion": "Las metas técnicas cubren rendimiento, seguridad, uso, no aspectos estéticos :contentReference[oaicite:56]{index=56}:contentReference[oaicite:57]{index=57}."
+        "explicacion": "Las metas técnicas cubren rendimiento, seguridad, uso, no aspectos estéticos"
       },
       {
         "pregunta": "¿Qué se documenta en el «estado actual de la red»?",
@@ -1942,7 +1942,7 @@ export class TestCompletoDyGComponent {
           "Resumen ejecutivo"
         ],
         "correcta": "Topología existente y salud de equipos",
-        "explicacion": "Incluye mapeo de dispositivos, enlaces y métricas de rendimiento actuales :contentReference[oaicite:58]{index=58}:contentReference[oaicite:59]{index=59}."
+        "explicacion": "Incluye mapeo de dispositivos, enlaces y métricas de rendimiento actuales"
       },
       {
         "pregunta": "¿Qué debe incluir un script de prueba para ser reproducible?",
@@ -1953,7 +1953,7 @@ export class TestCompletoDyGComponent {
           "Solo herramientas necesarias"
         ],
         "correcta": "Pasos detallados y criterios de aceptación",
-        "explicacion": "Un buen script define con precisión cada acción y cómo evaluar resultados :contentReference[oaicite:60]{index=60}:contentReference[oaicite:61]{index=61}."
+        "explicacion": "Un buen script define con precisión cada acción y cómo evaluar resultados"
       },
       {
         "pregunta": "¿En qué sección del documento se listan los riesgos de la implantación?",
@@ -1964,7 +1964,7 @@ export class TestCompletoDyGComponent {
           "Requerimientos"
         ],
         "correcta": "Plan de implantación",
-        "explicacion": "El plan de implantación incluye análisis de riesgos y planes de mitigación :contentReference[oaicite:62]{index=62}:contentReference[oaicite:63]{index=63}."
+        "explicacion": "El plan de implantación incluye análisis de riesgos y planes de mitigación."
       },
       {
         "pregunta": "¿Qué tipo de pruebas mide la capacidad del sistema bajo carga?",
@@ -1975,7 +1975,7 @@ export class TestCompletoDyGComponent {
           "Pruebas de documentación"
         ],
         "correcta": "Pruebas de caudal",
-        "explicacion": "Las pruebas de caudal evalúan el rendimiento máximo y sostenido de la red bajo tráfico :contentReference[oaicite:64]{index=64}:contentReference[oaicite:65]{index=65}."
+        "explicacion": "Las pruebas de caudal evalúan el rendimiento máximo y sostenido de la red bajo tráfico ."
       },
       {
         "pregunta": "¿Qué prueba evalúa el tiempo de respuesta de aplicaciones?",
@@ -1986,7 +1986,7 @@ export class TestCompletoDyGComponent {
           "Pruebas de caudal"
         ],
         "correcta": "Pruebas de latencia",
-        "explicacion": "También llamadas pruebas de tiempo de respuesta, miden el retardo extremo a extremo de aplicaciones :contentReference[oaicite:66]{index=66}:contentReference[oaicite:67]{index=67}."
+        "explicacion": "También llamadas pruebas de tiempo de respuesta, miden el retardo extremo a extremo de aplicaciones."
       },
       {
         "pregunta": "¿Qué herramienta calcula Erlang para dimensionar enlaces de voz?",
@@ -1997,7 +1997,7 @@ export class TestCompletoDyGComponent {
           "OPNET"
         ],
         "correcta": "Online Erlang Traffic Calculators",
-        "explicacion": "Estas calculadoras permiten estimar ocupación y requerimientos de capacidad de voz usando fórmulas Erlang :contentReference[oaicite:68]{index=68}:contentReference[oaicite:69]{index=69}."
+        "explicacion": "Estas calculadoras permiten estimar ocupación y requerimientos de capacidad de voz usando fórmulas Erlang"
       }
     ],
     "Examen": [
@@ -2010,7 +2010,7 @@ export class TestCompletoDyGComponent {
           "La capacidad máxima de una comunicación para transmitir datos."
         ],
         "correcta": "La cantidad de datos (libres de errores) transmitidos por unidad de tiempo.",
-        "explicacion": "La respuesta correcta es: <b>La cantidad de datos (libres de errores) transmitidos por unidad de tiempo.</b> Esto coincide con la definición de caudal (goodput) en el material del tema 1, diferenciándose del ancho de banda bruto :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}."
+        "explicacion": "La respuesta correcta es: <b>La cantidad de datos (libres de errores) transmitidos por unidad de tiempo.</b> Esto coincide con la definición de caudal (goodput) en el material del tema 1, diferenciándose del ancho de banda bruto."
       },
       {
         "pregunta": "Las velocidades estandarizadas de SONET siempre son múltiplos de ……",
@@ -2021,7 +2021,7 @@ export class TestCompletoDyGComponent {
           "Cinco"
         ],
         "correcta": "Tres",
-        "explicacion": "La respuesta correcta es: <b>Tres</b>. SONET define STS-n como múltiplos de STS-1 (51,84 Mb/s), por lo que todos los niveles son múltiplos de tres canales de 51,84 Mb/s para alinearse con SDH :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}."
+        "explicacion": "La respuesta correcta es: <b>Tres</b>. SONET define STS-n como múltiplos de STS-1 (51,84 Mb/s), por lo que todos los niveles son múltiplos de tres canales de 51,84 Mb/s para alinearse con SDH."
       },
       {
         "pregunta": "Para determinar las fuentes y destinos del tráfico de red debemos identificar las ……",
@@ -2032,7 +2032,7 @@ export class TestCompletoDyGComponent {
           "Subredes"
         ],
         "correcta": "Direcciones MAC",
-        "explicacion": "La respuesta correcta es: <b>Direcciones MAC</b>. Para caracterizar flujos en el nivel de enlace se utilizan direcciones MAC como identificadores de origen y destino :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}."
+        "explicacion": "La respuesta correcta es: <b>Direcciones MAC</b>. Para caracterizar flujos en el nivel de enlace se utilizan direcciones MAC como identificadores de origen y destino."
       },
       {
         "pregunta": "…… es la variación en el retardo promedio.",
@@ -2043,7 +2043,7 @@ export class TestCompletoDyGComponent {
           "Pérdida de paquetes"
         ],
         "correcta": "Jitter",
-        "explicacion": "La respuesta correcta es: <b>Jitter</b>. El jitter mide la variabilidad del retardo entre paquetes, siendo crítico para aplicaciones en tiempo real :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}."
+        "explicacion": "La respuesta correcta es: <b>Jitter</b>. El jitter mide la variabilidad del retardo entre paquetes, siendo crítico para aplicaciones en tiempo real."
       },
       {
         "pregunta": "En los años 70, del siglo XX, se desarrolló el primer estándar TDM denominado …… que en su versión europea utilizaba …… canales.",
@@ -2054,7 +2054,7 @@ export class TestCompletoDyGComponent {
           "ATM - 128"
         ],
         "correcta": "PDH - 30",
-        "explicacion": "La respuesta correcta es: <b>PDH - 30</b>. El estándar PDH (Plesiochronous Digital Hierarchy) utilizaba 30 canales de voz en su versión europea E1 :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}."
+        "explicacion": "La respuesta correcta es: <b>PDH - 30</b>. El estándar PDH (Plesiochronous Digital Hierarchy) utilizaba 30 canales de voz en su versión europea E1."
       },
       {
         "pregunta": "Los …… actúan como cortafuegos, aíslan el tráfico broadcast.",
@@ -2065,7 +2065,7 @@ export class TestCompletoDyGComponent {
           "Bridges"
         ],
         "correcta": "Routers",
-        "explicacion": "La respuesta correcta es: <b>Routers</b>. Los routers separan dominios de broadcast al reenviar únicamente paquetes IP entre subredes :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}."
+        "explicacion": "La respuesta correcta es: <b>Routers</b>. Los routers separan dominios de broadcast al reenviar únicamente paquetes IP entre subredes."
       },
       {
         "pregunta": "La multiplexación TDM se basa en el ……",
@@ -2076,7 +2076,7 @@ export class TestCompletoDyGComponent {
           "Código"
         ],
         "correcta": "Tiempo",
-        "explicacion": "La respuesta correcta es: <b>Tiempo</b>. TDM asigna franjas temporales a cada canal de forma secuencial :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}."
+        "explicacion": "La respuesta correcta es: <b>Tiempo</b>. TDM asigna franjas temporales a cada canal de forma secuencial."
       },
       {
         "pregunta": "La fibra multimodo usa fuentes …… y es apropiada para distancias ……",
@@ -2087,7 +2087,7 @@ export class TestCompletoDyGComponent {
           "LED - Mayores"
         ],
         "correcta": "LED - Menores",
-        "explicacion": "La respuesta correcta es: <b>LED - Menores</b>. La fibra multimodo emplea LEDs y cubre distancias cortas debido a la dispersión modal :contentReference[oaicite:14]{index=14}:contentReference[oaicite:15]{index=15}."
+        "explicacion": "La respuesta correcta es: <b>LED - Menores</b>. La fibra multimodo emplea LEDs y cubre distancias cortas debido a la dispersión modal."
       },
       {
         "pregunta": "El protocolo …… asigna a los datagramas de cada flujo una etiqueta única que permite una conmutación rápida en los enrutadores intermedios.",
@@ -2098,7 +2098,7 @@ export class TestCompletoDyGComponent {
           "Ethernet"
         ],
         "correcta": "MPLS",
-        "explicacion": "La respuesta correcta es: <b>MPLS</b>. MPLS etiqueta flujos para forwarding rápido sin mirar encabezados IP completos :contentReference[oaicite:16]{index=16}:contentReference[oaicite:17]{index=17}."
+        "explicacion": "La respuesta correcta es: <b>MPLS</b>. MPLS etiqueta flujos para forwarding rápido sin mirar encabezados IP completos."
       },
       {
         "pregunta": "La fibra monomodo usa …… diámetro y un rayo de luz más ……",
@@ -2109,7 +2109,7 @@ export class TestCompletoDyGComponent {
           "Menor - Enfocado"
         ],
         "correcta": "Menor - Enfocado",
-        "explicacion": "La respuesta correcta es: <b>Menor - Enfocado</b>. La fibra monomodo tiene un core estrecho y transporta un haz láser muy concentrado para largas distancias :contentReference[oaicite:18]{index=18}:contentReference[oaicite:19]{index=19}."
+        "explicacion": "La respuesta correcta es: <b>Menor - Enfocado</b>. La fibra monomodo tiene un core estrecho y transporta un haz láser muy concentrado para largas distancias."
       },
       {
         "pregunta": "La utilidad …… se puede usar para caracterizar el tiempo de respuesta entre los nodos de una red.",
@@ -2120,7 +2120,7 @@ export class TestCompletoDyGComponent {
           "ipconfig"
         ],
         "correcta": "Ping",
-        "explicacion": "La respuesta correcta es: <b>Ping</b>. Ping mide RTT enviando ICMP Echo Request y calculando el tiempo de ida y vuelta :contentReference[oaicite:20]{index=20}:contentReference[oaicite:21]{index=21}."
+        "explicacion": "La respuesta correcta es: <b>Ping</b>. Ping mide RTT enviando ICMP Echo Request y calculando el tiempo de ida y vuelta."
       },
       {
         "pregunta": "El envío de varias señales con diferentes longitudes de onda, en formato “grueso”, por una misma fibra se denomina ……",
@@ -2131,7 +2131,7 @@ export class TestCompletoDyGComponent {
           "FDM"
         ],
         "correcta": "CWDM",
-        "explicacion": "La respuesta correcta es: <b>CWDM</b>. CWDM agrupa canales con separación de 20 nm sin amplificación compleja :contentReference[oaicite:22]{index=22}:contentReference[oaicite:23]{index=23}."
+        "explicacion": "La respuesta correcta es: <b>CWDM</b>. CWDM agrupa canales con separación de 20 nm sin amplificación compleja."
       },
       {
         "pregunta": "¿Qué significa que un dispositivo soporte “Hot Swap”?",
@@ -2142,7 +2142,7 @@ export class TestCompletoDyGComponent {
           "Compatibilidad con múltiples protocolos"
         ],
         "correcta": "Sustitución en caliente",
-        "explicacion": "La respuesta correcta es: <b>Sustitución en caliente</b>. Permite cambiar componentes sin apagar el sistema :contentReference[oaicite:24]{index=24}:contentReference[oaicite:25]{index=25}."
+        "explicacion": "La respuesta correcta es: <b>Sustitución en caliente</b>. Permite cambiar componentes sin apagar el sistema."
       },
       {
         "pregunta": "SDH utiliza topologías en …… para aumentar la fiabilidad.",
@@ -2153,7 +2153,7 @@ export class TestCompletoDyGComponent {
           "Árbol"
         ],
         "correcta": "Anillo",
-        "explicacion": "La respuesta correcta es: <b>Anillo</b>. SDH implementa anillos para proteger rutas y ofrecer recuperación rápida :contentReference[oaicite:26]{index=26}:contentReference[oaicite:27]{index=27}."
+        "explicacion": "La respuesta correcta es: <b>Anillo</b>. SDH implementa anillos para proteger rutas y ofrecer recuperación rápida."
       },
       {
         "pregunta": "El mayor inconveniente de la tecnología ATM es el ……",
@@ -2164,7 +2164,7 @@ export class TestCompletoDyGComponent {
           "Costo elevado"
         ],
         "correcta": "Overhead",
-        "explicacion": "La respuesta correcta es: <b>Overhead</b>. Las cabeceras de 5 bytes por celda generan un alto overhead en ATM :contentReference[oaicite:28]{index=28}:contentReference[oaicite:29]{index=29}."
+        "explicacion": "La respuesta correcta es: <b>Overhead</b>. Las cabeceras de 5 bytes por celda generan un alto overhead en ATM."
       },
       {
         "pregunta": "La tecnología …… permite el agrupamiento lógico de varios enlaces físicos ethernet para incrementar el ancho de banda.",
@@ -2175,7 +2175,7 @@ export class TestCompletoDyGComponent {
           "NAT"
         ],
         "correcta": "EtherChannel",
-        "explicacion": "La respuesta correcta es: <b>EtherChannel</b>. Agrupa enlaces en un único canal lógico para balanceo y redundancia :contentReference[oaicite:30]{index=30}:contentReference[oaicite:31]{index=31}."
+        "explicacion": "La respuesta correcta es: <b>EtherChannel</b>. Agrupa enlaces en un único canal lógico para balanceo y redundancia"
       },
       {
         "pregunta": "La gestión de centros de datos, hoy día, es posible gracias a la tecnología ……",
@@ -2186,7 +2186,7 @@ export class TestCompletoDyGComponent {
           "QoS"
         ],
         "correcta": "SDN",
-        "explicacion": "La respuesta correcta es: <b>SDN</b>. SDN separa control y datos, permitiendo orquestación y automatización en DC :contentReference[oaicite:32]{index=32}:contentReference[oaicite:33]{index=33}."
+        "explicacion": "La respuesta correcta es: <b>SDN</b>. SDN separa control y datos, permitiendo orquestación y automatización en DC."
       },
       {
         "pregunta": "Los cables submarinos de fibra óptica ayudan, en la actualidad, a la detección temprana de ……",
@@ -2197,7 +2197,7 @@ export class TestCompletoDyGComponent {
           "Huracanes"
         ],
         "correcta": "Tsunamis",
-        "explicacion": "La respuesta correcta es: <b>Tsunamis</b>. Los cambios en presión detectados por los cables submarinos permiten alertas tempranas :contentReference[oaicite:34]{index=34}:contentReference[oaicite:35]{index=35}."
+        "explicacion": "La respuesta correcta es: <b>Tsunamis</b>. Los cambios en presión detectados por los cables submarinos permiten alertas tempranas."
       },
       {
         "pregunta": "La tecnología ethernet WAN utiliza un nivel físico heredado de ……",
@@ -2208,7 +2208,7 @@ export class TestCompletoDyGComponent {
           "IP"
         ],
         "correcta": "SDH",
-        "explicacion": "La respuesta correcta es: <b>SDH</b>. Metro Ethernet frecuentemente se apoya en la capa física SDH/SONET :contentReference[oaicite:36]{index=36}:contentReference[oaicite:37]{index=37}."
+        "explicacion": "La respuesta correcta es: <b>SDH</b>. Metro Ethernet frecuentemente se apoya en la capa física SDH/SONET."
       },
       {
         "pregunta": "¿Cuáles de las siguientes opciones describen arquitecturas (pila de protocolos) de redes corporativas basadas en fibra óptica?",
@@ -2219,7 +2219,7 @@ export class TestCompletoDyGComponent {
           "Todas las anteriores"
         ],
         "correcta": "Todas las anteriores",
-        "explicacion": "La respuesta correcta es: <b>Todas las anteriores</b>. Todas las arquitecturas listadas son válidas según el material del tema 1 :contentReference[oaicite:38]{index=38}:contentReference[oaicite:39]{index=39}."
+        "explicacion": "La respuesta correcta es: <b>Todas las anteriores</b>. Todas las arquitecturas listadas son válidas según el material del tema 1"
       }
     ],
     "Tema 5 - 1": [
