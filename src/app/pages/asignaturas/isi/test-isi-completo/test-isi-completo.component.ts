@@ -1844,9 +1844,14 @@ export class TestISICompletoComponent {
    */
   cargarPreguntasCompletas() {
     const preguntas = [
-      ...this.temas["Tema 5 - 1"],
-      ...this.temas["Tema 5 - 2"],
-      ...this.temas["Tema 5 - 3"]
+      ...this.temas["Tema 1"],
+      ...this.temas["Tema 2"],
+      ...this.temas["Tema 3"],
+      ...this.temas["Tema 4"],
+      ...this.temas["Tema 5"],
+      ...this.temas["Tema 6"],
+      ...this.temas["Examen"],
+
     ];
     this.preguntasActuales = this.shuffleArray(preguntas);
 

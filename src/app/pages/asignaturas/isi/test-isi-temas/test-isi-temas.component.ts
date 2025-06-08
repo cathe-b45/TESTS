@@ -1957,6 +1957,6 @@ export class TestISITemasComponent {
   }
 
   goBack() {
-    this.router.navigate(['/dyg']);
+    this.router.navigate(['/isi']);
   }
 }

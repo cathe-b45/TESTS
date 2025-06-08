@@ -17,7 +17,7 @@ import { DialogModule } from 'primeng/dialog';
   standalone: true,
   imports: [CommonModule, FormsModule, DialogModule, ButtonModule, DividerModule, CardModule, RadioButtonModule, HeadbarComponent, MessagesModule, ConfirmDialogModule],
   providers: [ConfirmationService],
-  encapsulation: ViewEncapsulation.None, 
+  encapsulation: ViewEncapsulation.None,
   templateUrl: './test-ssdd-temas.component.html',
   styleUrl: './test-ssdd-temas.component.scss'
 })
@@ -33,7 +33,7 @@ export class TestSsddTemasComponent {
           "Comunicación sincrónica en tiempo real."
         ],
         correcta: "Comunicación a través de un intermediario.",
-        explicacion : "La respuesta correcta es: <b> Comunicación a través de un intermediario</b>, ya que implica transmitir mensajes mediante un tercero, desacoplando tiempo y espacio​.<br>Las demás son incorrectas porque:<br><b>Comunicación directa entre dos procesos</b> ➔ describe un modelo opuesto al indirecto.<br><b>Comunicación a través de líneas telefónicas</b> ➔ no es específica de sistemas distribuidos.<br><b>Comunicación sincrónica en tiempo real</b> ➔ contradice la posibilidad de comunicación asincrónica que caracteriza al modelo indirecto."
+        explicacion: "La respuesta correcta es: <b> Comunicación a través de un intermediario</b>, ya que implica transmitir mensajes mediante un tercero, desacoplando tiempo y espacio​.<br>Las demás son incorrectas porque:<br><b>Comunicación directa entre dos procesos</b> ➔ describe un modelo opuesto al indirecto.<br><b>Comunicación a través de líneas telefónicas</b> ➔ no es específica de sistemas distribuidos.<br><b>Comunicación sincrónica en tiempo real</b> ➔ contradice la posibilidad de comunicación asincrónica que caracteriza al modelo indirecto."
       },
       {
         pregunta: "¿Cuál de los siguientes es un ejemplo de comunicación indirecta?",
@@ -154,7 +154,7 @@ export class TestSsddTemasComponent {
           "Ambos métodos no aseguran una consistencia estricta."
         ],
         correcta: "Métodos optimistas.",
-        explicacion:"La respuesta correcta es: <b>Métodos optimistas</b>, ya que estos permiten inconsistencias temporales mientras las actualizaciones se propagan a las réplicas, priorizando el rendimiento y la escalabilidad.<br>Las demás son incorrectas porque:<br><b>Métodos pesimistas</b> ➔ aseguran consistencia estricta al bloquear escrituras hasta que todas las réplicas se actualicen.<br><b>Ambos métodos aseguran una consistencia estricta</b> ➔ es falso, solo los pesimistas lo hacen.<br><b>Ambos métodos no aseguran una consistencia estricta</b> ➔ también es falso, porque los pesimistas sí lo aseguran."
+        explicacion: "La respuesta correcta es: <b>Métodos optimistas</b>, ya que estos permiten inconsistencias temporales mientras las actualizaciones se propagan a las réplicas, priorizando el rendimiento y la escalabilidad.<br>Las demás son incorrectas porque:<br><b>Métodos pesimistas</b> ➔ aseguran consistencia estricta al bloquear escrituras hasta que todas las réplicas se actualicen.<br><b>Ambos métodos aseguran una consistencia estricta</b> ➔ es falso, solo los pesimistas lo hacen.<br><b>Ambos métodos no aseguran una consistencia estricta</b> ➔ también es falso, porque los pesimistas sí lo aseguran."
       },
       {
         pregunta: "Complete la siguiente frase: «La disponibilidad es inversamente proporcional a...»",
@@ -165,7 +165,7 @@ export class TestSsddTemasComponent {
           "La fiabilidad del sistema."
         ],
         correcta: "La carga del sistema.",
-        explicacion:"La respuesta correcta es: <b>La carga del sistema</b>, ya que a medida que la carga aumenta, la disponibilidad tiende a disminuir debido a la saturación de recursos.<br>Las demás son incorrectas porque:<br><b>El coste del sistema</b> ➔ no afecta directamente a la disponibilidad.<br><b>La redundancia del sistema</b> ➔ aumenta la disponibilidad al proporcionar tolerancia a fallos.<br><b>La fiabilidad del sistema</b> ➔ mejora la disponibilidad, no es inversamente proporcional."
+        explicacion: "La respuesta correcta es: <b>La carga del sistema</b>, ya que a medida que la carga aumenta, la disponibilidad tiende a disminuir debido a la saturación de recursos.<br>Las demás son incorrectas porque:<br><b>El coste del sistema</b> ➔ no afecta directamente a la disponibilidad.<br><b>La redundancia del sistema</b> ➔ aumenta la disponibilidad al proporcionar tolerancia a fallos.<br><b>La fiabilidad del sistema</b> ➔ mejora la disponibilidad, no es inversamente proporcional."
       },
       {
         pregunta: "¿Cuál de las siguientes puede ser una consecuencia de la replicación?",
@@ -1500,6 +1500,139 @@ export class TestSsddTemasComponent {
         correcta: "Un sistema publicador-suscriptor.",
         explicacion: "La respuesta correcta es: <b>Un sistema publicador-suscriptor</b>, ya que este modelo permite a los clientes suscribirse y recibir información relevante de manera dinámica sin que las estaciones meteorológicas necesiten conocer su identidad."
       }
+    ], "Examen_2024_25_Ordinario": [
+      {
+        "pregunta": "¿Cuál de las siguientes es una operación típica del paradigma publicación-suscripción?",
+        "respuestas": [
+          "notify()",
+          "subscribe()",
+          "advertise()",
+          "Todas las anteriores"
+        ],
+        "correcta": "Todas las anteriores",
+        "explicacion": "La respuesta correcta es: <b>Todas las anteriores</b>. En el modelo publicación-suscripción, los suscriptores se registran (subscribe), los editores anuncian los temas disponibles (advertise), y se notifican los eventos (notify)."
+      },
+      {
+        "pregunta": "¿Qué afirmación sobre un sistema de colas de mensajes distribuidas es más acertada?",
+        "respuestas": [
+          "El broker determina el receptor de cada mensaje de la cola distribuida.",
+          "El emisor coloca sus mensajes en una cola genérica, y el broker los clasifica y responde al emisor.",
+          "Varios receptores reciben copias del mismo mensaje.",
+          "No hay diferencias sustanciales con un sistema publicador-suscriptor."
+        ],
+        "correcta": "El broker determina el receptor de cada mensaje de la cola distribuida.",
+        "explicacion": "La respuesta correcta es: <b>El broker determina el receptor de cada mensaje de la cola distribuida</b>. En las colas de mensajes, el broker gestiona a qué consumidor enviar cada mensaje, a diferencia de los sistemas pub-sub donde varios pueden recibirlo."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes es una característica de IceStorm poco común en otros sistemas de propagación de eventos?",
+        "respuestas": [
+          "Puede funcionar sin broker.",
+          "Es posible crear y gestionar «topics» para la segregación de mensajes.",
+          "Su modelo de programación consiste en invocar métodos de una interfaz.",
+          "Dispone de un mecanismo de replicación en el que todos los publicadores pueden actuar como brokers."
+        ],
+        "correcta": "Su modelo de programación consiste en invocar métodos de una interfaz.",
+        "explicacion": "La respuesta correcta es: <b>Su modelo de programación consiste en invocar métodos de una interfaz</b>. IceStorm se basa en CORBA/ICE y su enfoque se centra en la invocación remota a través de interfaces, lo que no es común en la mayoría de sistemas pub-sub."
+      },
+      {
+        "pregunta": "¿Qué quiere decir que el publicador y el suscriptor en un sistema de comunicación indirecta están desacoplados en espacio?",
+        "respuestas": [
+          "Ninguno de los dos necesita conocer la dirección del otro.",
+          "El publicador no necesita conocer la identidad del suscriptor.",
+          "Publicadores, suscriptores y brokers se ejecutan todos en nodos distintos.",
+          "El broker puede ejecutarse en un nodo distinto a publicadores y suscriptores."
+        ],
+        "correcta": "Ninguno de los dos necesita conocer la dirección del otro.",
+        "explicacion": "La respuesta correcta es: <b>Ninguno de los dos necesita conocer la dirección del otro</b>. El desacoplamiento en espacio significa que los componentes no tienen referencias directas entre sí, comunicándose a través de intermediarios como brokers."
+      },
+      {
+        "pregunta": "¿Qué indica una propiedad de *pervivencia* (liveness) en los algoritmos de elección?",
+        "respuestas": [
+          "La petición para entrar en una sección crítica eventualmente sucederá.",
+          "Un algoritmo de elección terminará cuando hayan votado n/2+1 procesos, sin importar si el resto de procesos ha efectuado su voto.",
+          "Todos los procesos acordarán una elección o abortarán.",
+          "Cada proceso participante o ha entrado en la sección crítica o ha elegido al proceso P que debe entrar en dicha sección."
+        ],
+        "correcta": "Todos los procesos acordarán una elección o abortarán.",
+        "explicacion": "La respuesta correcta es: <b>Todos los procesos acordarán una elección o abortarán</b>. En el contexto de algoritmos de elección, la propiedad de *liveness* garantiza que eventualmente se tomará una decisión, es decir, que los procesos llegarán a un acuerdo o terminarán el intento."
+      },
+      {
+        "pregunta": "Imagina que te han seleccionado para diseñar un sistema distribuido, el cual, requiere garantizar el acceso exclusivo a un conjunto de recursos compartidos. Dentro de este sistema se impone una restricción importante, y es que el ancho de banda es un recurso muy valioso y escaso, por lo que debes consumir siempre el mínimo posible. Teniendo en cuenta que el número de procesos mínimo del sistema será de alrededor de 100, ¿Qué algoritmo de exclusión mutua sería el más adecuado?",
+        "respuestas": [
+          "Servidor central",
+          "Basado en anillo",
+          "Ricart y Agrawala",
+          "Maekawa"
+        ],
+        "correcta": "Maekawa",
+        "explicacion": "La respuesta correcta es: <b>Maekawa</b>. Este algoritmo minimiza el número de mensajes necesarios para la exclusión mutua al organizar los procesos en subconjuntos de votación, lo que lo hace ideal cuando se requiere bajo consumo de ancho de banda."
+      },
+      {
+        "pregunta": "¿Cuál es el tamaño teórico óptimo para los subconjuntos de votación de acuerdo al algoritmo de Maekawa?",
+        "respuestas": [
+          "√N",
+          "N - 1",
+          "2N/3",
+          "N/2 + 1"
+        ],
+        "correcta": "√N",
+        "explicacion": "La respuesta correcta es: <b>√N</b>. En el algoritmo de Maekawa, cada proceso pertenece a un subconjunto de votación de tamaño √N, lo que permite garantizar exclusión mutua con un número reducido de mensajes."
+      },
+      {
+        "pregunta": "Estás trabajando para una empresa de automoción, diseñando un sistema de seguridad para el despliegue de un airbag en caso de accidente. El sistema está formado por 4 sensores que son capaces de detectar una colisión, los cuales son leídos por 4 procesos que pueden comunicarse mediante paso de mensajes. Como resultado de un estudio exhaustivo del sistema, la empresa te comunica que existe la posibilidad de que 1 de estos sensores pueda fallar en la detección ¿Qué solución se puede aplicar para solventar este problema?",
+        "respuestas": [
+          "Algoritmo de exclusión mutua",
+          "Algoritmo de elección",
+          "Ordenación de eventos",
+          "Problema de los generales bizantinos"
+        ],
+        "correcta": "Problema de los generales bizantinos",
+        "explicacion": "La respuesta correcta es: <b>Problema de los generales bizantinos</b>. Este problema modela situaciones en las que uno o más componentes del sistema pueden fallar de forma arbitraria (por ejemplo, sensores que reportan valores incorrectos), y se requiere consenso entre los procesos correctos."
+      },
+      {
+        "pregunta": "¿Qué característica de las siguientes NO debe cumplir una comunicación multicast fiable?",
+        "respuestas": [
+          "Integridad (Integrity)",
+          "Seguridad (Safety)",
+          "Acuerdo uniforme (Uniform Agreement)",
+          "Validez (Validity)"
+        ],
+        "correcta": "Seguridad (Safety)",
+        "explicacion": "La respuesta correcta es: <b>Seguridad (Safety)</b>. Aunque la integridad, validez y acuerdo uniforme son propiedades esenciales de una comunicación multicast fiable, la seguridad no es un requisito funcional en este contexto (aunque puede ser deseable en otros escenarios)."
+      },
+      {
+        "pregunta": "Amazon Dynamo es un ejemplo de:",
+        "respuestas": [
+          "Consistencia fuerte.",
+          "Consistencia eventual.",
+          "Consistencia débil.",
+          "Consistencia lineal."
+        ],
+        "correcta": "Consistencia eventual.",
+        "explicacion": "La respuesta correcta es: <b>Consistencia eventual</b>. Amazon Dynamo implementa un modelo de consistencia eventual, lo cual significa que, si no se producen nuevas actualizaciones, todos los accesos futuros devolverán el mismo valor."
+      },
+      {
+        "pregunta": "¿Qué dos operaciones definen los modelos de consistencia débil?",
+        "respuestas": [
+          "Read y Write.",
+          "Read y Update.",
+          "Data y Sync",
+          "Todas son incorrectas"
+        ],
+        "correcta": "Data y Sync",
+        "explicacion": "La respuesta correcta es: <b>Data y Sync</b>. En los modelos de consistencia débil se separan las operaciones normales de acceso a datos (Data) y las que sincronizan (Sync), permitiendo mejorar el rendimiento."
+      },
+      {
+        "pregunta": "Señale la opción correcta:",
+        "respuestas": [
+          "En la consistencia estricta cualquier lectura obtiene el último valor escrito.",
+          "En la consistencia secuencial no todos los clientes tienen que ver los cambios en el mismo orden.",
+          "La consistencia causal es la más eficiente de implementar debido al uso de relojes físicos sincronizados.",
+          "Todas son incorrectas."
+        ],
+        "correcta": "En la consistencia estricta cualquier lectura obtiene el último valor escrito.",
+        "explicacion": "La respuesta correcta es: <b>En la consistencia estricta cualquier lectura obtiene el último valor escrito</b>. Esta es la forma más fuerte de consistencia, donde el sistema se comporta como si hubiera una única copia del dato accedida por todos los procesos en tiempo real."
+      }
     ]
   };
   temaActual: number = 0;
@@ -1610,12 +1743,12 @@ export class TestSsddTemasComponent {
     const fileName = `${tema.replace(/ /g, '_')}${solvedSuffix}.pdf`; // Reemplazar espacios por guiones bajos
     const pdfPath = `${this.basePath}/${fileName}`;
     window.open(pdfPath, '_blank'); // Abrir PDF en una nueva pestaña
-}
+  }
 
-mostrarExplicacion(explicacion: string) {
-  this.explicacionActual = explicacion; // Asigna la explicación al diálogo
-  this.mostrarDialogo = true; // Muestra el diálogo
-}
+  mostrarExplicacion(explicacion: string) {
+    this.explicacionActual = explicacion; // Asigna la explicación al diálogo
+    this.mostrarDialogo = true; // Muestra el diálogo
+  }
   /**
    * Volver a la página anterior.
    */
