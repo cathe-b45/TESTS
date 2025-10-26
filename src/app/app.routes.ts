@@ -25,6 +25,9 @@ import { TestDyGTemasComponent } from './pages/asignaturas/dyg/test-dyg-temas/te
 import { ISIComponent } from './pages/asignaturas/isi/isi.component';
 import { TestISITemasComponent } from './pages/asignaturas/isi/test-isi-temas/test-isi-temas.component';
 import { TestISICompletoComponent } from './pages/asignaturas/isi/test-isi-completo/test-isi-completo.component';
+import { TestMultimediaTemasComponent } from './pages/asignaturas/multimedia/test-multimedia-temas/test-multimedia-temas.component';
+import { MultimediaComponent } from './pages/asignaturas/multimedia/multimedia.component';
+import { TestCompletoMultimediaComponent } from './pages/asignaturas/multimedia/test-multimedia-completo/test-multimedia-completo.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Página de inicio
@@ -53,5 +56,8 @@ export const routes: Routes = [
   { path: 'isi', component: ISIComponent},
   { path: 'isi/temas', component: TestISITemasComponent},
   { path: 'isi/completo', component: TestISICompletoComponent},
+  { path: 'multimedia', component: MultimediaComponent},
+  { path: 'multimedia/completo', component: TestCompletoMultimediaComponent},
+  { path: 'multimedia/temas', component: TestMultimediaTemasComponent},
   { path: '**', redirectTo: '', pathMatch: 'full' } // Rutas no definidas redirigen al Home
 ];

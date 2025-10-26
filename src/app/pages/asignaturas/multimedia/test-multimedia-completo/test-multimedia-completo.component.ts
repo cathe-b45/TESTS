@@ -21,7 +21,7 @@ import { DialogModule } from 'primeng/dialog';
   templateUrl: './test-multimedia-completo.component.html',
   styleUrl: './test-multimedia-completo.component.scss'
 })
-export class TestCompletoDyGComponent {
+export class TestCompletoMultimediaComponent {
   temas: { [key: string]: any[] } = {
     "Tema 1": [
       {
