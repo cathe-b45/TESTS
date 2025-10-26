@@ -1,130 +1,129 @@
 /* Contenedor Principal */
 .test-container {
-    margin: 2rem auto; /* Espaciado exterior */
-    max-width: 900px; /* Ancho máximo del contenedor */
-    text-align: center; /* Centrar el texto */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 2rem auto; /* Espaciado exterior */
+  max-width: 900px; /* Ancho máximo del contenedor */
+  text-align: center; /* Centrar el texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tarjetas uniformes */
+.p-card {
+  margin: 1rem auto; /* Espaciado entre tarjetas */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  padding: 1.5rem; /* Espaciado interior */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px; /* Altura mínima uniforme */
+  width: 100%; /* Ancho uniforme */
+  max-width: 600px; /* Limitar el ancho máximo */
+  box-shadow: var(--surface-card-shadow); /* Sombra para destacar */
+}
+
+/* Encabezado de la tarjeta */
+.p-card-header {
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Cuerpo de la tarjeta */
+.p-card-body {
+  flex-grow: 1; /* Permite crecer para distribuir el contenido */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+  text-align: left;
+}
+
+/* Opciones de respuesta */
+.respuesta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* Iconos de respuestas correctas e incorrectas */
+.text-success {
+  color: var(--green-500); /* Color del tema PrimeNG */
+  font-weight: bold;
+}
+
+.text-danger {
+  color: var(--red-500); /* Color del tema PrimeNG */
+  font-weight: bold;
+}
+
+/* Mostrar la respuesta correcta después de finalizar */
+.respuesta-correcta {
+  background-color: var(--primary-100); /* Fondo con color del tema */
+  color: var(--primary-800); /* Texto con color del tema */
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  text-align: left;
+}
+
+/* Contenedor de botones */
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* Botón de volver */
+.p-button-outlined {
+  margin-top: 2rem;
+}
+
+/* Centrar el contenedor de tarjetas */
+.test-container .p-card {
+  margin: 1rem 0; /* Espaciado vertical entre tarjetas */
+  width: 100%;
+  max-width: 800px; /* Ancho uniforme */
+}
+
+/* Alinear todo verticalmente */
+.test-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dialog-content {
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-size: 1.1rem; /* Ajusta el tamaño de la fuente */
+  line-height: 1.6; /* Agrega espacio entre líneas */
+  margin: 10px 0; /* Agrega un pequeño margen superior e inferior */
+  b {
+    color: var(--primary-color); /* Cambia el color del texto en negrita */
+    font-weight: bold; /* Refuerza la negrita */
   }
-  
-  /* Tarjetas uniformes */
-  .p-card {
-    margin: 1rem auto; /* Espaciado entre tarjetas */
-    border-radius: 0.5rem; /* Bordes redondeados */
-    padding: 1.5rem; /* Espaciado interior */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 220px; /* Altura mínima uniforme */
-    width: 100%; /* Ancho uniforme */
-    max-width: 600px; /* Limitar el ancho máximo */
-    box-shadow: var(--surface-card-shadow); /* Sombra para destacar */
-  }
-  
-  /* Encabezado de la tarjeta */
-  .p-card-header {
-    font-weight: bold;
-    text-align: left;
-  }
-  
-  /* Cuerpo de la tarjeta */
-  .p-card-body {
-    flex-grow: 1; /* Permite crecer para distribuir el contenido */
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    justify-content: space-between;
-    text-align: left;
-  }
-  
-  /* Opciones de respuesta */
-  .respuesta-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    text-align: left;
-  }
-  
-  /* Iconos de respuestas correctas e incorrectas */
-  .text-success {
-    color: var(--green-500); /* Color del tema PrimeNG */
-    font-weight: bold;
-  }
-  
-  .text-danger {
-    color: var(--red-500); /* Color del tema PrimeNG */
-    font-weight: bold;
-  }
-  
-  /* Mostrar la respuesta correcta después de finalizar */
-  .respuesta-correcta {
-    background-color: var(--primary-100); /* Fondo con color del tema */
-    color: var(--primary-800); /* Texto con color del tema */
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    border-radius: 0.25rem;
-    text-align: left;
-  }
-  
-  /* Contenedor de botones */
-  .button-container {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 1.5rem;
-  }
-  
-  /* Botón de volver */
-  .p-button-outlined {
-    margin-top: 2rem;
-  }
-  
-  /* Centrar el contenedor de tarjetas */
-  .test-container .p-card {
-    margin: 1rem 0; /* Espaciado vertical entre tarjetas */
-    width: 100%;
-    max-width: 800px; /* Ancho uniforme */
-  }
-  
-  /* Alinear todo verticalmente */
-  .test-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
- 
-  .dialog-content {
-    text-align: left; /* Alinea el texto a la izquierda */
-    font-size: 1.1rem; /* Ajusta el tamaño de la fuente */
-    line-height: 1.6; /* Agrega espacio entre líneas */
-    margin: 10px 0; /* Agrega un pequeño margen superior e inferior */
-    b {
-      color: var(--primary-color); /* Cambia el color del texto en negrita */
-      font-weight: bold; /* Refuerza la negrita */
-    }
 }
 
 .dialog-content b {
-  color: var(--primary-color); /* Cambia el color del texto en negrita */
-  font-weight: bold; /* Refuerza la negrita */
+color: var(--primary-color); /* Cambia el color del texto en negrita */
+font-weight: bold; /* Refuerza la negrita */
 }
 
 
-  .text-danger {
-    color: var(--red-500) !important; /* Rojo PrimeNG */
-    font-weight: bold;
-  }
-  
-  /* Añadir margen izquierdo a los iconos */
-  .ml-2 {
-    margin-left: 0.5rem;
-  }
-  .text-success {
-    color: var(--green-500) !important; /* Verde PrimeNG */
-    font-weight: bold;
-  }
-  
+.text-danger {
+  color: var(--red-500) !important; /* Rojo PrimeNG */
+  font-weight: bold;
+}
+
+/* Añadir margen izquierdo a los iconos */
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.text-success {
+  color: var(--green-500) !important; /* Verde PrimeNG */
+  font-weight: bold;
+}

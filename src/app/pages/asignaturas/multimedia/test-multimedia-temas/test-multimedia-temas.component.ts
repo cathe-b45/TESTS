@@ -1596,20 +1596,12 @@ export class TestMultimediaTemasComponent {
     });
   }
 
-  basePath = '/TESTS/assets/pdfs';
-  abrirPdf(tema: string, tipo: 'examen' | 'correccion'): void {
-    const solvedSuffix = tipo === 'correccion' ? '_Solved' : '';
-    const fileName = `${tema.replace(/ /g, '_')}${solvedSuffix}.pdf`;
-    const pdfPath = `${this.basePath}/${fileName}`;
-    window.open(pdfPath, '_blank');
-  }
-
   mostrarExplicacion(explicacion: string) {
     this.explicacionActual = explicacion;
     this.mostrarDialogo = true;
   }
 
   goBack() {
-    this.router.navigate(['/dyg']);
+    this.router.navigate(['/multimedia']);
   }
 }
