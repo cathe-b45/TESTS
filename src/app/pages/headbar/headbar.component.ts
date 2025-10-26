@@ -48,7 +48,7 @@ export class HeadbarComponent implements OnInit {
     { src: 'assets/venti-pose.png', alt: 'Imagen 3' },
     { src: 'assets/venti-monster.png', alt: 'Imagen 3' },
     { src: 'assets/venti-enfadada.png', alt: 'Imagen 3' },
-    { src: 'assets/venti-cinnamozapatilla.png', alt: 'Imagen 3' },
+    { src: 'assets/venti-cinnamozapatilla.png', alt: 'venti cinnamozapatilla' },
   ];
 
   ngOnInit() {
@@ -158,6 +158,22 @@ export class HeadbarComponent implements OnInit {
             label: 'Test Completo',
             icon: 'pi pi-check-circle',
             command: () => this.navigateTo('isi/completo')
+          }
+        ]
+      },
+      {
+        label: 'Multimedia',
+        icon: 'pi pi-sitemap',
+        items: [
+          {
+            label: 'Test por Temas',
+            icon: 'pi pi-list',
+            command: () => this.navigateTo('multimedia/temas')
+          },
+          {
+            label: 'Test Completo',
+            icon: 'pi pi-check-circle',
+            command: () => this.navigateTo('multimedia/completo')
           }
         ]
       },

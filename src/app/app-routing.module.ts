@@ -7,6 +7,7 @@ import { IsoComponent } from './pages/asignaturas/iso/iso.component';
 import { ArcoComponent } from './pages/asignaturas/arco/arco.component';
 import { DyGComponent } from './pages/asignaturas/dyg/dyg.component';
 import { ISIComponent } from './pages/asignaturas/isi/isi.component';
+import { MultimediaComponent } from './pages/asignaturas/multimedia/multimedia.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' }, // Ruta raíz
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'arco', component: ArcoComponent },
   { path: 'dyg', component: DyGComponent },
   { path: 'isi', component: ISIComponent },
+  { path: 'multimedia', component: MultimediaComponent },
 
   { path: '**', redirectTo: '', pathMatch: 'full' } // Redirección a Home para rutas no definidas
 ];

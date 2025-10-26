@@ -98,6 +98,15 @@
       </ng-template>
     </p-card>
 
+    <p-card class="home-card" header="Multimedia" [style]="{width: '300px'}">
+      <ng-template pTemplate="content">
+        <p>Tests de Multimedia</p>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <button pButton type="button" label="Ir a ISO" class="p-button-outlined" (click)="navigateTo('multimedia')"></button>
+      </ng-template>
+    </p-card>
+
     <!-- 🟩 Card ISO -->
     <!-- <p-card class="home-card" header="ISO" [style]="{width: '300px'}">
       <ng-template pTemplate="content">
