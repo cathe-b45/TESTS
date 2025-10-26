@@ -31,31 +31,39 @@
           name="pregunta{{ first + i }}"
           [value]="respuesta"
           [(ngModel)]="pregunta.seleccionada"
-          [disabled]="testFinalizado">
+          [disabled]="paginaComprobada || testFinalizado">
         </p-radioButton>
-        <label>{{ respuesta }}</label>
+        <label class="ml-2">{{ respuesta }}</label>
 
-        <!-- Icono para Respuesta Correcta -->
-        <i *ngIf="testFinalizado && respuesta === pregunta.correcta"
-           class="pi pi-check text-success ml-2">
-        </i>
+        <!-- Mostrar iconos solo cuando la página ha sido corregida o el test finalizado -->
+        <ng-container *ngIf="paginaComprobada || testFinalizado">
+          <!-- Check verde si seleccionó la correcta -->
+          <i *ngIf="pregunta.seleccionada === respuesta && respuesta === pregunta.correcta"
+             class="pi pi-check text-success ml-2">
+          </i>
 
-        <!-- Icono para Respuesta Incorrecta -->
-        <i *ngIf="testFinalizado && pregunta.seleccionada === respuesta && respuesta !== pregunta.correcta"
-           class="pi pi-times text-danger ml-2">
-        </i>
+          <!-- Aspa roja si seleccionó una incorrecta -->
+          <i *ngIf="pregunta.seleccionada === respuesta && respuesta !== pregunta.correcta"
+             class="pi pi-times text-danger ml-2">
+          </i>
 
-        <!-- Botón para Ver Explicación -->
-        <button *ngIf="testFinalizado && respuesta === pregunta.correcta"
-                pButton
-                icon="pi pi-info-circle"
-                class="p-button-text p-button-info ml-2"
-                (click)="mostrarExplicacion(pregunta.explicacion)">
-        </button>
+          <!-- Check azul en la respuesta correcta cuando NO la seleccionó -->
+          <i *ngIf="pregunta.seleccionada !== respuesta && respuesta === pregunta.correcta"
+             class="pi pi-check text-primary ml-2">
+          </i>
+
+          <!-- Botón para Ver Explicación en la respuesta correcta -->
+          <button *ngIf="respuesta === pregunta.correcta"
+                  pButton
+                  icon="pi pi-info-circle"
+                  class="p-button-text p-button-info ml-2"
+                  (click)="mostrarExplicacion(pregunta.explicacion)">
+          </button>
+        </ng-container>
       </div>
 
-      <!-- Mostrar mensaje de la respuesta -->
-      <p-messages *ngIf="testFinalizado"
+      <!-- Mostrar mensaje global (correcto/incorrecto) -->
+      <p-messages *ngIf="paginaComprobada || testFinalizado"
                   [(value)]="pregunta.mensajeRespuesta"
                   [closable]="false"
                   class="mt-3">
@@ -72,7 +80,7 @@
     class="mt-4">
   </p-paginator>
 
-  <!-- Botones para Navegar entre Temas -->
+  <!-- Botones para Navegar entre Temas y acciones -->
   <div class="button-container mt-4 d-flex justify-content-between">
     <button pButton
             label="Tema Anterior"
@@ -80,6 +88,13 @@
             class="p-button-secondary"
             (click)="temaAnterior()"
             [disabled]="temaActual === 0">
+    </button>
+
+    <button pButton
+            label="Corregir Página"
+            icon="pi pi-check"
+            (click)="corregirPagina()"
+            [disabled]="paginaComprobada || testFinalizado">
     </button>
 
     <button pButton

@@ -1482,6 +1482,8 @@ export class TestMultimediaTemasComponent {
   respuestasUsuario: string[] = [];
   mostrarDialogo = false;
   explicacionActual = '';
+  paginaComprobada: boolean = false; // Para controlar si ya se comprobó la página
+  paginaActual: number = 0;
 
   // === PAGINACIÓN ===
   pageOptions: SelectItem[] = [
@@ -1516,11 +1518,19 @@ export class TestMultimediaTemasComponent {
    */
   onRowsChange() {
     this.first = 0;
+    this.paginaActual = 0;
+    this.paginaComprobada = false;
   }
 
+  /**
+   * Cambiar de página en el paginador
+   */
   cambiarPagina(event: any) {
+    // PrimeNG emite {page, first, rows, pageCount}
     this.first = event.first;
     this.preguntasPorPagina = event.rows;
+    this.paginaActual = event.page;
+    this.paginaComprobada = false; // cada cambio de página reinicia el estado de corrección
   }
 
   /**
@@ -1536,7 +1546,11 @@ export class TestMultimediaTemasComponent {
 
     this.respuestasUsuario = new Array(this.preguntasActuales.length).fill(null);
     this.testFinalizado = false;
-    this.first = 0; // reiniciar paginación al cargar tema
+
+    // Reiniciar paginación y estado de corrección
+    this.first = 0;
+    this.paginaActual = 0;
+    this.paginaComprobada = false;
   }
 
   /**
@@ -1603,5 +1617,48 @@ export class TestMultimediaTemasComponent {
 
   goBack() {
     this.router.navigate(['/multimedia']);
+  }
+
+  /**
+   * Corrige únicamente la página actual, igual que en el Test Completo.
+   */
+  corregirPagina() {
+    let respuestasCorrectas = 0;
+
+    // Índices globales para la página actual
+    const inicio = this.paginaActual * this.preguntasPorPagina;
+    const fin = inicio + this.preguntasPorPagina;
+
+    for (let i = inicio; i < fin; i++) {
+      const pregunta = this.preguntasActuales[i];
+      if (!pregunta) continue; // última página puede tener menos preguntas
+
+      if (pregunta.seleccionada === pregunta.correcta) {
+        respuestasCorrectas++;
+        pregunta.mensajeRespuesta = [
+          { severity: 'success', summary: 'Correcto', detail: `La respuesta seleccionada es correcta.` }
+        ];
+      } else {
+        pregunta.mensajeRespuesta = [
+          { severity: 'error', summary: 'Respuesta correcta:', detail: `${pregunta.correcta}` }
+        ];
+      }
+    }
+
+    this.paginaComprobada = true;
+
+    // Número real de preguntas mostradas en la página (por si es la última)
+    const numeroPreguntasPagina = this.preguntasPag.length;
+
+    this.confirmationService.confirm({
+      header: 'Página Corregida',
+      message: `¡Has acertado ${respuestasCorrectas} de ${numeroPreguntasPagina} preguntas en esta página!`,
+      icon: 'pi pi-check-circle',
+      acceptLabel: 'Aceptar',
+      rejectVisible: false,
+      accept: () => {
+        console.log('Página corregida confirmada');
+      }
+    });
   }
 }
