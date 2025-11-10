@@ -162,7 +162,7 @@ export class HeadbarComponent implements OnInit {
         ]
       },
       {
-        label: 'Multimedia',
+        label: 'SSI',
         icon: 'pi pi-sitemap',
         items: [
           {

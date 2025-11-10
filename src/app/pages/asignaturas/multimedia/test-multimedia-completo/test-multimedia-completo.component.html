@@ -1,7 +1,7 @@
 <app-headbar></app-headbar>
 
 <div class="test-container">
-  <h1>📝 Test Completo - Multimedia</h1>
+  <h1>📝 Test Completo - SSI</h1>
   <p>Responde a todas las preguntas sin división por temas.</p>
 
   <!-- Recorremos las preguntas que están en la página actual -->
@@ -66,17 +66,13 @@
     </button>
   </div>
 
-  <button pButton label="Volver a Multimedia" class="p-button-outlined mt-4" (click)="goBack()">
+  <button pButton label="Volver a SSI" class="p-button-outlined mt-4" (click)="goBack()">
   </button>
 
   <p-confirmDialog></p-confirmDialog>
 
   <!-- Dialog para Mostrar la Explicación -->
-  <p-dialog
-    [(visible)]="mostrarDialogo"
-    header="Explicación de la Respuesta"
-    [modal]="true"
-    [closable]="true"
+  <p-dialog [(visible)]="mostrarDialogo" header="Explicación de la Respuesta" [modal]="true" [closable]="true"
     [style]="{ width: '50vw' }">
     <div class="dialog-content" [innerHTML]="explicacionActual"></div>
   </p-dialog>
