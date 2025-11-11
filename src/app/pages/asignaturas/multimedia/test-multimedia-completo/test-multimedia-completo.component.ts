@@ -3702,8 +3702,6 @@ export class TestCompletoMultimediaComponent {
         "correcta": "Cuando se transmite el mismo mensaje a varios destinos o no se necesita cifrar todo el contenido",
         "explicacion": "En ciertos entornos, la autenticación basta para verificar integridad sin necesidad de cifrar los datos."
       }
-    
-    
     ],
     "Tema 3": [
       {
