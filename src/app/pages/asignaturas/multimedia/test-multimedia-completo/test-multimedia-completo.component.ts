@@ -24,975 +24,1460 @@ import { DialogModule } from 'primeng/dialog';
 export class TestCompletoMultimediaComponent {
 
   temas: { [key: string]: any[] } = {
-   "Tema 1": [
+    "Tema 1": [
       {
-        "pregunta": "¿Qué es la seguridad informática según el NIST?",
+        "pregunta": "¿Qué garantiza la seguridad informática según el NIST?",
         "respuestas": [
-          "El uso de antivirus para proteger los equipos personales",
-          "Medidas y controles que garantizan la confidencialidad, integridad y disponibilidad de los activos del sistema de información",
-          "La instalación de cortafuegos y contraseñas seguras en la red",
-          "Un conjunto de programas que protegen únicamente los datos de usuario"
+          "La disponibilidad y la confidencialidad únicamente",
+          "La confidencialidad, integridad y disponibilidad de los activos de información",
+          "Solo la protección del software y hardware",
+          "El cifrado de todos los datos almacenados"
         ],
-        "correcta": "Medidas y controles que garantizan la confidencialidad, integridad y disponibilidad de los activos del sistema de información",
-        "explicacion": "Según el informe NISTIR 7298 v3, la seguridad informática busca proteger los activos del sistema (hardware, software, firmware e información) mediante medidas que aseguren confidencialidad, integridad y disponibilidad."
+        "correcta": "La confidencialidad, integridad y disponibilidad de los activos de información",
+        "explicacion": "El NIST define la seguridad informática como las medidas que aseguran la confidencialidad, integridad y disponibilidad de los activos de información."
       },
       {
-        "pregunta": "¿Qué se entiende por confidencialidad en seguridad informática?",
+        "pregunta": "¿Qué significa la confidencialidad en seguridad informática?",
         "respuestas": [
-          "Garantizar que los datos no se pierdan durante una transmisión",
-          "Proteger contra el acceso y la divulgación no autorizada de información",
-          "Evitar la modificación no autorizada de archivos",
-          "Mantener copias de respaldo de los datos críticos"
+          "Garantizar el acceso oportuno y confiable a la información",
+          "Proteger contra la modificación o destrucción inadecuada de datos",
+          "Preservar las restricciones autorizadas sobre el acceso y la divulgación de información",
+          "Asegurar la integridad de las contraseñas de los usuarios"
         ],
-        "correcta": "Proteger contra el acceso y la divulgación no autorizada de información",
-        "explicacion": "La confidencialidad implica restringir el acceso a la información únicamente a las personas o entidades autorizadas."
+        "correcta": "Preservar las restricciones autorizadas sobre el acceso y la divulgación de información",
+        "explicacion": "La confidencialidad busca evitar accesos o divulgaciones no autorizadas de la información."
       },
       {
-        "pregunta": "¿Qué significa integridad en el contexto de la seguridad informática?",
+        "pregunta": "¿Cuál es el objetivo principal de la integridad?",
         "respuestas": [
-          "Proteger la información contra modificaciones o destrucción inadecuadas",
-          "Asegurar el acceso rápido a los datos cuando se necesiten",
-          "Evitar el uso de contraseñas débiles",
-          "Garantizar la disponibilidad de la red en todo momento"
+          "Proteger la información contra la modificación o destrucción no autorizada",
+          "Asegurar el acceso a los datos desde cualquier lugar",
+          "Evitar que los usuarios cambien sus contraseñas",
+          "Garantizar la velocidad del sistema"
         ],
-        "correcta": "Proteger la información contra modificaciones o destrucción inadecuadas",
-        "explicacion": "La integridad se centra en asegurar que los datos no sean alterados o destruidos sin autorización, manteniendo su autenticidad y exactitud."
+        "correcta": "Proteger la información contra la modificación o destrucción no autorizada",
+        "explicacion": "La integridad garantiza que la información se mantenga exacta, completa y sin alteraciones indebidas."
       },
       {
-        "pregunta": "¿Qué significa disponibilidad en el ámbito de la seguridad informática?",
+        "pregunta": "¿Qué implica el principio de disponibilidad?",
         "respuestas": [
-          "Proteger los sistemas de accesos no autorizados",
+          "Evitar el acceso no autorizado a la información",
           "Garantizar el acceso oportuno y confiable a la información y su uso",
-          "Evitar el almacenamiento innecesario de datos",
-          "Asegurar que los usuarios no puedan modificar archivos"
+          "Verificar la autenticidad de los usuarios",
+          "Proteger la información mediante cifrado"
         ],
         "correcta": "Garantizar el acceso oportuno y confiable a la información y su uso",
-        "explicacion": "La disponibilidad asegura que los recursos y la información estén accesibles para los usuarios autorizados cuando los necesiten."
+        "explicacion": "La disponibilidad asegura que los recursos estén accesibles cuando los usuarios autorizados los necesiten."
       },
       {
-        "pregunta": "¿Qué caracteriza a un impacto bajo en la seguridad informática?",
+        "pregunta": "¿Qué se considera un impacto de nivel bajo?",
         "respuestas": [
-          "Tiene consecuencias catastróficas para la organización",
-          "Produce un efecto adverso limitado en las operaciones o activos",
-          "Provoca pérdidas financieras graves",
-          "Inhabilita completamente el sistema informático"
+          "Efecto adverso grave en las operaciones de la organización",
+          "Efecto adverso limitado en las operaciones o activos de la organización",
+          "Efecto adverso catastrófico",
+          "Pérdida total de confidencialidad e integridad"
         ],
-        "correcta": "Produce un efecto adverso limitado en las operaciones o activos",
-        "explicacion": "Un nivel de impacto bajo significa que las consecuencias de una pérdida son limitadas y no afectan gravemente las operaciones o los activos de la organización."
+        "correcta": "Efecto adverso limitado en las operaciones o activos de la organización",
+        "explicacion": "Un impacto bajo implica consecuencias menores y limitadas en las operaciones o individuos."
       },
       {
-        "pregunta": "¿Qué nivel de impacto se considera cuando una pérdida tiene efectos graves en las operaciones o activos de una organización?",
+        "pregunta": "¿Qué caracteriza un nivel de impacto moderado?",
         "respuestas": [
-          "Bajo",
-          "Moderado",
-          "Alto",
-          "Crítico"
+          "Tiene un efecto adverso limitado",
+          "Tiene un efecto adverso grave en las operaciones o activos",
+          "Tiene un efecto adverso catastrófico",
+          "No causa daño a los individuos"
         ],
-        "correcta": "Moderado",
-        "explicacion": "Un impacto moderado implica consecuencias graves pero no catastróficas en las operaciones o activos de la organización."
+        "correcta": "Tiene un efecto adverso grave en las operaciones o activos",
+        "explicacion": "El impacto moderado se asocia con daños graves pero no catastróficos para la organización."
       },
       {
-        "pregunta": "¿Qué nivel de impacto se asocia con efectos severos o catastróficos en las operaciones o los activos?",
+        "pregunta": "¿Qué representa un nivel de impacto alto?",
         "respuestas": [
-          "Bajo",
-          "Moderado",
-          "Alto",
-          "Controlado"
+          "Efecto adverso leve o limitado",
+          "Efecto adverso grave pero recuperable",
+          "Efecto adverso severo o catastrófico",
+          "Efecto adverso temporal sin consecuencias"
         ],
-        "correcta": "Alto",
-        "explicacion": "El impacto alto se refiere a pérdidas que pueden tener consecuencias severas o incluso catastróficas para una organización."
+        "correcta": "Efecto adverso severo o catastrófico",
+        "explicacion": "El impacto alto se refiere a pérdidas graves que pueden poner en peligro la continuidad de la organización."
       },
       {
-        "pregunta": "¿Cuál de los siguientes enunciados representa un desafío de la seguridad informática?",
+        "pregunta": "¿Qué señala el primer desafío de la seguridad informática?",
         "respuestas": [
-          "Los mecanismos de seguridad deben considerar posibles ataques a sus propias defensas",
-          "La seguridad informática solo requiere instalar un buen antivirus",
-          "Los sistemas informáticos rara vez sufren ataques reales",
-          "El diseño de seguridad no necesita incluir la ubicación física de los recursos"
+          "Es simple y fácil de implementar",
+          "No es tan simple como podría parecer a un principiante",
+          "Requiere únicamente medidas automáticas",
+          "Depende solo del software instalado"
         ],
-        "correcta": "Los mecanismos de seguridad deben considerar posibles ataques a sus propias defensas",
-        "explicacion": "Uno de los principales desafíos es que los mecanismos de seguridad deben diseñarse considerando ataques potenciales a sus propias medidas de defensa."
+        "correcta": "No es tan simple como podría parecer a un principiante",
+        "explicacion": "La seguridad informática es compleja y requiere múltiples capas de protección y análisis."
       },
       {
-        "pregunta": "¿Cuál de los siguientes NO es un desafío de la seguridad informática?",
+        "pregunta": "¿Qué se debe considerar al desarrollar un mecanismo de seguridad?",
         "respuestas": [
-          "Los atacantes solo necesitan encontrar una única debilidad",
-          "La seguridad requiere un seguimiento regular y constante",
-          "La seguridad se incorpora desde el inicio del diseño en todos los casos",
-          "Los usuarios suelen percibir pocos beneficios de invertir en seguridad hasta que ocurre una falla"
+          "El diseño visual del sistema",
+          "Los posibles ataques a las características de seguridad",
+          "La velocidad de procesamiento",
+          "El costo del hardware"
         ],
-        "correcta": "La seguridad se incorpora desde el inicio del diseño en todos los casos",
-        "explicacion": "Este enunciado no es un desafío, ya que el verdadero reto es precisamente que la seguridad a menudo se agrega al final del diseño, en lugar de ser parte integral desde el principio."
+        "correcta": "Los posibles ataques a las características de seguridad",
+        "explicacion": "Todo mecanismo de seguridad debe diseñarse considerando las amenazas potenciales que pueden afectarlo."
       },
       {
-        "pregunta": "¿Por qué los mecanismos de seguridad suelen ser contrarios a la intuición?",
+        "pregunta": "¿Qué indica el desafío sobre los atacantes y las debilidades?",
         "respuestas": [
-          "Porque requieren habilidades matemáticas avanzadas",
-          "Porque muchas veces las soluciones efectivas no son evidentes y pueden parecer poco naturales para el usuario o el desarrollador",
-          "Porque solo los expertos pueden aplicarlos correctamente",
-          "Porque dependen exclusivamente del hardware"
+          "Los atacantes necesitan explotar múltiples debilidades para tener éxito",
+          "Los atacantes solo necesitan una debilidad, mientras que el diseñador debe eliminar todas",
+          "Los diseñadores pueden ignorar pequeñas vulnerabilidades",
+          "La seguridad perfecta no requiere mantenimiento"
         ],
-        "correcta": "Porque muchas veces las soluciones efectivas no son evidentes y pueden parecer poco naturales para el usuario o el desarrollador",
-        "explicacion": "Los procedimientos de seguridad pueden parecer contrarios a la intuición porque lo que parece cómodo o lógico no siempre es seguro."
+        "correcta": "Los atacantes solo necesitan una debilidad, mientras que el diseñador debe eliminar todas",
+        "explicacion": "Esto refleja el principio de que la defensa debe ser completa, ya que una sola brecha puede comprometer todo el sistema."
       },
       {
-        "pregunta": "¿Cuál de los siguientes aspectos representa un desafío común de la seguridad informática?",
+        "pregunta": "¿Qué problema ocurre con frecuencia en el diseño de sistemas respecto a la seguridad?",
         "respuestas": [
-          "Los atacantes solo necesitan encontrar una única debilidad, mientras que el diseñador debe eliminar todas",
-          "Los mecanismos de seguridad son siempre simples y universales",
-          "La seguridad se mantiene sola una vez implementada",
-          "Los usuarios siempre cumplen las políticas de seguridad"
+          "La seguridad se integra desde el inicio del diseño",
+          "La seguridad se añade al final del proceso de diseño",
+          "Los sistemas siempre priorizan la seguridad sobre la usabilidad",
+          "La seguridad reemplaza la funcionalidad"
         ],
-        "correcta": "Los atacantes solo necesitan encontrar una única debilidad, mientras que el diseñador debe eliminar todas",
-        "explicacion": "Este desequilibrio entre la facilidad de ataque y la dificultad de defensa es un desafío constante en la seguridad informática."
+        "correcta": "La seguridad se añade al final del proceso de diseño",
+        "explicacion": "Con frecuencia, la seguridad se incorpora demasiado tarde en el desarrollo del sistema."
       },
       {
-        "pregunta": "¿Qué es un 'agente amenazante' o 'adversario' según el RFC 4949?",
+        "pregunta": "¿Qué requiere la seguridad según los desafíos del NIST?",
         "respuestas": [
-          "Un dispositivo encargado de proteger los datos del sistema",
-          "Un individuo, grupo u organización que realiza o tiene intención de realizar actividades perjudiciales",
-          "Un conjunto de políticas que definen la seguridad de una organización",
-          "Un programa encargado de registrar auditorías del sistema"
+          "Una auditoría anual",
+          "Un seguimiento regular y constante",
+          "Una revisión mensual",
+          "Actualizaciones automáticas del sistema"
         ],
-        "correcta": "Un individuo, grupo u organización que realiza o tiene intención de realizar actividades perjudiciales",
-        "explicacion": "El RFC 4949 define 'adversario' como cualquier entidad (persona, grupo, gobierno, etc.) que lleva a cabo o planea acciones dañinas contra un sistema."
+        "correcta": "Un seguimiento regular y constante",
+        "explicacion": "La seguridad no es estática; necesita monitoreo y mantenimiento continuo para ser efectiva."
       },
       {
-        "pregunta": "¿Qué se entiende por 'ataque' en seguridad informática?",
+        "pregunta": "¿Qué tendencia natural existe entre los usuarios y administradores?",
         "respuestas": [
-          "Cualquier tipo de actividad maliciosa que intente recopilar, interrumpir, degradar o destruir recursos o información",
-          "Un intento fallido de conexión entre sistemas de red",
-          "La configuración de cortafuegos en un sistema",
-          "Un error del usuario al introducir contraseñas"
+          "Sobrevalorar la inversión en seguridad",
+          "Percibir pocos beneficios hasta que ocurre una falla de seguridad",
+          "Considerar la seguridad como su principal prioridad",
+          "Invertir excesivamente en medidas preventivas"
         ],
-        "correcta": "Cualquier tipo de actividad maliciosa que intente recopilar, interrumpir, degradar o destruir recursos o información",
-        "explicacion": "Un ataque es toda acción maliciosa dirigida a comprometer los recursos o la información de un sistema, según la definición del RFC 4949."
+        "correcta": "Percibir pocos beneficios hasta que ocurre una falla de seguridad",
+        "explicacion": "Los usuarios suelen subestimar la importancia de la seguridad hasta que ocurre un incidente."
       },
       {
-        "pregunta": "¿Qué es una 'vulnerabilidad' en un sistema informático?",
+        "pregunta": "¿Cómo perciben algunos usuarios una seguridad sólida?",
         "respuestas": [
-          "Una medida preventiva que protege al sistema de intrusos",
-          "Una debilidad que podría ser explotada o activada por una fuente de amenaza",
-          "Un mecanismo de defensa frente a ataques",
-          "Un archivo cifrado que protege los datos sensibles"
+          "Como una mejora en la facilidad de uso del sistema",
+          "Como un impedimento para la eficiencia o la facilidad de uso",
+          "Como una reducción en el riesgo de fallos",
+          "Como una herramienta para acelerar procesos"
         ],
-        "correcta": "Una debilidad que podría ser explotada o activada por una fuente de amenaza",
-        "explicacion": "Una vulnerabilidad es una debilidad en el diseño, implementación o control de un sistema que puede ser aprovechada por una amenaza."
+        "correcta": "Como un impedimento para la eficiencia o la facilidad de uso",
+        "explicacion": "Muchos usuarios consideran que las medidas de seguridad complican el uso de los sistemas, aunque son necesarias."
       },
       {
-        "pregunta": "¿Qué es el 'riesgo' en el contexto de la seguridad informática?",
+        "pregunta": "¿Qué se entiende por adversario según el RFC 4949?",
         "respuestas": [
-          "La probabilidad de que ocurra un evento adverso multiplicada por su impacto potencial",
-          "Una lista de vulnerabilidades detectadas en un sistema",
-          "Una técnica de defensa frente a ataques externos",
-          "Una política de cifrado utilizada para proteger los datos"
+          "Un sistema afectado por malware",
+          "Un individuo, grupo u organización que realiza actividades perjudiciales",
+          "Un dispositivo usado para evitar ataques",
+          "Un conjunto de políticas de seguridad"
         ],
-        "correcta": "La probabilidad de que ocurra un evento adverso multiplicada por su impacto potencial",
-        "explicacion": "El riesgo se mide considerando tanto la probabilidad de que una amenaza se materialice como la magnitud del daño resultante."
+        "correcta": "Un individuo, grupo u organización que realiza actividades perjudiciales",
+        "explicacion": "El adversario o agente amenazante es quien tiene la intención o capacidad de causar daño a los sistemas de información."
       },
       {
-        "pregunta": "¿Cuáles son los principales activos de un sistema informático?",
+        "pregunta": "¿Cómo se define un ataque en seguridad informática?",
         "respuestas": [
-          "Hardware, software, datos e instalaciones/redes de comunicación",
-          "CPU, disco duro y monitor",
-          "Usuarios, contraseñas y redes sociales",
-          "Routers, cortafuegos y antivirus"
+          "Una actividad que busca fortalecer un sistema",
+          "Una actividad maliciosa que intenta recopilar, interrumpir o destruir recursos del sistema",
+          "Un intento de restaurar datos dañados",
+          "Una técnica para medir el riesgo"
         ],
-        "correcta": "Hardware, software, datos e instalaciones/redes de comunicación",
-        "explicacion": "Los activos informáticos incluyen los elementos físicos y lógicos que permiten el funcionamiento de un sistema: hardware, software, datos y redes."
+        "correcta": "Una actividad maliciosa que intenta recopilar, interrumpir o destruir recursos del sistema",
+        "explicacion": "Un ataque es cualquier acción intencionada que afecta negativamente los recursos o la información de un sistema."
       },
       {
-        "pregunta": "¿Qué tipo de vulnerabilidad corresponde a una pérdida de confidencialidad?",
+        "pregunta": "¿Qué es una contramedida según el RFC 4949?",
+        "respuestas": [
+          "Un ataque diseñado para probar la seguridad del sistema",
+          "Un dispositivo o técnica para reducir la efectividad de actividades no deseadas",
+          "Una debilidad en el sistema",
+          "Un evento que causa daño a la organización"
+        ],
+        "correcta": "Un dispositivo o técnica para reducir la efectividad de actividades no deseadas",
+        "explicacion": "Las contramedidas se implementan para prevenir, detectar o mitigar actividades perjudiciales para la seguridad."
+      },
+      {
+        "pregunta": "¿Qué mide el concepto de riesgo en seguridad informática?",
+        "respuestas": [
+          "El número de ataques recibidos",
+          "El grado de amenaza y la probabilidad de que ocurra un evento adverso",
+          "La cantidad de contramedidas aplicadas",
+          "El costo de la infraestructura de seguridad"
+        ],
+        "correcta": "El grado de amenaza y la probabilidad de que ocurra un evento adverso",
+        "explicacion": "El riesgo combina la probabilidad de un evento con el impacto potencial que tendría si se materializa."
+      },
+      {
+        "pregunta": "¿Qué es una política de seguridad?",
+        "respuestas": [
+          "Una guía de comportamiento de los usuarios en la red",
+          "Un conjunto de criterios que define y limita las actividades de seguridad de una instalación",
+          "Una herramienta para cifrar información",
+          "Una técnica para detectar vulnerabilidades"
+        ],
+        "correcta": "Un conjunto de criterios que define y limita las actividades de seguridad de una instalación",
+        "explicacion": "La política de seguridad establece los lineamientos para mantener una condición de seguridad en los sistemas y datos."
+      },
+      {
+        "pregunta": "¿Qué se considera un recurso del sistema o activo?",
+        "respuestas": [
+          "Solo el software y los datos",
+          "Cualquier elemento físico o lógico de importancia crítica en el sistema",
+          "Exclusivamente el hardware de red",
+          "Un componente que genera vulnerabilidades"
+        ],
+        "correcta": "Cualquier elemento físico o lógico de importancia crítica en el sistema",
+        "explicacion": "Los activos incluyen hardware, software, datos, personal, instalaciones y redes de comunicación."
+      },
+      {
+        "pregunta": "¿Cómo se define una amenaza?",
+        "respuestas": [
+          "Una debilidad en el sistema que puede ser explotada",
+          "Un evento con el potencial de afectar negativamente las operaciones o los activos",
+          "Una medida de probabilidad de fallo",
+          "Un conjunto de políticas de prevención"
+        ],
+        "correcta": "Un evento con el potencial de afectar negativamente las operaciones o los activos",
+        "explicacion": "Las amenazas son circunstancias que pueden explotar vulnerabilidades y causar daños a la organización o sus sistemas."
+      },
+      {
+        "pregunta": "¿Qué es una vulnerabilidad?",
+        "respuestas": [
+          "Un ataque que ya ha ocurrido",
+          "Una debilidad que puede ser explotada o activada por una amenaza",
+          "Una medida preventiva de seguridad",
+          "Un tipo de riesgo residual"
+        ],
+        "correcta": "Una debilidad que puede ser explotada o activada por una amenaza",
+        "explicacion": "Las vulnerabilidades son fallos o carencias en el sistema que permiten a una amenaza causar daño."
+      },
+      {
+        "pregunta": "¿Cuáles son ejemplos de activos de un sistema informático?",
+        "respuestas": [
+          "Contraseñas, logs y antivirus",
+          "Hardware, software, datos e instalaciones y redes de comunicación",
+          "Usuarios, contraseñas y protocolos",
+          "Redes sociales y servicios en la nube"
+        ],
+        "correcta": "Hardware, software, datos e instalaciones y redes de comunicación",
+        "explicacion": "Estos componentes representan los activos más importantes que deben protegerse en un sistema informático."
+      },
+      {
+        "pregunta": "¿Qué tipo de vulnerabilidad implica una pérdida de integridad?",
+        "respuestas": [
+          "Leaky (fuga)",
+          "Corrupto",
+          "No disponible",
+          "Externo"
+        ],
+        "correcta": "Corrupto",
+        "explicacion": "Las vulnerabilidades corruptas afectan la integridad de la información almacenada o procesada."
+      },
+      {
+        "pregunta": "¿Qué tipo de vulnerabilidad se asocia con pérdida de confidencialidad?",
         "respuestas": [
           "Corrupto",
+          "Leaky (fugas)",
+          "No disponible o muy lento",
+          "Pasivo"
+        ],
+        "correcta": "Leaky (fugas)",
+        "explicacion": "Las vulnerabilidades 'leaky' permiten la filtración de información confidencial."
+      },
+      {
+        "pregunta": "¿Qué tipo de vulnerabilidad afecta la disponibilidad?",
+        "respuestas": [
           "Leaky",
-          "No disponible",
-          "Congelado"
+          "Corrupto",
+          "No disponible o muy lento",
+          "Activo"
         ],
-        "correcta": "Leaky",
-        "explicacion": "Una vulnerabilidad de tipo 'Leaky' (con fugas) implica la pérdida de confidencialidad, es decir, la filtración de información a entidades no autorizadas."
+        "correcta": "No disponible o muy lento",
+        "explicacion": "Cuando un sistema no está disponible o responde lentamente, se compromete la disponibilidad."
       },
       {
-        "pregunta": "¿Qué diferencia hay entre una amenaza y un ataque?",
+        "pregunta": "¿Qué caracteriza un ataque pasivo?",
         "respuestas": [
-          "Una amenaza es la posibilidad de daño, mientras que un ataque es la realización efectiva de esa amenaza",
-          "Ambos términos son sinónimos",
-          "Una amenaza se produce dentro del sistema, y un ataque fuera",
-          "Un ataque siempre es pasivo, mientras que una amenaza es activa"
+          "Intenta alterar los recursos del sistema",
+          "Busca aprender o usar información sin afectar los recursos del sistema",
+          "Se origina dentro del perímetro de seguridad",
+          "Provoca interrupciones directas"
         ],
-        "correcta": "Una amenaza es la posibilidad de daño, mientras que un ataque es la realización efectiva de esa amenaza",
-        "explicacion": "Una amenaza representa un potencial riesgo; cuando se ejecuta, se convierte en un ataque activo o pasivo."
+        "correcta": "Busca aprender o usar información sin afectar los recursos del sistema",
+        "explicacion": "Los ataques pasivos se centran en la observación o recopilación de información sin modificarla."
       },
       {
-        "pregunta": "¿Qué tipos de ataques distingue el modelo de seguridad informática?",
+        "pregunta": "¿Qué distingue a un ataque activo?",
         "respuestas": [
-          "Internos, externos, activos y pasivos",
-          "Locales, remotos, físicos y virtuales",
-          "Cifrados, hash, públicos y privados",
-          "Manuales, automáticos y mixtos"
+          "No altera los recursos del sistema",
+          "Intenta alterar o dañar los recursos del sistema",
+          "Proviene únicamente de fuentes externas",
+          "Solo se usa con fines de auditoría"
         ],
-        "correcta": "Internos, externos, activos y pasivos",
-        "explicacion": "El modelo clasifica los ataques según su origen (interno o externo) y su naturaleza (activa o pasiva)."
+        "correcta": "Intenta alterar o dañar los recursos del sistema",
+        "explicacion": "Los ataques activos buscan modificar, interrumpir o destruir los recursos o el funcionamiento del sistema."
       },
       {
-        "pregunta": "¿Qué objetivo tienen las contramedidas en seguridad informática?",
+        "pregunta": "¿Qué diferencia hay entre un ataque interno y uno externo?",
         "respuestas": [
-          "Eliminar completamente todas las vulnerabilidades del sistema",
-          "Prevenir, detectar o recuperar ante ataques minimizando el riesgo residual",
-          "Sustituir los mecanismos de autenticación por métodos más rápidos",
-          "Permitir el acceso libre en caso de fallo del sistema"
+          "El interno es accidental, el externo intencional",
+          "El interno proviene desde dentro del perímetro de seguridad, el externo desde fuera",
+          "El interno siempre es más peligroso",
+          "El externo no puede afectar servidores locales"
         ],
-        "correcta": "Prevenir, detectar o recuperar ante ataques minimizando el riesgo residual",
-        "explicacion": "Las contramedidas no eliminan todos los riesgos, sino que buscan reducirlos a un nivel aceptable mediante prevención, detección y recuperación."
+        "correcta": "El interno proviene desde dentro del perímetro de seguridad, el externo desde fuera",
+        "explicacion": "Los ataques internos suelen realizarse por empleados o usuarios autorizados; los externos provienen de agentes ajenos."
       },
       {
-        "pregunta": "¿Qué ocurre en una 'divulgación no autorizada'?",
+        "pregunta": "¿Cuáles son los tres objetivos principales de las contramedidas?",
         "respuestas": [
-          "Una entidad obtiene acceso a datos para los cuales no está autorizada",
-          "Un usuario borra archivos de forma accidental",
-          "Un sistema deja de funcionar por una sobrecarga",
-          "Un atacante interrumpe la conexión entre dos redes"
+          "Cifrar, autenticar y auditar",
+          "Prevenir, detectar y recuperar",
+          "Reducir, eliminar y reemplazar",
+          "Evitar, registrar y sancionar"
         ],
-        "correcta": "Una entidad obtiene acceso a datos para los cuales no está autorizada",
-        "explicacion": "La divulgación no autorizada se produce cuando alguien accede a información confidencial sin tener permiso, violando la confidencialidad."
+        "correcta": "Prevenir, detectar y recuperar",
+        "explicacion": "Las contramedidas se enfocan en evitar ataques, identificarlos a tiempo y restaurar la normalidad del sistema."
       },
       {
-        "pregunta": "¿Cuál de las siguientes acciones es un ejemplo de 'engaño' según la Tabla 1.2?",
+        "pregunta": "¿Qué riesgo pueden tener las contramedidas?",
         "respuestas": [
-          "Suplantación de identidad",
-          "Destrucción de datos",
-          "Inhabilitación de sistemas",
-          "Apropiación de recursos"
+          "Reducen la eficacia del sistema de seguridad",
+          "Pueden introducir nuevas vulnerabilidades",
+          "Eliminan todos los riesgos existentes",
+          "Solo funcionan en ataques internos"
         ],
-        "correcta": "Suplantación de identidad",
-        "explicacion": "El engaño incluye acciones como la suplantación, falsificación o repudio, donde una entidad autorizada es engañada por información falsa."
+        "correcta": "Pueden introducir nuevas vulnerabilidades",
+        "explicacion": "Al implementarse, las contramedidas pueden generar puntos débiles imprevistos en el sistema."
       },
       {
-        "pregunta": "¿Qué tipo de ataque busca interrumpir o impedir el funcionamiento de los servicios del sistema?",
+        "pregunta": "¿Cuál es el objetivo final de las contramedidas?",
+        "respuestas": [
+          "Eliminar todas las amenazas",
+          "Minimizar el nivel residual de riesgo para los activos",
+          "Eliminar la necesidad de políticas de seguridad",
+          "Evitar los ataques externos únicamente"
+        ],
+        "correcta": "Minimizar el nivel residual de riesgo para los activos",
+        "explicacion": "El propósito de las contramedidas es reducir el riesgo a un nivel aceptable para los recursos de la organización."
+      },
+      {
+        "pregunta": "¿Qué describe la consecuencia 'Divulgación no autorizada'?",
+        "respuestas": [
+          "La pérdida de control sobre los servicios del sistema",
+          "El acceso no autorizado a datos confidenciales",
+          "La interrupción del funcionamiento del sistema",
+          "La creación de datos falsos en el sistema"
+        ],
+        "correcta": "El acceso no autorizado a datos confidenciales",
+        "explicacion": "La divulgación no autorizada ocurre cuando una entidad obtiene acceso a datos para los cuales no tiene autorización."
+      },
+      {
+        "pregunta": "¿Qué acción de amenaza corresponde a la 'Divulgación no autorizada' cuando los datos se exponen directamente?",
+        "respuestas": [
+          "Intrusión",
+          "Exposición",
+          "Intercepción",
+          "Inferencia"
+        ],
+        "correcta": "Exposición",
+        "explicacion": "La exposición ocurre cuando los datos confidenciales se revelan directamente a una entidad no autorizada."
+      },
+      {
+        "pregunta": "¿Qué ocurre durante una 'Intercepción'?",
+        "respuestas": [
+          "Una entidad no autorizada altera los datos",
+          "Una entidad no autorizada accede a datos en tránsito",
+          "Se crean datos falsos en el sistema",
+          "Se interrumpe el funcionamiento de un componente"
+        ],
+        "correcta": "Una entidad no autorizada accede a datos en tránsito",
+        "explicacion": "La intercepción implica el acceso no autorizado a datos confidenciales que viajan entre fuentes y destinos autorizados."
+      },
+      {
+        "pregunta": "¿Qué implica una acción de 'Inferencia'?",
+        "respuestas": [
+          "El acceso directo a los datos confidenciales",
+          "El acceso indirecto a datos mediante deducciones",
+          "La interrupción del servicio",
+          "La modificación de funciones del sistema"
+        ],
+        "correcta": "El acceso indirecto a datos mediante deducciones",
+        "explicacion": "La inferencia permite deducir información confidencial a partir de subproductos o patrones de comunicación."
+      },
+      {
+        "pregunta": "¿Qué define la 'Intrusión'?",
+        "respuestas": [
+          "El acceso a datos confidenciales eludiendo protecciones de seguridad",
+          "La alteración de datos existentes en la red",
+          "El envío de información falsa al sistema",
+          "La interrupción del servicio"
+        ],
+        "correcta": "El acceso a datos confidenciales eludiendo protecciones de seguridad",
+        "explicacion": "La intrusión ocurre cuando una entidad no autorizada supera las defensas de seguridad y accede a datos."
+      },
+      {
+        "pregunta": "¿Qué describe la consecuencia 'Engaño'?",
+        "respuestas": [
+          "Interrupción del sistema por malware",
+          "Recepción de datos falsos por parte de una entidad autorizada",
+          "Acceso no autorizado a recursos del sistema",
+          "Pérdida de disponibilidad del servicio"
+        ],
+        "correcta": "Recepción de datos falsos por parte de una entidad autorizada",
+        "explicacion": "El engaño ocurre cuando una entidad autorizada acepta datos falsos creyendo que son verdaderos."
+      },
+      {
+        "pregunta": "¿Qué representa la 'Suplantación'?",
+        "respuestas": [
+          "El uso indebido de datos confidenciales",
+          "Un ataque en el que una entidad se hace pasar por otra",
+          "Una denegación de servicio",
+          "La modificación de archivos del sistema"
+        ],
+        "correcta": "Un ataque en el que una entidad se hace pasar por otra",
+        "explicacion": "La suplantación se produce cuando una entidad no autorizada actúa en nombre de otra legítima."
+      },
+      {
+        "pregunta": "¿Qué implica una 'Falsificación'?",
+        "respuestas": [
+          "El envío de datos falsos que engañan a una entidad autorizada",
+          "El robo de hardware del sistema",
+          "La interrupción de los servicios de red",
+          "La creación de nuevos usuarios en el sistema"
+        ],
+        "correcta": "El envío de datos falsos que engañan a una entidad autorizada",
+        "explicacion": "La falsificación ocurre cuando datos falsos son aceptados como auténticos por una entidad autorizada."
+      },
+      {
+        "pregunta": "¿Qué describe el 'Repudio'?",
+        "respuestas": [
+          "Una denegación falsa de responsabilidad por parte de una entidad",
+          "Una pérdida de disponibilidad del sistema",
+          "La modificación de datos en tránsito",
+          "La creación de nuevos archivos falsos"
+        ],
+        "correcta": "Una denegación falsa de responsabilidad por parte de una entidad",
+        "explicacion": "El repudio ocurre cuando una entidad niega haber realizado una acción o haber participado en una comunicación."
+      },
+      {
+        "pregunta": "¿Qué consecuencia se produce cuando se interrumpe el funcionamiento de los servicios del sistema?",
         "respuestas": [
           "Ruptura",
           "Engaño",
-          "Usurpación",
-          "Divulgación"
+          "Divulgación no autorizada",
+          "Usurpación"
         ],
         "correcta": "Ruptura",
-        "explicacion": "La ruptura o interrupción afecta directamente la disponibilidad del sistema, impidiendo su correcto funcionamiento (por ejemplo, ataques DoS)."
+        "explicacion": "La ruptura implica una interrupción o fallo en los servicios o funciones del sistema."
       },
       {
-        "pregunta": "¿Qué describe la 'usurpación' en el contexto de las amenazas informáticas?",
+        "pregunta": "¿Qué acción de amenaza corresponde a 'Ruptura' al desactivar un componente del sistema?",
         "respuestas": [
-          "Una entidad no autorizada asume el control de los servicios o funciones del sistema",
-          "Un usuario autorizado pierde acceso a sus propios archivos",
-          "Se interceptan datos sin modificarlos",
-          "Se eliminan mensajes importantes del sistema"
+          "Corrupción",
+          "Incapacitacion",
+          "Obstrucción",
+          "Apropiación indebida"
         ],
-        "correcta": "Una entidad no autorizada asume el control de los servicios o funciones del sistema",
-        "explicacion": "La usurpación ocurre cuando un atacante toma el control lógico o físico de un recurso, afectando la integridad y la disponibilidad."
+        "correcta": "Incapacitacion",
+        "explicacion": "La incapacitación interrumpe el funcionamiento del sistema al desactivar uno de sus componentes."
+      },
+      {
+        "pregunta": "¿Qué implica una 'Corrupción'?",
+        "respuestas": [
+          "La pérdida de disponibilidad del sistema",
+          "La alteración indeseable de las funciones o datos del sistema",
+          "El acceso no autorizado a información confidencial",
+          "La denegación de responsabilidades"
+        ],
+        "correcta": "La alteración indeseable de las funciones o datos del sistema",
+        "explicacion": "La corrupción modifica negativamente la integridad del sistema o sus datos."
+      },
+      {
+        "pregunta": "¿Qué acción describe una 'Obstrucción'?",
+        "respuestas": [
+          "Un ataque que impide la prestación de servicios del sistema",
+          "Un intento de acceder a datos confidenciales",
+          "La creación de contramedidas redundantes",
+          "El robo físico de hardware"
+        ],
+        "correcta": "Un ataque que impide la prestación de servicios del sistema",
+        "explicacion": "La obstrucción bloquea la disponibilidad de servicios al obstaculizar su funcionamiento normal."
+      },
+      {
+        "pregunta": "¿Qué significa 'Usurpación'?",
+        "respuestas": [
+          "Interrupción del servicio de red",
+          "Control del sistema por una entidad no autorizada",
+          "Falsificación de datos",
+          "Alteración de funciones del sistema"
+        ],
+        "correcta": "Control del sistema por una entidad no autorizada",
+        "explicacion": "La usurpación ocurre cuando una entidad no autorizada toma control de servicios o funciones del sistema."
+      },
+      {
+        "pregunta": "¿Qué implica una 'Apropiación indebida'?",
+        "respuestas": [
+          "El uso correcto de recursos del sistema",
+          "El acceso físico o lógico no autorizado a un recurso",
+          "El sabotaje del software del sistema",
+          "La denegación de servicio a usuarios"
+        ],
+        "correcta": "El acceso físico o lógico no autorizado a un recurso",
+        "explicacion": "La apropiación indebida ocurre cuando una entidad toma control no autorizado de un recurso del sistema."
+      },
+      {
+        "pregunta": "¿Qué describe el 'Uso indebido'?",
+        "respuestas": [
+          "Un componente realiza funciones no autorizadas o perjudiciales",
+          "El robo físico de hardware",
+          "La exposición de datos confidenciales",
+          "El bloqueo de servicios"
+        ],
+        "correcta": "Un componente realiza funciones no autorizadas o perjudiciales",
+        "explicacion": "El uso indebido ocurre cuando un sistema ejecuta acciones que comprometen su seguridad o funcionamiento."
+      },
+      {
+        "pregunta": "¿Qué ejemplo de amenaza afecta la disponibilidad del hardware?",
+        "respuestas": [
+          "Se roba o inutiliza el equipo, negando el servicio",
+          "Se roba una unidad USB no cifrada",
+          "Se modifica un programa en ejecución",
+          "Se leen los mensajes de red"
+        ],
+        "correcta": "Se roba o inutiliza el equipo, negando el servicio",
+        "explicacion": "El robo o daño del hardware afecta la disponibilidad, impidiendo el acceso a los servicios."
+      },
+      {
+        "pregunta": "¿Qué ejemplo de amenaza compromete la confidencialidad del software?",
+        "respuestas": [
+          "El programa se elimina",
+          "Se realiza una copia no autorizada del software",
+          "Un componente del sistema falla",
+          "Se modifica el código fuente"
+        ],
+        "correcta": "Se realiza una copia no autorizada del software",
+        "explicacion": "Copiar software sin autorización compromete su confidencialidad y los derechos de acceso."
+      },
+      {
+        "pregunta": "¿Qué ejemplo de amenaza afecta la integridad de los datos?",
+        "respuestas": [
+          "Los archivos se eliminan",
+          "Se realiza una lectura no autorizada de datos",
+          "Los archivos existentes se modifican o se crean nuevos",
+          "Se destruyen los mensajes de red"
+        ],
+        "correcta": "Los archivos existentes se modifican o se crean nuevos",
+        "explicacion": "Modificar o crear archivos no autorizados altera la integridad de la información almacenada."
+      },
+      {
+        "pregunta": "¿Qué tipo de amenaza afecta la confidencialidad en las redes de comunicación?",
+        "respuestas": [
+          "Lectura de mensajes o análisis del patrón de tráfico",
+          "Modificación o retraso de mensajes",
+          "Destrucción de mensajes",
+          "Duplicación de paquetes"
+        ],
+        "correcta": "Lectura de mensajes o análisis del patrón de tráfico",
+        "explicacion": "Leer o analizar mensajes compromete la confidencialidad de las comunicaciones."
+      },
+      {
+        "pregunta": "¿Qué caracteriza a un ataque pasivo?",
+        "respuestas": [
+          "Modifica el flujo de datos o crea uno falso",
+          "Busca aprender o usar información sin afectar los recursos del sistema",
+          "Provoca interrupciones en el sistema",
+          "Altera los mensajes legítimos"
+        ],
+        "correcta": "Busca aprender o usar información sin afectar los recursos del sistema",
+        "explicacion": "Los ataques pasivos se centran en observar o capturar información sin modificarla ni alterar el sistema."
       },
       {
         "pregunta": "¿Cuál es el objetivo principal de un ataque pasivo?",
         "respuestas": [
-          "Modificar la información transmitida",
-          "Interrumpir la disponibilidad del sistema",
-          "Obtener información sin alterar los recursos del sistema",
-          "Engañar al usuario haciéndose pasar por otro"
+          "Interrumpir los servicios de red",
+          "Obtener la información que se transmite",
+          "Modificar los datos en tránsito",
+          "Alterar las credenciales de acceso"
         ],
-        "correcta": "Obtener información sin alterar los recursos del sistema",
-        "explicacion": "Los ataques pasivos buscan espiar o analizar información sin modificarla, como ocurre en la interceptación o el análisis de tráfico."
+        "correcta": "Obtener la información que se transmite",
+        "explicacion": "El atacante busca conocer el contenido de la comunicación, no dañarla ni modificarla."
       },
       {
-        "pregunta": "¿Qué tipo de ataque se caracteriza por escuchar o monitorizar transmisiones para aprender información?",
+        "pregunta": "¿Cuáles son los dos tipos de ataque pasivo?",
         "respuestas": [
-          "Ataque pasivo",
-          "Ataque activo",
-          "Ataque interno",
-          "Ataque de denegación de servicio"
+          "Repetición y denegación de servicio",
+          "Suplantación y falsificación",
+          "Publicación del contenido del mensaje y análisis de tráfico",
+          "Corrupción y obstrucción"
         ],
-        "correcta": "Ataque pasivo",
-        "explicacion": "Los ataques pasivos incluyen la escucha o monitoreo de comunicaciones con el fin de obtener información sin alterar los datos."
+        "correcta": "Publicación del contenido del mensaje y análisis de tráfico",
+        "explicacion": "Los ataques pasivos se dividen entre la lectura del mensaje y el análisis de los patrones de tráfico."
       },
       {
-        "pregunta": "¿Qué distingue a un ataque activo de uno pasivo?",
+        "pregunta": "¿Qué diferencia a los ataques activos de los pasivos?",
         "respuestas": [
-          "El ataque activo modifica el flujo de datos o crea uno falso",
-          "El ataque pasivo altera los mensajes y el activo solo los observa",
-          "El ataque activo se realiza dentro del sistema y el pasivo desde fuera",
-          "No existe diferencia: ambos afectan la integridad de los datos"
+          "Los activos buscan solo recopilar información",
+          "Los activos implican modificación del flujo de datos o creación de datos falsos",
+          "Los pasivos son más dañinos que los activos",
+          "Los activos no afectan al sistema"
         ],
-        "correcta": "El ataque activo modifica el flujo de datos o crea uno falso",
-        "explicacion": "Los ataques activos implican alterar, retrasar o falsificar la comunicación, mientras que los pasivos solo observan."
+        "correcta": "Los activos implican modificación del flujo de datos o creación de datos falsos",
+        "explicacion": "A diferencia de los pasivos, los ataques activos alteran el sistema o su funcionamiento."
       },
       {
-        "pregunta": "¿Cuál de los siguientes es un ejemplo de ataque activo?",
+        "pregunta": "¿Por qué son difíciles de prevenir los ataques activos?",
         "respuestas": [
-          "Suplantación de identidad (Masquerade)",
-          "Análisis de tráfico",
-          "Publicación del contenido de un mensaje",
-          "Escucha de red"
+          "Porque dependen del tipo de sistema operativo",
+          "Por la gran variedad de vulnerabilidades físicas, de software y de red",
+          "Porque no generan daños visibles",
+          "Porque solo ocurren en redes públicas"
         ],
-        "correcta": "Suplantación de identidad (Masquerade)",
-        "explicacion": "La suplantación es un ataque activo donde una entidad finge ser otra legítima, a menudo combinando otras técnicas activas."
+        "correcta": "Por la gran variedad de vulnerabilidades físicas, de software y de red",
+        "explicacion": "Las numerosas vulnerabilidades posibles hacen que los ataques activos sean difíciles de prevenir completamente."
       },
       {
-        "pregunta": "¿En qué consiste un ataque de 'repetición' (Replay)?",
+        "pregunta": "¿Cuál es el objetivo principal al enfrentar ataques activos?",
         "respuestas": [
-          "Interceptar un mensaje y retransmitirlo para producir un efecto no autorizado",
-          "Modificar los datos de un mensaje antes de enviarlo",
-          "Obtener contraseñas mediante observación del teclado",
-          "Saturar un servidor con múltiples peticiones simultáneas"
+          "Detectarlos y recuperarse de interrupciones causadas por ellos",
+          "Eliminar el tráfico de red sospechoso",
+          "Aumentar la velocidad de transmisión",
+          "Cifrar todas las comunicaciones"
         ],
-        "correcta": "Interceptar un mensaje y retransmitirlo para producir un efecto no autorizado",
-        "explicacion": "Un ataque de repetición captura datos válidos y los retransmite para lograr un acceso o acción no autorizada."
+        "correcta": "Detectarlos y recuperarse de interrupciones causadas por ellos",
+        "explicacion": "El objetivo es detectar los ataques rápidamente y restaurar el funcionamiento normal del sistema."
+      },
+      {
+        "pregunta": "¿Qué implica un ataque de suplantación (Masquerade)?",
+        "respuestas": [
+          "Un atacante interrumpe el tráfico de red",
+          "Una entidad finge ser otra entidad diferente",
+          "Se altera el flujo de datos sin permiso",
+          "Se copia el contenido del mensaje"
+        ],
+        "correcta": "Una entidad finge ser otra entidad diferente",
+        "explicacion": "En la suplantación, el atacante actúa en nombre de una entidad legítima para obtener acceso o privilegios."
+      },
+      {
+        "pregunta": "¿Qué ocurre en un ataque de repetición (Replay)?",
+        "respuestas": [
+          "Se modifican los datos originales",
+          "Se capturan y retransmiten datos legítimos para producir un efecto no autorizado",
+          "Se interrumpe la conexión de red",
+          "Se analizan los patrones de tráfico"
+        ],
+        "correcta": "Se capturan y retransmiten datos legítimos para producir un efecto no autorizado",
+        "explicacion": "El atacante reutiliza datos legítimos para engañar al sistema o repetir acciones válidas."
+      },
+      {
+        "pregunta": "¿Qué es la modificación de datos en un ataque activo?",
+        "respuestas": [
+          "La alteración o reordenamiento de partes de un mensaje legítimo",
+          "La lectura del contenido del mensaje",
+          "El retraso en la entrega de información por saturación",
+          "El acceso no autorizado sin modificación"
+        ],
+        "correcta": "La alteración o reordenamiento de partes de un mensaje legítimo",
+        "explicacion": "Este ataque busca cambiar el contenido o el orden de los mensajes para producir efectos no deseados."
       },
       {
         "pregunta": "¿Qué busca un ataque de denegación de servicio (DoS)?",
         "respuestas": [
-          "Evitar o inhibir el uso normal de las comunicaciones o servicios",
-          "Modificar el contenido de los mensajes sin ser detectado",
-          "Analizar el tráfico para obtener información confidencial",
-          "Autenticar incorrectamente a un usuario"
+          "Robar credenciales de usuario",
+          "Impedir o inhibir el uso normal de los servicios del sistema",
+          "Modificar los datos en tránsito",
+          "Reproducir mensajes antiguos"
         ],
-        "correcta": "Evitar o inhibir el uso normal de las comunicaciones o servicios",
-        "explicacion": "El ataque DoS impide el funcionamiento normal de un sistema o servicio, afectando su disponibilidad."
+        "correcta": "Impedir o inhibir el uso normal de los servicios del sistema",
+        "explicacion": "El DoS busca saturar o bloquear los recursos para que no estén disponibles para los usuarios legítimos."
       },
       {
-        "pregunta": "¿Cuál es el propósito principal de los servicios de seguridad en un sistema informático?",
+        "pregunta": "¿Qué servicio de seguridad garantiza que una comunicación sea auténtica?",
         "respuestas": [
-          "Ofrecer un conjunto de mecanismos que protejan la información y los recursos del sistema frente a ataques",
-          "Permitir que los usuarios accedan sin restricciones a la información",
-          "Mejorar el rendimiento de los sistemas de comunicación",
-          "Simplificar la gestión de archivos del sistema"
+          "Integridad de datos",
+          "Autenticación",
+          "Control de acceso",
+          "No repudio"
         ],
-        "correcta": "Ofrecer un conjunto de mecanismos que protejan la información y los recursos del sistema frente a ataques",
-        "explicacion": "Los servicios de seguridad buscan garantizar la protección de la información y los recursos, asegurando autenticidad, confidencialidad, integridad y disponibilidad."
+        "correcta": "Autenticación",
+        "explicacion": "La autenticación verifica la identidad de las partes que se comunican, asegurando que son quienes dicen ser."
       },
       {
-        "pregunta": "¿Qué garantiza el servicio de 'autenticación'?",
+        "pregunta": "¿Qué asegura la autenticación en el caso de un solo mensaje?",
         "respuestas": [
-          "Que la comunicación o entidad sea legítima y provenga de quien dice ser",
-          "Que los datos transmitidos no puedan ser interceptados",
-          "Que los usuarios no puedan modificar archivos del sistema",
-          "Que el sistema se recupere rápidamente tras un fallo"
+          "Que el mensaje proviene de la fuente que dice ser",
+          "Que el mensaje no fue interceptado",
+          "Que el mensaje está cifrado correctamente",
+          "Que el mensaje fue reenviado automáticamente"
         ],
-        "correcta": "Que la comunicación o entidad sea legítima y provenga de quien dice ser",
-        "explicacion": "La autenticación asegura la identidad de las partes involucradas, evitando suplantaciones o alteraciones en las comunicaciones."
+        "correcta": "Que el mensaje proviene de la fuente que dice ser",
+        "explicacion": "En comunicaciones únicas, la autenticación garantiza el origen legítimo del mensaje."
       },
       {
-        "pregunta": "¿Qué diferencia hay entre la autenticación de entidades y la autenticación de origen de datos?",
+        "pregunta": "¿Qué asegura la autenticación en una interacción continua?",
         "respuestas": [
-          "La primera verifica la identidad entre dos sistemas, mientras que la segunda garantiza la fuente de un mensaje individual",
-          "No hay diferencia: ambas se usan indistintamente",
-          "La autenticación de origen de datos requiere conexión continua entre sistemas",
-          "La autenticación de entidades solo se usa en correos electrónicos"
+          "Que los datos se cifran constantemente",
+          "Que las entidades son auténticas y la conexión no se ha interferido",
+          "Que los mensajes son reenviados automáticamente",
+          "Que se usa el mismo protocolo en ambos extremos"
         ],
-        "correcta": "La primera verifica la identidad entre dos sistemas, mientras que la segunda garantiza la fuente de un mensaje individual",
-        "explicacion": "La autenticación de entidades se usa en conexiones activas entre sistemas; la de origen de datos en mensajes únicos, como correos electrónicos."
+        "correcta": "Que las entidades son auténticas y la conexión no se ha interferido",
+        "explicacion": "En una comunicación continua, la autenticación garantiza que las partes son legítimas y que no hay suplantación."
       },
       {
-        "pregunta": "¿Qué función cumple el control de acceso dentro de la seguridad informática?",
+        "pregunta": "¿Qué define la autenticación de entidades del mismo nivel según X.800?",
         "respuestas": [
-          "Limitar y controlar quién puede acceder a los sistemas y qué acciones puede realizar",
-          "Permitir que todos los usuarios tengan acceso total por defecto",
-          "Garantizar la velocidad de acceso a los datos",
-          "Eliminar automáticamente los archivos sospechosos"
+          "Verifica el origen de los datos enviados",
+          "Corrobora la identidad de una entidad par durante una conexión o transferencia de datos",
+          "Protege contra la duplicación de mensajes",
+          "Evita la denegación de servicio"
         ],
-        "correcta": "Limitar y controlar quién puede acceder a los sistemas y qué acciones puede realizar",
-        "explicacion": "El control de acceso asegura que solo las entidades autenticadas y autorizadas puedan acceder a los recursos según sus privilegios."
+        "correcta": "Corrobora la identidad de una entidad par durante una conexión o transferencia de datos",
+        "explicacion": "Este tipo de autenticación garantiza que ambas entidades se reconocen mutuamente durante la comunicación."
       },
       {
-        "pregunta": "¿Qué protege el servicio de 'confidencialidad de datos'?",
+        "pregunta": "¿Qué proporciona la autenticación de origen de datos?",
         "respuestas": [
-          "La información transmitida frente a ataques pasivos como la escucha o el análisis de tráfico",
-          "Los sistemas frente a fallos de hardware",
-          "Los datos frente a modificaciones intencionadas",
-          "Los usuarios frente a errores de autenticación"
+          "Protección contra duplicación o modificación de unidades de datos",
+          "Corroboración de la fuente de una unidad de datos",
+          "Protección contra ataques de denegación de servicio",
+          "Verificación de contraseñas"
         ],
-        "correcta": "La información transmitida frente a ataques pasivos como la escucha o el análisis de tráfico",
-        "explicacion": "La confidencialidad de datos evita que terceros no autorizados accedan o deduzcan información a través del tráfico de red."
+        "correcta": "Corroboración de la fuente de una unidad de datos",
+        "explicacion": "Este servicio confirma que los datos provienen de la fuente legítima, aunque no protege contra su duplicación o alteración."
       },
       {
-        "pregunta": "¿Cuál es el objetivo del servicio de 'integridad de datos'?",
+        "pregunta": "¿Qué es el control de acceso?",
         "respuestas": [
-          "Garantizar que los mensajes se reciban tal como se enviaron, sin modificación ni duplicación",
-          "Acelerar las transmisiones de datos",
-          "Permitir que los usuarios editen la información de forma libre",
-          "Evitar que los mensajes se cifren"
+          "La capacidad de cifrar los datos transmitidos en una red",
+          "La capacidad de limitar y controlar el acceso a los sistemas y aplicaciones",
+          "Un mecanismo para autenticar la identidad de los usuarios",
+          "Un método para detectar intrusiones en el sistema"
         ],
-        "correcta": "Garantizar que los mensajes se reciban tal como se enviaron, sin modificación ni duplicación",
-        "explicacion": "La integridad de datos protege contra alteraciones, inserciones o reordenamientos no autorizados de la información."
+        "correcta": "La capacidad de limitar y controlar el acceso a los sistemas y aplicaciones",
+        "explicacion": "El control de acceso permite restringir quién puede usar los recursos de un sistema y bajo qué condiciones."
       },
       {
-        "pregunta": "¿Qué evita el servicio de 'no repudio'?",
+        "pregunta": "¿Qué debe ocurrir antes de conceder el acceso a una entidad según el control de acceso?",
         "respuestas": [
-          "Que el remitente o el receptor puedan negar haber enviado o recibido un mensaje",
-          "Que los mensajes sean interceptados durante la transmisión",
-          "Que los usuarios accedan al sistema sin contraseña",
-          "Que los datos se corrompan al almacenarse"
+          "Debe ser identificada o autenticada",
+          "Debe registrar sus intentos de acceso",
+          "Debe firmar digitalmente su conexión",
+          "Debe cifrar los datos antes de enviarlos"
         ],
-        "correcta": "Que el remitente o el receptor puedan negar haber enviado o recibido un mensaje",
-        "explicacion": "El no repudio garantiza la evidencia de envío y recepción, evitando que las partes involucradas nieguen su participación en la comunicación."
+        "correcta": "Debe ser identificada o autenticada",
+        "explicacion": "El control de acceso requiere identificar o autenticar a cada entidad para adaptar sus derechos de acceso."
       },
       {
-        "pregunta": "¿Cuál es la finalidad del servicio de 'disponibilidad'?",
+        "pregunta": "¿Cuál es el objetivo de la confidencialidad de datos?",
         "respuestas": [
-          "Garantizar el acceso confiable y oportuno a los recursos y servicios del sistema",
-          "Restringir el acceso a los datos para protegerlos",
-          "Eliminar los procesos que consuman demasiada memoria",
-          "Evitar la instalación de software sin licencia"
+          "Proteger los datos contra ataques pasivos",
+          "Evitar la duplicación de mensajes",
+          "Garantizar la autenticación de las entidades",
+          "Controlar la disponibilidad del sistema"
         ],
-        "correcta": "Garantizar el acceso confiable y oportuno a los recursos y servicios del sistema",
-        "explicacion": "La disponibilidad protege los sistemas frente a ataques de denegación de servicio o fallos que impidan su uso normal."
+        "correcta": "Proteger los datos contra ataques pasivos",
+        "explicacion": "La confidencialidad protege la información transmitida para que no sea leída o analizada por atacantes."
       },
       {
-        "pregunta": "¿Qué son los mecanismos de seguridad en un sistema informático?",
+        "pregunta": "¿Qué protege el servicio más amplio de confidencialidad?",
         "respuestas": [
-          "Los procedimientos y técnicas utilizados para implementar los servicios de seguridad",
-          "Los documentos legales que definen las políticas de seguridad",
-          "Las contraseñas de los usuarios",
-          "Los errores del sistema que deben corregirse"
+          "Solo los mensajes individuales entre dos usuarios",
+          "Los datos de usuario transmitidos durante un período de tiempo",
+          "Los archivos almacenados en el sistema",
+          "Las claves de autenticación"
         ],
-        "correcta": "Los procedimientos y técnicas utilizados para implementar los servicios de seguridad",
-        "explicacion": "Los mecanismos de seguridad son los medios técnicos que permiten llevar a la práctica los servicios de seguridad, como la autenticación o el cifrado."
+        "correcta": "Los datos de usuario transmitidos durante un período de tiempo",
+        "explicacion": "El servicio amplio protege toda la información transmitida entre dos usuarios durante una sesión."
       },
       {
-        "pregunta": "¿Qué diferencia hay entre un mecanismo criptográfico reversible e irreversible?",
+        "pregunta": "¿Qué protege la forma más restringida de confidencialidad?",
         "respuestas": [
-          "El reversible permite cifrar y descifrar datos, mientras que el irreversible no se puede revertir",
-          "El reversible es menos seguro que el irreversible",
-          "El irreversible se usa solo para comprimir archivos",
-          "El reversible cifra mediante contraseñas simples"
+          "Todos los datos de usuario de una sesión",
+          "Un solo mensaje o campos específicos dentro de un mensaje",
+          "El flujo completo de comunicaciones",
+          "El acceso físico al sistema"
         ],
-        "correcta": "El reversible permite cifrar y descifrar datos, mientras que el irreversible no se puede revertir",
-        "explicacion": "Los mecanismos criptográficos reversibles son algoritmos de cifrado simétrico o asimétrico; los irreversibles incluyen funciones hash o códigos de autenticación de mensajes."
+        "correcta": "Un solo mensaje o campos específicos dentro de un mensaje",
+        "explicacion": "El servicio restringido se centra en proteger solo una parte o mensaje específico dentro de la comunicación."
       },
       {
-        "pregunta": "¿Qué función cumple una 'firma digital'?",
+        "pregunta": "¿Qué implica la protección del flujo de tráfico en la confidencialidad?",
         "respuestas": [
-          "Demostrar el origen y la integridad de una unidad de datos y protegerla contra falsificación",
-          "Cifrar los archivos del sistema para que nadie los lea",
-          "Eliminar los datos antiguos del sistema",
-          "Verificar la velocidad de transmisión de los mensajes"
+          "Evitar que un atacante observe el origen, destino o frecuencia del tráfico",
+          "Evitar la pérdida de paquetes en la transmisión",
+          "Asegurar la autenticación de los mensajes",
+          "Cifrar únicamente los encabezados de los mensajes"
         ],
-        "correcta": "Demostrar el origen y la integridad de una unidad de datos y protegerla contra falsificación",
-        "explicacion": "La firma digital utiliza criptografía para autenticar al remitente y asegurar que el contenido no haya sido modificado."
+        "correcta": "Evitar que un atacante observe el origen, destino o frecuencia del tráfico",
+        "explicacion": "La protección del flujo de tráfico impide que el atacante analice patrones de comunicación para extraer información."
       },
       {
-        "pregunta": "¿Cuál es el propósito del 'intercambio de autenticación'?",
+        "pregunta": "¿Cuál es el objetivo principal del servicio de integridad de datos?",
         "respuestas": [
-          "Garantizar la identidad de una entidad mediante el intercambio de información",
-          "Evitar la pérdida de datos por fallos de hardware",
-          "Comprimir los datos transmitidos por la red",
-          "Controlar la cantidad de tráfico de red"
+          "Evitar la pérdida de disponibilidad",
+          "Asegurar que los mensajes no sean modificados o duplicados durante la transmisión",
+          "Proteger los datos contra ataques pasivos",
+          "Garantizar la autenticación mutua"
         ],
-        "correcta": "Garantizar la identidad de una entidad mediante el intercambio de información",
-        "explicacion": "El intercambio de autenticación es un mecanismo que valida la identidad de los participantes antes de establecer comunicación segura."
+        "correcta": "Asegurar que los mensajes no sean modificados o duplicados durante la transmisión",
+        "explicacion": "La integridad garantiza que los datos lleguen tal como fueron enviados, sin alteraciones ni repeticiones."
       },
       {
-        "pregunta": "¿Qué busca el 'relleno de tráfico' (traffic padding)?",
+        "pregunta": "¿Qué garantiza el servicio de integridad orientado a la conexión?",
         "respuestas": [
-          "Insertar bits adicionales para impedir el análisis del tráfico y ocultar patrones de comunicación",
-          "Reducir el tamaño de los mensajes cifrados",
-          "Duplicar los mensajes importantes",
-          "Detectar virus en la red"
+          "Que los mensajes sean cifrados",
+          "Que los mensajes se reciban tal como se enviaron, sin duplicación o modificación",
+          "Que el tráfico de red no sea analizado",
+          "Que las entidades sean autenticadas"
         ],
-        "correcta": "Insertar bits adicionales para impedir el análisis del tráfico y ocultar patrones de comunicación",
-        "explicacion": "Este mecanismo introduce ruido en la transmisión para que un atacante no pueda deducir información observando la frecuencia o tamaño de los mensajes."
+        "correcta": "Que los mensajes se reciban tal como se enviaron, sin duplicación o modificación",
+        "explicacion": "El servicio orientado a conexión protege un flujo de mensajes completo contra alteraciones y repeticiones."
       },
       {
-        "pregunta": "¿Qué permite el 'control de enrutamiento'?",
+        "pregunta": "¿Qué protege un servicio de integridad sin conexión?",
         "respuestas": [
-          "Seleccionar rutas seguras y modificar el camino de los datos si se sospecha una violación de seguridad",
-          "Monitorear la velocidad de los enlaces de red",
-          "Optimizar el rendimiento del sistema operativo",
-          "Rechazar automáticamente todo el tráfico entrante"
+          "Mensajes individuales frente a modificaciones",
+          "Toda la comunicación entre dos usuarios",
+          "Los encabezados de los paquetes de red",
+          "La autenticación de usuarios"
         ],
-        "correcta": "Seleccionar rutas seguras y modificar el camino de los datos si se sospecha una violación de seguridad",
-        "explicacion": "El control de enrutamiento gestiona la selección de caminos seguros para los datos, especialmente si se detecta una amenaza."
+        "correcta": "Mensajes individuales frente a modificaciones",
+        "explicacion": "El servicio sin conexión garantiza la integridad de mensajes aislados, protegiéndolos de alteraciones."
       },
       {
-        "pregunta": "¿Qué es la 'notarización' dentro de los mecanismos de seguridad?",
+        "pregunta": "¿Qué evita el servicio de no repudio?",
         "respuestas": [
-          "El uso de un tercero de confianza para asegurar ciertas propiedades de un intercambio de datos",
-          "Un método de compresión de mensajes en la red",
-          "La eliminación segura de archivos temporales",
-          "La verificación automática de hardware"
+          "Que el remitente o el receptor nieguen haber enviado o recibido un mensaje",
+          "Que se dupliquen los mensajes transmitidos",
+          "Que un atacante intercepte la comunicación",
+          "Que se altere el flujo de datos en tránsito"
         ],
-        "correcta": "El uso de un tercero de confianza para asegurar ciertas propiedades de un intercambio de datos",
-        "explicacion": "La notarización añade un intermediario de confianza que certifica la autenticidad y validez de las comunicaciones."
+        "correcta": "Que el remitente o el receptor nieguen haber enviado o recibido un mensaje",
+        "explicacion": "El no repudio impide que las partes involucradas nieguen su participación en una comunicación."
       },
       {
-        "pregunta": "¿Qué función cumple el mecanismo de 'control de acceso'?",
+        "pregunta": "¿Qué puede probar el receptor en un servicio de no repudio?",
         "respuestas": [
-          "Hacer cumplir los derechos de acceso de los usuarios a los recursos del sistema",
-          "Eliminar automáticamente las contraseñas débiles",
-          "Detectar vulnerabilidades en el hardware",
-          "Reducir el consumo de memoria"
+          "Que el mensaje proviene de la fuente que dice ser",
+          "Que el remitente envió realmente el mensaje",
+          "Que el mensaje no fue interceptado",
+          "Que el mensaje fue modificado"
         ],
-        "correcta": "Hacer cumplir los derechos de acceso de los usuarios a los recursos del sistema",
-        "explicacion": "Este mecanismo regula qué usuarios o procesos pueden acceder a determinados recursos y con qué privilegios."
+        "correcta": "Que el remitente envió realmente el mensaje",
+        "explicacion": "El receptor puede demostrar que el mensaje fue efectivamente enviado por el remitente legítimo."
       },
       {
-        "pregunta": "¿Cuál es el objetivo principal del requisito de 'control de acceso'?",
+        "pregunta": "¿Qué puede probar el remitente en un servicio de no repudio?",
         "respuestas": [
-          "Limitar el acceso al sistema a usuarios, procesos o dispositivos autorizados",
-          "Permitir que todos los usuarios puedan acceder libremente al sistema",
-          "Acelerar las conexiones entre sistemas de información",
-          "Evitar que se guarden contraseñas en el sistema"
+          "Que el receptor recibió el mensaje",
+          "Que el mensaje no fue interceptado",
+          "Que el mensaje fue firmado digitalmente",
+          "Que el tráfico fue cifrado"
         ],
-        "correcta": "Limitar el acceso al sistema a usuarios, procesos o dispositivos autorizados",
-        "explicacion": "El control de acceso restringe quién puede entrar al sistema y qué acciones puede realizar, protegiendo así los recursos frente a accesos no autorizados."
+        "correcta": "Que el receptor recibió el mensaje",
+        "explicacion": "El remitente puede probar que el receptor ha recibido correctamente el mensaje enviado."
       },
       {
-        "pregunta": "¿Qué busca el requisito de 'concienciación y capacitación'?",
+        "pregunta": "¿Cuál es la finalidad del servicio de disponibilidad?",
         "respuestas": [
-          "Garantizar que los usuarios y administradores sean conscientes de los riesgos de seguridad y estén adecuadamente formados",
-          "Reducir la carga de trabajo de los usuarios mediante automatización",
-          "Sustituir el control de acceso por formación ética",
-          "Permitir que los usuarios creen sus propias políticas de seguridad"
+          "Proteger un sistema para garantizar su acceso y funcionamiento",
+          "Proteger los mensajes frente a modificaciones",
+          "Evitar que el tráfico de red sea analizado",
+          "Identificar usuarios antes del acceso"
         ],
-        "correcta": "Garantizar que los usuarios y administradores sean conscientes de los riesgos de seguridad y estén adecuadamente formados",
-        "explicacion": "Este requisito busca que todo el personal conozca los riesgos y políticas de seguridad, y reciba la formación adecuada para cumplirlas."
+        "correcta": "Proteger un sistema para garantizar su acceso y funcionamiento",
+        "explicacion": "La disponibilidad asegura que los recursos del sistema estén accesibles para los usuarios legítimos."
       },
       {
-        "pregunta": "¿Qué propósito tiene el requisito de 'auditoría y responsabilidad'?",
+        "pregunta": "¿Qué tipo de ataques aborda el servicio de disponibilidad?",
         "respuestas": [
-          "Registrar y conservar evidencias que permitan rastrear las acciones de los usuarios y detectar actividades no autorizadas",
-          "Eliminar automáticamente los registros de actividad",
-          "Evitar la duplicación de contraseñas en los sistemas",
-          "Crear copias de seguridad cada semana"
+          "Ataques pasivos",
+          "Ataques de denegación de servicio",
+          "Ataques de repetición",
+          "Ataques de suplantación"
         ],
-        "correcta": "Registrar y conservar evidencias que permitan rastrear las acciones de los usuarios y detectar actividades no autorizadas",
-        "explicacion": "Este requisito asegura que cada acción del sistema pueda atribuirse a un usuario, fomentando la responsabilidad y la trazabilidad."
+        "correcta": "Ataques de denegación de servicio",
+        "explicacion": "La disponibilidad protege el sistema frente a intentos de sobrecargar o interrumpir los servicios."
       },
       {
-        "pregunta": "¿Qué incluye la 'certificación, acreditación y evaluación de seguridad'?",
+        "pregunta": "¿De qué depende la disponibilidad del sistema?",
         "respuestas": [
-          "Evaluar periódicamente los controles de seguridad, corregir deficiencias y autorizar el funcionamiento de los sistemas",
-          "Emitir certificados SSL para páginas web seguras",
-          "Instalar software de autenticación biométrica",
-          "Permitir que los usuarios evalúen la seguridad por sí mismos"
+          "De la gestión y control adecuados de los recursos del sistema",
+          "De la confidencialidad de los datos transmitidos",
+          "De la autenticación de las entidades",
+          "De la protección del flujo de tráfico"
         ],
-        "correcta": "Evaluar periódicamente los controles de seguridad, corregir deficiencias y autorizar el funcionamiento de los sistemas",
-        "explicacion": "Este requisito busca garantizar que los controles sean efectivos mediante revisiones, planes correctivos y la autorización formal del sistema."
+        "correcta": "De la gestión y control adecuados de los recursos del sistema",
+        "explicacion": "Una gestión eficiente y control de los recursos garantiza que el sistema siga operativo y disponible."
       },
       {
-        "pregunta": "¿Qué finalidad tiene la 'planificación de contingencias'?",
+        "pregunta": "¿Qué distingue a los mecanismos criptográficos reversibles de los irreversibles?",
         "respuestas": [
-          "Asegurar la continuidad de las operaciones mediante planes de respaldo y recuperación ante desastres",
-          "Evitar que los empleados guarden archivos personales",
-          "Optimizar el rendimiento del hardware del sistema",
-          "Eliminar automáticamente los registros antiguos"
+          "Los reversibles permiten cifrar pero no descifrar los datos",
+          "Los reversibles permiten cifrar y descifrar datos, mientras que los irreversibles no se pueden revertir",
+          "Los irreversibles se utilizan solo en hardware",
+          "Los reversibles solo se aplican en redes inalámbricas"
         ],
-        "correcta": "Asegurar la continuidad de las operaciones mediante planes de respaldo y recuperación ante desastres",
-        "explicacion": "Este requisito prepara a la organización para responder ante emergencias y mantener sus operaciones críticas activas."
+        "correcta": "Los reversibles permiten cifrar y descifrar datos, mientras que los irreversibles no se pueden revertir",
+        "explicacion": "Los mecanismos criptográficos reversibles permiten recuperar la información original, mientras que los irreversibles (como hash) no."
       },
       {
-        "pregunta": "¿Qué establece el requisito de 'identificación y autenticación'?",
+        "pregunta": "¿Qué incluyen los mecanismos criptográficos irreversibles?",
         "respuestas": [
-          "Verificar la identidad de usuarios, procesos o dispositivos antes de conceder acceso al sistema",
-          "Guardar la información de los usuarios en texto plano",
-          "Permitir accesos sin contraseña cuando el sistema esté en mantenimiento",
-          "Evitar el uso de sistemas de autenticación externos"
+          "Algoritmos hash y códigos de autenticación de mensajes",
+          "Cifrado simétrico y asimétrico",
+          "Protocolos SSL/TLS",
+          "Sistemas de autenticación biométrica"
         ],
-        "correcta": "Verificar la identidad de usuarios, procesos o dispositivos antes de conceder acceso al sistema",
-        "explicacion": "Antes de permitir el acceso, el sistema debe identificar al usuario o proceso y confirmar su autenticidad."
+        "correcta": "Algoritmos hash y códigos de autenticación de mensajes",
+        "explicacion": "Estos mecanismos se usan en firma digital y autenticación de mensajes, sin permitir recuperar los datos originales."
       },
       {
-        "pregunta": "¿Qué incluye el requisito de 'respuesta al incidente'?",
+        "pregunta": "¿Cuál es el objetivo de los mecanismos de integridad de datos?",
         "respuestas": [
-          "Detectar, analizar, contener y recuperar ante incidentes de seguridad, documentándolos adecuadamente",
-          "Restablecer el sistema operativo en caso de fallo físico",
-          "Actualizar los antivirus del sistema periódicamente",
-          "Eliminar los usuarios inactivos cada semana"
+          "Garantizar la confidencialidad de la información",
+          "Asegurar la autenticidad de los usuarios",
+          "Garantizar la integridad de una unidad o flujo de datos",
+          "Evitar el acceso no autorizado"
         ],
-        "correcta": "Detectar, analizar, contener y recuperar ante incidentes de seguridad, documentándolos adecuadamente",
-        "explicacion": "La gestión de incidentes busca una respuesta rápida y estructurada que minimice el impacto de los ataques o fallos."
+        "correcta": "Garantizar la integridad de una unidad o flujo de datos",
+        "explicacion": "Estos mecanismos aseguran que los datos no se alteren durante la transmisión o almacenamiento."
       },
       {
-        "pregunta": "¿Qué implica el requisito de 'mantenimiento' en los sistemas de información?",
+        "pregunta": "¿Qué función cumple la firma digital?",
         "respuestas": [
-          "Realizar mantenimiento periódico y controlar las herramientas utilizadas para evitar riesgos de seguridad",
-          "Actualizar los sistemas solo cuando ocurra un ataque",
-          "Permitir que cualquier usuario realice reparaciones básicas",
-          "Ignorar las advertencias del sistema si no afectan al rendimiento"
+          "Proteger los datos frente a duplicación",
+          "Permitir al destinatario verificar el origen y la integridad de los datos",
+          "Cifrar los mensajes antes de enviarlos",
+          "Controlar el acceso a los sistemas"
         ],
-        "correcta": "Realizar mantenimiento periódico y controlar las herramientas utilizadas para evitar riesgos de seguridad",
-        "explicacion": "El mantenimiento debe ser regular y seguro, controlando tanto las herramientas como el personal que interviene en los sistemas."
+        "correcta": "Permitir al destinatario verificar el origen y la integridad de los datos",
+        "explicacion": "La firma digital demuestra la autenticidad y protege contra la falsificación de la información."
       },
       {
-        "pregunta": "¿Qué busca el requisito de 'protección física y ambiental'?",
+        "pregunta": "¿Cuál es la función del intercambio de autenticación?",
         "respuestas": [
-          "Limitar el acceso físico a equipos, proteger la infraestructura y mantener condiciones ambientales seguras",
-          "Instalar cámaras en todas las oficinas",
-          "Permitir acceso físico sin restricción en caso de emergencia",
-          "Reducir el consumo eléctrico de los servidores"
+          "Garantizar la integridad de los datos",
+          "Proteger el flujo de tráfico",
+          "Garantizar la identidad de una entidad mediante intercambio de información",
+          "Controlar el acceso a los recursos"
         ],
-        "correcta": "Limitar el acceso físico a equipos, proteger la infraestructura y mantener condiciones ambientales seguras",
-        "explicacion": "Este requisito protege las instalaciones y equipos ante accesos no autorizados o peligros ambientales como incendios o inundaciones."
+        "correcta": "Garantizar la identidad de una entidad mediante intercambio de información",
+        "explicacion": "Este mecanismo asegura que las entidades sean quienes dicen ser mediante intercambio autenticado."
       },
       {
-        "pregunta": "¿Qué objetivo tiene el requisito de 'personal de seguridad'?",
+        "pregunta": "¿En qué consiste el relleno de tráfico?",
         "respuestas": [
-          "Garantizar que el personal que maneja información sensible sea confiable y cumpla las políticas de seguridad",
-          "Delegar la seguridad en personal externo sin verificación",
-          "Permitir que los empleados establezcan sus propias reglas de seguridad",
-          "Reducir la cantidad de personal en el área de TI"
+          "Insertar bits en los huecos del flujo de datos para frustrar el análisis de tráfico",
+          "Comprimir la información antes de transmitirla",
+          "Duplicar paquetes para aumentar la seguridad",
+          "Aumentar el tamaño de los mensajes para evitar pérdida de datos"
         ],
-        "correcta": "Garantizar que el personal que maneja información sensible sea confiable y cumpla las políticas de seguridad",
-        "explicacion": "Este requisito se centra en la fiabilidad del personal que ocupa puestos críticos y en la aplicación de sanciones por incumplimientos."
+        "correcta": "Insertar bits en los huecos del flujo de datos para frustrar el análisis de tráfico",
+        "explicacion": "Este mecanismo impide que un atacante analice patrones o frecuencia en las comunicaciones."
       },
       {
-        "pregunta": "¿Qué busca el requisito de 'adquisición de sistemas y servicios'?",
+        "pregunta": "¿Qué permite el control de enrutamiento?",
         "respuestas": [
-          "Incorporar la seguridad en todas las fases del ciclo de vida del desarrollo y garantizar medidas adecuadas en proveedores externos",
-          "Reducir los costes de adquisición ignorando los aspectos de seguridad",
-          "Permitir la instalación libre de software sin restricciones",
-          "Evitar la supervisión de los contratos de proveedores"
+          "Evitar el acceso físico no autorizado",
+          "Seleccionar rutas seguras y cambiar el enrutamiento si se detecta una violación de seguridad",
+          "Acelerar la transmisión de datos en la red",
+          "Reducir la redundancia en los nodos de comunicación"
         ],
-        "correcta": "Incorporar la seguridad en todas las fases del ciclo de vida del desarrollo y garantizar medidas adecuadas en proveedores externos",
-        "explicacion": "Este requisito exige que la seguridad esté integrada desde el diseño hasta la implementación y que los proveedores también adopten medidas seguras."
+        "correcta": "Seleccionar rutas seguras y cambiar el enrutamiento si se detecta una violación de seguridad",
+        "explicacion": "Este control protege la transmisión de datos permitiendo ajustar las rutas en caso de sospechas de intrusión."
       },
       {
-        "pregunta": "¿Qué cubre el requisito de 'protección de sistemas y comunicaciones'?",
+        "pregunta": "¿Qué implica la notarización?",
         "respuestas": [
-          "Monitorizar, controlar y proteger las comunicaciones internas y externas, aplicando principios de ingeniería segura",
-          "Limitar las conexiones a una sola red local",
-          "Acelerar la transferencia de datos eliminando cifrado",
-          "Desactivar las auditorías de red para mejorar el rendimiento"
+          "Registrar los accesos de cada usuario",
+          "Usar un tercero de confianza para asegurar propiedades de un intercambio de datos",
+          "Aplicar firmas digitales en todos los mensajes",
+          "Comprimir y cifrar los datos antes de su envío"
         ],
-        "correcta": "Monitorizar, controlar y proteger las comunicaciones internas y externas, aplicando principios de ingeniería segura",
-        "explicacion": "Este requisito busca una supervisión continua del tráfico y la aplicación de buenas prácticas de arquitectura y desarrollo seguro."
+        "correcta": "Usar un tercero de confianza para asegurar propiedades de un intercambio de datos",
+        "explicacion": "La notarización añade una capa de confianza externa para verificar la validez de las transacciones."
       },
       {
-        "pregunta": "¿Qué objetivo tiene el requisito de 'integridad del sistema y de la información'?",
+        "pregunta": "¿Qué busca el control de acceso dentro de los mecanismos de seguridad?",
         "respuestas": [
-          "Detectar, corregir y proteger frente a fallos y códigos maliciosos en el sistema",
-          "Optimizar el rendimiento del hardware",
-          "Permitir modificaciones de los usuarios en el núcleo del sistema",
-          "Eliminar automáticamente los archivos grandes"
+          "Asegurar la disponibilidad de los recursos",
+          "Limitar y gestionar los derechos de acceso a los recursos",
+          "Evitar la duplicación de datos",
+          "Cifrar los mensajes entre usuarios"
         ],
-        "correcta": "Detectar, corregir y proteger frente a fallos y códigos maliciosos en el sistema",
-        "explicacion": "Este requisito garantiza que los sistemas sean capaces de identificar errores, prevenir software malicioso y reaccionar ante alertas de seguridad."
+        "correcta": "Limitar y gestionar los derechos de acceso a los recursos",
+        "explicacion": "El control de acceso define quién puede usar qué recursos y bajo qué condiciones."
       },
       {
-        "pregunta": "¿Qué establece el principio de 'economía de mecanismo' en el diseño de seguridad?",
+        "pregunta": "¿Cuál es el propósito de la concienciación y capacitación en los requisitos de seguridad?",
         "respuestas": [
-          "Que los mecanismos de seguridad deben ser simples y lo más pequeños posible",
-          "Que los sistemas deben incorporar múltiples capas complejas de seguridad",
-          "Que solo los administradores deben comprender los mecanismos de seguridad",
-          "Que los mecanismos deben ser costosos para garantizar su fiabilidad"
+          "Formar al personal en los riesgos y responsabilidades de seguridad",
+          "Garantizar el cifrado de todas las comunicaciones",
+          "Reducir el tráfico de red no autorizado",
+          "Optimizar los tiempos de respuesta del sistema"
         ],
-        "correcta": "Que los mecanismos de seguridad deben ser simples y lo más pequeños posible",
-        "explicacion": "La simplicidad reduce los errores y facilita la verificación, lo que hace los sistemas más seguros y mantenibles."
+        "correcta": "Formar al personal en los riesgos y responsabilidades de seguridad",
+        "explicacion": "Este requisito busca que los usuarios comprendan los riesgos y sus responsabilidades respecto a la seguridad."
       },
       {
-        "pregunta": "¿Qué significa el principio de 'valores predeterminados a prueba de fallos'?",
+        "pregunta": "¿Qué garantiza la auditoría y responsabilidad?",
         "respuestas": [
-          "Que el acceso debe ser denegado por defecto y concedido solo mediante permiso explícito",
-          "Que los sistemas deben permanecer abiertos ante cualquier error para no interrumpir el servicio",
-          "Que los usuarios deben tener acceso total hasta que ocurra un fallo",
-          "Que los errores deben ser ignorados si no afectan al rendimiento"
+          "Que las acciones de los usuarios puedan rastrearse y se mantengan registros de auditoría",
+          "Que los sistemas se actualicen automáticamente",
+          "Que los datos se cifren de extremo a extremo",
+          "Que se limite el acceso según el rol"
         ],
-        "correcta": "Que el acceso debe ser denegado por defecto y concedido solo mediante permiso explícito",
-        "explicacion": "Este principio indica que, ante la duda o un fallo, el sistema debe adoptar la opción más segura, negando el acceso salvo autorización expresa."
+        "correcta": "Que las acciones de los usuarios puedan rastrearse y se mantengan registros de auditoría",
+        "explicacion": "Permite monitorear actividades e identificar a los usuarios responsables de acciones dentro del sistema."
       },
       {
-        "pregunta": "¿Qué implica el principio de 'mediación completa'?",
+        "pregunta": "¿Qué busca la certificación y acreditación en los sistemas de seguridad?",
         "respuestas": [
-          "Cada intento de acceso debe verificarse, sin confiar en decisiones previas almacenadas en caché",
-          "El sistema solo debe comprobar los primeros accesos y luego permitir el resto automáticamente",
-          "Los permisos deben otorgarse indefinidamente una vez validados",
-          "La seguridad debe depender únicamente de la autenticación inicial"
+          "Autorizar, evaluar y supervisar los controles de seguridad de forma continua",
+          "Evitar la duplicación de mensajes",
+          "Asegurar la confidencialidad mediante cifrado",
+          "Reducir el uso de contraseñas"
         ],
-        "correcta": "Cada intento de acceso debe verificarse, sin confiar en decisiones previas almacenadas en caché",
-        "explicacion": "La mediación completa garantiza que cada acceso al sistema sea verificado, evitando brechas por decisiones antiguas o sesiones reutilizadas."
+        "correcta": "Autorizar, evaluar y supervisar los controles de seguridad de forma continua",
+        "explicacion": "Este proceso garantiza que los controles sean efectivos y se mantengan actualizados para reducir vulnerabilidades."
       },
       {
-        "pregunta": "¿Qué establece el principio de 'diseño abierto'?",
+        "pregunta": "¿Qué abarca la gestión de configuración como requisito de seguridad?",
         "respuestas": [
-          "Que la seguridad de un sistema no debe depender del secreto de su diseño o implementación",
-          "Que el código fuente de todo sistema debe ser público para garantizar transparencia total",
-          "Que los usuarios deben tener acceso al código para modificarlo según sus necesidades",
-          "Que el diseño debe permanecer cerrado para evitar la copia"
+          "Mantener configuraciones e inventarios de referencia actualizados y seguros",
+          "Restringir la duplicación de datos entre sistemas",
+          "Controlar el acceso físico a los servidores",
+          "Auditar los cambios en los protocolos de red"
         ],
-        "correcta": "Que la seguridad de un sistema no debe depender del secreto de su diseño o implementación",
-        "explicacion": "La seguridad debe basarse en la robustez de los mecanismos y no en el secreto de su estructura. La 'seguridad por oscuridad' se considera una mala práctica."
+        "correcta": "Mantener configuraciones e inventarios de referencia actualizados y seguros",
+        "explicacion": "La gestión de configuración asegura que las configuraciones del sistema estén documentadas y protegidas durante su ciclo de vida."
       },
       {
-        "pregunta": "¿Qué promueve el principio de 'separación de privilegios'?",
+        "pregunta": "¿Cuál es el objetivo principal de la planificación de contingencias?",
         "respuestas": [
-          "El uso de múltiples factores o condiciones para conceder acceso a un recurso",
-          "La eliminación de contraseñas para agilizar el acceso",
-          "Que todos los usuarios compartan las mismas credenciales para simplificar la gestión",
-          "La asignación de privilegios máximos a los administradores"
+          "Garantizar la disponibilidad y continuidad de las operaciones en situaciones de emergencia",
+          "Reducir el tamaño de los sistemas de información",
+          "Aumentar la velocidad de transmisión de datos",
+          "Limitar el acceso físico a los servidores"
         ],
-        "correcta": "El uso de múltiples factores o condiciones para conceder acceso a un recurso",
-        "explicacion": "Este principio se traduce en autenticación multifactor (contraseña + token + biometría, por ejemplo) o división de responsabilidades entre varios usuarios."
+        "correcta": "Garantizar la disponibilidad y continuidad de las operaciones en situaciones de emergencia",
+        "explicacion": "La planificación de contingencias busca establecer planes de respaldo y recuperación que aseguren la continuidad operativa ante emergencias o desastres."
       },
       {
-        "pregunta": "¿Qué significa el principio de 'privilegios mínimos'?",
+        "pregunta": "¿Qué función tiene la identificación y autenticación en los sistemas de información?",
         "respuestas": [
-          "Cada usuario o proceso debe tener solo los permisos estrictamente necesarios para cumplir su tarea",
-          "Todos los usuarios deben tener acceso completo para evitar bloqueos de trabajo",
-          "Los procesos deben ejecutarse con los permisos del administrador por defecto",
-          "El sistema debe asignar permisos máximos hasta que se detecte un fallo"
+          "Verificar las identidades de usuarios, procesos o dispositivos antes de permitir el acceso",
+          "Proteger los datos en tránsito mediante cifrado",
+          "Eliminar vulnerabilidades del sistema",
+          "Asegurar la disponibilidad del hardware"
         ],
-        "correcta": "Cada usuario o proceso debe tener solo los permisos estrictamente necesarios para cumplir su tarea",
-        "explicacion": "Limitar los privilegios reduce el daño potencial de un error o una intrusión, evitando que un atacante comprometa el sistema completo."
+        "correcta": "Verificar las identidades de usuarios, procesos o dispositivos antes de permitir el acceso",
+        "explicacion": "Este requisito garantiza que solo las entidades autorizadas puedan acceder a los sistemas de información de la organización."
       },
       {
-        "pregunta": "¿Qué busca el principio de 'mecanismo menos común'?",
+        "pregunta": "¿Cuál es una de las principales actividades de la respuesta al incidente?",
         "respuestas": [
-          "Minimizar las funciones compartidas entre diferentes usuarios o procesos",
-          "Aumentar las dependencias del sistema para mejorar la interoperabilidad",
-          "Centralizar todos los servicios en un único punto de control",
-          "Permitir el uso de los mismos recursos entre todos los usuarios"
+          "Detectar, contener y recuperar ante incidentes de seguridad",
+          "Actualizar los sistemas operativos de la organización",
+          "Reducir el tamaño de la base de datos",
+          "Optimizar la velocidad de red"
         ],
-        "correcta": "Minimizar las funciones compartidas entre diferentes usuarios o procesos",
-        "explicacion": "Reducir la compartición de mecanismos comunes limita la posibilidad de que una vulnerabilidad afecte a múltiples usuarios o servicios."
+        "correcta": "Detectar, contener y recuperar ante incidentes de seguridad",
+        "explicacion": "La respuesta al incidente incluye la detección, contención, recuperación y documentación de los incidentes para evitar su repetición."
       },
       {
-        "pregunta": "¿Qué establece el principio de 'aceptabilidad psicológica'?",
+        "pregunta": "¿Qué abarca la protección de medios?",
         "respuestas": [
-          "Los mecanismos de seguridad deben ser fáciles de usar y no interferir excesivamente con el trabajo del usuario",
-          "Los usuarios deben memorizar contraseñas largas y complejas sin excepciones",
-          "El diseño debe priorizar la seguridad sobre la usabilidad siempre",
-          "Los sistemas deben ocultar las medidas de seguridad al usuario completamente"
+          "Proteger soportes físicos y digitales, limitar acceso y destruir medios antes de su reutilización",
+          "Proteger únicamente discos duros internos",
+          "Restringir el acceso a usuarios administrativos",
+          "Aumentar la capacidad de almacenamiento"
         ],
-        "correcta": "Los mecanismos de seguridad deben ser fáciles de usar y no interferir excesivamente con el trabajo del usuario",
-        "explicacion": "Si un sistema es incómodo o demasiado restrictivo, los usuarios buscarán saltarse las medidas de seguridad; por eso la usabilidad es esencial."
+        "correcta": "Proteger soportes físicos y digitales, limitar acceso y destruir medios antes de su reutilización",
+        "explicacion": "Busca garantizar que los soportes con información sensible estén protegidos y no se reutilicen sin eliminar correctamente los datos."
       },
       {
-        "pregunta": "¿Qué implica el principio de 'aislamiento'?",
+        "pregunta": "¿Qué objetivo tiene la protección física y ambiental?",
         "respuestas": [
-          "Separar los recursos críticos y los procesos de usuario para evitar accesos no autorizados",
-          "Ejecutar todos los procesos en un único entorno compartido",
-          "Eliminar la autenticación entre diferentes usuarios del sistema",
-          "Permitir que los archivos sean accesibles desde cualquier aplicación"
+          "Evitar el acceso no autorizado y proteger contra peligros ambientales",
+          "Acelerar el mantenimiento del sistema",
+          "Optimizar los tiempos de procesamiento de datos",
+          "Mejorar la conectividad de red"
         ],
-        "correcta": "Separar los recursos críticos y los procesos de usuario para evitar accesos no autorizados",
-        "explicacion": "El aislamiento protege tanto los recursos críticos como los mecanismos de seguridad del resto del sistema y de los usuarios comunes."
+        "correcta": "Evitar el acceso no autorizado y proteger contra peligros ambientales",
+        "explicacion": "Incluye medidas para limitar el acceso físico, proteger la infraestructura y controlar las condiciones ambientales."
       },
       {
-        "pregunta": "¿Qué es la 'encapsulación' dentro del diseño de seguridad?",
+        "pregunta": "¿Cuál es la finalidad principal de la planificación de seguridad?",
         "respuestas": [
-          "Una forma de aislamiento basada en la orientación a objetos, que agrupa datos y funciones bajo una interfaz controlada",
-          "El cifrado de todos los datos transmitidos por el sistema",
-          "Un método para agrupar procesos de usuarios en memoria",
-          "La compresión de archivos sensibles para ocultar su contenido"
+          "Desarrollar y actualizar planes que describan controles de seguridad y comportamientos esperados",
+          "Optimizar el hardware y reducir costos",
+          "Incrementar el número de usuarios del sistema",
+          "Aumentar la velocidad del procesamiento"
         ],
-        "correcta": "Una forma de aislamiento basada en la orientación a objetos, que agrupa datos y funciones bajo una interfaz controlada",
-        "explicacion": "La encapsulación protege los datos internos de acceso directo, permitiendo interacciones seguras a través de interfaces bien definidas."
+        "correcta": "Desarrollar y actualizar planes que describan controles de seguridad y comportamientos esperados",
+        "explicacion": "La planificación define los controles y reglas de comportamiento necesarias para mantener la seguridad en la organización."
       },
       {
-        "pregunta": "¿Qué busca el principio de 'modularidad'?",
+        "pregunta": "¿Qué garantiza el personal de seguridad dentro de una organización?",
         "respuestas": [
-          "Diseñar el sistema en componentes independientes que faciliten su mantenimiento y verificación de seguridad",
-          "Unir todas las funciones críticas en un único módulo para controlarlas mejor",
-          "Reducir la redundancia dividiendo los módulos por usuarios",
-          "Evitar el uso de librerías externas en el diseño"
+          "Que las personas con responsabilidades sean confiables y cumplan con los criterios de seguridad",
+          "Que todos los usuarios tengan acceso administrativo",
+          "Que los sistemas se reinicien automáticamente",
+          "Que la red opere en modo seguro"
         ],
-        "correcta": "Diseñar el sistema en componentes independientes que faciliten su mantenimiento y verificación de seguridad",
-        "explicacion": "La modularidad permite aislar fallos, probar componentes de forma individual y aplicar actualizaciones sin afectar al sistema completo."
+        "correcta": "Que las personas con responsabilidades sean confiables y cumplan con los criterios de seguridad",
+        "explicacion": "El personal de seguridad debe ser confiable y cumplir con los requisitos de seguridad establecidos por la organización."
       },
       {
-        "pregunta": "¿Qué representa el principio de 'capas' en seguridad?",
+        "pregunta": "¿Qué busca la evaluación de riesgos?",
         "respuestas": [
-          "El uso de múltiples barreras o niveles de defensa entre el atacante y los datos protegidos",
-          "La división de usuarios según jerarquías organizativas",
-          "La agrupación de software en carpetas de sistema",
-          "El aislamiento de hardware respecto al software"
+          "Evaluar el impacto de los riesgos sobre la misión, activos y reputación de la organización",
+          "Calcular la capacidad de almacenamiento de datos",
+          "Optimizar los costos de mantenimiento",
+          "Reducir el consumo energético del sistema"
         ],
-        "correcta": "El uso de múltiples barreras o niveles de defensa entre el atacante y los datos protegidos",
-        "explicacion": "El enfoque en capas, conocido como 'defensa en profundidad', proporciona redundancia y múltiples líneas de defensa ante posibles ataques."
+        "correcta": "Evaluar el impacto de los riesgos sobre la misión, activos y reputación de la organización",
+        "explicacion": "Permite determinar los riesgos asociados a la operación y el uso de los sistemas de información."
       },
       {
-        "pregunta": "¿Qué significa el principio de 'menor asombro' en el contexto del diseño de seguridad?",
+        "pregunta": "¿Qué garantiza la adquisición de sistemas y servicios?",
         "respuestas": [
-          "El sistema debe comportarse de forma predecible para no confundir al usuario ni inducir errores",
-          "El sistema debe sorprender al atacante con respuestas aleatorias",
-          "La interfaz debe ocultar los mensajes de error para mantener la confidencialidad",
-          "El usuario debe ser informado de todos los procesos internos del sistema"
+          "Que los proveedores externos implementen medidas adecuadas de seguridad",
+          "Que se reduzcan los costos de software",
+          "Que el ciclo de vida de los sistemas sea más corto",
+          "Que los servicios sean totalmente automatizados"
         ],
-        "correcta": "El sistema debe comportarse de forma predecible para no confundir al usuario ni inducir errores",
-        "explicacion": "Un diseño claro y coherente reduce los errores humanos, evitando acciones inseguras provocadas por comportamientos inesperados del sistema."
+        "correcta": "Que los proveedores externos implementen medidas adecuadas de seguridad",
+        "explicacion": "Este requisito asegura que tanto los sistemas internos como los servicios contratados mantengan niveles de seguridad apropiados."
       },
       {
-        "pregunta": "¿Qué se entiende por 'superficie de ataque' en seguridad informática?",
+        "pregunta": "¿Qué busca la protección de sistemas y comunicaciones?",
         "respuestas": [
-          "El conjunto de vulnerabilidades alcanzables y explotables en un sistema",
-          "La cantidad total de datos que gestiona un servidor",
-          "La interfaz gráfica de un sistema operativo",
-          "El número de usuarios registrados en un sistema"
+          "Monitorear, controlar y proteger las comunicaciones dentro y fuera de los sistemas de información",
+          "Limitar el ancho de banda disponible",
+          "Incrementar la velocidad de red",
+          "Reducir el tamaño de los paquetes transmitidos"
         ],
-        "correcta": "El conjunto de vulnerabilidades alcanzables y explotables en un sistema",
-        "explicacion": "La superficie de ataque representa todos los puntos del sistema susceptibles de ser atacados, tanto físicos como lógicos o humanos."
+        "correcta": "Monitorear, controlar y proteger las comunicaciones dentro y fuera de los sistemas de información",
+        "explicacion": "Este requisito busca asegurar que las comunicaciones estén protegidas frente a accesos o alteraciones no autorizadas."
       },
       {
-        "pregunta": "¿Cuál de los siguientes ejemplos forma parte de una superficie de ataque?",
+        "pregunta": "¿Cuál es el propósito de la integridad del sistema y de la información?",
         "respuestas": [
-          "Puertos abiertos en servidores o código que procesa datos entrantes",
-          "El color de la interfaz del sistema operativo",
-          "La frecuencia del mantenimiento físico de los equipos",
-          "Los archivos temporales eliminados por el sistema"
+          "Identificar y corregir fallos, proteger contra código malicioso y responder a alertas de seguridad",
+          "Aumentar la capacidad de almacenamiento del sistema",
+          "Optimizar el rendimiento de la red",
+          "Reducir los tiempos de procesamiento"
         ],
-        "correcta": "Puertos abiertos en servidores o código que procesa datos entrantes",
-        "explicacion": "Los puertos abiertos, servicios activos y componentes que aceptan datos externos son vectores comunes de ataque."
+        "correcta": "Identificar y corregir fallos, proteger contra código malicioso y responder a alertas de seguridad",
+        "explicacion": "Garantiza la protección y mantenimiento continuo de la integridad del sistema y sus datos frente a errores o ataques."
       },
       {
-        "pregunta": "¿Qué caracteriza a la 'superficie de ataque de red'?",
+        "pregunta": "¿Qué establece el principio de economía de mecanismo?",
         "respuestas": [
-          "Incluye vulnerabilidades en protocolos de red, enlaces de comunicación o servicios expuestos a Internet",
-          "Abarca errores de usuario y malas contraseñas",
-          "Se refiere a los fallos del hardware físico",
-          "Consiste únicamente en vulnerabilidades del software local"
+          "El diseño debe ser lo más simple y pequeño posible",
+          "Los mecanismos deben ser complejos para evitar vulnerabilidades",
+          "Debe incluir múltiples capas de cifrado por defecto",
+          "El hardware debe tener prioridad sobre el software"
         ],
-        "correcta": "Incluye vulnerabilidades en protocolos de red, enlaces de comunicación o servicios expuestos a Internet",
-        "explicacion": "Este tipo de superficie abarca los vectores externos como ataques DoS, fallos de protocolo o accesos indebidos a través de la red."
+        "correcta": "El diseño debe ser lo más simple y pequeño posible",
+        "explicacion": "Este principio busca simplicidad en los mecanismos de seguridad para facilitar su comprensión y reducir errores."
       },
       {
-        "pregunta": "¿Qué tipo de riesgos abarca la 'superficie de ataque de software'?",
+        "pregunta": "Según el principio de valores predeterminados a prueba de fallos, ¿cómo deben tomarse las decisiones de acceso?",
         "respuestas": [
-          "Vulnerabilidades en el código de aplicaciones, utilidades o sistemas operativos",
-          "Ataques físicos sobre los servidores",
-          "Errores de configuración en routers o switches",
-          "Contraseñas demasiado simples de los usuarios"
+          "Basadas en la exclusión en lugar del permiso",
+          "Basadas en el permiso en lugar de la exclusión",
+          "De forma aleatoria para evitar patrones",
+          "Sin intervención del usuario"
         ],
-        "correcta": "Vulnerabilidades en el código de aplicaciones, utilidades o sistemas operativos",
-        "explicacion": "El software defectuoso puede permitir la ejecución de código malicioso o accesos indebidos, por lo que debe ser revisado y actualizado con frecuencia."
+        "correcta": "Basadas en el permiso en lugar de la exclusión",
+        "explicacion": "Ante un fallo o duda, el sistema debe denegar el acceso, asegurando la protección en lugar de la exposición."
       },
       {
-        "pregunta": "¿Qué se considera una 'superficie de ataque humana'?",
+        "pregunta": "¿Qué exige el principio de mediación completa?",
         "respuestas": [
-          "Las vulnerabilidades creadas por errores humanos o ingeniería social",
-          "Los defectos en el hardware que causan cortes de energía",
-          "El uso de algoritmos criptográficos obsoletos",
-          "La exposición de puertos abiertos en un firewall"
+          "Verificar cada acceso mediante el mecanismo de control sin confiar en cachés",
+          "Permitir accesos automáticos una vez autenticado el usuario",
+          "Reducir las verificaciones para mejorar el rendimiento",
+          "Guardar las decisiones de acceso en memoria"
         ],
-        "correcta": "Las vulnerabilidades creadas por errores humanos o ingeniería social",
-        "explicacion": "Los empleados o usuarios pueden convertirse en un punto débil si son manipulados o cometen errores, lo que amplía la superficie de ataque del sistema."
+        "correcta": "Verificar cada acceso mediante el mecanismo de control sin confiar en cachés",
+        "explicacion": "Este principio evita que decisiones antiguas almacenadas permitan accesos indebidos."
       },
       {
-        "pregunta": "¿Qué significa el concepto de 'defensa en profundidad'?",
+        "pregunta": "¿Qué defiende el principio de diseño abierto?",
         "respuestas": [
-          "Aplicar múltiples capas de defensa entre el atacante y la información protegida",
-          "Centralizar todas las medidas de seguridad en un único punto",
-          "Evitar el uso de mecanismos redundantes",
-          "Depender exclusivamente de un firewall o antivirus"
+          "Los mecanismos de seguridad deben ser secretos",
+          "El diseño de seguridad debe ser abierto y no depender del secreto",
+          "El acceso debe ser público para todos los usuarios",
+          "El código fuente debe mantenerse cifrado"
         ],
-        "correcta": "Aplicar múltiples capas de defensa entre el atacante y la información protegida",
-        "explicacion": "La defensa en profundidad utiliza varias capas de seguridad (física, lógica, humana) para dificultar los ataques y mitigar los daños en caso de intrusión."
+        "correcta": "El diseño de seguridad debe ser abierto y no depender del secreto",
+        "explicacion": "La seguridad no debe basarse en ocultar los mecanismos, sino en su robustez y buen diseño."
       },
       {
-        "pregunta": "¿Qué es una 'política de seguridad informática'?",
+        "pregunta": "¿Qué implica el principio de separación de privilegios?",
         "respuestas": [
-          "Una declaración formal que define las reglas y prácticas para proteger los recursos críticos de una organización",
-          "Un manual técnico que describe cómo instalar software antivirus",
-          "Un documento opcional que sugiere medidas de protección sin carácter obligatorio",
-          "Una lista de contraseñas y permisos de los empleados"
+          "Autenticación multifactorial y separación de funciones críticas",
+          "Permitir accesos con un solo nivel de privilegio",
+          "Unificar los permisos de todos los usuarios",
+          "Reducir los controles de acceso"
         ],
-        "correcta": "Una declaración formal que define las reglas y prácticas para proteger los recursos críticos de una organización",
-        "explicacion": "La política de seguridad establece las directrices que regulan cómo deben aplicarse los servicios y controles de seguridad en el sistema."
+        "correcta": "Autenticación multifactorial y separación de funciones críticas",
+        "explicacion": "Requiere múltiples condiciones o factores para acceder a recursos importantes, evitando abusos de privilegios."
       },
       {
-        "pregunta": "¿Qué incluye la 'implementación de seguridad' dentro de la estrategia general?",
+        "pregunta": "¿Cuál es el objetivo del principio de privilegios mínimos?",
         "respuestas": [
-          "Los procesos de prevención, detección, respuesta y recuperación ante incidentes de seguridad",
-          "El diseño físico de los centros de datos",
-          "El desarrollo de software sin considerar la seguridad",
-          "La instalación de hardware de respaldo"
+          "Permitir a cada usuario todos los permisos posibles",
+          "Asignar a cada usuario o proceso solo los privilegios necesarios para su tarea",
+          "Usar configuraciones predeterminadas sin restricción",
+          "Evitar la autenticación de usuarios"
         ],
-        "correcta": "Los procesos de prevención, detección, respuesta y recuperación ante incidentes de seguridad",
-        "explicacion": "La implementación pone en práctica la política de seguridad mediante acciones que abordan tanto la prevención como la reacción ante incidentes."
+        "correcta": "Asignar a cada usuario o proceso solo los privilegios necesarios para su tarea",
+        "explicacion": "Reduce el impacto de errores o ataques al limitar los permisos a lo estrictamente necesario."
       },
       {
-        "pregunta": "¿Qué es la 'garantía' o 'aseguramiento' en seguridad informática?",
+        "pregunta": "¿Qué busca el principio de mecanismo menos común?",
         "respuestas": [
-          "La confianza en que el sistema cumple con la política de seguridad establecida tanto en su diseño como en su operación",
-          "El contrato firmado con el proveedor de software",
-          "El mecanismo que bloquea usuarios después de varios intentos fallidos",
-          "La verificación de la velocidad de respuesta del sistema"
+          "Compartir funciones entre múltiples usuarios para mayor flexibilidad",
+          "Minimizar las funciones compartidas por diferentes usuarios",
+          "Reutilizar el máximo número de recursos",
+          "Permitir que todos los usuarios accedan a los mismos mecanismos"
         ],
-        "correcta": "La confianza en que el sistema cumple con la política de seguridad establecida tanto en su diseño como en su operación",
-        "explicacion": "La garantía evalúa que los mecanismos de seguridad se han implementado correctamente y funcionan según lo planificado."
+        "correcta": "Minimizar las funciones compartidas por diferentes usuarios",
+        "explicacion": "Evita dependencias entre usuarios que puedan generar vulnerabilidades o accesos indebidos."
       },
       {
-        "pregunta": "¿Qué implica el proceso de 'evaluación' en una estrategia de seguridad?",
+        "pregunta": "¿Qué establece el principio de aceptabilidad psicológica?",
         "respuestas": [
-          "Examinar un sistema o producto para comprobar que cumple con criterios y estándares de seguridad",
-          "Instalar actualizaciones automáticas del sistema operativo",
-          "Eliminar contraseñas obsoletas de la base de datos",
-          "Realizar copias de seguridad diarias"
+          "Los mecanismos de seguridad deben ser intuitivos y no interferir con el trabajo de los usuarios",
+          "Los mecanismos deben ser estrictos sin importar su dificultad de uso",
+          "La seguridad debe ser completamente invisible al usuario",
+          "Los usuarios deben ser responsables del diseño de seguridad"
         ],
-        "correcta": "Examinar un sistema o producto para comprobar que cumple con criterios y estándares de seguridad",
-        "explicacion": "La evaluación consiste en revisar, probar y analizar formalmente si el sistema se ajusta a los objetivos de seguridad definidos en la política."
+        "correcta": "Los mecanismos de seguridad deben ser intuitivos y no interferir con el trabajo de los usuarios",
+        "explicacion": "Busca que las medidas de seguridad sean comprensibles, prácticas y no obstaculicen la productividad."
       },
       {
-        "pregunta": "¿Por qué es importante la estrategia de seguridad informática en una organización?",
+        "pregunta": "¿Qué implica el principio de aislamiento?",
         "respuestas": [
-          "Porque coordina de forma integral las políticas, mecanismos y controles para proteger los activos críticos frente a amenazas",
-          "Porque sustituye la necesidad de auditorías externas",
-          "Porque garantiza que nunca ocurrirán ataques informáticos",
-          "Porque permite reducir los costes del área de TI eliminando redundancias"
+          "Separar los sistemas de acceso público de los recursos críticos",
+          "Permitir el acceso compartido entre usuarios",
+          "Eliminar la separación entre procesos",
+          "Centralizar todos los servicios en un único servidor"
         ],
-        "correcta": "Porque coordina de forma integral las políticas, mecanismos y controles para proteger los activos críticos frente a amenazas",
-        "explicacion": "Una estrategia de seguridad bien definida integra la prevención, detección, recuperación y mejora continua, asegurando la protección de la información y servicios clave."
+        "correcta": "Separar los sistemas de acceso público de los recursos críticos",
+        "explicacion": "El aislamiento asegura que fallos o ataques en áreas públicas no comprometan sistemas esenciales."
       },
       {
-        "pregunta": "¿Qué papel cumple el NIST en la seguridad informática?",
+        "pregunta": "¿Qué significa el principio de encapsulación en seguridad?",
         "respuestas": [
-          "Desarrollar estándares, guías y medidas de seguridad para el gobierno de EE.UU. y promover la innovación tecnológica",
-          "Supervisar los delitos informáticos a nivel mundial",
-          "Vender software de seguridad a las empresas privadas",
-          "Controlar la propiedad intelectual de las patentes de seguridad"
+          "Agrupar datos y funciones dentro de un objeto aislado",
+          "Combinar todas las funciones del sistema en un módulo único",
+          "Dividir la seguridad entre distintos usuarios",
+          "Evitar la programación orientada a objetos"
         ],
-        "correcta": "Desarrollar estándares, guías y medidas de seguridad para el gobierno de EE.UU. y promover la innovación tecnológica",
-        "explicacion": "El Instituto Nacional de Estándares y Tecnología (NIST) crea marcos normativos y documentos de referencia, como el NISTIR 7298 o el FIPS-200, utilizados internacionalmente."
+        "correcta": "Agrupar datos y funciones dentro de un objeto aislado",
+        "explicacion": "La encapsulación protege la información interna y controla el acceso a los datos mediante interfaces seguras."
       },
       {
-        "pregunta": "¿Qué es la ISOC (Internet Society)?",
+        "pregunta": "¿Qué promueve el principio de modularidad?",
         "respuestas": [
-          "Una organización que lidera el desarrollo de estándares de Internet y alberga a grupos como la IETF",
-          "Una agencia gubernamental estadounidense dedicada a la ciberseguridad",
-          "Un organismo que regula los precios de los servicios de Internet",
-          "Una empresa privada encargada de certificar redes seguras"
+          "Diseñar mecanismos de seguridad mediante una arquitectura modular",
+          "Integrar todos los mecanismos en un único módulo",
+          "Reducir el número de módulos independientes",
+          "Evitar el uso de estructuras repetitivas"
         ],
-        "correcta": "Una organización que lidera el desarrollo de estándares de Internet y alberga a grupos como la IETF",
-        "explicacion": "La ISOC promueve la evolución y el uso abierto de Internet, apoyando grupos técnicos como la IETF, que define protocolos y normas de infraestructura."
+        "correcta": "Diseñar mecanismos de seguridad mediante una arquitectura modular",
+        "explicacion": "La modularidad facilita la implementación, mantenimiento y análisis de seguridad de cada componente."
       },
       {
-        "pregunta": "¿Qué función tiene la ITU-T dentro de la seguridad informática?",
+        "pregunta": "¿Qué busca el principio de capas?",
         "respuestas": [
-          "Coordinar redes y servicios de telecomunicaciones globales entre gobiernos y sector privado",
-          "Supervisar las leyes internacionales de propiedad de datos",
-          "Regular los precios de los servicios de telefonía y televisión",
-          "Emitir licencias de software seguro"
+          "Usar múltiples barreras de protección entre adversarios e información sensible",
+          "Reducir las verificaciones de seguridad a una sola capa",
+          "Fusionar la seguridad física y lógica en una sola medida",
+          "Priorizar la rapidez sobre la protección"
         ],
-        "correcta": "Coordinar redes y servicios de telecomunicaciones globales entre gobiernos y sector privado",
-        "explicacion": "La Unión Internacional de Telecomunicaciones (ITU-T), dependiente de la ONU, establece estándares globales para las comunicaciones y la seguridad asociada."
+        "correcta": "Usar múltiples barreras de protección entre adversarios e información sensible",
+        "explicacion": "Este principio, también conocido como defensa en profundidad, añade niveles de seguridad redundantes."
       },
       {
-        "pregunta": "¿Qué es la ISO en el contexto de la seguridad informática?",
+        "pregunta": "¿Qué pretende el principio de menor asombro?",
         "respuestas": [
-          "Una organización internacional que desarrolla normas globales, incluyendo estándares de seguridad como la ISO/IEC 27001",
-          "Un tipo de imagen de disco utilizada para copias de seguridad",
-          "Una empresa de certificación privada centrada en redes europeas",
-          "Un protocolo de autenticación para sistemas operativos"
+          "Que el sistema responda de forma predecible y coherente para el usuario",
+          "Sorprender al usuario con nuevas funciones de seguridad",
+          "Evitar que el usuario tenga control sobre la interfaz",
+          "Desactivar notificaciones de seguridad para simplificar el uso"
         ],
-        "correcta": "Una organización internacional que desarrolla normas globales, incluyendo estándares de seguridad como la ISO/IEC 27001",
-        "explicacion": "La Organización Internacional de Normalización (ISO) publica estándares internacionales aplicables a la gestión de la seguridad de la información."
+        "correcta": "Que el sistema responda de forma predecible y coherente para el usuario",
+        "explicacion": "El sistema debe comportarse de forma esperada, reduciendo confusión y errores por parte del usuario."
       },
       {
-        "pregunta": "¿Por qué son importantes los estándares de seguridad?",
+        "pregunta": "¿Qué son las superficies de ataque?",
         "respuestas": [
-          "Porque proporcionan un marco común y verificable para implementar, evaluar y mejorar la seguridad de los sistemas informáticos",
-          "Porque reemplazan la necesidad de políticas de seguridad internas",
-          "Porque garantizan la inmunidad total ante ataques informáticos",
-          "Porque reducen el número de empleados necesarios en el área de TI"
+          "Zonas seguras dentro de un sistema",
+          "Vulnerabilidades alcanzables y explotables en un sistema",
+          "Protocolos de defensa perimetral",
+          "Sistemas de autenticación biométrica"
         ],
-        "correcta": "Porque proporcionan un marco común y verificable para implementar, evaluar y mejorar la seguridad de los sistemas informáticos",
-        "explicacion": "Los estándares permiten uniformar las prácticas de seguridad, facilitar auditorías y asegurar el cumplimiento de normas internacionales."
+        "correcta": "Vulnerabilidades alcanzables y explotables en un sistema",
+        "explicacion": "Las superficies de ataque representan los puntos del sistema que pueden ser aprovechados por un atacante."
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes es un ejemplo de superficie de ataque?",
+        "respuestas": [
+          "Puertos abiertos en servidores web",
+          "Contraseñas cifradas y seguras",
+          "Copias de seguridad aisladas",
+          "Uso de autenticación multifactor"
+        ],
+        "correcta": "Puertos abiertos en servidores web",
+        "explicacion": "Los puertos abiertos o servicios expuestos pueden ser explotados como puntos de entrada al sistema."
+      },
+      {
+        "pregunta": "¿Qué caracteriza a la superficie de ataque de red?",
+        "respuestas": [
+          "Vulnerabilidades en protocolos o infraestructuras de red",
+          "Errores en la interfaz gráfica",
+          "Problemas en el almacenamiento local",
+          "Fallos en el comportamiento del usuario"
+        ],
+        "correcta": "Vulnerabilidades en protocolos o infraestructuras de red",
+        "explicacion": "Incluye debilidades en redes empresariales, Internet o protocolos, susceptibles a ataques como DoS o interrupciones."
+      },
+      {
+        "pregunta": "¿Qué define a la superficie de ataque de software?",
+        "respuestas": [
+          "Vulnerabilidades en el código de aplicaciones o sistemas operativos",
+          "Fallos en la comunicación de red",
+          "Errores humanos durante el desarrollo",
+          "Configuraciones seguras de los servicios"
+        ],
+        "correcta": "Vulnerabilidades en el código de aplicaciones o sistemas operativos",
+        "explicacion": "Estas vulnerabilidades se aprovechan especialmente en software de servidores web o sistemas críticos."
+      },
+      {
+        "pregunta": "¿Qué describe mejor la superficie de ataque humana?",
+        "respuestas": [
+          "Vulnerabilidades causadas por ingeniería social o errores humanos",
+          "Fallas en la configuración de firewall",
+          "Defectos en hardware físico",
+          "Problemas con los protocolos de red"
+        ],
+        "correcta": "Vulnerabilidades causadas por ingeniería social o errores humanos",
+        "explicacion": "Los ataques que explotan el factor humano aprovechan descuidos, engaños o accesos internos mal gestionados."
+      },
+      {
+        "pregunta": "¿Qué es una política de seguridad informática?",
+        "respuestas": [
+          "Conjunto de reglas y prácticas formales que regulan los servicios de seguridad de una organización",
+          "Un protocolo de cifrado entre sistemas",
+          "Un software de antivirus corporativo",
+          "Una auditoría externa de seguridad"
+        ],
+        "correcta": "Conjunto de reglas y prácticas formales que regulan los servicios de seguridad de una organización",
+        "explicacion": "La política de seguridad establece las normas que rigen la protección de los recursos y datos sensibles."
+      },
+      {
+        "pregunta": "¿Cuáles son los cuatro procesos principales de la implementación de seguridad?",
+        "respuestas": [
+          "Prevención, Detección, Respuesta y Recuperación",
+          "Prevención, Análisis, Control y Eliminación",
+          "Autenticación, Cifrado, Validación y Backup",
+          "Monitoreo, Evaluación, Protección y Respaldo"
+        ],
+        "correcta": "Prevención, Detección, Respuesta y Recuperación",
+        "explicacion": "Estos procesos complementarios conforman el ciclo básico de la gestión de seguridad informática."
+      },
+      {
+        "pregunta": "¿Qué representa la garantía en un sistema de seguridad?",
+        "respuestas": [
+          "Confianza en que el sistema aplica correctamente la política de seguridad",
+          "Capacidad de recuperación ante desastres",
+          "Actualización automática de los protocolos",
+          "Auditorías externas periódicas"
+        ],
+        "correcta": "Confianza en que el sistema aplica correctamente la política de seguridad",
+        "explicacion": "La garantía valida que el diseño e implementación del sistema cumplen los criterios de seguridad definidos."
+      },
+      {
+        "pregunta": "¿Qué implica la evaluación en la estrategia de seguridad informática?",
+        "respuestas": [
+          "Examina un producto o sistema respecto a criterios de seguridad mediante pruebas y análisis formales",
+          "Instala automáticamente los parches del sistema",
+          "Controla la velocidad de red del sistema",
+          "Evalúa la eficiencia energética del hardware"
+        ],
+        "correcta": "Examina un producto o sistema respecto a criterios de seguridad mediante pruebas y análisis formales",
+        "explicacion": "La evaluación asegura que los sistemas cumplen estándares y funcionan según las políticas de seguridad."
+      },
+      {
+        "pregunta": "¿Qué papel cumple el NIST en materia de seguridad?",
+        "respuestas": [
+          "Desarrollar estándares y tecnología de medición relacionados con la seguridad y la innovación",
+          "Supervisar las redes internacionales de telecomunicaciones",
+          "Regular los protocolos de Internet a nivel global",
+          "Publicar normas ISO sobre ciberseguridad"
+        ],
+        "correcta": "Desarrollar estándares y tecnología de medición relacionados con la seguridad y la innovación",
+        "explicacion": "El NIST es una agencia de EE.UU. que promueve la innovación y la seguridad mediante estándares técnicos."
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de la Sociedad de Internet (ISOC)?",
+        "respuestas": [
+          "Brindar liderazgo en problemas relacionados con el futuro de Internet y sus estándares",
+          "Controlar las normas internacionales de calidad",
+          "Regular la infraestructura de redes móviles",
+          "Emitir licencias de telecomunicaciones"
+        ],
+        "correcta": "Brindar liderazgo en problemas relacionados con el futuro de Internet y sus estándares",
+        "explicacion": "ISOC agrupa profesionales y organiza los grupos encargados de los estándares técnicos de Internet."
+      },
+      {
+        "pregunta": "¿Qué función cumple la ITU-T dentro de los estándares internacionales?",
+        "respuestas": [
+          "Coordinar redes y servicios de telecomunicaciones globales",
+          "Supervisar los estándares de hardware",
+          "Definir los protocolos de software libre",
+          "Emitir certificados de seguridad SSL"
+        ],
+        "correcta": "Coordinar redes y servicios de telecomunicaciones globales",
+        "explicacion": "La ITU-T, dependiente de la ONU, coordina redes y servicios internacionales de telecomunicaciones."
+      },
+      {
+        "pregunta": "¿Qué organiza la ISO dentro del ámbito de la seguridad?",
+        "respuestas": [
+          "Publica normas internacionales resultantes de acuerdos internacionales",
+          "Supervisa la red mundial de telecomunicaciones",
+          "Define los estándares del gobierno estadounidense",
+          "Coordina la seguridad de redes privadas"
+        ],
+        "correcta": "Publica normas internacionales resultantes de acuerdos internacionales",
+        "explicacion": "La ISO es una organización no gubernamental que crea normas internacionales basadas en consenso global."
       }
+
     ],
     "Tema 2": [
       {
@@ -2666,7 +3151,559 @@ export class TestCompletoMultimediaComponent {
         ],
         "correcta": "Utiliza una fuente no determinista como fenómenos naturales impredecibles",
         "explicacion": "Los TRNG usan fenómenos físicos como radiación o ruido eléctrico para generar números verdaderamente aleatorios."
+      },
+      {
+        "pregunta": "¿Según qué tres dimensiones se clasifica la criptografía?",
+        "respuestas": [
+          "Tipo de operaciones, número de claves y forma de procesar el texto plano",
+          "Tipo de hardware, tamaño del texto y cantidad de datos",
+          "Tipo de usuario, velocidad de red y sistema operativo",
+          "Tipo de cifrado, protocolo y puerto utilizado"
+        ],
+        "correcta": "Tipo de operaciones, número de claves y forma de procesar el texto plano",
+        "explicacion": "La criptografía se clasifica atendiendo a las operaciones empleadas, las claves usadas y cómo se procesa el texto plano."
+      },
+      {
+        "pregunta": "¿Qué describe la operación de sustitución en criptografía?",
+        "respuestas": [
+          "Cada elemento del texto sin formato se asigna a otro elemento",
+          "Los elementos del texto plano se reorganizan",
+          "Se utilizan dos claves distintas para cifrar y descifrar",
+          "Los bloques de texto se procesan de forma paralela"
+        ],
+        "correcta": "Cada elemento del texto sin formato se asigna a otro elemento",
+        "explicacion": "La sustitución reemplaza los elementos del texto plano por otros, cambiando su representación sin alterar su posición."
+      },
+      {
+        "pregunta": "¿Qué caracteriza al cifrado por transposición?",
+        "respuestas": [
+          "Reorganiza los elementos del texto plano sin cambiarlos",
+          "Sustituye cada símbolo por otro diferente",
+          "Usa claves distintas para emisor y receptor",
+          "Aplica operaciones matemáticas sobre los bits"
+        ],
+        "correcta": "Reorganiza los elementos del texto plano sin cambiarlos",
+        "explicacion": "En la transposición, el mensaje original se altera solo en el orden de los caracteres, no en su contenido."
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia entre cifrado simétrico y asimétrico?",
+        "respuestas": [
+          "El simétrico usa una sola clave, el asimétrico usa dos diferentes",
+          "El simétrico usa dos claves, el asimétrico una",
+          "El asimétrico siempre es más rápido que el simétrico",
+          "El simétrico no requiere clave"
+        ],
+        "correcta": "El simétrico usa una sola clave, el asimétrico usa dos diferentes",
+        "explicacion": "En el cifrado simétrico ambos utilizan la misma clave; en el asimétrico se usan dos: una pública y una privada."
+      },
+      {
+        "pregunta": "¿Cómo se diferencia el cifrado de bloques del de flujo?",
+        "respuestas": [
+          "El de bloques cifra grupos de elementos, el de flujo cifra elemento por elemento",
+          "El de bloques es más lento y menos seguro",
+          "El de flujo usa dos claves diferentes",
+          "El de flujo se aplica solo a archivos grandes"
+        ],
+        "correcta": "El de bloques cifra grupos de elementos, el de flujo cifra elemento por elemento",
+        "explicacion": "El cifrado por bloques procesa el texto por partes; el de flujo trabaja continuamente bit a bit o carácter a carácter."
+      },
+      {
+        "pregunta": "¿Cuál es el principal objetivo del cifrado simétrico?",
+        "respuestas": [
+          "Garantizar la confidencialidad de los datos transmitidos o almacenados",
+          "Aumentar la velocidad de transmisión de datos",
+          "Reducir el tamaño del texto cifrado",
+          "Facilitar la autenticación de usuarios"
+        ],
+        "correcta": "Garantizar la confidencialidad de los datos transmitidos o almacenados",
+        "explicacion": "El cifrado simétrico protege la información frente a accesos no autorizados manteniendo su confidencialidad."
+      },
+      {
+        "pregunta": "¿Qué se necesita para que el cifrado simétrico sea seguro?",
+        "respuestas": [
+          "Un algoritmo fuerte y un intercambio seguro de la clave secreta",
+          "Dos algoritmos diferentes para cifrar y descifrar",
+          "Un servidor remoto de validación",
+          "El uso de una clave pública"
+        ],
+        "correcta": "Un algoritmo fuerte y un intercambio seguro de la clave secreta",
+        "explicacion": "Para evitar ataques, la clave debe mantenerse protegida y el algoritmo debe ser resistente a análisis criptográficos."
+      },
+      {
+        "pregunta": "¿Qué busca un ataque criptoanalítico (criptoanálisis)?",
+        "respuestas": [
+          "Deducir el texto sin formato o la clave utilizada",
+          "Bloquear el acceso al sistema",
+          "Corromper los datos cifrados",
+          "Duplicar los mensajes transmitidos"
+        ],
+        "correcta": "Deducir el texto sin formato o la clave utilizada",
+        "explicacion": "El criptoanálisis explota debilidades del algoritmo y patrones del texto para obtener el mensaje o la clave."
+      },
+      {
+        "pregunta": "¿Qué tipo de información necesita el criptoanálisis para ser efectivo?",
+        "respuestas": [
+          "Naturaleza del algoritmo y ejemplos de texto plano y cifrado",
+          "Solo la clave del destinatario",
+          "Una copia del hardware de cifrado",
+          "El historial de mensajes enviados"
+        ],
+        "correcta": "Naturaleza del algoritmo y ejemplos de texto plano y cifrado",
+        "explicacion": "El criptoanálisis se basa en estudiar cómo el algoritmo transforma datos conocidos para inferir la clave."
+      },
+      {
+        "pregunta": "¿En qué consiste un ataque de fuerza bruta?",
+        "respuestas": [
+          "Probar todas las claves posibles hasta encontrar la correcta",
+          "Modificar el algoritmo de cifrado para hacerlo vulnerable",
+          "Interceptar la clave durante la transmisión",
+          "Analizar patrones de tráfico de red"
+        ],
+        "correcta": "Probar todas las claves posibles hasta encontrar la correcta",
+        "explicacion": "La fuerza bruta intenta descifrar el mensaje probando cada clave hasta hallar una traducción coherente."
+      },
+      {
+        "pregunta": "¿Cuántas claves, en promedio, deben probarse en un ataque de fuerza bruta exitoso?",
+        "respuestas": [
+          "La mitad de todas las posibles",
+          "Todas las claves posibles",
+          "Una cuarta parte de las posibles",
+          "Una sola clave aleatoria"
+        ],
+        "correcta": "La mitad de todas las posibles",
+        "explicacion": "En promedio, se necesita probar la mitad de las combinaciones antes de hallar la clave correcta."
+      },
+      {
+        "pregunta": "¿Cuándo se considera que un esquema de cifrado es computacionalmente seguro?",
+        "respuestas": [
+          "Cuando descifrarlo cuesta más que el valor de la información o requiere más tiempo que su vida útil",
+          "Cuando usa una clave de más de 512 bits",
+          "Cuando impide totalmente cualquier ataque",
+          "Cuando el cifrado es reversible"
+        ],
+        "correcta": "Cuando descifrarlo cuesta más que el valor de la información o requiere más tiempo que su vida útil",
+        "explicacion": "El cifrado es seguro si romperlo resulta económicamente o temporalmente inviable."
+      },
+      {
+        "pregunta": "¿Por qué es difícil estimar la seguridad de un cifrado?",
+        "respuestas": [
+          "Porque es complicado calcular el esfuerzo necesario para romperlo",
+          "Porque depende de la velocidad de Internet",
+          "Porque los algoritmos cambian diariamente",
+          "Porque los ataques solo se basan en azar"
+        ],
+        "correcta": "Porque es complicado calcular el esfuerzo necesario para romperlo",
+        "explicacion": "La seguridad práctica depende de factores como el poder computacional y la eficiencia de los ataques posibles."
+      },
+      {
+        "pregunta": "¿Qué tamaño de bloque utiliza el algoritmo DES para texto plano?",
+        "respuestas": [
+          "64 bits",
+          "56 bits",
+          "128 bits",
+          "192 bits"
+        ],
+        "correcta": "64 bits",
+        "explicacion": "DES utiliza bloques de texto plano de 64 bits y una clave de 56 bits para producir bloques cifrados de 64 bits."
+      },
+      {
+        "pregunta": "¿Cuál es el tamaño de clave que emplea el algoritmo DES?",
+        "respuestas": [
+          "56 bits",
+          "64 bits",
+          "112 bits",
+          "128 bits"
+        ],
+        "correcta": "56 bits",
+        "explicacion": "El DES usa una clave de 56 bits, considerada actualmente insegura por su vulnerabilidad a ataques de fuerza bruta."
+      },
+      {
+        "pregunta": "¿Cuál fue una de las principales preocupaciones con el uso de DES?",
+        "respuestas": [
+          "La longitud de clave de 56 bits es demasiado corta para los procesadores modernos",
+          "El algoritmo era demasiado complejo",
+          "Utilizaba un tamaño de bloque muy grande",
+          "No soportaba cifrado simétrico"
+        ],
+        "correcta": "La longitud de clave de 56 bits es demasiado corta para los procesadores modernos",
+        "explicacion": "Con el aumento del poder computacional, 56 bits resultaron insuficientes para proteger contra ataques de fuerza bruta."
+      },
+      {
+        "pregunta": "¿Qué característica tiene Triple DES (3DES)?",
+        "respuestas": [
+          "Aplica el algoritmo DES tres veces usando dos o tres claves únicas",
+          "Es una versión reducida de DES",
+          "Usa una clave única de 512 bits",
+          "Es un algoritmo de cifrado asimétrico"
+        ],
+        "correcta": "Aplica el algoritmo DES tres veces usando dos o tres claves únicas",
+        "explicacion": "Triple DES fue diseñado para fortalecer DES aplicándolo tres veces con diferentes claves."
+      },
+      {
+        "pregunta": "¿Cuál fue una de las principales ventajas del Triple DES respecto a DES?",
+        "respuestas": [
+          "Una longitud de clave de hasta 168 bits que supera la vulnerabilidad al ataque de fuerza bruta",
+          "Mayor velocidad de cifrado en software",
+          "Bloques de texto de 128 bits",
+          "Menor consumo de recursos"
+        ],
+        "correcta": "Una longitud de clave de hasta 168 bits que supera la vulnerabilidad al ataque de fuerza bruta",
+        "explicacion": "Al usar varias claves, 3DES es mucho más resistente a ataques que el DES original."
+      },
+      {
+        "pregunta": "¿Cuál es una de las desventajas principales de Triple DES?",
+        "respuestas": [
+          "Es lento en software y mantiene un tamaño de bloque de 64 bits",
+          "Usa demasiadas claves simultáneamente",
+          "Solo puede usarse con hardware especializado",
+          "No permite cifrado por bloques"
+        ],
+        "correcta": "Es lento en software y mantiene un tamaño de bloque de 64 bits",
+        "explicacion": "Aunque seguro, 3DES es computacionalmente más costoso y su tamaño de bloque no mejoró respecto a DES."
+      },
+      {
+        "pregunta": "¿Por qué se necesitó un reemplazo para 3DES?",
+        "respuestas": [
+          "Porque no era razonable para uso a largo plazo debido a su lentitud y limitaciones",
+          "Porque utilizaba cifrado asimétrico",
+          "Porque requería demasiadas claves públicas",
+          "Porque no era compatible con hardware moderno"
+        ],
+        "correcta": "Porque no era razonable para uso a largo plazo debido a su lentitud y limitaciones",
+        "explicacion": "Aunque seguro, 3DES no era eficiente para aplicaciones modernas debido a su velocidad y consumo de recursos."
+      },
+      {
+        "pregunta": "¿Qué requisitos debía cumplir el nuevo estándar AES según el NIST?",
+        "respuestas": [
+          "Seguridad igual o superior a 3DES y mayor eficiencia",
+          "Usar exactamente las mismas claves que 3DES",
+          "Incluir cifrado asimétrico",
+          "Ser compatible con algoritmos RSA"
+        ],
+        "correcta": "Seguridad igual o superior a 3DES y mayor eficiencia",
+        "explicacion": "AES debía superar las limitaciones de 3DES tanto en seguridad como en rendimiento."
+      },
+      {
+        "pregunta": "¿Qué tamaño de bloque y de claves utiliza el algoritmo AES?",
+        "respuestas": [
+          "Bloques de 128 bits y claves de 128, 192 o 256 bits",
+          "Bloques de 64 bits y claves de 56 bits",
+          "Bloques de 256 bits y claves de 512 bits",
+          "Bloques de 112 bits y claves de 168 bits"
+        ],
+        "correcta": "Bloques de 128 bits y claves de 128, 192 o 256 bits",
+        "explicacion": "AES amplió los tamaños de clave y bloque para garantizar un cifrado más robusto y adaptable."
+      },
+      {
+        "pregunta": "¿En qué año seleccionó el NIST el algoritmo Rijndael como estándar AES?",
+        "respuestas": [
+          "2001",
+          "1997",
+          "1999",
+          "2003"
+        ],
+        "correcta": "2001",
+        "explicacion": "Rijndael fue seleccionado como el nuevo estándar AES en noviembre de 2001 y publicado como FIPS 197."
+      },
+      {
+        "pregunta": "¿A qué tipo de unidad de datos se aplica normalmente el cifrado simétrico?",
+        "respuestas": [
+          "A una unidad de datos mayor que un único bloque de 64 o 128 bits",
+          "Solo a bloques de 8 bits",
+          "Únicamente a flujos de datos continuos",
+          "A datos comprimidos antes del cifrado"
+        ],
+        "correcta": "A una unidad de datos mayor que un único bloque de 64 o 128 bits",
+        "explicacion": "El cifrado simétrico suele aplicarse sobre bloques de datos grandes, no sobre unidades pequeñas o flujos individuales."
+      },
+      {
+        "pregunta": "¿Qué característica tiene el modo de cifrado ECB?",
+        "respuestas": [
+          "Cada bloque de texto se cifra de forma independiente con la misma clave",
+          "Cada bloque se cifra con una clave diferente",
+          "El texto se cifra como un flujo continuo sin dividir en bloques",
+          "Utiliza una clave pública y otra privada"
+        ],
+        "correcta": "Cada bloque de texto se cifra de forma independiente con la misma clave",
+        "explicacion": "ECB cifra cada bloque igual de forma independiente, lo que permite a los criptoanalistas detectar patrones."
+      },
+      {
+        "pregunta": "¿Por qué el modo ECB es considerado inseguro?",
+        "respuestas": [
+          "Porque los criptoanalistas pueden explotar regularidades en el texto plano",
+          "Porque requiere demasiadas claves",
+          "Porque necesita una red de alta velocidad",
+          "Porque cifra solo flujos de datos"
+        ],
+        "correcta": "Porque los criptoanalistas pueden explotar regularidades en el texto plano",
+        "explicacion": "ECB no oculta patrones en los datos, lo que permite identificar partes repetitivas en el mensaje cifrado."
+      },
+      {
+        "pregunta": "¿Qué son los modos de operación en criptografía simétrica?",
+        "respuestas": [
+          "Técnicas desarrolladas para aumentar la seguridad del cifrado de bloques",
+          "Algoritmos de compresión de datos",
+          "Protocolos de transmisión de red",
+          "Métodos para romper cifrados simétricos"
+        ],
+        "correcta": "Técnicas desarrolladas para aumentar la seguridad del cifrado de bloques",
+        "explicacion": "Los modos de operación permiten cifrar secuencias grandes de datos y superar debilidades como las del modo ECB."
+      },
+      {
+        "pregunta": "¿Qué diferencia principal existe entre el cifrado de bloque y el cifrado de flujo?",
+        "respuestas": [
+          "El cifrado de bloque procesa grupos de datos, el de flujo procesa elemento por elemento",
+          "El de flujo es más lento que el de bloque",
+          "El cifrado de bloque usa claves asimétricas",
+          "El de bloque solo puede aplicarse a texto de longitud fija"
+        ],
+        "correcta": "El cifrado de bloque procesa grupos de datos, el de flujo procesa elemento por elemento",
+        "explicacion": "El cifrado de bloque trata bloques de bits completos, mientras que el de flujo cifra byte a byte o bit a bit."
+      },
+      {
+        "pregunta": "¿Cuál es una ventaja del cifrado de flujo?",
+        "respuestas": [
+          "Es más rápido y requiere menos código que el de bloque",
+          "Puede cifrar archivos comprimidos directamente",
+          "Permite reutilizar claves sin riesgo",
+          "Aumenta la longitud de los bloques"
+        ],
+        "correcta": "Es más rápido y requiere menos código que el de bloque",
+        "explicacion": "El cifrado de flujo es más eficiente en hardware o software ligero, ideal para transmisión continua de datos."
+      },
+      {
+        "pregunta": "¿Qué hace el modo CBC (Cipher Block Chaining)?",
+        "respuestas": [
+          "Encadena el bloque cifrado anterior con el siguiente bloque de texto plano mediante XOR",
+          "Cifra cada bloque independientemente",
+          "Combina clave pública y privada para cada bloque",
+          "Requiere una clave distinta por cada bloque"
+        ],
+        "correcta": "Encadena el bloque cifrado anterior con el siguiente bloque de texto plano mediante XOR",
+        "explicacion": "CBC utiliza un encadenamiento de bloques para evitar patrones repetidos en el texto cifrado."
+      },
+      {
+        "pregunta": "¿Cuál es una aplicación típica del modo CBC?",
+        "respuestas": [
+          "Transmisión orientada a bloques y autenticación (CBC-MAC)",
+          "Cifrado de flujo continuo de datos",
+          "Cifrado asimétrico de claves públicas",
+          "Compresión de datos cifrados"
+        ],
+        "correcta": "Transmisión orientada a bloques y autenticación (CBC-MAC)",
+        "explicacion": "CBC se usa ampliamente en transmisión segura y autenticación mediante el último bloque."
+      },
+      {
+        "pregunta": "¿Qué modo procesa bits de entrada uno a la vez y usa el texto cifrado anterior como entrada?",
+        "respuestas": [
+          "Cipher Feedback (CFB)",
+          "Electronic Code Book (ECB)",
+          "Counter (CTR)",
+          "Output Feedback (OFB)"
+        ],
+        "correcta": "Cipher Feedback (CFB)",
+        "explicacion": "El modo CFB cifra bit a bit usando el resultado del bloque anterior como entrada para el siguiente."
+      },
+      {
+        "pregunta": "¿Qué modo es similar a CFB, pero utiliza la salida pseudoaleatoria anterior como entrada al cifrado?",
+        "respuestas": [
+          "Output Feedback (OFB)",
+          "Electronic Code Book (ECB)",
+          "Cipher Block Chaining (CBC)",
+          "Counter (CTR)"
+        ],
+        "correcta": "Output Feedback (OFB)",
+        "explicacion": "OFB usa la salida previa del cifrado como nueva entrada, generando una secuencia pseudoaleatoria continua."
+      },
+      {
+        "pregunta": "¿Qué característica define al modo Counter (CTR)?",
+        "respuestas": [
+          "Cada bloque se XOR con un contador cifrado que se incrementa en cada bloque",
+          "Cada bloque se cifra con una clave diferente",
+          "El texto plano se concatena antes del cifrado",
+          "Utiliza una clave pública y otra privada"
+        ],
+        "correcta": "Cada bloque se XOR con un contador cifrado que se incrementa en cada bloque",
+        "explicacion": "CTR convierte el contador cifrado en una secuencia pseudoaleatoria que se combina con el texto plano."
+      },
+      {
+        "pregunta": "¿Cuál es una aplicación típica del modo Counter (CTR)?",
+        "respuestas": [
+          "Transmisión orientada a bloques de uso general y alta velocidad",
+          "Autenticación de usuarios en línea",
+          "Cifrado de claves asimétricas",
+          "Protección contra ataques de denegación de servicio"
+        ],
+        "correcta": "Transmisión orientada a bloques de uso general y alta velocidad",
+        "explicacion": "CTR es muy eficiente para transmisión rápida de datos y cifrados paralelos."
+      },
+      {
+        "pregunta": "¿Qué función cumple el modo CMAC?",
+        "respuestas": [
+          "Proporcionar autenticación basada en una variación del modo CBC-MAC",
+          "Cifrar texto plano directamente sin bloques",
+          "Combinar cifrado simétrico y asimétrico",
+          "Reutilizar claves sin riesgo"
+        ],
+        "correcta": "Proporcionar autenticación basada en una variación del modo CBC-MAC",
+        "explicacion": "CMAC ajusta el bloque final para generar un código de autenticación más seguro."
+      },
+      {
+        "pregunta": "¿Qué ventaja tiene el modo OCB (Offset Codebook)?",
+        "respuestas": [
+          "Combina cifrado y autenticación en una sola operación",
+          "Permite cifrar claves públicas",
+          "Evita el uso de XOR en bloques consecutivos",
+          "Genera múltiples claves simultáneas"
+        ],
+        "correcta": "Combina cifrado y autenticación en una sola operación",
+        "explicacion": "OCB autentica y cifra cada bloque simultáneamente, optimizando la seguridad y el rendimiento."
+      },
+      {
+        "pregunta": "¿Qué combinan los modos CCM y GCM?",
+        "respuestas": [
+          "Confidencialidad y autenticación de datos",
+          "Cifrado asimétrico con claves públicas",
+          "Codificación y compresión",
+          "Segmentación de bloques y firmas digitales"
+        ],
+        "correcta": "Confidencialidad y autenticación de datos",
+        "explicacion": "Ambos modos integran cifrado (CTR) y autenticación (MAC) para lograr protección completa en la comunicación."
+      },
+      {
+        "pregunta": "¿Qué caracteriza al modo ECB (Electronic Code Book)?",
+        "respuestas": [
+          "Es el modo de cifrado más simple y cifra cada bloque con la misma clave",
+          "Utiliza una clave diferente para cada bloque",
+          "Combina cifrado simétrico y asimétrico",
+          "Requiere intercambio continuo de claves"
+        ],
+        "correcta": "Es el modo de cifrado más simple y cifra cada bloque con la misma clave",
+        "explicacion": "ECB procesa cada bloque de texto plano de forma independiente usando siempre la misma clave."
+      },
+      {
+        "pregunta": "¿Por qué el modo ECB no es seguro para mensajes largos?",
+        "respuestas": [
+          "Porque los bloques repetidos en el texto plano producen bloques repetidos en el texto cifrado",
+          "Porque no usa operaciones XOR",
+          "Porque requiere demasiadas claves",
+          "Porque es incompatible con AES"
+        ],
+        "correcta": "Porque los bloques repetidos en el texto plano producen bloques repetidos en el texto cifrado",
+        "explicacion": "ECB conserva patrones del texto original, lo que puede revelar información visual o estructural."
+      },
+      {
+        "pregunta": "¿Qué tamaño de bloque utiliza DES y AES respectivamente?",
+        "respuestas": [
+          "DES utiliza 64 bits y AES utiliza 128 bits",
+          "DES utiliza 128 bits y AES 64 bits",
+          "Ambos utilizan 64 bits",
+          "DES usa bloques variables y AES fijos"
+        ],
+        "correcta": "DES utiliza 64 bits y AES utiliza 128 bits",
+        "explicacion": "DES trabaja con bloques de 64 bits, mientras que AES utiliza bloques más grandes de 128 bits para mayor seguridad."
+      },
+      {
+        "pregunta": "¿Qué modos permiten convertir un cifrado de bloque en uno de flujo?",
+        "respuestas": [
+          "CFB, OFB y CTR",
+          "CBC, ECB y CCM",
+          "GCM, CMAC y OCB",
+          "AES, DES y 3DES"
+        ],
+        "correcta": "CFB, OFB y CTR",
+        "explicacion": "Estos modos procesan bits o bytes de manera continua, convirtiendo el cifrado de bloque en un flujo."
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes es una ventaja del modo CTR (Counter)?",
+        "respuestas": [
+          "Alta eficiencia y simplicidad tanto en hardware como en software",
+          "Evita totalmente el uso de contadores cifrados",
+          "Requiere menos sincronización entre emisor y receptor",
+          "Permite reutilizar claves indefinidamente"
+        ],
+        "correcta": "Alta eficiencia y simplicidad tanto en hardware como en software",
+        "explicacion": "El modo CTR destaca por su eficiencia, capacidad de preprocesamiento y seguridad demostrable."
+      },
+      {
+        "pregunta": "¿Qué ventaja aporta el modo CTR respecto a otros modos de operación?",
+        "respuestas": [
+          "Permite acceso aleatorio y preprocesamiento de bloques",
+          "Usa menos recursos de memoria",
+          "Requiere menos claves",
+          "Funciona solo en hardware especializado"
+        ],
+        "correcta": "Permite acceso aleatorio y preprocesamiento de bloques",
+        "explicacion": "CTR permite cifrar bloques por separado sin dependencia de bloques anteriores."
+      },
+      {
+        "pregunta": "¿Qué protege la autenticación de mensajes?",
+        "respuestas": [
+          "Protege contra ataques activos y asegura que el mensaje sea auténtico",
+          "Evita la pérdida de paquetes en la transmisión",
+          "Garantiza la compresión del mensaje",
+          "Evita el cifrado del contenido"
+        ],
+        "correcta": "Protege contra ataques activos y asegura que el mensaje sea auténtico",
+        "explicacion": "La autenticación de mensajes busca confirmar integridad, origen y secuencia correcta del mensaje."
+      },
+      {
+        "pregunta": "¿Qué verifica la autenticación de mensajes?",
+        "respuestas": [
+          "Que el contenido no ha sido alterado y proviene de una fuente auténtica",
+          "Que el mensaje está en formato comprimido",
+          "Que el mensaje no ha sido cifrado",
+          "Que el mensaje contiene la firma digital correcta"
+        ],
+        "correcta": "Que el contenido no ha sido alterado y proviene de una fuente auténtica",
+        "explicacion": "La autenticación garantiza integridad y origen del mensaje, no necesariamente su confidencialidad."
+      },
+      {
+        "pregunta": "¿Cómo puede realizarse la autenticación de mensajes?",
+        "respuestas": [
+          "Utilizando cifrado convencional compartido entre remitente y receptor",
+          "Mediante un certificado público únicamente",
+          "Usando un hash sin clave",
+          "A través de canales no cifrados"
+        ],
+        "correcta": "Utilizando cifrado convencional compartido entre remitente y receptor",
+        "explicacion": "La autenticación puede basarse en una clave secreta compartida que valide el origen del mensaje."
+      },
+      {
+        "pregunta": "¿Qué afirma la diapositiva sobre la autenticación de mensajes sin confidencialidad?",
+        "respuestas": [
+          "Que el cifrado por sí solo no garantiza autenticación segura",
+          "Que siempre es preferible usar confidencialidad",
+          "Que se usa únicamente con algoritmos asimétricos",
+          "Que reemplaza completamente la autenticación tradicional"
+        ],
+        "correcta": "Que el cifrado por sí solo no garantiza autenticación segura",
+        "explicacion": "El cifrado no asegura autenticidad; se puede requerir un método adicional como OCB o un código MAC."
+      },
+      {
+        "pregunta": "¿Qué es el modo OCB (Offset Codebook)?",
+        "respuestas": [
+          "Un algoritmo que combina cifrado y autenticación en una sola operación",
+          "Una variante de ECB con bloques aleatorios",
+          "Un método de compresión de claves",
+          "Un sistema de intercambio de claves públicas"
+        ],
+        "correcta": "Un algoritmo que combina cifrado y autenticación en una sola operación",
+        "explicacion": "OCB permite cifrar y autenticar simultáneamente un mensaje y su etiqueta."
+      },
+      {
+        "pregunta": "¿En qué casos puede ser preferible la autenticación sin confidencialidad?",
+        "respuestas": [
+          "Cuando se transmite el mismo mensaje a varios destinos o no se necesita cifrar todo el contenido",
+          "Cuando se usan claves públicas diferentes",
+          "Cuando la red no soporta cifrado simétrico",
+          "Nunca es recomendable"
+        ],
+        "correcta": "Cuando se transmite el mismo mensaje a varios destinos o no se necesita cifrar todo el contenido",
+        "explicacion": "En ciertos entornos, la autenticación basta para verificar integridad sin necesidad de cifrar los datos."
       }
+    
+    
     ],
     "Tema 3": [
       {
@@ -4904,7 +5941,7 @@ export class TestCompletoMultimediaComponent {
       }
     ]
   };
-  
+
   preguntasActuales: any[] = [];
   testFinalizado: boolean = false;
   respuestasUsuario: string[] = []; // Respuestas seleccionadas por el usuario.
@@ -4930,7 +5967,8 @@ export class TestCompletoMultimediaComponent {
   cargarPreguntasCompletas() {
     const preguntas = [
       ...this.temas["Tema 1"],
-      ...this.temas["Tema 2"]
+      ...this.temas["Tema 2"],
+      ...this.temas["Tema 3"]
     ];
     this.preguntasActuales = this.shuffleArray(preguntas);
 
