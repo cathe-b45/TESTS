@@ -2022,6 +2022,1590 @@ export class TestCompletoIsoComponent {
           "Capacidad para ser reemplazado."
         ],
         correcta: "Capacidad para ser reemplazado."
+      },
+      {
+        "pregunta": "B03-L11-Q01-¿En qué etapa sería más conveniente tener un equipo diferente al del resto de etapas?",
+        "respuestas": [
+          "Análisis.",
+          "Diseño.",
+          "Implementación.",
+          "Pruebas."
+        ],
+        "correcta": "Pruebas.",
+        "explicacion": "La respuesta correcta es: \"Pruebas.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q02-Un marco de referencia que refleja los procesos, actividades y tareas desde que el software es concebido hasta que deja de utilizarse es...",
+        "respuestas": [
+          "Una metodología.",
+          "Un ciclo de vida.",
+          "Un proceso productivo.",
+          "Un proceso de negocio"
+        ],
+        "correcta": "Un ciclo de vida.",
+        "explicacion": "La respuesta correcta es: \"Un ciclo de vida.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q03-¿Cuál es la función principal de la fase de implementación en el ciclo de vida del software?",
+        "respuestas": [
+          "Definir los requisitos del cliente.",
+          "Hacer un croquis de las entidades y relaciones.",
+          "Programar el sistema asegurando trazabilidad de los cambios.",
+          "Realizar pruebas para detectar fallos."
+        ],
+        "correcta": "Programar el sistema asegurando trazabilidad de los cambios.",
+        "explicacion": "La respuesta correcta es: \"Programar el sistema asegurando trazabilidad de los cambios.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q04-¿Qué modelo de ciclo de vida se caracteriza por no permitir retroceder a fases anteriores y avanzar solo cuando se completa la fase actual?",
+        "respuestas": [
+          "Modelo incremental.",
+          "Modelo en espiral.",
+          "Modelo en cascada.",
+          "Modelo ágil."
+        ],
+        "correcta": "Modelo en cascada.",
+        "explicacion": "La respuesta correcta es: \"Modelo en cascada.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q05-¿Cuál de estas metodologías de desarrollo NO es estructurada?",
+        "respuestas": [
+          "Orientadas a objetos.",
+          "Orientadas a procesos.",
+          "Orientadas a datos.",
+          "Mixtas."
+        ],
+        "correcta": "Orientadas a objetos.",
+        "explicacion": "La respuesta correcta es: \"Orientadas a objetos.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q06-¿Cómo se llaman las metodologías sin evolucionar donde los resultados son impredecibles?",
+        "respuestas": [
+          "Tradicionales.",
+          "Convencionales.",
+          "Estructuradas.",
+          "Orientadas a objetos."
+        ],
+        "correcta": "Convencionales.",
+        "explicacion": "La respuesta correcta es: \"Convencionales.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q07-¿Cuál de las siguientes sentencias es FALSA?",
+        "respuestas": [
+          "El modelo de procesos se usa para definir las prioridades y objetivos de mejora.",
+          "El modelo de procesos se usa como guía para la mejora.",
+          "El modelo de procesos se usa como herramienta si no se usa un ciclo de vida.",
+          "El modelo de procesos se usa para definir un lenguaje común."
+        ],
+        "correcta": "El modelo de procesos se usa como herramienta si no se usa un ciclo de vida.",
+        "explicacion": "La respuesta correcta es: \"El modelo de procesos se usa como herramienta si no se usa un ciclo de vida.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q08-El ciclo de vida en espiral...",
+        "respuestas": [
+          "Lo usan la mayoría de las empresas.",
+          "Se divide en 3 partes: planificación, análisis de riesgos y evaluación.",
+          "Tiene una revisión que incluye todo el ciclo anterior al acabar dicho ciclo.",
+          "No requiere de ningún tipo de prototipo."
+        ],
+        "correcta": "Tiene una revisión que incluye todo el ciclo anterior al acabar dicho ciclo.",
+        "explicacion": "La respuesta correcta es: \"Tiene una revisión que incluye todo el ciclo anterior al acabar dicho ciclo.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q09-¿Qué característica principal tiene el lenguaje natural al expresar necesidades de un cliente?",
+        "respuestas": [
+          "Es preciso y formal.",
+          "Es ambiguo e informal.",
+          "Está directamente estructurado en requisitos técnicos.",
+          "Es equivalente a un diagrama UML."
+        ],
+        "correcta": "Es ambiguo e informal.",
+        "explicacion": "La respuesta correcta es: \"Es ambiguo e informal.\"."
+      },
+      {
+        "pregunta": "B01-L01-Q10-¿Cuál es el objetivo principal de la fase de Obtención de Requisitos en el desarrollo de software?",
+        "respuestas": [
+          "Diseñar la arquitectura del sistema con UML y otras herramientas.",
+          "Realizar pruebas externas para asegurar la calidad del producto.",
+          "Implementar el código siguiendo las especificaciones del diseño.",
+          "Traducir las necesidades expresadas en lenguaje natural a requisitos funcionales."
+        ],
+        "correcta": "Traducir las necesidades expresadas en lenguaje natural a requisitos funcionales.",
+        "explicacion": "La respuesta correcta es: \"Traducir las necesidades expresadas en lenguaje natural a requisitos funcionales.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q11-¿Qué metodología sería más adecuada para el desarrollo del sistema de control del airbag en un vehículo autónomo?",
+        "respuestas": [
+          "Una metodología orientada a objetos.",
+          "Una metodología estructurada orientada a datos.",
+          "Cualquiera de las anteriores.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "Una metodología orientada a objetos.",
+        "explicacion": "La respuesta correcta es: \"Una metodología orientada a objetos.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q12-Selecciona la opción FALSA",
+        "respuestas": [
+          "Toda metodología está asociada a un ciclo de vida.",
+          "Las metodologías, según su filosofía de desarrollo, pueden clasificarse en tradicionales y ágiles.",
+          "Las metodologías convencionales son las más utilizadas normalmente, de ahí su nombre.",
+          "Las metodologías estructuradas surgieron antes que las orientadas a objetos."
+        ],
+        "correcta": "Las metodologías convencionales son las más utilizadas normalmente, de ahí su nombre.",
+        "explicacion": "La respuesta correcta es: \"Las metodologías convencionales son las más utilizadas normalmente, de ahí su nombre.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q13-¿Cuál de las siguientes es una característica deseable de una metodología de desarrollo?",
+        "respuestas": [
+          "Que ignore la reutilización del software.",
+          "Que limite el uso de herramientas CASE.",
+          "Que facilite la comunicación efectiva entre los participantes.",
+          "Que evite verificaciones intermedias."
+        ],
+        "correcta": "Que facilite la comunicación efectiva entre los participantes.",
+        "explicacion": "La respuesta correcta es: \"Que facilite la comunicación efectiva entre los participantes.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q14-¿Qué ventaja principal presenta el modelo incremental frente al modelo en cascada?",
+        "respuestas": [
+          "Es más fácil estimar el coste total del proyecto.",
+          "Permite entregar valor al usuario con mayor frecuencia.",
+          "Requiere menor implicación del usuario.",
+          "Evita completamente los errores de requisitos."
+        ],
+        "correcta": "Permite entregar valor al usuario con mayor frecuencia.",
+        "explicacion": "La respuesta correcta es: \"Permite entregar valor al usuario con mayor frecuencia.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q15-¿Cuál de las siguientes NO es una fase genérica del ciclo de vida del software?",
+        "respuestas": [
+          "Definición.",
+          "Desarrollo.",
+          "Despliegue y Mantenimiento.",
+          "Comercialización."
+        ],
+        "correcta": "Comercialización.",
+        "explicacion": "La respuesta correcta es: \"Comercialización.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q16-¿Qué modelo de ciclo de vida tiene como eje central la identificación y gestión de riesgos?",
+        "respuestas": [
+          "Modelo en cascada.",
+          "Modelo incremental.",
+          "Modelo en espiral.",
+          "Modelo ágil."
+        ],
+        "correcta": "Modelo en espiral.",
+        "explicacion": "La respuesta correcta es: \"Modelo en espiral.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q17-¿Cuál de las siguientes opciones describe mejor el concepto de “tarea” dentro de un proceso de Ingeniería del Software?",
+        "respuestas": [
+          "Una colección de actividades que se suceden en el tiempo.",
+          "Una acción concreta que transforma entradas en salidas.",
+          "Un producto generado como entrada o salida.",
+          "Un conjunto de tareas relacionadas."
+        ],
+        "correcta": "Una acción concreta que transforma entradas en salidas.",
+        "explicacion": "La respuesta correcta es: \"Una acción concreta que transforma entradas en salidas.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q18-¿Cuál de las siguientes es una ventaja del modelo en cascada?",
+        "respuestas": [
+          "Refleja fielmente la realidad del desarrollo de software.",
+          "Permite obtener resultados tempranos y frecuentes.",
+          "Es adecuado cuando los requisitos están bien definidos desde el inicio.",
+          "Facilita la comunicación directa con el usuario final."
+        ],
+        "correcta": "Es adecuado cuando los requisitos están bien definidos desde el inicio.",
+        "explicacion": "La respuesta correcta es: \"Es adecuado cuando los requisitos están bien definidos desde el inicio.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q19-¿Qué elemento se sitúa en el centro del triángulo de hierro en un proyecto de software?",
+        "respuestas": [
+          "Calidad.",
+          "Presupuesto.",
+          "Alcance.",
+          "Tiempo."
+        ],
+        "correcta": "Calidad.",
+        "explicacion": "La respuesta correcta es: \"Calidad.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q20-¿Qué término describe a las personas implicadas en un proyecto, como clientes, desarrolladores y usuarios?",
+        "respuestas": [
+          "Artefactos.",
+          "Procesos productivos.",
+          "Stakeholders.",
+          "Metodologías."
+        ],
+        "correcta": "Stakeholders.",
+        "explicacion": "La respuesta correcta es: \"Stakeholders.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q21-¿Cuál de las siguientes NO es un modelo de ciclo de vida?",
+        "respuestas": [
+          "Cascada.",
+          "Río.",
+          "Espiral.",
+          "Incremental."
+        ],
+        "correcta": "Río.",
+        "explicacion": "La respuesta correcta es: \"Río.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q22-¿Cuál de las siguientes es una metodología orientada a objetos?",
+        "respuestas": [
+          "PUD.",
+          "ISO.",
+          "IEEE.",
+          "ISO2."
+        ],
+        "correcta": "PUD.",
+        "explicacion": "La respuesta correcta es: \"PUD.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q23-¿Cuál de las siguientes NO es una metodología de desarrollo?",
+        "respuestas": [
+          "Convencionales.",
+          "Estructuradas.",
+          "Orientadas a objetos.",
+          "Metodología en cascada."
+        ],
+        "correcta": "Metodología en cascada.",
+        "explicacion": "La respuesta correcta es: \"Metodología en cascada.\"."
+      },
+      {
+        "pregunta": "B03-L11-Q24-¿Cuál de las siguientes NO es una metodología de desarrollo estructurada?",
+        "respuestas": [
+          "Metodología Merise.",
+          "Metodología SSADM.",
+          "Metodología Métrica.",
+          "OMT."
+        ],
+        "correcta": "OMT.",
+        "explicacion": "La respuesta correcta es: \"OMT.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q01-¿Cuál es la fuente de cambios principal?",
+        "respuestas": [
+          "La IA (inteligencia artificial).",
+          "El calentamiento global.",
+          "El cliente.",
+          "Las nuevas tecnologías."
+        ],
+        "correcta": "El cliente.",
+        "explicacion": "La respuesta correcta es: \"El cliente.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q02-¿Cuáles son las 4 actividades básicas de la gestión de la configuración?",
+        "respuestas": [
+          "Gestión del cambio, Gestión de versiones, Construcción del sistema y Gestión de Liberaciones / Entregas.",
+          "Gestión de requisitos, Gestión de versiones, Construcción del sistema y Gestión de Liberaciones / Entregas.",
+          "Gestión de requisitos, Gestión de versiones, Construcción del sistema y Gestión de limitaciones.",
+          "Gestión del cambio, Gestión de versiones, Construcción del sistema y Gestión de limitaciones."
+        ],
+        "correcta": "Gestión del cambio, Gestión de versiones, Construcción del sistema y Gestión de Liberaciones / Entregas.",
+        "explicacion": "La respuesta correcta es: \"Gestión del cambio, Gestión de versiones, Construcción del sistema y Gestión de Liberaciones / Entregas.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q03-¿Que es una Baseline (Línea Base) ?",
+        "respuestas": [
+          "Producto que no ha sido formalmente revisado aun y sobre el que se alcanzará un acuerdo.",
+          "Colección de ciclos de componentes que construyen un sistema.",
+          "Colección de iteraciones de componentes que construyen un sistema.",
+          "Colección de versiones de componentes que construyen un sistema."
+        ],
+        "correcta": "Colección de versiones de componentes que construyen un sistema.",
+        "explicacion": "La respuesta correcta es: \"Colección de versiones de componentes que construyen un sistema.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q04-¿Que es una Codeline (Línea de Código) ?",
+        "respuestas": [
+          "Una línea de código referente a un programa de proyecto el cual se está implementando para la siguiente versión.",
+          "Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.",
+          "Una agrupación de caracteres con sentido lógico en cuanto a programación.",
+          "Un término ajeno a la ingeniería de software."
+        ],
+        "correcta": "Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.",
+        "explicacion": "La respuesta correcta es: \"Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q05-¿Cuál de las siguientes opciones es verdadera?",
+        "respuestas": [
+          "La fase Alfa del ciclo de lanzamiento es una fase secundaria para comenzar las pruebas de software.",
+          "La fase Beta del ciclo de lanzamiento es la primera fase para comenzar las pruebas de software.",
+          "Las opciones anteriores son verdaderas.",
+          "Las opciones anteriores son falsas."
+        ],
+        "correcta": "Las opciones anteriores son falsas.",
+        "explicacion": "La respuesta correcta es: \"Las opciones anteriores son falsas.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q06-¿Cuál de las siguientes actividades no está relacionada con gestión de la configuración?",
+        "respuestas": [
+          "Control de versiones.",
+          "Control de releases.",
+          "Construcción del sistema.",
+          "Gestión de calidad."
+        ],
+        "correcta": "Gestión de calidad.",
+        "explicacion": "La respuesta correcta es: \"Gestión de calidad.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q07-La persona o personas que evalúan, aceptan o rechazan peticiones de cambios es",
+        "respuestas": [
+          "Consejo de Control de la Configuración.",
+          "Autoridad de Gestión de la Configuración.",
+          "Equipo de desarrollo.",
+          "Dirección ejecutiva."
+        ],
+        "correcta": "Consejo de Control de la Configuración.",
+        "explicacion": "La respuesta correcta es: \"Consejo de Control de la Configuración.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q08-La persona o personas encargadas de planificar y ejecutar el plan de gestión de la configuración es",
+        "respuestas": [
+          "Consejo de Control de la Configuración.",
+          "Autoridad de Gestión de la Configuración.",
+          "Equipo de desarrollo.",
+          "Dirección ejecutiva."
+        ],
+        "correcta": "Autoridad de Gestión de la Configuración.",
+        "explicacion": "La respuesta correcta es: \"Autoridad de Gestión de la Configuración.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q09-La creación de una nueva línea base a partir de una existente se denomina",
+        "respuestas": [
+          "Merge.",
+          "Pull request.",
+          "Commit.",
+          "Branching."
+        ],
+        "correcta": "Branching.",
+        "explicacion": "La respuesta correcta es: \"Branching.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q10-Una versión publicada de un producto se denomina",
+        "respuestas": [
+          "Rama.",
+          "Build.",
+          "Release.",
+          "Producto mínimo viable."
+        ],
+        "correcta": "Release.",
+        "explicacion": "La respuesta correcta es: \"Release.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q11-¿Cuál es el propósito principal de la Gestión de la Configuración según IEEE 828?",
+        "respuestas": [
+          "Controlar los costes y la rentabilidad del desarrollo del software.",
+          "Mantener la integridad de un producto durante todo su ciclo de vida.",
+          "Verificar el cumplimiento legal del software.",
+          "Asegurar la escalabilidad del sistema ante nuevas tecnologías."
+        ],
+        "correcta": "Mantener la integridad de un producto durante todo su ciclo de vida.",
+        "explicacion": "La respuesta correcta es: \"Mantener la integridad de un producto durante todo su ciclo de vida.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q12-¿Qué documento establece los elementos necesarios para ejercer la Gestión de la Configuración?",
+        "respuestas": [
+          "Registro de gestión de configuración.",
+          "Procedimiento de gestión de configuración.",
+          "Plan de gestión de configuración.",
+          "Informe del estado de la configuración."
+        ],
+        "correcta": "Plan de gestión de configuración.",
+        "explicacion": "La respuesta correcta es: \"Plan de gestión de configuración.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q13-¿Quién es responsable de evaluar y aprobar los cambios propuestos a los elementos de configuración?",
+        "respuestas": [
+          "El equipo de pruebas.",
+          "El jefe de proyecto.",
+          "El cliente principal.",
+          "El Consejo de Control de Configuración (CCB)."
+        ],
+        "correcta": "El Consejo de Control de Configuración (CCB).",
+        "explicacion": "La respuesta correcta es: \"El Consejo de Control de Configuración (CCB).\"."
+      },
+      {
+        "pregunta": "B03-L21-Q14-¿Qué indica el número minor en el versionado semántico?",
+        "respuestas": [
+          "Una corrección menor compatible con la versión anterior.",
+          "Un cambio que rompe la compatibilidad hacia atrás.",
+          "Una nueva funcionalidad compatible con la versión anterior.",
+          "Un cambio en los metadatos de compilación."
+        ],
+        "correcta": "Una nueva funcionalidad compatible con la versión anterior.",
+        "explicacion": "La respuesta correcta es: \"Una nueva funcionalidad compatible con la versión anterior.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q15-¿Cuál es el objetivo principal del proceso de ramificación (branching)?",
+        "respuestas": [
+          "Permitir el desarrollo simultáneo sin conflictos entre programadores.",
+          "Aumentar el rendimiento del compilador.",
+          "Reducir el tamaño del repositorio de versiones.",
+          "Eliminar líneas base obsoletas de la configuración."
+        ],
+        "correcta": "Permitir el desarrollo simultáneo sin conflictos entre programadores.",
+        "explicacion": "La respuesta correcta es: \"Permitir el desarrollo simultáneo sin conflictos entre programadores.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q16-¿Qué es un Elemento de Configuración (Configuration Item, CI) ?",
+        "respuestas": [
+          "Cualquier archivo temporal generado durante la compilación.",
+          "Solo los documentos de requisitos.",
+          "Únicamente el código fuente del proyecto.",
+          "Agregación de productos de trabajo designados para estar bajo control de configuración y tratados como una entidad única."
+        ],
+        "correcta": "Agregación de productos de trabajo designados para estar bajo control de configuración y tratados como una entidad única.",
+        "explicacion": "La respuesta correcta es: \"Agregación de productos de trabajo designados para estar bajo control de configuración y tratados como una entidad única.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q17-¿Qué es el Control de Configuración (Configuration Control) ?",
+        "respuestas": [
+          "El proceso de etiquetar automáticamente cada commit en el repositorio.",
+          "La evaluación, coordinación, aprobación o rechazo y aplicación de cambios a los elementos de configuración tras su identificación formal.",
+          "La actividad de compilar y enlazar componentes para generar un ejecutable.",
+          "La verificación de la escalabilidad del sistema ante picos de carga."
+        ],
+        "correcta": "La evaluación, coordinación, aprobación o rechazo y aplicación de cambios a los elementos de configuración tras su identificación formal.",
+        "explicacion": "La respuesta correcta es: \"La evaluación, coordinación, aprobación o rechazo y aplicación de cambios a los elementos de configuración tras su identificación formal.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q18-¿Qué es una CMDB (Configuration Management Database)?",
+        "respuestas": [
+          "Un repositorio que mantiene la información de los atributos y relaciones de los elementos de configuración a lo largo de su ciclo de vida.",
+          "Un sistema de control de versiones distribuido para almacenar commits.",
+          "Un script de construcción automática del sistema.",
+          "Un plan de liberación que describe las funcionalidades por versión."
+        ],
+        "correcta": "Un repositorio que mantiene la información de los atributos y relaciones de los elementos de configuración a lo largo de su ciclo de vida.",
+        "explicacion": "La respuesta correcta es: \"Un repositorio que mantiene la información de los atributos y relaciones de los elementos de configuración a lo largo de su ciclo de vida.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q19-En versionado semántico, ¿cómo afectan los metadatos de compilación (build metadata) a la precedencia de versiones?",
+        "respuestas": [
+          "Tienen mayor precedencia que las versiones normales.",
+          "Se ignoran al determinar la precedencia entre versiones.",
+          "Solo afectan a versiones pre-release.",
+          "Se consideran antes del número de patch."
+        ],
+        "correcta": "Se ignoran al determinar la precedencia entre versiones.",
+        "explicacion": "La respuesta correcta es: \"Se ignoran al determinar la precedencia entre versiones.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q20-¿Qué es una etiqueta (Tag) en gestión de la configuración de software?",
+        "respuestas": [
+          "Una rama temporal que agrupa cambios experimentales.",
+          "Un commit sin mensaje asociado.",
+          "Un identificador explícito e inmutable de una versión, usado para señalar exactamente qué versión de un elemento de configuración hay en el repositorio.",
+          "Un script que automatiza la generación de versiones."
+        ],
+        "correcta": "Un identificador explícito e inmutable de una versión, usado para señalar exactamente qué versión de un elemento de configuración hay en el repositorio.",
+        "explicacion": "La respuesta correcta es: \"Un identificador explícito e inmutable de una versión, usado para señalar exactamente qué versión de un elemento de configuración hay en el repositorio.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q21-En el contexto del versionado semántico, ¿qué versión corresponde a la incorporación de una nueva funcionalidad compatible con la anterior?",
+        "respuestas": [
+          "Se incrementa el número Minor.",
+          "Se incrementa el número Major.",
+          "Se incrementa el número Patch.",
+          "Se reinician todos los números a cero."
+        ],
+        "correcta": "Se incrementa el número Minor.",
+        "explicacion": "La respuesta correcta es: \"Se incrementa el número Minor.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q22-¿Qué documento describe las funcionalidades que serán implementadas en cada publicación y la justificación de cada una?",
+        "respuestas": [
+          "Plan de gestión de la configuración.",
+          "Informe de entrega del sistema.",
+          "Registro de peticiones de cambio.",
+          "Plan de liberación."
+        ],
+        "correcta": "Plan de liberación.",
+        "explicacion": "La respuesta correcta es: \"Plan de liberación.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q23-¿Qué describe mejor el proceso de construcción del sistema dentro de la gestión de configuración?",
+        "respuestas": [
+          "La ejecución automática de los casos de prueba.",
+          "El ensamblaje y compilación de componentes para crear un sistema ejecutable.",
+          "La instalación del software en el entorno del cliente.",
+          "El empaquetado de las librerías en contenedores."
+        ],
+        "correcta": "El ensamblaje y compilación de componentes para crear un sistema ejecutable.",
+        "explicacion": "La respuesta correcta es: \"El ensamblaje y compilación de componentes para crear un sistema ejecutable.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q24-¿Qué afirmación sobre una línea base (baseline) es correcta?",
+        "respuestas": [
+          "Es una versión temporal que puede cambiar libremente durante el desarrollo.",
+          "Se elimina al finalizar la fase de construcción.",
+          "Solo puede modificarse mediante procedimientos formales de cambio.",
+          "Se utiliza únicamente en la etapa de pruebas."
+        ],
+        "correcta": "Solo puede modificarse mediante procedimientos formales de cambio.",
+        "explicacion": "La respuesta correcta es: \"Solo puede modificarse mediante procedimientos formales de cambio.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q25-¿Qué apartado del Plan de Gestión de Configuración define las personas y roles encargados de su ejecución?",
+        "respuestas": [
+          "Políticas aplicables.",
+          "Responsabilidades y autoridades del plan.",
+          "Criterios de identificación de los elementos de configuración.",
+          "Limitaciones y suposiciones."
+        ],
+        "correcta": "Responsabilidades y autoridades del plan.",
+        "explicacion": "La respuesta correcta es: \"Responsabilidades y autoridades del plan.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q26-¿Qué es el Branching (Ramificación)?",
+        "respuestas": [
+          "La eliminación de versiones anteriores para evitar conflictos en el desarrollo.",
+          "La creación de una nueva línea base a partir de una versión existente. La nueva línea base y la existente pueden desarrollarse de manera independiente.",
+          "La fusión de todas las versiones en una única línea de desarrollo.",
+          "El proceso de compilar el software para su distribución."
+        ],
+        "correcta": "La creación de una nueva línea base a partir de una versión existente. La nueva línea base y la existente pueden desarrollarse de manera independiente.",
+        "explicacion": "La respuesta correcta es: \"La creación de una nueva línea base a partir de una versión existente. La nueva línea base y la existente pueden desarrollarse de manera independiente.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q27-¿Qué es el Codeline (Línea de Código)?",
+        "respuestas": [
+          "Un conjunto de pruebas automatizadas para validar el software.",
+          "Un repositorio de documentación técnica.",
+          "Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.",
+          "Un sistema de control de acceso a los archivos fuente."
+        ],
+        "correcta": "Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.",
+        "explicacion": "La respuesta correcta es: \"Es un conjunto de versiones de un componente de software y otros elementos de configuración de los cuales depende dicho componente.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q28-¿Cúales son las 4 actividades básicas de la gestión de la configuración?",
+        "respuestas": [
+          "Gestión del cambio, gestión de versiones, construcción del sistema, gestión de liberaciones/Entregas.",
+          "Diseño gráfico, codificación, pruebas unitarias, documentación.",
+          "Revisión de código, integración continua, despliegue, mantenimiento.",
+          "Planificación de recursos, análisis de mercado, gestión de clientes, soporte técnico."
+        ],
+        "correcta": "Gestión del cambio, gestión de versiones, construcción del sistema, gestión de liberaciones/Entregas.",
+        "explicacion": "La respuesta correcta es: \"Gestión del cambio, gestión de versiones, construcción del sistema, gestión de liberaciones/Entregas.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q29-¿Qué significan las siglas CM?",
+        "respuestas": [
+          "Control Modular.",
+          "Código Maquinado.",
+          "Comunicación Multicanal.",
+          "Configuration Management."
+        ],
+        "correcta": "Configuration Management.",
+        "explicacion": "La respuesta correcta es: \"Configuration Management.\"."
+      },
+      {
+        "pregunta": "B03-L21-Q30-¿Qué es el Configuration Control (Control de Configuración)?",
+        "respuestas": [
+          "El proceso de eliminar configuraciones obsoletas para mejorar el rendimiento.",
+          "Un elemento de CM, consistente en la evaluación, coordinación, aprobación o desaprobación, y la aplicación de cambios a los elementos de la configuración después del establecimiento formal de su identificación de la configuración.",
+          "La creación de nuevas funcionalidades sin revisión previa.",
+          "El almacenamiento de copias de seguridad del sistema."
+        ],
+        "correcta": "Un elemento de CM, consistente en la evaluación, coordinación, aprobación o desaprobación, y la aplicación de cambios a los elementos de la configuración después del establecimiento formal de su identificación de la configuración.",
+        "explicacion": "La respuesta correcta es: \"Un elemento de CM, consistente en la evaluación, coordinación, aprobación o desaprobación, y la aplicación de cambios a los elementos de la configuración después del establecimiento formal de su identificación de la configuración.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q01-¿Qué parte de la gestión de calidad está orientada al cumplimiento de los requisitos de calidad?",
+        "respuestas": [
+          "Control de la calidad.",
+          "Aseguramiento de la calidad.",
+          "Mejora de la calidad.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "Control de la calidad.",
+        "explicacion": "La respuesta correcta es: \"Control de la calidad.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q02-¿Qué es FALSO con respecto a la calidad?",
+        "respuestas": [
+          "Es multidimensional.",
+          "Los criterios de calidad son independientes.",
+          "Es absoluta.",
+          "Está sujeta a restricciones."
+        ],
+        "correcta": "Es absoluta.",
+        "explicacion": "La respuesta correcta es: \"Es absoluta.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q03-La acción tomada para eliminar la causa de una no conformidad detectada se denomina",
+        "respuestas": [
+          "Desecho.",
+          "Acción preventiva.",
+          "Acción correctora.",
+          "Acción correctiva."
+        ],
+        "correcta": "Acción correctiva.",
+        "explicacion": "La respuesta correcta es: \"Acción correctiva.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q04-La acción tomada para eliminar la causa de una no conformidad potencial se denomina",
+        "respuestas": [
+          "Desecho.",
+          "Acción preventiva.",
+          "Acción correctora.",
+          "Acción correctiva."
+        ],
+        "correcta": "Acción preventiva.",
+        "explicacion": "La respuesta correcta es: \"Acción preventiva.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q05-La acción tomada para eliminar una no conformidad detectada se denomina",
+        "respuestas": [
+          "Desecho.",
+          "Acción preventiva.",
+          "Acción correctora.",
+          "Acción correctiva."
+        ],
+        "correcta": "Acción correctora.",
+        "explicacion": "La respuesta correcta es: \"Acción correctora.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q06-¿Qué parte de la gestión de calidad está orientada al aumento de las capacidades de la organización para cumplir los requisitos de calidad?",
+        "respuestas": [
+          "Control de la calidad.",
+          "Aseguramiento de la calidad.",
+          "Mejora de la calidad.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "Mejora de la calidad.",
+        "explicacion": "La respuesta correcta es: \"Mejora de la calidad.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q07-¿Cuál de las siguientes definiciones se acerca más al término “Política de la calidad” ?",
+        "respuestas": [
+          "Intenciones locales y orientación de una organización relativas a la cantidad tal como se expresan formalmente por la alta dirección.",
+          "Intenciones locales y orientación de una organización relativas a la calidad tal como se expresan formalmente por la alta dirección.",
+          "Intenciones globales y orientación de una organización relativas a la calidad tal como se expresan formalmente por la alta dirección.",
+          "Intenciones globales y orientación de una organización relativas a la cantidad tal como se expresan formalmente por la alta dirección."
+        ],
+        "correcta": "Intenciones globales y orientación de una organización relativas a la calidad tal como se expresan formalmente por la alta dirección.",
+        "explicacion": "La respuesta correcta es: \"Intenciones globales y orientación de una organización relativas a la calidad tal como se expresan formalmente por la alta dirección.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q08-la conformidad se refiere al cumplimiento de...",
+        "respuestas": [
+          "un requisito.",
+          "un caso de uso.",
+          "un diagrama de uso.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "un requisito.",
+        "explicacion": "La respuesta correcta es: \"un requisito.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q09-¿Cuál es la diferencia entre acción preventiva y correctora?",
+        "respuestas": [
+          "Las acciones correctivas son para corregir las acciones incorrectivas.",
+          "Las acciones preventivas son para prever fallos en los casos de uso.",
+          "Significan lo mismo, pero se usan en distintos ámbitos.",
+          "La acción preventiva es para una no conformidad en potencia mientras que la acción correctiva es para una no conformidad detectada."
+        ],
+        "correcta": "La acción preventiva es para una no conformidad en potencia mientras que la acción correctiva es para una no conformidad detectada.",
+        "explicacion": "La respuesta correcta es: \"La acción preventiva es para una no conformidad en potencia mientras que la acción correctiva es para una no conformidad detectada.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q10-¿Cuál de los siguientes conceptos NO están relacionados con la calidad?",
+        "respuestas": [
+          "Desecho.",
+          "Medición / Medida.",
+          "Intervención.",
+          "Modelo de calidad."
+        ],
+        "correcta": "Intervención.",
+        "explicacion": "La respuesta correcta es: \"Intervención.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q011-El ciclo de mejora continua PDCA se refiere a",
+        "respuestas": [
+          "Plan, Do, Check, Act.",
+          "Plan, Done, Case, Act.",
+          "Plan, Do, Case, Act.",
+          "Put, Do, Check, Add."
+        ],
+        "correcta": "Plan, Do, Check, Act.",
+        "explicacion": "La respuesta correcta es: \"Plan, Do, Check, Act.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q012-¿Cuantos puntos tiene el ISO25040 Evaluación de Calidad?",
+        "respuestas": [
+          "4.",
+          "5.",
+          "8.",
+          "El ISO25040 no es sobre Evaluación de Calidad."
+        ],
+        "correcta": "5.",
+        "explicacion": "La respuesta correcta es: \"5.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q013-¿Qué norma define el modelo de calidad del producto software (características como fiabilidad, seguridad, mantenibilidad, etc.)?",
+        "respuestas": [
+          "ISO/IEC 33000.",
+          "CMMI-DEV.",
+          "ISO/IEC 25010.",
+          "MMIS 2.0."
+        ],
+        "correcta": "ISO/IEC 25010.",
+        "explicacion": "La respuesta correcta es: \"ISO/IEC 25010.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q014-¿Qué familia de normas sustituyó y amplió a ISO/IEC 15504 para la evaluación de procesos?",
+        "respuestas": [
+          "ISO/IEC 25010.",
+          "ISO/IEC 33000.",
+          "CMMI-SVC.",
+          "ISO/IEC 12207."
+        ],
+        "correcta": "ISO/IEC 33000.",
+        "explicacion": "La respuesta correcta es: \"ISO/IEC 33000.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q015-¿Qué tipo de artefacto “establece un camino a seguir describiendo las características de los buenos procesos”?",
+        "respuestas": [
+          "Modelos de mejora de procesos.",
+          "Modelos de evaluación.",
+          "Modelos de referencia de procesos.",
+          "Políticas de calidad."
+        ],
+        "correcta": "Modelos de referencia de procesos.",
+        "explicacion": "La respuesta correcta es: \"Modelos de referencia de procesos.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q016-En la evaluación “por capacidad” (ISO 33000/CMMI), ¿a qué nivel se obtiene la puntuación?",
+        "respuestas": [
+          "A nivel de organización (departamento/proyecto).",
+          "A nivel de proceso (p. ej., gestión de requisitos).",
+          "A nivel de producto software.",
+          "A nivel de mercado."
+        ],
+        "correcta": "A nivel de proceso (p. ej., gestión de requisitos).",
+        "explicacion": "La respuesta correcta es: \"A nivel de proceso (p. ej., gestión de requisitos).\"."
+      },
+      {
+        "pregunta": "B03-L31-Q017-El modelo MMIS 2.0 de AENOR–AQCLab está especialmente orientado a…",
+        "respuestas": [
+          "Grandes corporaciones multinacionales.",
+          "PYMEs y pequeños grupos de desarrollo.",
+          "Startups de hardware.",
+          "Organismos reguladores."
+        ],
+        "correcta": "PYMEs y pequeños grupos de desarrollo.",
+        "explicacion": "La respuesta correcta es: \"PYMEs y pequeños grupos de desarrollo.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q018-¿Qué parte de la gestión de la calidad está orientada a proporcionar confianza en que se cumplirán los requisitos de la calidad?",
+        "respuestas": [
+          "Control de la calidad.",
+          "Aseguramiento de la calidad.",
+          "Mejora de la calidad.",
+          "Ninguna de las anteriores"
+        ],
+        "correcta": "Aseguramiento de la calidad.",
+        "explicacion": "La respuesta correcta es: \"Aseguramiento de la calidad.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q019-¿Cuál de los siguientes es un tipo de evaluación?",
+        "respuestas": [
+          "Por capacidad.",
+          "Por uso.",
+          "Por desgaste.",
+          "Por alcance."
+        ],
+        "correcta": "Por capacidad.",
+        "explicacion": "La respuesta correcta es: \"Por capacidad.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q020-¿Cuál de las siguientes afirmaciones sobre la calidad es correcta?",
+        "respuestas": [
+          "La calidad es absoluta y no depende del contexto.",
+          "Los criterios de calidad son siempre independientes entre sí.",
+          "La calidad está sujeta a restricciones como coste y tiempo.",
+          "La calidad no depende de los requisitos no funcionales."
+        ],
+        "correcta": "La calidad está sujeta a restricciones como coste y tiempo.",
+        "explicacion": "La respuesta correcta es: \"La calidad está sujeta a restricciones como coste y tiempo.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q021-¿En qué cuatro responsabilidades clave se basa la mejora del proceso?",
+        "respuestas": [
+          "Definir el proceso, medir el proceso, controlar el proceso y mejorar el proceso.",
+          "Planificar el proceso, auditar el proceso, documentar el proceso y eliminar el proceso.",
+          "Diseñar el producto, probar el producto, entregar el producto y mantener el producto.",
+          "Asignar recursos, capacitar al personal, comunicar resultados y archivar informes."
+        ],
+        "correcta": "Definir el proceso, medir el proceso, controlar el proceso y mejorar el proceso.",
+        "explicacion": "La respuesta correcta es: \"Definir el proceso, medir el proceso, controlar el proceso y mejorar el proceso.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q022-El enfoque quality by design significa que",
+        "respuestas": [
+          "Los requisitos no funcionales se consideran solo al final del desarrollo.",
+          "Se prioriza la rapidez sobre la calidad.",
+          "Los requisitos no funcionales se tienen en cuenta desde el inicio.",
+          "La calidad se evalúa únicamente mediante pruebas finales."
+        ],
+        "correcta": "Los requisitos no funcionales se tienen en cuenta desde el inicio.",
+        "explicacion": "La respuesta correcta es: \"Los requisitos no funcionales se tienen en cuenta desde el inicio.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q023-Cuando un sistema es robusto se dice que…",
+        "respuestas": [
+          "Nunca presenta fallos, aunque no se pruebe.",
+          "Es tolerante a fallos y responde adecuadamente ante ellos.",
+          "Tiene una alta portabilidad, pero baja mantenibilidad.",
+          "Cumple todas las especificaciones funcionales."
+        ],
+        "correcta": "Es tolerante a fallos y responde adecuadamente ante ellos.",
+        "explicacion": "La respuesta correcta es: \"Es tolerante a fallos y responde adecuadamente ante ellos.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q024-¿Qué podemos entender por conformidad? Referido a la gestión de la calidad",
+        "respuestas": [
+          "Cumplimiento de un requisito.",
+          "Cumplimiento de un objetivo.",
+          "Cumplimiento de un reto.",
+          "El cumplimiento estricto de la norma ISO9000."
+        ],
+        "correcta": "Cumplimiento de un requisito.",
+        "explicacion": "La respuesta correcta es: \"Cumplimiento de un requisito.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q025-En el contexto de la gestión de calidad, una no conformidad se define como",
+        "respuestas": [
+          "El incumplimiento de un requisito.",
+          "Una desviación aceptable dentro del proceso.",
+          "Una acción preventiva no aplicada.",
+          "Una característica de calidad no cuantificable."
+        ],
+        "correcta": "El incumplimiento de un requisito.",
+        "explicacion": "La respuesta correcta es: \"El incumplimiento de un requisito.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q026-En la gestión de calidad, la mejora continua consiste en",
+        "respuestas": [
+          "Mantener los procesos estables sin modificaciones.",
+          "Implementar cambios graduales y sostenidos para aumentar la eficacia y eficiencia.",
+          "Aumentar los recursos humanos para resolver fallos.",
+          "Sustituir el sistema de calidad cada cierto tiempo."
+        ],
+        "correcta": "Implementar cambios graduales y sostenidos para aumentar la eficacia y eficiencia.",
+        "explicacion": "La respuesta correcta es: \"Implementar cambios graduales y sostenidos para aumentar la eficacia y eficiencia.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q027-¿Cuál de estos no pertenece al ciclo de mejora continua PDCA?",
+        "respuestas": [
+          "Plan.",
+          "Do.",
+          "Control.",
+          "Act."
+        ],
+        "correcta": "Control.",
+        "explicacion": "La respuesta correcta es: \"Control.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q028-En la gestión de calidad, el concepto de “cliente interno” se refiere a",
+        "respuestas": [
+          "El usuario final que compra el producto.",
+          "Los trabajadores o departamentos que reciben el resultado de otro dentro de la organización.",
+          "Los proveedores que suministran materiales o servicios.",
+          "El responsable del sistema de calidad."
+        ],
+        "correcta": "Los trabajadores o departamentos que reciben el resultado de otro dentro de la organización.",
+        "explicacion": "La respuesta correcta es: \"Los trabajadores o departamentos que reciben el resultado de otro dentro de la organización.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q029-En el ciclo PDCA, la fase “Check” tiene como objetivo",
+        "respuestas": [
+          "Establecer los objetivos y procesos necesarios.",
+          "Ejecutar las acciones planificadas.",
+          "Verificar los resultados obtenidos frente a lo planificado.",
+          "Implementar las acciones correctivas."
+        ],
+        "correcta": "Verificar los resultados obtenidos frente a lo planificado.",
+        "explicacion": "La respuesta correcta es: \"Verificar los resultados obtenidos frente a lo planificado.\"."
+      },
+      {
+        "pregunta": "B03-L31-Q030-En un sistema de gestión de calidad, la auditoría tiene como propósito principal",
+        "respuestas": [
+          "Detectar errores de los empleados.",
+          "Garantizar que los productos cumplan las normas de diseño.",
+          "Analizar los costes de producción.",
+          "Evaluar si el sistema cumple con los requisitos establecidos y se aplica de forma eficaz."
+        ],
+        "correcta": "Evaluar si el sistema cumple con los requisitos establecidos y se aplica de forma eficaz.",
+        "explicacion": "La respuesta correcta es: \"Evaluar si el sistema cumple con los requisitos establecidos y se aplica de forma eficaz.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q01-¿Cuál debería ser el objetivo del testing?",
+        "respuestas": [
+          "Control de la calidad.",
+          "Encontrar defectos.",
+          "Verificar el correcto funcionamiento del software.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "Encontrar defectos.",
+        "explicacion": "La respuesta correcta es: \"Encontrar defectos.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q02-En testing, ¿qué se entiende por nivel de cobertura?",
+        "respuestas": [
+          "Medida en que un programa ha sido probado.",
+          "Medida del número de tests que un software pasa con éxito.",
+          "Medida del número de defectos encontrados en un programa.",
+          "Medida del número de tests que un software no pasa con éxito"
+        ],
+        "correcta": "Medida en que un programa ha sido probado.",
+        "explicacion": "La respuesta correcta es: \"Medida en que un programa ha sido probado.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q03-¿Cuál de los siguientes niveles de cobertura es menor?",
+        "respuestas": [
+          "Decisiones.",
+          "Condiciones.",
+          "Condiciones/decisiones.",
+          "Sentencias."
+        ],
+        "correcta": "Sentencias.",
+        "explicacion": "La respuesta correcta es: \"Sentencias.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q04-¿Cuál de los siguientes niveles de cobertura es mayor?",
+        "respuestas": [
+          "Requisitos.",
+          "Condiciones.",
+          "Múltiple de condiciones.",
+          "Sentencias."
+        ],
+        "correcta": "Múltiple de condiciones.",
+        "explicacion": "La respuesta correcta es: \"Múltiple de condiciones.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q05-¿Cuál de las siguientes pruebas no se realiza en un entorno de desarrollo?",
+        "respuestas": [
+          "Pruebas de integración.",
+          "Pruebas unitarias.",
+          "Pruebas de sistema.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "Pruebas de sistema.",
+        "explicacion": "La respuesta correcta es: \"Pruebas de sistema.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q06-¿Cuál es la diferencia entre un error y un fallo en el contexto de testing?",
+        "respuestas": [
+          "No hay diferencia, fallo y error son sinónimos.",
+          "Un error es una equivocación realizada por una persona, mientras que un fallo es una equivocación realizada por una máquina.",
+          "Los fallos son desvíos respecto al comportamiento del sistema, mientras que los errores son equivocaciones por parte de una persona.",
+          "Los fallos son errores por parte del programador, y los errores son las excepciones que saltan en el sistema."
+        ],
+        "correcta": "Los fallos son desvíos respecto al comportamiento del sistema, mientras que los errores son equivocaciones por parte de una persona.",
+        "explicacion": "La respuesta correcta es: \"Los fallos son desvíos respecto al comportamiento del sistema, mientras que los errores son equivocaciones por parte de una persona.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q07-Selecciona la opción FALSA de las siguientes premisas sobre el oráculo",
+        "respuestas": [
+          "Puede ser una persona que decide si un programa se comportó adecuadamente ante un conjunto de datos.",
+          "La máquina oráculo emitirá un veredicto y este será “paso” o “fallo”.",
+          "Compara la salida esperada con la recibida en un caso de prueba.",
+          "Los oráculos no pueden ser personas, solo maquinas automatizadas."
+        ],
+        "correcta": "Los oráculos no pueden ser personas, solo maquinas automatizadas.",
+        "explicacion": "La respuesta correcta es: \"Los oráculos no pueden ser personas, solo maquinas automatizadas.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q08-¿Las pruebas de caja negra son opuestas a las pruebas de caja blanca?",
+        "respuestas": [
+          "Sí, son opuestos ya que son blanco y negro.",
+          "Sí, son opuestas en cuanto a que conocemos la estructura interna de una pero no de la otra.",
+          "No, pues conocemos la estructura interna de ambas.",
+          "No, pues no tienen relación alguna."
+        ],
+        "correcta": "Sí, son opuestas en cuanto a que conocemos la estructura interna de una pero no de la otra.",
+        "explicacion": "La respuesta correcta es: \"Sí, son opuestas en cuanto a que conocemos la estructura interna de una pero no de la otra.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q09-¿En cuantos niveles se puede decir que se separa el modelo en V del testing?",
+        "respuestas": [
+          "2, diseño y testing.",
+          "Todo los tests están al mismo nivel.",
+          "4, los niveles de diseño y sus correspondientes tests además del coding.",
+          "6, los 6 niveles de testing que hay."
+        ],
+        "correcta": "4, los niveles de diseño y sus correspondientes tests además del coding.",
+        "explicacion": "La respuesta correcta es: \"4, los niveles de diseño y sus correspondientes tests además del coding.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q10-¿Cuál es la veracidad de la siguiente frase:” En Orientación a Objetos se asume que la unidad de prueba es la clase o el método” ?",
+        "respuestas": [
+          "Falsa, la unidad de prueba también es un subsistema.",
+          "Verdadera, es una asunción global.",
+          "Falsa, la clase no puede ser una unidad de prueba.",
+          "Falsa, la frase no tiene sentido en el ámbito del testing."
+        ],
+        "correcta": "Verdadera, es una asunción global.",
+        "explicacion": "La respuesta correcta es: \"Verdadera, es una asunción global.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q11-¿Cuál es el principal objetivo al diseñar casos de prueba eficaces?",
+        "respuestas": [
+          "Probar todas las combinaciones posibles sin importar el tiempo.",
+          "Encontrar la mayoría de los defectos con el menor número de casos.",
+          "Documentar todos los requisitos del sistema.",
+          "Validar el diseño del software."
+        ],
+        "correcta": "Encontrar la mayoría de los defectos con el menor número de casos.",
+        "explicacion": "La respuesta correcta es: \"Encontrar la mayoría de los defectos con el menor número de casos.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q12-¿Qué técnica se basa en dividir el dominio de entrada en conjuntos disjuntos que representan comportamientos equivalentes?",
+        "respuestas": [
+          "Pruebas de mutación.",
+          "Particiones o clases de equivalencia.",
+          "Conjetura de errores.",
+          "Pruebas de caja blanca."
+        ],
+        "correcta": "Particiones o clases de equivalencia.",
+        "explicacion": "La respuesta correcta es: \"Particiones o clases de equivalencia.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q13-¿Qué tipo de prueba se realiza para comprobar la correcta integración entre unidades que ya pasaron pruebas unitarias?",
+        "respuestas": [
+          "Pruebas unitarias.",
+          "Pruebas de integración.",
+          "Pruebas de aceptación.",
+          "Pruebas de sistema."
+        ],
+        "correcta": "Pruebas de integración.",
+        "explicacion": "La respuesta correcta es: \"Pruebas de integración.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q14-En las pruebas de sistema, ¿cuál de los siguientes no es un subtipo común?",
+        "respuestas": [
+          "Pruebas de recuperación.",
+          "Pruebas de seguridad.",
+          "Pruebas unitarias.",
+          "Pruebas de rendimiento."
+        ],
+        "correcta": "Pruebas unitarias.",
+        "explicacion": "La respuesta correcta es: \"Pruebas unitarias.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q15-En el modelo en V del testing, ¿quién normalmente realiza las pruebas de aceptación?",
+        "respuestas": [
+          "Desarrolladores del software.",
+          "Testers automatizados.",
+          "Cliente o usuario final.",
+          "Equipo de integración."
+        ],
+        "correcta": "Cliente o usuario final.",
+        "explicacion": "La respuesta correcta es: \"Cliente o usuario final.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q16-Según el principio MINIMAX, ¿qué se busca al seleccionar valores de prueba?",
+        "respuestas": [
+          "Probar todos los valores posibles del dominio de entrada.",
+          "Minimizar valores de prueba sin considerar la detección de fallos.",
+          "Maximizar la detección de defectos con el menor número de casos de prueba.",
+          "Obtener siempre una cobertura del 100%."
+        ],
+        "correcta": "Maximizar la detección de defectos con el menor número de casos de prueba.",
+        "explicacion": "La respuesta correcta es: \"Maximizar la detección de defectos con el menor número de casos de prueba.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q17-¿Cuál de las siguientes afirmaciones sobre la cobertura es correcta?",
+        "respuestas": [
+          "Una cobertura alta garantiza que el software está completamente libre de fallos.",
+          "La cobertura solo es útil en pruebas de caja negra.",
+          "La cobertura indica qué partes del sistema han sido ejercitadas por las pruebas.",
+          "La cobertura sustituye a la necesidad de diseñar casos de prueba."
+        ],
+        "correcta": "La cobertura indica qué partes del sistema han sido ejercitadas por las pruebas.",
+        "explicacion": "La respuesta correcta es: \"La cobertura indica qué partes del sistema han sido ejercitadas por las pruebas.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q18-¿Cuál es el objetivo principal de la técnica de valores límite?",
+        "respuestas": [
+          "Dividir el dominio en clases disjuntas.",
+          "Identificar los valores que tienen mayor probabilidad de provocar fallos.",
+          "Ejecutar todas las combinaciones posibles de entrada.",
+          "Generar automáticamente oráculos de prueba."
+        ],
+        "correcta": "Identificar los valores que tienen mayor probabilidad de provocar fallos.",
+        "explicacion": "La respuesta correcta es: \"Identificar los valores que tienen mayor probabilidad de provocar fallos.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q19-¿Qué criterio de combinación requiere visitar al menos una vez todas las parejas posibles de valores entre parámetros?",
+        "respuestas": [
+          "Each-use.",
+          "Pairwise.",
+          "n-wise.",
+          "Emparejador."
+        ],
+        "correcta": "Pairwise.",
+        "explicacion": "La respuesta correcta es: \"Pairwise.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q20-¿Cuál de las siguientes pruebas siempre es de caja blanca según el temario?",
+        "respuestas": [
+          "Pruebas unitarias.",
+          "Pruebas de sistema.",
+          "Pruebas de aceptación.",
+          "Pruebas de integración."
+        ],
+        "correcta": "Pruebas unitarias.",
+        "explicacion": "La respuesta correcta es: \"Pruebas unitarias.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q21-¿Qué tipo de prueba se basa en conocer la estructura interna del código?",
+        "respuestas": [
+          "Pruebas de caja negra",
+          "Pruebas de aceptación",
+          "Pruebas de caja blanca",
+          "Pruebas de rendimiento"
+        ],
+        "correcta": "Pruebas de caja blanca",
+        "explicacion": "La respuesta correcta es: \"Pruebas de caja blanca\"."
+      },
+      {
+        "pregunta": "B03-L41-Q22-¿Qué criterio de cobertura requiere recorrer la tabla de verdad completa de una decisión?",
+        "respuestas": [
+          "Cobertura de decisiones",
+          "Cobertura de condiciones",
+          "Cobertura condiciones/decisiones",
+          "Cobertura múltiple de condiciones"
+        ],
+        "correcta": "Cobertura múltiple de condiciones",
+        "explicacion": "La respuesta correcta es: \"Cobertura múltiple de condiciones\"."
+      },
+      {
+        "pregunta": "B03-L41-Q23-¿Cuál es una desventaja principal de las pruebas de mutación?",
+        "respuestas": [
+          "No pueden aplicarse a pruebas de caja blanca.",
+          "Requieren un alto coste temporal por el número de mutantes.",
+          "No permiten mejorar el conjunto de pruebas existente.",
+          "No ayudan a descubrir ambigüedades en el código."
+        ],
+        "correcta": "Requieren un alto coste temporal por el número de mutantes.",
+        "explicacion": "La respuesta correcta es: \"Requieren un alto coste temporal por el número de mutantes.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q24-¿Qué metodología basada en pruebas utiliza el patrón Given–When–Then?",
+        "respuestas": [
+          "TDD.",
+          "BDD.",
+          "Pairwise Testing.",
+          "Ninguna de las anteriores."
+        ],
+        "correcta": "BDD.",
+        "explicacion": "La respuesta correcta es: \"BDD.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q25-Según el documento, las pruebas de sistema siempre son",
+        "respuestas": [
+          "Pruebas de caja blanca.",
+          "Pruebas realizadas por el cliente.",
+          "Pruebas de caja negra.",
+          "Pruebas unitarias previas."
+        ],
+        "correcta": "Pruebas de caja negra.",
+        "explicacion": "La respuesta correcta es: \"Pruebas de caja negra.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q26-En testing, ¿cuál se asume que es la unidad de prueba en Orientación a objetos?",
+        "respuestas": [
+          "La clase.",
+          "El método.",
+          "El constructor.",
+          "A y B son correctas."
+        ],
+        "correcta": "A y B son correctas.",
+        "explicacion": "La respuesta correcta es: \"A y B son correctas.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q27-¿Cuál de las siguientes no es un nivel de prueba en el testing?",
+        "respuestas": [
+          "Pruebas unitarias.",
+          "Pruebas de Integración.",
+          "Pruebas de Sistema.",
+          "Pruebas de Cobertura."
+        ],
+        "correcta": "Pruebas de Cobertura.",
+        "explicacion": "La respuesta correcta es: \"Pruebas de Cobertura.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q28-¿Cuál de las siguientes no es un tipo de cobertura en el testing?",
+        "respuestas": [
+          "Cobertura de sentencia.",
+          "Cobertura de decisiones.",
+          "Cobertura de condiciones.",
+          "Cobertura de especificaciones."
+        ],
+        "correcta": "Cobertura de especificaciones.",
+        "explicacion": "La respuesta correcta es: \"Cobertura de especificaciones.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q29-¿Cuáles de la siguientes son técnicas para la obtención de valores para generar los casos de prueba?",
+        "respuestas": [
+          "Clases de equivalencia.",
+          "Valores límite.",
+          "Conjetura de errores.",
+          "Todas son correctas."
+        ],
+        "correcta": "Todas son correctas.",
+        "explicacion": "La respuesta correcta es: \"Todas son correctas.\"."
+      },
+      {
+        "pregunta": "B03-L41-Q30-¿Cuál de estos es una variante de los valores límite?",
+        "respuestas": [
+          "Variante ligera.",
+          "Variante libre.",
+          "Variante cerrada.",
+          "Variante sencilla."
+        ],
+        "correcta": "Variante ligera.",
+        "explicacion": "La respuesta correcta es: \"Variante ligera.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q01-¿Cuál es el objetivo principal del mantenimiento correctivo?",
+        "respuestas": [
+          "Incorporar nuevas funcionalidades solicitadas por el usuario",
+          "Mejorar la mantenibilidad sin alterar las especificaciones",
+          "Localizar y eliminar defectos que pueden causar fallos",
+          "Adaptar el software a cambios en el entorno operativo"
+        ],
+        "correcta": "Localizar y eliminar defectos que pueden causar fallos",
+        "explicacion": "La respuesta correcta es: \"Localizar y eliminar defectos que pueden causar fallos\"."
+      },
+      {
+        "pregunta": "B03-L51-Q02-¿Cuál de las siguientes situaciones corresponde al mantenimiento adaptativo?",
+        "respuestas": [
+          "Corregir una salida incorrecta del programa",
+          "Reestructurar el código para mejorar su legibilidad",
+          "Añadir una nueva funcionalidad al sistema",
+          "Ajustar el software para funcionar en un nuevo sistema operativo"
+        ],
+        "correcta": "Ajustar el software para funcionar en un nuevo sistema operativo",
+        "explicacion": "La respuesta correcta es: \"Ajustar el software para funcionar en un nuevo sistema operativo\"."
+      },
+      {
+        "pregunta": "B03-L51-Q03-¿Qué tipo de mantenimiento se orienta a mejorar la eficiencia de ejecución del software?",
+        "respuestas": [
+          "Perfectivo (Eficiencia)",
+          "Preventivo",
+          "Adaptativo",
+          "Correctivo"
+        ],
+        "correcta": "Perfectivo (Eficiencia)",
+        "explicacion": "La respuesta correcta es: \"Perfectivo (Eficiencia)\"."
+      },
+      {
+        "pregunta": "B03-L51-Q04-Las pruebas de regresión se realizan con el objetivo de",
+        "respuestas": [
+          "Comprobar que el software modificado no ha introducido fallos en funcionalidades previas",
+          "Asegurar que el cambio cumple las necesidades del usuario",
+          "Verificar la integración del nuevo componente en el sistema",
+          "Validar el diseño propuesto para la mejora solicitada"
+        ],
+        "correcta": "Comprobar que el software modificado no ha introducido fallos en funcionalidades previas",
+        "explicacion": "La respuesta correcta es: \"Comprobar que el software modificado no ha introducido fallos en funcionalidades previas\"."
+      },
+      {
+        "pregunta": "B03-L51-Q05-¿Cuál de los siguientes es un problema típico del mantenimiento de software?",
+        "respuestas": [
+          "Actualización automática de toda la documentación con cada modificación",
+          "Reducción progresiva del tiempo necesario para comprender el programa",
+          "Disminución de la complejidad estructural tras múltiples modificaciones",
+          "Código heredado con herramientas en desuso o sin documentación"
+        ],
+        "correcta": "Código heredado con herramientas en desuso o sin documentación",
+        "explicacion": "La respuesta correcta es: \"Código heredado con herramientas en desuso o sin documentación\"."
+      },
+      {
+        "pregunta": "B03-L51-Q06-¿Cuáles son los tipos de mantenimiento existentes?",
+        "respuestas": [
+          "Adaptativo, correctivo, colaborativo y perfectivo.",
+          "Evolutivo, correctivo, adaptativo y preventivo.",
+          "Correctivo, de calidad, configuracional y preventivo.",
+          "Evolutivo, adaptativo, correctivo y operacional."
+        ],
+        "correcta": "Evolutivo, correctivo, adaptativo y preventivo.",
+        "explicacion": "La respuesta correcta es: \"Evolutivo, correctivo, adaptativo y preventivo.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q07-¿Cuáles son los subtipos del mantenimiento perfectivo?",
+        "respuestas": [
+          "Total y parcial.",
+          "Homogéneo y heterogéneo.",
+          "De ampliación y de eficiencia.",
+          "De corrección y de prevención."
+        ],
+        "correcta": "De ampliación y de eficiencia.",
+        "explicacion": "La respuesta correcta es: \"De ampliación y de eficiencia.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q08-¿A qué mantenimiento le dedican las empresas más parte del presupuesto?",
+        "respuestas": [
+          "Evolutivo.",
+          "Correctivo.",
+          "Preventivo.",
+          "Adaptativo."
+        ],
+        "correcta": "Evolutivo.",
+        "explicacion": "La respuesta correcta es: \"Evolutivo.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q09-¿Cuál de las siguientes afirmaciones del mantenimiento software es incorrecta?",
+        "respuestas": [
+          "Se realizan pruebas.",
+          "Puede realizarse para corregir defectos.",
+          "Generalmente solo se modifica el código.",
+          "Puede realizarse para extender la funcionalidad."
+        ],
+        "correcta": "Generalmente solo se modifica el código.",
+        "explicacion": "La respuesta correcta es: \"Generalmente solo se modifica el código.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q10-¿Cuál de los tipos de mantenimiento hace que los cambios introducidos no repercutan en una mayor complejidad del programa?",
+        "respuestas": [
+          "Correctivo.",
+          "Preventivo.",
+          "Adaptativo.",
+          "No hay tal mantenimiento, todo cambio supone aumentar la complejidad."
+        ],
+        "correcta": "Preventivo.",
+        "explicacion": "La respuesta correcta es: \"Preventivo.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q011-¿Cuál de las siguientes afirmaciones sobre la definición de mantenimiento es FALSA?",
+        "respuestas": [
+          "Se sucede después de haber entregado el producto software.",
+          "Puede corregir defectos.",
+          "Puede mejorar el rendimiento.",
+          "Suele ser contraproducente."
+        ],
+        "correcta": "Suele ser contraproducente.",
+        "explicacion": "La respuesta correcta es: \"Suele ser contraproducente.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q012-¿Cuál de los siguientes casos es un ejemplo claro de mantenimiento perfectivo?",
+        "respuestas": [
+          "Cuando los trenes pasaron de usar carbón a electricidad.",
+          "Cuando un tren lleva la carga perfecta.",
+          "Cuando un tren vuelve en perfectas condiciones.",
+          "Cuando un tren previene una mala situación."
+        ],
+        "correcta": "Cuando los trenes pasaron de usar carbón a electricidad.",
+        "explicacion": "La respuesta correcta es: \"Cuando los trenes pasaron de usar carbón a electricidad.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q013-Al código que ya no se usa, pero sigue en el software se le conoce como",
+        "respuestas": [
+          "Código inútil.",
+          "Código muerto.",
+          "Código antiguo.",
+          "Código borrable."
+        ],
+        "correcta": "Código muerto.",
+        "explicacion": "La respuesta correcta es: \"Código muerto.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q014-¿Cuál de las siguientes opciones NO es una dificultad del mantenimiento?",
+        "respuestas": [
+          "Código heredado.",
+          "Necesidad de Cambio Continuo.",
+          "Mantenimiento realizado de forma sistemática.",
+          "Incremento de la Complejidad."
+        ],
+        "correcta": "Mantenimiento realizado de forma sistemática.",
+        "explicacion": "La respuesta correcta es: \"Mantenimiento realizado de forma sistemática.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q015-¿Qué es la reingeniería del software?",
+        "respuestas": [
+          "hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+          "hace posible llevar a cabo el mantenimiento preventivo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+          "hace posible llevar a cabo el mantenimiento adaptativo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+          "hace posible llevar a cabo el mantenimiento correctivo de sistemas de información existentes asumiendo riesgos y costes bajos."
+        ],
+        "correcta": "hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.",
+        "explicacion": "La respuesta correcta es: \"hace posible llevar a cabo el mantenimiento evolutivo de sistemas de información existentes asumiendo riesgos y costes bajos.\"."
+      },
+      {
+        "pregunta": "B03-L51-Q016-¿Qué técnica permite analizar el impacto que tendrá una modificación en diferentes módulos del software?",
+        "respuestas": [
+          "Pruebas alfa",
+          "Gestión de la configuración",
+          "Análisis de impacto",
+          "Refactorización preventiva"
+        ],
+        "correcta": "Análisis de impacto",
+        "explicacion": "La respuesta correcta es: \"Análisis de impacto\"."
+      },
+      {
+        "pregunta": "B03-L51-Q017-¿Cuál de los siguientes es un objetivo del mantenimiento preventivo?",
+        "respuestas": [
+          "Reducir la probabilidad de que aparezcan fallos en el futuro",
+          "Adaptar el sistema a un nuevo hardware",
+          "Añadir nuevas funcionalidades solicitadas",
+          "Optimizar la eficiencia del código ejecutado"
+        ],
+        "correcta": "Reducir la probabilidad de que aparezcan fallos en el futuro",
+        "explicacion": "La respuesta correcta es: \"Reducir la probabilidad de que aparezcan fallos en el futuro\"."
+      },
+      {
+        "pregunta": "B03-L51-Q018-¿Qué actividad del mantenimiento implica reorganizar el código sin alterar el comportamiento externo del programa?",
+        "respuestas": [
+          "Reestructuración",
+          "Corrección de errores",
+          "Redocumentación",
+          "Extensión funcional"
+        ],
+        "correcta": "Reestructuración",
+        "explicacion": "La respuesta correcta es: \"Reestructuración\"."
+      },
+      {
+        "pregunta": "B03-L51-Q019-¿Qué tipo de mantenimiento se ejecuta cuando es necesario que el software cumpla nuevas leyes o normativas obligatorias?",
+        "respuestas": [
+          "Correctivo",
+          "Perfectivo",
+          "Preventivo",
+          "Adaptativo"
+        ],
+        "correcta": "Adaptativo",
+        "explicacion": "La respuesta correcta es: \"Adaptativo\"."
+      },
+      {
+        "pregunta": "B03-L51-Q020-¿Qué concepto describe el fenómeno por el cual el código se vuelve progresivamente más difícil de entender y mantener tras múltiples modificaciones acumuladas?",
+        "respuestas": [
+          "Deuda técnica",
+          "Acoplamiento dinámico",
+          "Redundancia estructural",
+          "Integración regresiva"
+        ],
+        "correcta": "Deuda técnica",
+        "explicacion": "La respuesta correcta es: \"Deuda técnica\"."
+      },
+      {
+        "pregunta": "B03-L51-Q021-En la estructura organizativa del mantenimiento, ¿cuál es la función principal del Planificador?",
+        "respuestas": [
+          "Inspeccionar los cambios realizados y comprobar otros diseños",
+          "Planificar la cola de peticiones de modificación",
+          "Implementar la solicitud de modificación aprobada",
+          "Analizar el impacto del cambio en el sistema"
+        ],
+        "correcta": "Planificar la cola de peticiones de modificación",
+        "explicacion": "La respuesta correcta es: \"Planificar la cola de peticiones de modificación\"."
+      },
+      {
+        "pregunta": "B03-L51-Q022-¿Cuál de los siguientes es un riesgo crítico al asignar personal inexperto a tareas de mantenimiento?",
+        "respuestas": [
+          "Aumento del presupuesto destinado al equipo de mantenimiento",
+          "Desconocimiento técnico y del dominio del negocio que raramente corrige defectos",
+          "Necesidad de reescribir completamente el software",
+          "Reducción excesiva del número de defectos reportados"
+        ],
+        "correcta": "Desconocimiento técnico y del dominio del negocio que raramente corrige defectos",
+        "explicacion": "La respuesta correcta es: \"Desconocimiento técnico y del dominio del negocio que raramente corrige defectos\"."
+      },
+      {
+        "pregunta": "B03-L51-Q023-¿Cuál es la diferencia fundamental entre ingeniería inversa y reingeniería del software?",
+        "respuestas": [
+          "La reingeniería solo se aplica a código heredado mientras que la ingeniería inversa se aplica a software nuevo",
+          "La ingeniería inversa es una etapa dentro del proceso de reingeniería",
+          "La reingeniería corrige defectos mientras que la ingeniería inversa mejora el rendimiento",
+          "No hay diferencia, son sinónimos en el contexto del mantenimiento"
+        ],
+        "correcta": "La ingeniería inversa es una etapa dentro del proceso de reingeniería",
+        "explicacion": "La respuesta correcta es: \"La ingeniería inversa es una etapa dentro del proceso de reingeniería\"."
+      },
+      {
+        "pregunta": "B03-L51-Q024-¿Cuál de los siguientes principios de Clean Code enfatiza que una función debe realizar exactamente lo que su nombre indica?",
+        "respuestas": [
+          "Principio DRY",
+          "Principio KISS",
+          "Principio Least Surprise",
+          "Principio YAGNI"
+        ],
+        "correcta": "Principio Least Surprise",
+        "explicacion": "La respuesta correcta es: \"Principio Least Surprise\"."
+      },
+      {
+        "pregunta": "B03-L51-Q025-¿Cuál de las siguientes acciones forma parte de las buenas prácticas en la gestión estructurada del mantenimiento?",
+        "respuestas": [
+          "Realizar cambios sin documentarlos para acelerar el proceso",
+          "Llevar un registro completo de todas las actividades de mantenimiento",
+          "Ignorar los comentarios del código existente",
+          "Modificar el código sin respetar el estilo previo"
+        ],
+        "correcta": "Llevar un registro completo de todas las actividades de mantenimiento",
+        "explicacion": "La respuesta correcta es: \"Llevar un registro completo de todas las actividades de mantenimiento\"."
+      },
+      {
+        "pregunta": "B03-L51-Q026-¿Cuál de las siguientes no es una prueba perteneciente a las actividades de mantenimiento?",
+        "respuestas": [
+          "Pruebas de integración",
+          "Pruebas de transmisión",
+          "Pruebas de aceptación",
+          "Pruebas de regresión"
+        ],
+        "correcta": "Pruebas de transmisión",
+        "explicacion": "La respuesta correcta es: \"Pruebas de transmisión\"."
+      },
+      {
+        "pregunta": "B03-L51-Q027-¿Cuál no es una de las dificultades del mantenimiento?",
+        "respuestas": [
+          "Código heredado",
+          "Necesidad de cambio continuo",
+          "Recursos dedicados al mantenimiento",
+          "Mantenimiento realizado de forma no sistemática"
+        ],
+        "correcta": "Recursos dedicados al mantenimiento",
+        "explicacion": "La respuesta correcta es: \"Recursos dedicados al mantenimiento\"."
+      },
+      {
+        "pregunta": "B03-L51-Q028-¿Cuál de los siguientes no pertenece a la documentación de los cambios?",
+        "respuestas": [
+          "Descripción del ejercicio",
+          "Descripción del problema",
+          "Descripción del proceso de cambio",
+          "Descripción del cambio"
+        ],
+        "correcta": "Descripción del ejercicio",
+        "explicacion": "La respuesta correcta es: \"Descripción del ejercicio\"."
+      },
+      {
+        "pregunta": "B03-L51-Q029-¿En qué se basa la ingeniería inversa?",
+        "respuestas": [
+          "Código binario",
+          "Ofrece una representación del artefacto software a un nivel conceptual de mayor abstracción",
+          "Código Java",
+          "Código JPA/Hibernate"
+        ],
+        "correcta": "Ofrece una representación del artefacto software a un nivel conceptual de mayor abstracción",
+        "explicacion": "La respuesta correcta es: \"Ofrece una representación del artefacto software a un nivel conceptual de mayor abstracción\"."
+      },
+      {
+        "pregunta": "B03-L51-Q030-¿Cuál es la definición de mantenibilidad?",
+        "respuestas": [
+          "Realiza modificaciones de un artefacto o modelo software en el mismo nivel de abstracción",
+          "Ofrece una representación del artefacto software a un nivel conceptual de mayor abstracción",
+          "Grado en que un sistema o programa de ordenador está compuesto de componentes discretos de forma tal que un cambio en un componente tenga un impacto mínimo en los demás",
+          "Facilidad con que un sistema o componente software puede ser modificado para corregir defectos, mejorar el rendimiento u otros atributos, o adaptarse a un cambio de entorno"
+        ],
+        "correcta": "Facilidad con que un sistema o componente software puede ser modificado para corregir defectos, mejorar el rendimiento u otros atributos, o adaptarse a un cambio de entorno",
+        "explicacion": "La respuesta correcta es: \"Facilidad con que un sistema o componente software puede ser modificado para corregir defectos, mejorar el rendimiento u otros atributos, o adaptarse a un cambio de entorno\"."
       }
     ]
   };
@@ -2125,10 +3709,10 @@ export class TestCompletoIsoComponent {
     this.router.navigate(['/ssii']);
   }
 
-   /**
-   * Comprobar las respuestas solo de la página actual.
-   */
-   comprobarPagina() {
+  /**
+  * Comprobar las respuestas solo de la página actual.
+  */
+  comprobarPagina() {
     this.preguntasPaginadas.forEach((pregunta) => {
       if (pregunta.seleccionada === pregunta.correcta) {
         pregunta.mensajeRespuesta = [
